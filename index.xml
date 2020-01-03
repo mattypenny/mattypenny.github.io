@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog and reference</title>
-    <link>http://mattypenny.net/</link>
+    <link>https://mattypenny.github.io/</link>
     <description>Recent content on blog and reference</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Jan 2020 19:46:12 +0000</lastBuildDate>
     
-	<atom:link href="http://mattypenny.net/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mattypenny.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World 5</title>
-      <link>http://mattypenny.net/blog/hello-world-5/</link>
+      <link>https://mattypenny.github.io/blog/hello-world-5/</link>
       <pubDate>Thu, 02 Jan 2020 19:46:12 +0000</pubDate>
       
-      <guid>http://mattypenny.net/blog/hello-world-5/</guid>
-      <description>Hello tout-le-monde!</description>
+      <guid>https://mattypenny.github.io/blog/hello-world-5/</guid>
+      <description>Bonjour tout-le-monde!</description>
     </item>
     
   </channel>

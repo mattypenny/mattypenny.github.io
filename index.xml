@@ -6,10 +6,33 @@
     <description>Recent content on blog and reference</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jan 2020 19:46:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 15:11:22 +0000</lastBuildDate>
     
 	<atom:link href="https://mattypenny.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Colas, Gael - Configuration Management Dos and Don&#39;ts</title>
+      <link>https://mattypenny.github.io/sketchnotes/colas-gael-configuration-management-dos-and-donts/</link>
+      <pubDate>Mon, 06 Jan 2020 15:11:22 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/colas-gael-configuration-management-dos-and-donts/</guid>
+      <description>Bit of text
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](Colas, Gael - Configuration management.jpeg)
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](/&amp;lsquo;Colas, Gael - Configuration management.jpeg&amp;rsquo;)
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&#39;/Colas, Gael - Configuration management.jpeg&amp;rsquo;)
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](/&amp;ldquo;Colas, Gael - Configuration management.jpeg&amp;rdquo;)
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&amp;quot;/Colas, Gael - Configuration management.</description>
+    </item>
+    
+    <item>
+      <title>Yet Another Getting Started With Hugo Post</title>
+      <link>https://mattypenny.github.io/blog/yet-another-getting-started-with-hugo-post/</link>
+      <pubDate>Sat, 04 Jan 2020 21:51:31 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/yet-another-getting-started-with-hugo-post/</guid>
+      <description>Install hugo PS C:\matt&amp;gt; choco install hugo -confirm Output Chocolatey v0.10.15 [Pending] Removing incomplete install for &#39;hugo&#39; Installing the following packages: hugo By installing you accept licenses for the packages. hugo v0.62.1 [Approved] hugo package files install completed. Performing other installation steps. Downloading hugo 64 bit from &#39;https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_0.62.1_Windows-64bit.zip&#39; Progress: 0% - Saving 84.56 KB of 12.64 MB Progress: 1% - Saving 169.56 KB of 12.</description>
+    </item>
     
     <item>
       <title>Hello World 5</title>

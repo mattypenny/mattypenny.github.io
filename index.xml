@@ -1,22 +1,1011 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog and reference</title>
-    <link>https://mattypenny.github.io/</link>
-    <description>Recent content on blog and reference</description>
+    <title>Blog and reference on mattypenny.net</title>
+    <link>https://mattypenny.net/</link>
+    <description>Recent content in Blog and reference on mattypenny.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2020 15:11:22 +0000</lastBuildDate>
     
-	<atom:link href="https://mattypenny.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mattypenny.net/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About sketchnoting</title>
+      <link>https://mattypenny.net/sketchnotes/talk/about-sketchnoting/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/talk/about-sketchnoting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adams, Ryan - Always On</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/adams-ryan-always-on/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/adams-ryan-always-on/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agarwal, Sunil - Clustered columnstore index</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/agarwal-sunil-clustered-columnstore-index/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/agarwal-sunil-clustered-columnstore-index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bailey, James - Msrc, Packer, Powershell and Terraform</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/bailey-james-msrc-packer-powershell-and-terraform/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/bailey-james-msrc-packer-powershell-and-terraform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Banerjee-Amit-and-Agarwal-Sourabh-Sql-Azure</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/banerjee-amit-and-agarwal-sourabh-sql-azure/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/banerjee-amit-and-agarwal-sourabh-sql-azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Barthel, Esther - Azure Automation</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/barthel-esther-azure-automation/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/barthel-esther-azure-automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bergmeister, Christoph - PSScriptAnalyzer</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/bergmeister-christoph-psscriptanalyzer/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/bergmeister-christoph-psscriptanalyzer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Berry, Glenn - Dr DMV part 3</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/berry-glenn-dr-dmv-part-3/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/berry-glenn-dr-dmv-part-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Berry, Glenn - Dr DMV pt 1</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/berry-glenn-dr-dmv-pt-1/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/berry-glenn-dr-dmv-pt-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Berry, Glenn - Dr DMV pt 2</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/berry-glenn-dr-dmv-pt-2/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/berry-glenn-dr-dmv-pt-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bertrand-Aaron-50-Things-Developers-Should-Know-higher-res</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/bertrand-aaron-50-things-developers-should-know-higher-res/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/bertrand-aaron-50-things-developers-should-know-higher-res/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boulton, Nigel - Multi-threading in Powershell</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/boulton-nigel-multi-threading-in-powershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/boulton-nigel-multi-threading-in-powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bourgon, Michael - Tracking changes - real time in your environment</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/bourgon-michael-tracking-changes-real-time-in-your-environment/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/bourgon-michael-tracking-changes-real-time-in-your-environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brasser, Jaap - Powershell, a one-trick unicorn</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/brasser-jaap-powershell-a-one-trick-unicorn/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/brasser-jaap-powershell-a-one-trick-unicorn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brezis, Noam - SQL the bug talk</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/brezis-noam-sql-the-bug-talk/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/brezis-noam-sql-the-bug-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cain, Robert, Ball, Bradley and Strate, Jason - Powershell and SQL</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/cain-robert-ball-bradley-and-strate-jason-powershell-and-sql/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/cain-robert-ball-bradley-and-strate-jason-powershell-and-sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chapman, tim - Troubleshooting like an Ms Engineer</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/chapman-tim-troubleshooting-like-an-ms-engineer/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/chapman-tim-troubleshooting-like-an-ms-engineer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Colas, Gael - Configuration management</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/colas-gael-configuration-management/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/colas-gael-configuration-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>colas-gael-devops</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/colas-gael-devops/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/colas-gael-devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dave, Pinal - 7 tips</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/dave-pinal-7-tips/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/dave-pinal-7-tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Davis, Robert L - Licensing SQL on VMs</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/davis-robert-l-licensing-sql-on-vms/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/davis-robert-l-licensing-sql-on-vms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Davis, Tony - Uncovering Sqlserver query problems with Executio</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/davis-tony-uncovering-sqlserver-query-problems-with-executio/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/davis-tony-uncovering-sqlserver-query-problems-with-executio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ehrenmueller-Jensen, Markus - Simple rules for clear visualizations</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/ehrenmueller-jensen-markus-simple-rules-for-clear-visualizations/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/ehrenmueller-jensen-markus-simple-rules-for-clear-visualizations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emad - Hash tables</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/emad-hash-tables/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/emad-hash-tables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emmett, Ben - Stop your application killing database performanc</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/emmett-ben-stop-your-application-killing-database-performanc/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/emmett-ben-stop-your-application-killing-database-performanc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fernandez, Argenis - Securing sql</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/fernandez-argenis-securing-sql/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/fernandez-argenis-securing-sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fritchey, Grant - 3 ways to identify long running queries</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/fritchey-grant-3-ways-to-identify-long-running-queries/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/fritchey-grant-3-ways-to-identify-long-running-queries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fritchey, Grant - A partly cloudy future</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/fritchey-grant-a-partly-cloudy-future/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/fritchey-grant-a-partly-cloudy-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fritchey, Grant - AG Monitoring0002</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/fritchey-grant-ag-monitoring0002/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/fritchey-grant-ag-monitoring0002/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gardner, Chris - Module design</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/gardner-chris-module-design/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/gardner-chris-module-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glantser, Guy - From Xml to Json</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/glantser-guy-from-xml-to-json/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/glantser-guy-from-xml-to-json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gorman, Kellyn - Linux shell scripting</title>
+      <link>https://mattypenny.net/sketchnotes/linux/gorman-kellyn-linux-shell-scripting/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/linux/gorman-kellyn-linux-shell-scripting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gossa, Mark - You can do anything with Powershell but should you</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/gossa-mark-you-can-do-anything-with-powershell-but-should-you/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/gossa-mark-you-can-do-anything-with-powershell-but-should-you/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hicks, Jeff - powershell v5</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/hicks-jeff-powershell-v5/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/hicks-jeff-powershell-v5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hicks, Jeff - The ISE</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/hicks-jeff-the-ise/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/hicks-jeff-the-ise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hirt, Allan - Availability Groups and Failover Instances</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/hirt-allan-availability-groups-and-failover-instances/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/hirt-allan-availability-groups-and-failover-instances/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inge-Larsen, Tom - Markdown, PlatyPs, mkdocs</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/inge-larsen-tom-markdown-platyps-mkdocs/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/inge-larsen-tom-markdown-platyps-mkdocs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jares, Jakub - Legacy scrips and pester</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/jares-jakub-legacy-scrips-and-pester/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/jares-jakub-legacy-scrips-and-pester/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jelen, Bill - Mr Excels Favorite Tips and Tricks</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/jelen-bill-mr-excels-favorite-tips-and-tricks/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/jelen-bill-mr-excels-favorite-tips-and-tricks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jones, Steve - A practical approach to version control for sql </title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/jones-steve-a-practical-approach-to-version-control-for-sql-/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/jones-steve-a-practical-approach-to-version-control-for-sql-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jones, Steve, Galbraith, Simon and Smith, Alexander - Let Your </title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/jones-steve-galbraith-simon-and-smith-alexander-let-your-/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/jones-steve-galbraith-simon-and-smith-alexander-let-your-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kehayias, Jonathan and Stellato, Erin - Extended Events</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/kehayias-jonathan-and-stellato-erin-extended-events/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/kehayias-jonathan-and-stellato-erin-extended-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Klee, David - SQL Virtualization 499</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/klee-david-sql-virtualization-499/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/klee-david-sql-virtualization-499/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knight, Brian - Tuning SSIS</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/knight-brian-tuning-ssis/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/knight-brian-tuning-ssis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Koesmarno, Julie - Powerview</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/koesmarno-julie-powerview/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/koesmarno-julie-powerview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Komo, Darnadi - Sql 2014 Hybrid cloud</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/komo-darnadi-sql-2014-hybrid-cloud/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/komo-darnadi-sql-2014-hybrid-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Korotkevitch, Dmitri - Sql Internals</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Krebs, Daniel - Chef Habitat and Powershell</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/krebs-daniel-chef-habitat-and-powershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/krebs-daniel-chef-habitat-and-powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Krebs, Daniel - Chocolatey and powershell</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/krebs-daniel-chocolatey-and-powershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/krebs-daniel-chocolatey-and-powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Krebs, Daniel - VS Code and Powershell</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/krebs-daniel-vs-code-and-powershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/krebs-daniel-vs-code-and-powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leach, Brandon - Log Shipping</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/leach-brandon-log-shipping/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/leach-brandon-log-shipping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leech, Guy - Trouble-shooting windows with Powershell</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/leech-guy-trouble-shooting-windows-with-powershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/leech-guy-trouble-shooting-windows-with-powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lehrer, Christian - Powershell remoting</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/lehrer-christian-powershell-remoting/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/lehrer-christian-powershell-remoting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LeMaire, Chrissy - Sql Migrations with Posh</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/lemaire-chrissy-sql-migrations-with-posh/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/lemaire-chrissy-sql-migrations-with-posh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin, John - Get sql server right first time</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/martin-john-get-sql-server-right-first-time/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/martin-john-get-sql-server-right-first-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin, Mike - Azure and DSC</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/martin-mike-azure-and-dsc/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/martin-mike-azure-and-dsc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mauri, Davide - Agile data warehouse</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/mauri-davide-agile-data-warehouse/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/mauri-davide-agile-data-warehouse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>May, Jimmy - Columnstore indexes 2014</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/may-jimmy-columnstore-indexes-2014/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/may-jimmy-columnstore-indexes-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medd, Jonathan - Ansible</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-ansible/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medd, Jonathan - devops</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-devops/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medd, Jonathan - Going further with github</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-going-further-with-github/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-going-further-with-github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medd, Jonathan - Google Cloud Powershell 101</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-google-cloud-powershell-101/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-google-cloud-powershell-101/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitchell, Allan - Realtime analytics</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/mitchell-allan-realtime-analytics/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/mitchell-allan-realtime-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitchell, Tim - SSIS</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/mitchell-tim-ssis/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/mitchell-tim-ssis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Murawski, Steven - DSC</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/murawski-steven-dsc/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/murawski-steven-dsc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ozar, Brent - who needs a DBA</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/ozar-brent-who-needs-a-dba/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/ozar-brent-who-needs-a-dba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Penny, Matt - about sketchnoting - distraction</title>
+      <link>https://mattypenny.net/sketchnotes/talk/penny-matt-about-sketchnoting-distraction/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/talk/penny-matt-about-sketchnoting-distraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Penny, Matt - Walking to Stonehenge</title>
+      <link>https://mattypenny.net/sketchnotes/other/penny-matt-walking-to-stonehenge/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/other/penny-matt-walking-to-stonehenge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plesner-Jacobsen, Martin and Shelemin, Alexander - Veeam and sql deep-dive</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/plesner-jacobsen-martin-and-shelemin-alexander-veeam-and-sql-deep-dive/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/plesner-jacobsen-martin-and-shelemin-alexander-veeam-and-sql-deep-dive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plevsner, Martin and Shelemin Alexander - Veeam and SQL - Always On</title>
+      <link>https://mattypenny.net/sketchnotes/other/plevsner-martin-and-shelemin-alexander-veeam-and-sql-always-on/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/other/plevsner-martin-and-shelemin-alexander-veeam-and-sql-always-on/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Porteous, Craig - PowerBI and powershell</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/porteous-craig-powerbi-and-powershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/porteous-craig-powerbi-and-powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Porteous, Craig and Broadwith, Paul - Powershell Standards Agency</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/porteous-craig-and-broadwith-paul-powershell-standards-agency/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/porteous-craig-and-broadwith-paul-powershell-standards-agency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Potvin-Gorman, Kellyn - Devops and the agile dba</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/potvin-gorman-kellyn-devops-and-the-agile-dba/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/potvin-gorman-kellyn-devops-and-the-agile-dba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powershell and rundeck</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/powershell-and-rundeck/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/powershell-and-rundeck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prajdic, Mladen - Optimizing database access and diving into dot Net</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/prajdic-mladen-optimizing-database-access-and-diving-into-dot-net/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/prajdic-mladen-optimizing-database-access-and-diving-into-dot-net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Procida, Daniele - What nobody tells you about documentaion</title>
+      <link>https://mattypenny.net/sketchnotes/other/procida-daniele-what-nobody-tells-you-about-documentaion/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/other/procida-daniele-what-nobody-tells-you-about-documentaion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Procida, Daniele - What Nobody Tells You About Documentation</title>
+      <link>https://mattypenny.net/sketchnotes/other/procida-daniele-what-nobody-tells-you-about-documentation/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/other/procida-daniele-what-nobody-tells-you-about-documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Purnell, Craig - the professional networking toolbox</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/purnell-craig-the-professional-networking-toolbox/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/purnell-craig-the-professional-networking-toolbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ricken, Uwe - Analyzing SQLServer Wait Stats</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/ricken-uwe-analyzing-sqlserver-wait-stats/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/ricken-uwe-analyzing-sqlserver-wait-stats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Russo, Marco - Create a PowerBI Solution in one day</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/russo-marco-create-a-powerbi-solution-in-one-day/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/russo-marco-create-a-powerbi-solution-in-one-day/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sanderson rectangle</title>
+      <link>https://mattypenny.net/sketchnotes/visualvocabulary/sanderson-rectangle/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/visualvocabulary/sanderson-rectangle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sewell, Rob - Making Powershell useful for your team</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/sewell-rob-making-powershell-useful-for-your-team/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/sewell-rob-making-powershell-useful-for-your-team/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sewell, Rob - PowerBI0003</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/sewell-rob-powerbi0003/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/sewell-rob-powerbi0003/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shaw, Chris and Morehouse, John - SQL 2014 migration</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/shaw-chris-and-morehouse-john-sql-2014-migration/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/shaw-chris-and-morehouse-john-sql-2014-migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shaw, Gail - Statistics, Heuristics and Raw Estimations</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/shaw-gail-statistics-heuristics-and-raw-estimations/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/shaw-gail-statistics-heuristics-and-raw-estimations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Siddaway, Richard - 2018 Keynote</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/siddaway-richard-2018-keynote/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/siddaway-richard-2018-keynote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sirosh, Joseph - Augmented Decisions</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/sirosh-joseph-augmented-decisions/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/sirosh-joseph-augmented-decisions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sketchnote_visual_vocabulary</title>
+      <link>https://mattypenny.net/sketchnotes/visualvocabulary/sketchnote_visual_vocabulary/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/visualvocabulary/sketchnote_visual_vocabulary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snover, Jeffrey - MVA DSC Day 1</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snover, Jeffrey - MVA DSC Day 1 pt 2</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1-pt-2/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1-pt-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snover, Jeffrey - MVA DSC Day 2</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-2/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stirrup, Jen - BI Toolkit</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/stirrup-jen-bi-toolkit/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/stirrup-jen-bi-toolkit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stuewe, Mickey - Tsql-habits</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/stuewe-mickey-tsql-habits/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/stuewe-mickey-tsql-habits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas, Russ - Stress</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/thomas-russ-stress/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/thomas-russ-stress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tripp, Kimberly - Execution and Plan Cache</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/tripp-kimberly-execution-and-plan-cache/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/tripp-kimberly-execution-and-plan-cache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>van Bobaeys, Damien - powershell and rundeck</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Van Robaeys, Damien - Powershell with Rundeck</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vanover, Rick - Advanced VM Backup and Recovery - Veeam</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/vanover-rick-advanced-vm-backup-and-recovery-veeam/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/vanover-rick-advanced-vm-backup-and-recovery-veeam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vanover, Rick - Veeam and SQL - Backup and Recovery</title>
+      <link>https://mattypenny.net/sketchnotes/other/vanover-rick-veeam-and-sql-backup-and-recovery/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/other/vanover-rick-veeam-and-sql-backup-and-recovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verloy, Filip - Automate the boring out of backup - Rubrik</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/verloy-filip-automate-the-boring-out-of-backup-rubrik/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/verloy-filip-automate-the-boring-out-of-backup-rubrik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Watson, Hamish - Overcoming fearops by adopting devops</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/watson-hamish-overcoming-fearops-by-adopting-devops/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/watson-hamish-overcoming-fearops-by-adopting-devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webb, Joe - Hiring the right people</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/webb-joe-hiring-the-right-people/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/webb-joe-hiring-the-right-people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weston, Richard - How not to use plaster</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/weston-richard-how-not-to-use-plaster/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/weston-richard-how-not-to-use-plaster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>White, Allen - Baselining Sql with Powershell</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/white-allen-baselining-sql-with-powershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/white-allen-baselining-sql-with-powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why Powershell PC</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/why-powershell-pc/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/why-powershell-pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Williams, Dave and Saxby, Antony - SQL 2016</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/williams-dave-and-saxby-antony-sql-2016/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/williams-dave-and-saxby-antony-sql-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Woodward, JL - keynote0003</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/woodward-jl-keynote0003/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/woodward-jl-keynote0003/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wragg, Mark - Cross Platform Development</title>
+      <link>https://mattypenny.net/sketchnotes/powershell/wragg-mark-cross-platform-development/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/powershell/wragg-mark-cross-platform-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yungman, Matan - MongoDb for the Sql professional</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/yungman-matan-mongodb-for-the-sql-professional/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/yungman-matan-mongodb-for-the-sql-professional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zacharias, Melody - Distributed Replay</title>
+      <link>https://mattypenny.net/sketchnotes/sqlserver/zacharias-melody-distributed-replay/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.net/sketchnotes/sqlserver/zacharias-melody-distributed-replay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Colas, Gael - Configuration Management Dos and Don&#39;ts</title>
-      <link>https://mattypenny.github.io/sketchnotes/colas-gael-configuration-management-dos-and-donts/</link>
+      <link>https://mattypenny.net/sketchnotes/powershell/colas-gael-configuration-management-dos-and-donts/</link>
       <pubDate>Mon, 06 Jan 2020 15:11:22 +0000</pubDate>
       
-      <guid>https://mattypenny.github.io/sketchnotes/colas-gael-configuration-management-dos-and-donts/</guid>
+      <guid>https://mattypenny.net/sketchnotes/powershell/colas-gael-configuration-management-dos-and-donts/</guid>
       <description>Bit of text
 ![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](Colas, Gael - Configuration management.jpeg)
 ![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](/&amp;lsquo;Colas, Gael - Configuration management.jpeg&amp;rsquo;)
@@ -27,19 +1016,20 @@
     
     <item>
       <title>Yet Another Getting Started With Hugo Post</title>
-      <link>https://mattypenny.github.io/blog/yet-another-getting-started-with-hugo-post/</link>
+      <link>https://mattypenny.net/blog/yet-another-getting-started-with-hugo-post/</link>
       <pubDate>Sat, 04 Jan 2020 21:51:31 +0000</pubDate>
       
-      <guid>https://mattypenny.github.io/blog/yet-another-getting-started-with-hugo-post/</guid>
-      <description>Install hugo PS C:\matt&amp;gt; choco install hugo -confirm Output Chocolatey v0.10.15 [Pending] Removing incomplete install for &#39;hugo&#39; Installing the following packages: hugo By installing you accept licenses for the packages. hugo v0.62.1 [Approved] hugo package files install completed. Performing other installation steps. Downloading hugo 64 bit from &#39;https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_0.62.1_Windows-64bit.zip&#39; Progress: 0% - Saving 84.56 KB of 12.64 MB Progress: 1% - Saving 169.56 KB of 12.</description>
+      <guid>https://mattypenny.net/blog/yet-another-getting-started-with-hugo-post/</guid>
+      <description>Install hugo PS C:\matt&amp;gt; choco install hugo -confirm  Output:
+ Chocolatey v0.10.15 [Pending] Removing incomplete install for &#39;hugo&#39; Installing the following packages: hugo By installing you accept licenses for the packages. hugo v0.62.1 [Approved] hugo package files install completed. Performing other installation steps. Downloading hugo 64 bit from &#39;https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_0.62.1_Windows-64bit.zip&#39; Progress: 0% - Saving 84.56 KB of 12.64 MB Progress: 1% - Saving 169.56 KB of 12.64 MB Progress: 1% - Saving 254.</description>
     </item>
     
     <item>
       <title>Hello World 5</title>
-      <link>https://mattypenny.github.io/blog/hello-world-5/</link>
+      <link>https://mattypenny.net/blog/hello-world-5/</link>
       <pubDate>Thu, 02 Jan 2020 19:46:12 +0000</pubDate>
       
-      <guid>https://mattypenny.github.io/blog/hello-world-5/</guid>
+      <guid>https://mattypenny.net/blog/hello-world-5/</guid>
       <description>Bonjour tout-le-monde!</description>
     </item>
     

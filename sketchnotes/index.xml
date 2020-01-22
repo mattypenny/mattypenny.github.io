@@ -1,436 +1,436 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sketchnotes on mattypenny.net</title>
-    <link>https://mattypenny.net/sketchnotes/</link>
-    <description>Recent content in Sketchnotes on mattypenny.net</description>
+    <title>Sketchnotes on Blog and reference</title>
+    <link>https://mattypenny.github.io/sketchnotes/</link>
+    <description>Recent content in Sketchnotes on Blog and reference</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Jan 2020 17:21:18 +0000</lastBuildDate>
     
-	<atom:link href="https://mattypenny.net/sketchnotes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mattypenny.github.io/sketchnotes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About sketchnoting</title>
-      <link>https://mattypenny.net/sketchnotes/talk/about-sketchnoting/</link>
+      <link>https://mattypenny.github.io/sketchnotes/talk/about-sketchnoting/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/talk/about-sketchnoting/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/talk/about-sketchnoting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bailey, James - Msrc, Packer, Powershell and Terraform</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/bailey-james-msrc-packer-powershell-and-terraform/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/bailey-james-msrc-packer-powershell-and-terraform/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/bailey-james-msrc-packer-powershell-and-terraform/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/bailey-james-msrc-packer-powershell-and-terraform/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Barthel, Esther - Azure Automation</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/barthel-esther-azure-automation/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/barthel-esther-azure-automation/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/barthel-esther-azure-automation/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/barthel-esther-azure-automation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bergmeister, Christoph - PSScriptAnalyzer</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/bergmeister-christoph-psscriptanalyzer/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/bergmeister-christoph-psscriptanalyzer/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/bergmeister-christoph-psscriptanalyzer/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/bergmeister-christoph-psscriptanalyzer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Boulton, Nigel - Multi-threading in Powershell</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/boulton-nigel-multi-threading-in-powershell/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/boulton-nigel-multi-threading-in-powershell/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/boulton-nigel-multi-threading-in-powershell/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/boulton-nigel-multi-threading-in-powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Brasser, Jaap - Powershell, a one-trick unicorn</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/brasser-jaap-powershell-a-one-trick-unicorn/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/brasser-jaap-powershell-a-one-trick-unicorn/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/brasser-jaap-powershell-a-one-trick-unicorn/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/brasser-jaap-powershell-a-one-trick-unicorn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Colas, Gael - Configuration management</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/colas-gael-configuration-management/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/colas-gael-configuration-management/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>colas-gael-devops</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/colas-gael-devops/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/colas-gael-devops/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Emad - Hash tables</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/emad-hash-tables/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/emad-hash-tables/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/emad-hash-tables/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/emad-hash-tables/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gardner, Chris - Module design</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/gardner-chris-module-design/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/gardner-chris-module-design/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/gardner-chris-module-design/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/gardner-chris-module-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gorman, Kellyn - Linux shell scripting</title>
-      <link>https://mattypenny.net/sketchnotes/linux/gorman-kellyn-linux-shell-scripting/</link>
+      <link>https://mattypenny.github.io/sketchnotes/linux/gorman-kellyn-linux-shell-scripting/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/linux/gorman-kellyn-linux-shell-scripting/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/linux/gorman-kellyn-linux-shell-scripting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gossa, Mark - You can do anything with Powershell but should you</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/gossa-mark-you-can-do-anything-with-powershell-but-should-you/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/gossa-mark-you-can-do-anything-with-powershell-but-should-you/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/gossa-mark-you-can-do-anything-with-powershell-but-should-you/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/gossa-mark-you-can-do-anything-with-powershell-but-should-you/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hicks, Jeff - powershell v5</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/hicks-jeff-powershell-v5/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/hicks-jeff-powershell-v5/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/hicks-jeff-powershell-v5/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/hicks-jeff-powershell-v5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hicks, Jeff - The ISE</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/hicks-jeff-the-ise/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/hicks-jeff-the-ise/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/hicks-jeff-the-ise/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/hicks-jeff-the-ise/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inge-Larsen, Tom - Markdown, PlatyPs, mkdocs</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/inge-larsen-tom-markdown-platyps-mkdocs/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/inge-larsen-tom-markdown-platyps-mkdocs/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/inge-larsen-tom-markdown-platyps-mkdocs/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/inge-larsen-tom-markdown-platyps-mkdocs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jares, Jakub - Legacy scrips and pester</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/jares-jakub-legacy-scrips-and-pester/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/jares-jakub-legacy-scrips-and-pester/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/jares-jakub-legacy-scrips-and-pester/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/jares-jakub-legacy-scrips-and-pester/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Krebs, Daniel - Chef Habitat and Powershell</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/krebs-daniel-chef-habitat-and-powershell/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-chef-habitat-and-powershell/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/krebs-daniel-chef-habitat-and-powershell/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-chef-habitat-and-powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Krebs, Daniel - Chocolatey and powershell</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/krebs-daniel-chocolatey-and-powershell/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-chocolatey-and-powershell/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/krebs-daniel-chocolatey-and-powershell/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-chocolatey-and-powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Krebs, Daniel - VS Code and Powershell</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/krebs-daniel-vs-code-and-powershell/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-vs-code-and-powershell/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/krebs-daniel-vs-code-and-powershell/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-vs-code-and-powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Leech, Guy - Trouble-shooting windows with Powershell</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/leech-guy-trouble-shooting-windows-with-powershell/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/leech-guy-trouble-shooting-windows-with-powershell/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/leech-guy-trouble-shooting-windows-with-powershell/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/leech-guy-trouble-shooting-windows-with-powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lehrer, Christian - Powershell remoting</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/lehrer-christian-powershell-remoting/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/lehrer-christian-powershell-remoting/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/lehrer-christian-powershell-remoting/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/lehrer-christian-powershell-remoting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LeMaire, Chrissy - Sql Migrations with Posh</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/lemaire-chrissy-sql-migrations-with-posh/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/lemaire-chrissy-sql-migrations-with-posh/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/lemaire-chrissy-sql-migrations-with-posh/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/lemaire-chrissy-sql-migrations-with-posh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Martin, Mike - Azure and DSC</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/martin-mike-azure-and-dsc/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/martin-mike-azure-and-dsc/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/martin-mike-azure-and-dsc/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/martin-mike-azure-and-dsc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Medd, Jonathan - Ansible</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-ansible/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-ansible/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-ansible/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-ansible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Medd, Jonathan - devops</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-devops/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-devops/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-devops/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Medd, Jonathan - Going further with github</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-going-further-with-github/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-going-further-with-github/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-going-further-with-github/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-going-further-with-github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Medd, Jonathan - Google Cloud Powershell 101</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-google-cloud-powershell-101/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-google-cloud-powershell-101/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/medd-jonathan-google-cloud-powershell-101/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-google-cloud-powershell-101/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Murawski, Steven - DSC</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/murawski-steven-dsc/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/murawski-steven-dsc/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/murawski-steven-dsc/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/murawski-steven-dsc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Penny, Matt - about sketchnoting - distraction</title>
-      <link>https://mattypenny.net/sketchnotes/talk/penny-matt-about-sketchnoting-distraction/</link>
+      <link>https://mattypenny.github.io/sketchnotes/talk/penny-matt-about-sketchnoting-distraction/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/talk/penny-matt-about-sketchnoting-distraction/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/talk/penny-matt-about-sketchnoting-distraction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Porteous, Craig - PowerBI and powershell</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/porteous-craig-powerbi-and-powershell/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/porteous-craig-powerbi-and-powershell/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/porteous-craig-powerbi-and-powershell/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/porteous-craig-powerbi-and-powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Porteous, Craig and Broadwith, Paul - Powershell Standards Agency</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/porteous-craig-and-broadwith-paul-powershell-standards-agency/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/porteous-craig-and-broadwith-paul-powershell-standards-agency/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/porteous-craig-and-broadwith-paul-powershell-standards-agency/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/porteous-craig-and-broadwith-paul-powershell-standards-agency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Potvin-Gorman, Kellyn - Devops and the agile dba</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/potvin-gorman-kellyn-devops-and-the-agile-dba/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/potvin-gorman-kellyn-devops-and-the-agile-dba/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/potvin-gorman-kellyn-devops-and-the-agile-dba/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/potvin-gorman-kellyn-devops-and-the-agile-dba/</guid>
       <description></description>
     </item>
     
     <item>
       <title>powershell and rundeck</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/powershell-and-rundeck/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/powershell-and-rundeck/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/powershell-and-rundeck/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/powershell-and-rundeck/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sanderson rectangle</title>
-      <link>https://mattypenny.net/sketchnotes/visualvocabulary/sanderson-rectangle/</link>
+      <link>https://mattypenny.github.io/sketchnotes/visualvocabulary/sanderson-rectangle/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/visualvocabulary/sanderson-rectangle/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/visualvocabulary/sanderson-rectangle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sewell, Rob - Making Powershell useful for your team</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/sewell-rob-making-powershell-useful-for-your-team/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/sewell-rob-making-powershell-useful-for-your-team/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/sewell-rob-making-powershell-useful-for-your-team/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/sewell-rob-making-powershell-useful-for-your-team/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Siddaway, Richard - 2018 Keynote</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/siddaway-richard-2018-keynote/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/siddaway-richard-2018-keynote/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/siddaway-richard-2018-keynote/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/siddaway-richard-2018-keynote/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sketchnote_visual_vocabulary</title>
-      <link>https://mattypenny.net/sketchnotes/visualvocabulary/sketchnote_visual_vocabulary/</link>
+      <link>https://mattypenny.github.io/sketchnotes/visualvocabulary/sketchnote_visual_vocabulary/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/visualvocabulary/sketchnote_visual_vocabulary/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/visualvocabulary/sketchnote_visual_vocabulary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Snover, Jeffrey - MVA DSC Day 1</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Snover, Jeffrey - MVA DSC Day 1 pt 2</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1-pt-2/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1-pt-2/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1-pt-2/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1-pt-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Snover, Jeffrey - MVA DSC Day 2</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-2/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-2/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-2/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>van Bobaeys, Damien - powershell and rundeck</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Van Robaeys, Damien - Powershell with Rundeck</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Weston, Richard - How not to use plaster</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/weston-richard-how-not-to-use-plaster/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/weston-richard-how-not-to-use-plaster/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/weston-richard-how-not-to-use-plaster/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/weston-richard-how-not-to-use-plaster/</guid>
       <description></description>
     </item>
     
     <item>
       <title>White, Allen - Baselining Sql with Powershell</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/white-allen-baselining-sql-with-powershell/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/white-allen-baselining-sql-with-powershell/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/white-allen-baselining-sql-with-powershell/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/white-allen-baselining-sql-with-powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why Powershell PC</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/why-powershell-pc/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/why-powershell-pc/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/why-powershell-pc/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/why-powershell-pc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wragg, Mark - Cross Platform Development</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/wragg-mark-cross-platform-development/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/wragg-mark-cross-platform-development/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/wragg-mark-cross-platform-development/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/wragg-mark-cross-platform-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Colas, Gael - Configuration Management Dos and Don&#39;ts</title>
-      <link>https://mattypenny.net/sketchnotes/powershell/colas-gael-configuration-management-dos-and-donts/</link>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management-dos-and-donts/</link>
       <pubDate>Mon, 06 Jan 2020 15:11:22 +0000</pubDate>
       
-      <guid>https://mattypenny.net/sketchnotes/powershell/colas-gael-configuration-management-dos-and-donts/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management-dos-and-donts/</guid>
       <description>Bit of text
 ![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](Colas, Gael - Configuration management.jpeg)
 ![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](/&amp;lsquo;Colas, Gael - Configuration management.jpeg&amp;rsquo;)

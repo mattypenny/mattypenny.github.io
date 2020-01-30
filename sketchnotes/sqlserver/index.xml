@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sqlserver on Blog and reference</title>
+    <link>https://mattypenny.github.io/sketchnotes/sqlserver/</link>
+    <description>Recent content in Sqlserver on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Jan 2020 17:32:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/sketchnotes/sqlserver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adams, Ryan - Always On</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/adams-ryan-always-on/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/adams-ryan-always-on/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agarwal, Sunil - Clustered columnstore index</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/agarwal-sunil-clustered-columnstore-index/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/agarwal-sunil-clustered-columnstore-index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Banerjee-Amit-and-Agarwal-Sourabh-Sql-Azure</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/banerjee-amit-and-agarwal-sourabh-sql-azure/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/banerjee-amit-and-agarwal-sourabh-sql-azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Berry, Glenn - Dr DMV part 3</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/berry-glenn-dr-dmv-part-3/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/berry-glenn-dr-dmv-part-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Berry, Glenn - Dr DMV pt 1</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/berry-glenn-dr-dmv-pt-1/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/berry-glenn-dr-dmv-pt-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Berry, Glenn - Dr DMV pt 2</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/berry-glenn-dr-dmv-pt-2/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/berry-glenn-dr-dmv-pt-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bertrand-Aaron-50-Things-Developers-Should-Know-higher-res</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/bertrand-aaron-50-things-developers-should-know-higher-res/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/bertrand-aaron-50-things-developers-should-know-higher-res/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bourgon, Michael - Tracking changes - real time in your environment</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/bourgon-michael-tracking-changes-real-time-in-your-environment/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/bourgon-michael-tracking-changes-real-time-in-your-environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brezis, Noam - SQL the bug talk</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/brezis-noam-sql-the-bug-talk/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/brezis-noam-sql-the-bug-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cain, Robert, Ball, Bradley and Strate, Jason - Powershell and SQL</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/cain-robert-ball-bradley-and-strate-jason-powershell-and-sql/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/cain-robert-ball-bradley-and-strate-jason-powershell-and-sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chapman, tim - Troubleshooting like an Ms Engineer</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/chapman-tim-troubleshooting-like-an-ms-engineer/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/chapman-tim-troubleshooting-like-an-ms-engineer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dave, Pinal - 7 tips</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/dave-pinal-7-tips/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/dave-pinal-7-tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Davis, Robert L - Licensing SQL on VMs</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/davis-robert-l-licensing-sql-on-vms/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/davis-robert-l-licensing-sql-on-vms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Davis, Tony - Uncovering Sqlserver query problems with Executio</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/davis-tony-uncovering-sqlserver-query-problems-with-executio/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/davis-tony-uncovering-sqlserver-query-problems-with-executio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ehrenmueller-Jensen, Markus - Simple rules for clear visualizations</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/ehrenmueller-jensen-markus-simple-rules-for-clear-visualizations/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/ehrenmueller-jensen-markus-simple-rules-for-clear-visualizations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emmett, Ben - Stop your application killing database performanc</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/emmett-ben-stop-your-application-killing-database-performanc/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/emmett-ben-stop-your-application-killing-database-performanc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fernandez, Argenis - Securing sql</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/fernandez-argenis-securing-sql/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/fernandez-argenis-securing-sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fritchey, Grant - 3 ways to identify long running queries</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/fritchey-grant-3-ways-to-identify-long-running-queries/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/fritchey-grant-3-ways-to-identify-long-running-queries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fritchey, Grant - A partly cloudy future</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/fritchey-grant-a-partly-cloudy-future/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/fritchey-grant-a-partly-cloudy-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fritchey, Grant - AG Monitoring0002</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/fritchey-grant-ag-monitoring0002/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/fritchey-grant-ag-monitoring0002/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glantser, Guy - From Xml to Json</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/glantser-guy-from-xml-to-json/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/glantser-guy-from-xml-to-json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hirt, Allan - Availability Groups and Failover Instances</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/hirt-allan-availability-groups-and-failover-instances/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/hirt-allan-availability-groups-and-failover-instances/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hirt, Allan - The SQL Availability story on Linux</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/hirt-allan-the-sql-availability-story-on-linux/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/hirt-allan-the-sql-availability-story-on-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jelen, Bill - Mr Excels Favorite Tips and Tricks</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/jelen-bill-mr-excels-favorite-tips-and-tricks/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/jelen-bill-mr-excels-favorite-tips-and-tricks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jones, Steve - A practical approach to version control for sql </title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-a-practical-approach-to-version-control-for-sql-/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-a-practical-approach-to-version-control-for-sql-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jones, Steve, Galbraith, Simon and Smith, Alexander - Let Your </title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-galbraith-simon-and-smith-alexander-let-your-/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-galbraith-simon-and-smith-alexander-let-your-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kamman, Andre - Deploy and Manage Ola Hallengrens Scripts with Powershell</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/kamman-andre-deploy-and-manage-ola-hallengrens-scripts-with-powershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/kamman-andre-deploy-and-manage-ola-hallengrens-scripts-with-powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kehayias, Jonathan and Stellato, Erin - Extended Events</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/kehayias-jonathan-and-stellato-erin-extended-events/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/kehayias-jonathan-and-stellato-erin-extended-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kellenberger, Kathi - Sqlserver data compression</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/kellenberger-kathi-sqlserver-data-compression/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/kellenberger-kathi-sqlserver-data-compression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Klee, David - SQL-Virtualization-499</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/klee-david-sql-virtualization-499/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/klee-david-sql-virtualization-499/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knight, Brian - Tuning SSIS</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/knight-brian-tuning-ssis/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/knight-brian-tuning-ssis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Koesmarno, Julie - Powerview</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/koesmarno-julie-powerview/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/koesmarno-julie-powerview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kogan, Dan - Data Warehousing with SQL and hAdoop</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/kogan-dan-data-warehousing-with-sql-and-hadoop/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/kogan-dan-data-warehousing-with-sql-and-hadoop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Komo, Darnadi - Sql 2014 Hybrid cloud</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/komo-darnadi-sql-2014-hybrid-cloud/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/komo-darnadi-sql-2014-hybrid-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Korotkevitch, Dmitri - Sql Internals</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Korotkevitch-Dmitri-Sql-Internals</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leach, Brandon - Log Shipping</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/leach-brandon-log-shipping/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/leach-brandon-log-shipping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Little, Kendra - Why did my clever index change backfire</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/little-kendra-why-did-my-clever-index-change-backfire/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/little-kendra-why-did-my-clever-index-change-backfire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lopez, Pedro - SQL-2014-Changes-to-Query-Plans</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/lopez-pedro-sql-2014-changes-to-query-plans/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/lopez-pedro-sql-2014-changes-to-query-plans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin, John - Get sql server right first time</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/martin-john-get-sql-server-right-first-time/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/martin-john-get-sql-server-right-first-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin, John - SQL Server Setup First Time</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/martin-john-sql-server-setup-first-time/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/martin-john-sql-server-setup-first-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mauri, Davide - Agile data warehouse</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/mauri-davide-agile-data-warehouse/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/mauri-davide-agile-data-warehouse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>May, Jimmy - Columnstore indexes 2014</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/may-jimmy-columnstore-indexes-2014/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/may-jimmy-columnstore-indexes-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitchell, Allan - Realtime analytics</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-allan-realtime-analytics/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-allan-realtime-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitchell, Brian - Polybase</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-brian-polybase/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-brian-polybase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitchell, Tim - SSIS</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitchell-Tim-SSIS</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nocentino, Anthony - Linux fundamentals for the sql admin</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/nocentino-anthony-linux-fundamentals-for-the-sql-admin/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/nocentino-anthony-linux-fundamentals-for-the-sql-admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ozar, Brent - How to think like the Sql Server Engine</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/ozar-brent-how-to-think-like-the-sql-server-engine/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/ozar-brent-how-to-think-like-the-sql-server-engine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ozar, Brent - who needs a DBA</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/ozar-brent-who-needs-a-dba/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/ozar-brent-who-needs-a-dba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ozar, Brent and Darling, Erik - Last Seasons Performance Tuning Techniques</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/ozar-brent-and-darling-erik-last-seasons-performance-tuning-techniques/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/ozar-brent-and-darling-erik-last-seasons-performance-tuning-techniques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plesner-Jacobsen, Martin and Shelemin, Alexander - Veeam and sql deep-dive</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/plesner-jacobsen-martin-and-shelemin-alexander-veeam-and-sql-deep-dive/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/plesner-jacobsen-martin-and-shelemin-alexander-veeam-and-sql-deep-dive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pot&#39;Vin, Kellyn - DevOps and the Agile DBA</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/potvin-kellyn-devops-and-the-agile-dba/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/potvin-kellyn-devops-and-the-agile-dba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prajdic, Mladen - Optimizing database access and diving into dot Net</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/prajdic-mladen-optimizing-database-access-and-diving-into-dot-net/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/prajdic-mladen-optimizing-database-access-and-diving-into-dot-net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presley, Chris, Weiss, Richard and Chaves, Warner - Running Sql Server on Linux</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/presley-chris-weiss-richard-and-chaves-warner-running-sql-server-on-linux/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/presley-chris-weiss-richard-and-chaves-warner-running-sql-server-on-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Purnell, Craig - the professional networking toolbox</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/purnell-craig-the-professional-networking-toolbox/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/purnell-craig-the-professional-networking-toolbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ricken, Uwe - Analyzing SQLServer Wait Stats</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/ricken-uwe-analyzing-sqlserver-wait-stats/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/ricken-uwe-analyzing-sqlserver-wait-stats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robinson, Jay - A guided tour of the sqlclient namespace</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/robinson-jay-a-guided-tour-of-the-sqlclient-namespace/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/robinson-jay-a-guided-tour-of-the-sqlclient-namespace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Russo, Marco - Create a PowerBI Solution in one day</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/russo-marco-create-a-powerbi-solution-in-one-day/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/russo-marco-create-a-powerbi-solution-in-one-day/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scruggs, Richard - Getting Started with Sql Server Compliance Auditing</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/scruggs-richard-getting-started-with-sql-server-compliance-auditing/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/scruggs-richard-getting-started-with-sql-server-compliance-auditing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sewell, Rob - PowerBI0003</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/sewell-rob-powerbi0003/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/sewell-rob-powerbi0003/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shaw, Chris and Morehouse, John - SQL 2014 migration</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/shaw-chris-and-morehouse-john-sql-2014-migration/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/shaw-chris-and-morehouse-john-sql-2014-migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shaw, Gail - Statistics, Heuristics and Raw Estimations</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/shaw-gail-statistics-heuristics-and-raw-estimations/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/shaw-gail-statistics-heuristics-and-raw-estimations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sirosh, Joseph - Augmented Decisions</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/sirosh-joseph-augmented-decisions/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/sirosh-joseph-augmented-decisions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skinner, Simon - Sql and System Center</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/skinner-simon-sql-and-system-center/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/skinner-simon-sql-and-system-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stirrup, Jen - BI Toolkit</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/stirrup-jen-bi-toolkit/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/stirrup-jen-bi-toolkit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stirrup, Jen - Data democratization</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/stirrup-jen-data-democratization/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/stirrup-jen-data-democratization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stuewe, Mickey - The Silent Killers Lurking in Your Schema0013</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/stuewe-mickey-the-silent-killers-lurking-in-your-schema0013/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/stuewe-mickey-the-silent-killers-lurking-in-your-schema0013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stuewe, Mickey - Tsql-habits</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/stuewe-mickey-tsql-habits/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/stuewe-mickey-tsql-habits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas, Russ - Stress</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/thomas-russ-stress/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/thomas-russ-stress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tripp, Kimberly - Execution and Plan Cache</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/tripp-kimberly-execution-and-plan-cache/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/tripp-kimberly-execution-and-plan-cache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Turkeslan, Selzin - Migration to SQL Azure</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/turkeslan-selzin-migration-to-sql-azure/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/turkeslan-selzin-migration-to-sql-azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tuson, Toni-anne, MacLellan, Stuart, Stirrup, Jen - Implementing hybrid acrchitectures</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/tuson-toni-anne-maclellan-stuart-stirrup-jen-implementing-hybrid-acrchitectures/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/tuson-toni-anne-maclellan-stuart-stirrup-jen-implementing-hybrid-acrchitectures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vanover, Rick - Advanced VM Backup and Recovery - Veeam</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/vanover-rick-advanced-vm-backup-and-recovery-veeam/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/vanover-rick-advanced-vm-backup-and-recovery-veeam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vargas, Luis - Always On</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/vargas-luis-always-on/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/vargas-luis-always-on/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verloy, Filip - Automate the boring out of backup - Rubrik</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/verloy-filip-automate-the-boring-out-of-backup-rubrik/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/verloy-filip-automate-the-boring-out-of-backup-rubrik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Watson, Hamish - Overcoming fearops by adopting devops</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/watson-hamish-overcoming-fearops-by-adopting-devops/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/watson-hamish-overcoming-fearops-by-adopting-devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webb, Joe - Hiring the right people</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/webb-joe-hiring-the-right-people/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/webb-joe-hiring-the-right-people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wild, Martin - Sqlserver on linux - dont be afraid</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/wild-martin-sqlserver-on-linux-dont-be-afraid/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/wild-martin-sqlserver-on-linux-dont-be-afraid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Williams, Dave and Saxby, Antony - SQL 2016</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/williams-dave-and-saxby-antony-sql-2016/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/williams-dave-and-saxby-antony-sql-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Winterboer, Lynn - Writing agile user stories and slicing epics for DW-BI teams</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/winterboer-lynn-writing-agile-user-stories-and-slicing-epics-for-dw-bi-teams/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/winterboer-lynn-writing-agile-user-stories-and-slicing-epics-for-dw-bi-teams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Woodward, JL - keynote0003</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/woodward-jl-keynote0003/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/woodward-jl-keynote0003/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yungman, Matan - MongoDb for the Sql professional</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/yungman-matan-mongodb-for-the-sql-professional/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/yungman-matan-mongodb-for-the-sql-professional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zacharias, Melody - Distributed Replay</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/zacharias-melody-distributed-replay/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/zacharias-melody-distributed-replay/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

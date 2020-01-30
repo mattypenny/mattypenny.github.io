@@ -1,28 +1,113 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sketchnotes on blog and reference</title>
+    <title>Sketchnotes on Blog and reference</title>
     <link>https://mattypenny.github.io/sketchnotes/</link>
-    <description>Recent content in Sketchnotes on blog and reference</description>
+    <description>Recent content in Sketchnotes on Blog and reference</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2020 15:11:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 17:21:18 +0000</lastBuildDate>
     
 	<atom:link href="https://mattypenny.github.io/sketchnotes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Colas, Gael - Configuration Management Dos and Don&#39;ts</title>
-      <link>https://mattypenny.github.io/sketchnotes/colas-gael-configuration-management-dos-and-donts/</link>
-      <pubDate>Mon, 06 Jan 2020 15:11:22 +0000</pubDate>
+      <title>24hours</title>
+      <link>https://mattypenny.github.io/sketchnotes/visualvocabulary/24hours/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.github.io/sketchnotes/colas-gael-configuration-management-dos-and-donts/</guid>
-      <description>Bit of text
-![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](Colas, Gael - Configuration management.jpeg)
-![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](/&amp;lsquo;Colas, Gael - Configuration management.jpeg&amp;rsquo;)
-![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&#39;/Colas, Gael - Configuration management.jpeg&amp;rsquo;)
-![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](/&amp;ldquo;Colas, Gael - Configuration management.jpeg&amp;rdquo;)
-![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&amp;quot;/Colas, Gael - Configuration management.</description>
+      <guid>https://mattypenny.github.io/sketchnotes/visualvocabulary/24hours/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About sketchnoting</title>
+      <link>https://mattypenny.github.io/sketchnotes/talk/about-sketchnoting/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/talk/about-sketchnoting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://mattypenny.github.io/sketchnotes/linux/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>other</title>
+      <link>https://mattypenny.github.io/sketchnotes/other/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/other/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Penny, Matt - about sketchnoting - distraction</title>
+      <link>https://mattypenny.github.io/sketchnotes/talk/penny-matt-about-sketchnoting-distraction/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/talk/penny-matt-about-sketchnoting-distraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powershell</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>README</title>
+      <link>https://mattypenny.github.io/sketchnotes/readme/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/readme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sanderson rectangle</title>
+      <link>https://mattypenny.github.io/sketchnotes/visualvocabulary/sanderson-rectangle/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/visualvocabulary/sanderson-rectangle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sketchnote_visual_vocabulary</title>
+      <link>https://mattypenny.github.io/sketchnotes/visualvocabulary/sketchnote_visual_vocabulary/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/visualvocabulary/sketchnote_visual_vocabulary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sqlserver</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talk</title>
+      <link>https://mattypenny.github.io/sketchnotes/talk/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/talk/</guid>
+      <description></description>
     </item>
     
   </channel>

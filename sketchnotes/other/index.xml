@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>other on Blog and reference</title>
+    <link>https://mattypenny.github.io/sketchnotes/other/</link>
+    <description>Recent content in other on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Jan 2020 17:32:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/sketchnotes/other/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hofman, Katja - AI and the world of Minecraft</title>
+      <link>https://mattypenny.github.io/sketchnotes/other/hofman-katja-ai-and-the-world-of-minecraft/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/other/hofman-katja-ai-and-the-world-of-minecraft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Tree - Technical Writing Introduction0020(1)</title>
+      <link>https://mattypenny.github.io/sketchnotes/other/learning-tree-technical-writing-introduction00201/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/other/learning-tree-technical-writing-introduction00201/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plevsner, Martin and Shelemin Alexander - Veeam and SQL - Always On</title>
+      <link>https://mattypenny.github.io/sketchnotes/other/plevsner-martin-and-shelemin-alexander-veeam-and-sql-always-on/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/other/plevsner-martin-and-shelemin-alexander-veeam-and-sql-always-on/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Procida, Daniele - What Nobody Tells You About Documentation</title>
+      <link>https://mattypenny.github.io/sketchnotes/other/procida-daniele-what-nobody-tells-you-about-documentation/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/other/procida-daniele-what-nobody-tells-you-about-documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vanover, Rick - Veeam and SQL - Backup and Recovery</title>
+      <link>https://mattypenny.github.io/sketchnotes/other/vanover-rick-veeam-and-sql-backup-and-recovery/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/other/vanover-rick-veeam-and-sql-backup-and-recovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verloy, Filip - Rubrik</title>
+      <link>https://mattypenny.github.io/sketchnotes/other/verloy-filip-rubrik/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/other/verloy-filip-rubrik/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

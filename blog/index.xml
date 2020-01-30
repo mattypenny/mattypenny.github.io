@@ -1,15 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on blog and reference</title>
+    <title>Blogs on Blog and reference</title>
     <link>https://mattypenny.github.io/blog/</link>
-    <description>Recent content in Blogs on blog and reference</description>
+    <description>Recent content in Blogs on Blog and reference</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2020 21:51:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2020 18:05:55 +0000</lastBuildDate>
     
 	<atom:link href="https://mattypenny.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo Error   Error Building Site Failed to Unmarshal YAML Yaml Did Not Find Expected Key</title>
+      <link>https://mattypenny.github.io/blog/hugo-error-error-building-site-failed-to-unmarshal-yaml-yaml-did-not-find-expected-key/</link>
+      <pubDate>Tue, 28 Jan 2020 18:05:55 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/hugo-error-error-building-site-failed-to-unmarshal-yaml-yaml-did-not-find-expected-key/</guid>
+      <description>Problem Did this:
+hugo server --theme cupper-hugo-theme  Got this:
+WARN 2020/01/28 18:10:15 Module &amp;quot;cupper-hugo-theme&amp;quot; is not compatible with this Hugo version; run &amp;quot;hugo mod graph&amp;quot; for more information. Building sites � Total in 4620 ms Error: Error building site: &amp;quot;C:\matt\website\content\blog\WARN found no layout file for HTML for page.md:2:1&amp;quot;: failed to unmarshal YAML: yaml: did not find expected key  Solution The yaml bit loked like this.
+--- title: &amp;quot;Hugo error - WARN 2020/01/28 15:49:09 found no layout file for &amp;quot;HTML&amp;quot; for &amp;quot;section&amp;quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.</description>
+    </item>
+    
+    <item>
+      <title>Script to Setup Markdown Pages for All the Sketchnotes</title>
+      <link>https://mattypenny.github.io/blog/script-to-setup-markdown-pages-for-all-the-sketchnotes/</link>
+      <pubDate>Sat, 11 Jan 2020 17:32:57 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/script-to-setup-markdown-pages-for-all-the-sketchnotes/</guid>
+      <description>tbc</description>
+    </item>
     
     <item>
       <title>Yet Another Getting Started With Hugo Post</title>
@@ -17,16 +38,26 @@
       <pubDate>Sat, 04 Jan 2020 21:51:31 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/blog/yet-another-getting-started-with-hugo-post/</guid>
-      <description>Install hugo PS C:\matt&amp;gt; choco install hugo -confirm Output Chocolatey v0.10.15 [Pending] Removing incomplete install for &#39;hugo&#39; Installing the following packages: hugo By installing you accept licenses for the packages. hugo v0.62.1 [Approved] hugo package files install completed. Performing other installation steps. Downloading hugo 64 bit from &#39;https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_0.62.1_Windows-64bit.zip&#39; Progress: 0% - Saving 84.56 KB of 12.64 MB Progress: 1% - Saving 169.56 KB of 12.</description>
+      <description>Install hugo PS C:\matt&amp;gt; choco install hugo -confirm  Output:
+ Chocolatey v0.10.15 [Pending] Removing incomplete install for &#39;hugo&#39; Installing the following packages: hugo By installing you accept licenses for the packages. hugo v0.62.1 [Approved] hugo package files install completed. Performing other installation steps. Downloading hugo 64 bit from &#39;https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_0.62.1_Windows-64bit.zip&#39; Progress: 0% - Saving 84.56 KB of 12.64 MB Progress: 1% - Saving 169.56 KB of 12.64 MB Progress: 1% - Saving 254.</description>
     </item>
     
     <item>
-      <title>Hello World 5</title>
+      <title>mattypenny.net</title>
       <link>https://mattypenny.github.io/blog/hello-world-5/</link>
       <pubDate>Thu, 02 Jan 2020 19:46:12 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/blog/hello-world-5/</guid>
       <description>Bonjour tout-le-monde!</description>
+    </item>
+    
+    <item>
+      <title>Hugo error - WARN 2020/01/28 15:49:09 found no layout file for HTML for section: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.</title>
+      <link>https://mattypenny.github.io/blog/warn-found-no-layout-file-for-html-for-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/warn-found-no-layout-file-for-html-for-page/</guid>
+      <description>C:\matt\website\public &amp;gt;hugo --theme cupper server Error: module &amp;quot;cupper&amp;quot; not found; either add it as a Hugo Module or store it in &amp;quot;C:\\matt\\website\\public\\themes&amp;quot;.: module does not exist C:\matt\website\public &amp;gt;cd .. C:\matt\website &amp;gt;hugo --theme cupper server Building sites � WARN 2020/01/28 15:49:09 found no layout file for &amp;quot;HTML&amp;quot; for &amp;quot;page&amp;quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination. WARN 2020/01/28 15:49:09 found no layout file for &amp;quot;HTML&amp;quot; for &amp;quot;section&amp;quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.</description>
     </item>
     
   </channel>

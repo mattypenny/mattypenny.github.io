@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>visual vocabulary on Blog and reference</title>
+    <link>https://mattypenny.github.io/sketchnotes/sketchnoting/</link>
+    <description>Recent content in visual vocabulary on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Jan 2020 17:32:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/sketchnotes/sketchnoting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>24hours</title>
+      <link>https://mattypenny.github.io/sketchnotes/sketchnoting/24hours/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sketchnoting/24hours/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About sketchnoting</title>
+      <link>https://mattypenny.github.io/sketchnotes/sketchnoting/about-sketchnoting/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sketchnoting/about-sketchnoting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Penny, Matt - about sketchnoting - distraction</title>
+      <link>https://mattypenny.github.io/sketchnotes/sketchnoting/penny-matt-about-sketchnoting-distraction/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sketchnoting/penny-matt-about-sketchnoting-distraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sanderson rectangle</title>
+      <link>https://mattypenny.github.io/sketchnotes/sketchnoting/sanderson-rectangle/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sketchnoting/sanderson-rectangle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sketchnote_visual_vocabulary</title>
+      <link>https://mattypenny.github.io/sketchnotes/sketchnoting/sketchnote_visual_vocabulary/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sketchnoting/sketchnote_visual_vocabulary/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

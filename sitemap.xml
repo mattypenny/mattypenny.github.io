@@ -48,13 +48,18 @@
   </url>
   
   <url>
-    <loc>https://mattypenny.github.io/sketchnotes/visualvocabulary/24hours/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
+    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/</loc>
+    <lastmod>2020-02-02T18:12:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mattypenny.github.io/sketchnotes/talk/about-sketchnoting/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
+    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/24hours/</loc>
+    <lastmod>2020-02-02T18:12:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/about-sketchnoting/</loc>
+    <lastmod>2020-02-02T18:12:40+00:00</lastmod>
   </url>
   
   <url>
@@ -493,8 +498,8 @@
   </url>
   
   <url>
-    <loc>https://mattypenny.github.io/sketchnotes/talk/penny-matt-about-sketchnoting-distraction/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
+    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/penny-matt-about-sketchnoting-distraction/</loc>
+    <lastmod>2020-02-02T18:12:40+00:00</lastmod>
   </url>
   
   <url>
@@ -568,8 +573,8 @@
   </url>
   
   <url>
-    <loc>https://mattypenny.github.io/sketchnotes/visualvocabulary/sanderson-rectangle/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
+    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/sanderson-rectangle/</loc>
+    <lastmod>2020-02-02T18:12:40+00:00</lastmod>
   </url>
   
   <url>
@@ -608,13 +613,8 @@
   </url>
   
   <url>
-    <loc>https://mattypenny.github.io/sketchnotes/visualvocabulary/sketchnote_visual_vocabulary/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
+    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/sketchnote_visual_vocabulary/</loc>
+    <lastmod>2020-02-02T18:12:40+00:00</lastmod>
   </url>
   
   <url>
@@ -795,6 +795,10 @@
   <url>
     <loc>https://mattypenny.github.io/blog/warn-found-no-layout-file-for-html-for-page/</loc>
     <lastmod>2020-01-31T18:20:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/</loc>
   </url>
   
   <url>

@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.64.1" />
+  <link rel="canonical" href="https://mattypenny.github.io/quickreference/powershell/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="https://mattypenny.github.io/css/prism.css" media="none" onload="this.media='all';">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://mattypenny.github.io/css/styles.css">
+
+  <style id="inverter" media="none">
+    .intro-and-nav, .main-and-footer { filter: invert(100%) }
+    * { background-color: inherit }
+    img:not([src*=".svg"]), .colors, iframe, .demo-container { filter: invert(100%) }
+  </style>
+
+  
+  
+  <title>powershell | Blog and reference</title>
+</head>
+
+  <body>
+    <a href="#main">skip to content</a>
+    <svg style="display: none">
+  <symbol id="bookmark" viewBox="0 0 40 50">
+   <g transform="translate(2266 3206.2)">
+    <path style="stroke:currentColor;stroke-width:3.2637;fill:none" d="m-2262.2-3203.4-.2331 42.195 16.319-16.318 16.318 16.318.2331-42.428z"/>
+   </g>
+  </symbol>
+
+  <symbol id="w3c" viewBox="0 0 127.09899 67.763">
+   <text font-size="83" style="font-size:83px;font-family:Trebuchet;letter-spacing:-12;fill-opacity:0" letter-spacing="-12" y="67.609352" x="-26.782778">W3C</text>
+   <text font-size="83" style="font-size:83px;font-weight:bold;font-family:Trebuchet;fill-opacity:0" y="67.609352" x="153.21722" font-weight="bold">SVG</text>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m33.695.377 12.062 41.016 12.067-41.016h8.731l-19.968 67.386h-.831l-12.48-41.759-12.479 41.759h-.832l-19.965-67.386h8.736l12.061 41.016 8.154-27.618-3.993-13.397h8.737z"/>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m91.355 46.132c0 6.104-1.624 11.234-4.862 15.394-3.248 4.158-7.45 6.237-12.607 6.237-3.882 0-7.263-1.238-10.148-3.702-2.885-2.47-5.02-5.812-6.406-10.022l6.82-2.829c1.001 2.552 2.317 4.562 3.953 6.028 1.636 1.469 3.56 2.207 5.781 2.207 2.329 0 4.3-1.306 5.909-3.911 1.609-2.606 2.411-5.738 2.411-9.401 0-4.049-.861-7.179-2.582-9.399-1.995-2.604-5.129-3.912-9.397-3.912h-3.327v-3.991l11.646-20.133h-14.062l-3.911 6.655h-2.493v-14.976h32.441v4.075l-12.31 21.217c4.324 1.385 7.596 3.911 9.815 7.571 2.22 3.659 3.329 7.953 3.329 12.892z"/>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m125.21 0 1.414 8.6-5.008 9.583s-1.924-4.064-5.117-6.314c-2.693-1.899-4.447-2.309-7.186-1.746-3.527.73-7.516 4.938-9.258 10.13-2.084 6.21-2.104 9.218-2.178 11.978-.115 4.428.58 7.043.58 7.043s-3.04-5.626-3.011-13.866c.018-5.882.947-11.218 3.666-16.479 2.404-4.627 5.954-7.404 9.114-7.728 3.264-.343 5.848 1.229 7.841 2.938 2.089 1.788 4.213 5.698 4.213 5.698l4.94-9.837z"/>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m125.82 48.674s-2.208 3.957-3.589 5.48c-1.379 1.524-3.849 4.209-6.896 5.555-3.049 1.343-4.646 1.598-7.661 1.306-3.01-.29-5.807-2.032-6.786-2.764-.979-.722-3.486-2.864-4.897-4.854-1.42-2-3.634-5.995-3.634-5.995s1.233 4.001 2.007 5.699c.442.977 1.81 3.965 3.749 6.572 1.805 2.425 5.315 6.604 10.652 7.545 5.336.945 9.002-1.449 9.907-2.031.907-.578 2.819-2.178 4.032-3.475 1.264-1.351 2.459-3.079 3.116-4.108.487-.758 1.276-2.286 1.276-2.286l-1.276-6.644z"/>
+  </symbol>
+
+  <symbol id="tag" viewBox="0 0 177.16535 177.16535">
+    <g transform="translate(0 -875.2)">
+     <path style="fill-rule:evenodd;stroke-width:0;fill:currentColor" d="m159.9 894.3-68.79 8.5872-75.42 77.336 61.931 60.397 75.429-76.565 6.8495-69.755zm-31.412 31.835a10.813 10.813 0 0 1 1.8443 2.247 10.813 10.813 0 0 1 -3.5174 14.872l-.0445.0275a10.813 10.813 0 0 1 -14.86 -3.5714 10.813 10.813 0 0 1 3.5563 -14.863 10.813 10.813 0 0 1 13.022 1.2884z"/>
+    </g>
+  </symbol>
+
+  <symbol id="balloon" viewBox="0 0 141.73228 177.16535">
+   <g transform="translate(0 -875.2)">
+    <g>
+     <path style="fill:currentColor" d="m68.156 882.83-.88753 1.4269c-4.9564 7.9666-6.3764 17.321-5.6731 37.378.36584 10.437 1.1246 23.51 1.6874 29.062.38895 3.8372 3.8278 32.454 4.6105 38.459 4.6694-.24176 9.2946.2879 14.377 1.481 1.2359-3.2937 5.2496-13.088 8.886-21.623 6.249-14.668 8.4128-21.264 10.253-31.252 1.2464-6.7626 1.6341-12.156 1.4204-19.764-.36325-12.93-2.1234-19.487-6.9377-25.843-2.0833-2.7507-6.9865-7.6112-7.9127-7.8436-.79716-.20019-6.6946-1.0922-6.7755-1.0248-.02213.0182-5.0006-.41858-7.5248-.22808l-2.149-.22808h-3.3738z"/>
+     <path style="fill:currentColor" d="m61.915 883.28-3.2484.4497c-1.7863.24724-3.5182.53481-3.8494.63994-2.4751.33811-4.7267.86957-6.7777 1.5696-.28598 0-1.0254.20146-2.3695.58589-5.0418 1.4418-6.6374 2.2604-8.2567 4.2364-6.281 7.6657-11.457 18.43-12.932 26.891-1.4667 8.4111.71353 22.583 5.0764 32.996 3.8064 9.0852 13.569 25.149 22.801 37.517 1.3741 1.841 2.1708 2.9286 2.4712 3.5792 3.5437-1.1699 6.8496-1.9336 10.082-2.3263-1.3569-5.7831-4.6968-21.86-6.8361-33.002-.92884-4.8368-2.4692-14.322-3.2452-19.991-.68557-5.0083-.77707-6.9534-.74159-15.791.04316-10.803.41822-16.162 1.5026-21.503 1.4593-5.9026 3.3494-11.077 6.3247-15.852z"/>
+     <path style="fill:currentColor" d="m94.499 885.78c-.10214-.0109-.13691 0-.0907.0409.16033.13489 1.329 1.0675 2.5976 2.0723 6.7003 5.307 11.273 14.568 12.658 25.638.52519 4.1949.24765 14.361-.5059 18.523-2.4775 13.684-9.7807 32.345-20.944 53.519l-3.0559 5.7971c2.8082.76579 5.7915 1.727 8.9926 2.8441 11.562-11.691 18.349-19.678 24.129-28.394 7.8992-11.913 11.132-20.234 12.24-31.518.98442-10.02-1.5579-20.876-6.7799-28.959-.2758-.4269-.57803-.86856-.89617-1.3166-3.247-6.13-9.752-12.053-21.264-16.131-2.3687-.86369-6.3657-2.0433-7.0802-2.1166z"/>
+     <path style="fill:currentColor" d="m32.52 892.22c-.20090-.13016-1.4606.81389-3.9132 2.7457-11.486 9.0476-17.632 24.186-16.078 39.61.79699 7.9138 2.4066 13.505 5.9184 20.562 5.8577 11.77 14.749 23.219 30.087 38.74.05838.059.12188.1244.18052.1838 1.3166-.5556 2.5965-1.0618 3.8429-1.5199-.66408-.32448-1.4608-1.3297-3.8116-4.4602-5.0951-6.785-8.7512-11.962-13.051-18.486-5.1379-7.7948-5.0097-7.5894-8.0586-13.054-6.2097-11.13-8.2674-17.725-8.6014-27.563-.21552-6.3494.13041-9.2733 1.775-14.987 2.1832-7.5849 3.9273-10.986 9.2693-18.07 1.7839-2.3656 2.6418-3.57 2.4409-3.7003z"/>
+     <path style="fill:currentColor" d="m69.133 992.37c-6.2405.0309-12.635.76718-19.554 2.5706 4.6956 4.7759 9.935 10.258 12.05 12.625l4.1272 4.6202h11.493l3.964-4.4516c2.0962-2.3541 7.4804-7.9845 12.201-12.768-8.378-1.4975-16.207-2.6353-24.281-2.5955z"/>
+     <rect style="stroke-width:0;fill:currentColor" ry="2.0328" height="27.746" width="22.766" y="1017.7" x="60.201"/>
+    </g>
+   </g>
+  </symbol>
+
+  <symbol id="info" viewBox="0 0 41.667 41.667">
+   <g transform="translate(-37.035 -1004.6)">
+    <path style="stroke-linejoin:round;stroke:currentColor;stroke-linecap:round;stroke-width:3.728;fill:none" d="m76.25 1030.2a18.968 18.968 0 0 1 -23.037 13.709 18.968 18.968 0 0 1 -13.738 -23.019 18.968 18.968 0 0 1 23.001 -13.768 18.968 18.968 0 0 1 13.798 22.984"/>
+    <g transform="matrix(1.1146 0 0 1.1146 -26.276 -124.92)">
+     <path style="stroke:currentColor;stroke-linecap:round;stroke-width:3.728;fill:none" d="m75.491 1039.5v-8.7472"/>
+     <path style="stroke-width:0;fill:currentColor" transform="scale(-1)" d="m-73.193-1024.5a2.3719 2.3719 0 0 1 -2.8807 1.7142 2.3719 2.3719 0 0 1 -1.718 -2.8785 2.3719 2.3719 0 0 1 2.8763 -1.7217 2.3719 2.3719 0 0 1 1.7254 2.8741"/>
+    </g>
+   </g>
+  </symbol>
+
+  <symbol id="warning" viewBox="0 0 48.430474 41.646302">
+    <g transform="translate(-1.1273 -1010.2)">
+     <path style="stroke-linejoin:round;stroke:currentColor;stroke-linecap:round;stroke-width:4.151;fill:none" d="m25.343 1012.3-22.14 37.496h44.28z"/>
+     <path style="stroke:currentColor;stroke-linecap:round;stroke-width:4.1512;fill:none" d="m25.54 1027.7v8.7472"/>
+     <path style="stroke-width:0;fill:currentColor" d="m27.839 1042.8a2.3719 2.3719 0 0 1 -2.8807 1.7143 2.3719 2.3719 0 0 1 -1.718 -2.8785 2.3719 2.3719 0 0 1 2.8763 -1.7217 2.3719 2.3719 0 0 1 1.7254 2.8741"/>
+    </g>
+  </symbol>
+
+  <symbol id="menu" viewBox="0 0 50 50">
+     <rect style="stroke-width:0;fill:currentColor" height="10" width="50" y="0" x="0"/>
+     <rect style="stroke-width:0;fill:currentColor" height="10" width="50" y="20" x="0"/>
+     <rect style="stroke-width:0;fill:currentColor" height="10" width="50" y="40" x="0"/>
+   </symbol>
+
+   <symbol id="link" viewBox="0 0 50 50">
+    <g transform="translate(0 -1002.4)">
+     <g transform="matrix(.095670 0 0 .095670 2.3233 1004.9)">
+      <g>
+       <path style="stroke-width:0;fill:currentColor" d="m452.84 192.9-128.65 128.65c-35.535 35.54-93.108 35.54-128.65 0l-42.881-42.886 42.881-42.876 42.884 42.876c11.845 11.822 31.064 11.846 42.886 0l128.64-128.64c11.816-11.831 11.816-31.066 0-42.9l-42.881-42.881c-11.822-11.814-31.064-11.814-42.887 0l-45.928 45.936c-21.292-12.531-45.491-17.905-69.449-16.291l72.501-72.526c35.535-35.521 93.136-35.521 128.64 0l42.886 42.881c35.535 35.523 35.535 93.141-.001 128.66zm-254.28 168.51-45.903 45.9c-11.845 11.846-31.064 11.817-42.881 0l-42.884-42.881c-11.845-11.821-11.845-31.041 0-42.886l128.65-128.65c11.819-11.814 31.069-11.814 42.884 0l42.886 42.886 42.876-42.886-42.876-42.881c-35.54-35.521-93.113-35.521-128.65 0l-128.65 128.64c-35.538 35.545-35.538 93.146 0 128.65l42.883 42.882c35.51 35.54 93.11 35.54 128.65 0l72.496-72.499c-23.956 1.597-48.092-3.784-69.474-16.283z"/>
+      </g>
+     </g>
+    </g>
+  </symbol>
+
+  <symbol id="doc" viewBox="0 0 35 45">
+   <g transform="translate(-147.53 -539.83)">
+    <path style="stroke:currentColor;stroke-width:2.4501;fill:none" d="m149.38 542.67v39.194h31.354v-39.194z"/>
+    <g style="stroke-width:25" transform="matrix(.098003 0 0 .098003 133.69 525.96)">
+     <path d="m220 252.36h200" style="stroke:currentColor;stroke-width:25;fill:none"/>
+     <path style="stroke:currentColor;stroke-width:25;fill:none" d="m220 409.95h200"/>
+     <path d="m220 488.74h200" style="stroke:currentColor;stroke-width:25;fill:none"/>
+     <path d="m220 331.15h200" style="stroke:currentColor;stroke-width:25;fill:none"/>
+    </g>
+   </g>
+ </symbol>
+
+ <symbol id="tick" viewBox="0 0 177.16535 177.16535">
+  <g transform="translate(0 -875.2)">
+   <rect style="stroke-width:0;fill:currentColor" transform="rotate(30)" height="155" width="40" y="702.99" x="556.82"/>
+   <rect style="stroke-width:0;fill:currentColor" transform="rotate(30)" height="40" width="90.404" y="817.99" x="506.42"/>
+  </g>
+ </symbol>
+</svg>
+
+    <div class="wrapper">
+      <header class="intro-and-nav" role="banner">
+  <div>
+    <div class="intro">
+      <a class="logo" href="/" aria-label="Blog and reference home page">
+        <img src="https://mattypenny.github.io/images/logo.svg" alt="">
+      </a>
+      <p class="library-desc">
+        
+          Blog. Reference. Stuff.
+        
+      </p>
+    </div>
+    <nav id="patterns-nav" class="patterns" role="navigation">
+  <h2 class="vh">Main navigation</h2>
+  <button id="menu-button" aria-expanded="false">
+    <svg viewBox="0 0 50 50" aria-hidden="true" focusable="false">
+      <use xlink:href="#menu"></use>
+    </svg>
+    Menu
+  </button>
+  
+  <ul id="patterns-list">
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">home</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/blog/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">blog</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/sketchnotes/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">sketchnotes</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/quickreference/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">quick reference</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/about/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">about</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      <a href="/links/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">links</span>
+      </a>
+    </li>
+  
+  </ul>
+</nav>
+  </div>
+</header>
+      <div class="main-and-footer">
+        <div>
+          
+  <main id="main">
+    <h1>powershell</h1>
+    <h1 id="powershell">Powershell</h1>
+<p>This ramshackle collection of Powershell commands evolved from my own quick-reference crib-sheets over the last couple of years.</p>
+<h2 id="get-code">Get code</h2>
+<h3 id="show-loaded-powershell-function-code">Show loaded Powershell function code</h3>
+<pre><code>get-command get-pins | format-list definition
+</code></pre>
+<h3 id="show-loaded-powershell-function-code-for-aliases-too">Show loaded Powershell function code for aliases too</h3>
+<pre><code>
+$Command = get-command &quot;sss&quot;
+$commandType = $Command.CommandType
+if ( &quot;$commandType&quot; -eq &quot;Alias&quot; ) { $Command = get-command $Command.ResolvedCommandName}
+$Command.Definition
+</code></pre>
+<h3 id="show-sqlserver-stored-procedure-code">Show sqlserver stored procedure code</h3>
+<pre><code>dir SQLSERVER:\SQL\$Computername\default\Databases\_DBA_CATALOG\StoredProcedures | select Name, DateLastModified, TextBody | format-list
+</code></pre>
+<h2 id="modules">Modules</h2>
+<h3 id="show-module-path">Show module path</h3>
+<pre><code>$env:PSModulePath
+</code></pre>
+<h3 id="show-available-modules">Show available modules</h3>
+<pre><code>get-module -ListAvailable | select Path
+</code></pre>
+<h2 id="get-file-and-folder-information">Get file and folder information</h2>
+<h3 id="get-the-size-of-all-the-files-in-a-folder">Get the size of all the files in a folder</h3>
+<pre><code>dir \\server01\t$\sql_trace | measure-object -property length -sum
+</code></pre>
+<h3 id="list-contents-of-folder-ordered-by-time">List contents of folder ordered by time</h3>
+<pre><code>dir c:\tax_dodgers | sort-object -property lastwritetime
+</code></pre>
+<p>or, for latest first</p>
+<pre><code>dir c:\tax_dodgers | sort-object -property lastwritetime -descending
+</code></pre>
+<h3 id="list-files-modified-within-the-last-three-hours">List files modified within the last three hours</h3>
+<pre><code>dir -recurse \\server1\c$ -File | ? lastwritetime -gt $(get-date).AddHours(-3) | select fullname, lastwritetime
+</code></pre>
+<h3 id="list-files-modified-between-2-dates">List files modified between 2 dates</h3>
+<pre><code>gci -recurse $Filespec | select lastwritetime, length, fullname | 
+        where-object {
+                        $_.Lastwritetime -ge (Get-Date).AddDays(-14) -and 
+                        $_.Lastwritetime -le (Get-Date).AddDays(-7)
+                     }
+</code></pre>
+<h3 id="list-files-in-sub-folders-showing-only-part-of-the-path">List files in sub-folders showing only part of the path</h3>
+<pre><code>dir  C:\Users\matt\OneDrive\music  -recurse -exclude *xmas*  -file | ft @{Expr = {$_.fullname -replace &quot;C:\\users\\matt\\OneDrive\\music&quot;, &quot;&quot;}}
+
+</code></pre>
+<h3 id="systemio-stuff">System.IO stuff</h3>
+<pre><code>[System.IO.Path]::GetPathRoot(&quot;c:\temp\elvis.txt&quot;)                 # Gets the root directory 
+[System.IO.Path]::GetRandomFileName()                              # Returns a random folder name or file name.
+[System.IO.Path]::GetTempFileName()                                # Creates a uniquely named, zero-byte temporary file 
+[System.IO.Path]::GetTempPath()                                    # Returns the path of the current users temporary folder.
+[System.IO.Path]::HasExtension(&quot;c:\temp\elvis.txt&quot;)                # Determines whether a path includes a file name extension.
+[System.IO.Path]::IsPathRooted(&quot;c:\temp\elvis.txt&quot;)                # Returns true if specified path string contains a root.
+[System.IO.Path]::ChangeExtension(&quot;c:\temp\elvis.txt&quot;, &quot;csv&quot;)      # changes the extension
+[System.IO.Path]::Combine(&quot;c:\temp&quot;, &quot;elvis.txt&quot;)                  # Combines two strings into a path.
+[System.IO.Path]::GetDirectoryName(&quot;c:\temp\elvis.txt&quot;)            # Returns the directory 
+[System.IO.Path]::GetExtension(&quot;c:\temp\elvis.txt&quot;)                # Returns the extension 
+[System.IO.Path]::GetFileName(&quot;c:\temp\elvis.txt&quot;)                 # Returns the file name and extension
+[System.IO.Path]::GetFileNameWithoutExtension(&quot;c:\temp\elvis.txt&quot;) # Returns the file name without the extension.
+[System.IO.Path]::GetFullPath(&quot;c:\temp\elvis.txt&quot;)                 # Returns the absolute path 
+
+</code></pre>
+<h3 id="show-lines-appended-to-a-file-as-they-get-appended">Show lines appended to a file as they get appended</h3>
+<pre><code>Get-Content -Path C:\fso\mylogfile.log -Tail 1 -Wait
+</code></pre>
+<h3 id="show-first-n-lines-of-a-file">Show first &lsquo;n&rsquo; lines of a file</h3>
+<pre><code>sshare whatever | select-object -first 3     # head
+</code></pre>
+<h3 id="show-last-n-lines-of-a-file">Show last &lsquo;n&rsquo; lines of a file</h3>
+<pre><code>Get-Content [filename] | Select-Object -Last 10 # equivalent of tail
+</code></pre>
+<p>or</p>
+<pre><code>Get-Content -Path C:fsomylogfile.log -Tail 1 -Wait
+</code></pre>
+<h3 id="does-file-in-one-folder-exist-in-another">Does file in one folder exist in another</h3>
+<pre><code>foreach ($file in $(dir '\\server1\d$\dbawork\matt\bin\*.ps1')) { $f = $file.name ;  &quot;$f ; $(Test-path c:\powershell\functions\$f)&quot;}
+</code></pre>
+<h3 id="map-a-drive">Map a drive</h3>
+<pre><code>New-PSDrive -Name &quot;P&quot; -PSProvider FileSystem -Root &quot;\\$ComputerName\personal\matt&quot; -Persist
+ 
+</code></pre>
+<h3 id="looks-for-occrurences-of-string-in-file">Looks for occrurences of &lsquo;string&rsquo; in file</h3>
+<pre><code>select-string elvis top1000.txt
+</code></pre>
+<h3 id="match-one-word-or-another">Match one word or another</h3>
+<pre><code>select-string -pattern &quot;select-str|array&quot; C:\Users\matt\Documents\QuickReference\*.md
+</code></pre>
+<h3 id="return-true-or-false-if-string-is-in-a-file">Return true or false if string is in a file</h3>
+<pre><code>select-string -quiet -Pattern &quot;^$ComputerName( |$)&quot; -path $File
+</code></pre>
+<h3 id="get-file-security-information">Get file security information</h3>
+<pre><code>$X = dir c:\inetpub\wwwroot\wpresources\web.config 
+$X.getaccesscontrol().Access | select identityreference, Filesystemrights
+</code></pre>
+<p>or</p>
+<pre><code>get-acl &quot;\\$ComputerName\data\it\folder1&quot; | select accesstostring
+</code></pre>
+<h3 id="show-last-modified-time-reformatting-the-time">Show last modified time, reformatting the time</h3>
+<pre><code>dir &quot;\\server\f$\other server backups\APP2*&quot; | select @{Label=&quot;LastUpdate&quot;; Expression = {&quot;{0:dddd dd MMMMM yyyy HH:mm}&quot; -f $_.lastwritetime } }
+</code></pre>
+<h3 id="show-sql-filesizes-in-mb">Show sql filesizes in Mb</h3>
+<pre><code>Invoke-Sqlcmd -ConnectionTimeout 1 -Query &quot;SELECT sum(size*8/1024) SizeInMb from sysfiles&quot; -ServerInstance $I -database $D
+</code></pre>
+<h3 id="show-sqlserver-table-sizings-in-powershell">Show Sqlserver table sizings in Powershell</h3>
+<pre><code>dir SQLSERVER:\SQL\$ServerInstance\Databases\$DatabaseName\Tables | select DisplayName, rowcount, dataspaceused, indexspaceused | ft -a
+</code></pre>
+<h3 id="show-mdb-files-on-drive">Show mdb files on drive</h3>
+<pre><code>dir -recurse &quot;\\$ComputerName\C$&quot; *.mdb | select fullname, length, lastwritetime | where-object {$_.fullname -notlike &quot;*Seed*&quot;} | ft -a
+</code></pre>
+<h3 id="show-unique-lines-in-file">Show unique lines in file</h3>
+<pre><code>gc c:\temp\2000.txt | gu
+</code></pre>
+<h3 id="get-number-of-lines-words-and-characters-in-a-file">Get number of lines, words and characters in a file</h3>
+<pre><code>gc c:\temp\file.txt | measure-object -line
+gc c:\temp\tweets.csv | measure-object -words
+gc c:\temp\tweets.csv | measure-object -Character
+
+</code></pre>
+<h3 id="get-the-sum-of-the-sizes-of-specified-files">Get the sum of the sizes of specified files</h3>
+<pre><code>dir \\$ComputerName\d$\mssql_backup -recurse *1410071800.bak | measure-object -sum length
+</code></pre>
+<h3 id="get-databases-and-their-filegroups">Get databases and their filegroups</h3>
+<pre><code>dir sqlserver:\sql\$ComputerName\qc01\databases | select name, filegroups
+</code></pre>
+<p>or</p>
+<pre><code>dir sqlserver:\sql\$ComputerName\qc01\databases\db1\FileGroups | select -expandp files | select filename
+</code></pre>
+<h3 id="get-a-directory-listing-across-multiple-servers">Get a directory listing across multiple servers</h3>
+<pre><code>foreach ($Server in (&quot;$ComputerName1&quot;,&quot;$ComputerName2&quot;,&quot;$ComputerName3&quot;)){dir \\$server\c$}
+</code></pre>
+<h3 id="find-files-across-multiple-servers">Find files across multiple servers</h3>
+<pre><code>foreach ($Server in (&quot;$ComputerName&quot;,&quot;$ComputerName&quot;, &quot;$ComputerName&quot;)
+
+{
+dir &quot;\\$Server\c$&quot; -recurse tnsnames.ora | select fullname
+dir &quot;\\$Server\d$&quot; -recurse tnsnames.ora | select fullname
+}
+</code></pre>
+<h3 id="get-database-details-into-a-csv-file">Get database details into a csv file</h3>
+<pre><code>dir sqlserver:\sql\$ComputerName\qc01\databases | select * | convertto-csv &gt; c:\temp\qc_databases.csv
+</code></pre>
+<h3 id="get-data-file-names">Get data file names</h3>
+<pre><code>dir sqlserver:\sql\$ComputerName\qc01\databases\db1\FileGroups | select -expandp files | select filename
+</code></pre>
+<h3 id="get-transaction-log-file-names">Get transaction log file names</h3>
+<pre><code>dir sqlserver:\sql\$ComputerName\qc01\databases\db1\logfiles | select filename
+</code></pre>
+<h3 id="show-files-modified-in-the-last-2-days">Show files modified in the last 2 days</h3>
+<p>&hellip;excluding the cache.</p>
+<pre><code>find . -mtime -2 -exec ls -ld {} \; | egrep -v cache
+</code></pre>
+<h2 id="scheduled-jobs">Scheduled jobs</h2>
+<h3 id="run-a-sql-job">Run a sql job</h3>
+<pre><code>$JOB = dir Sqlserver:\sql\$Computername\default\Jobserver\jobs | where-object {$_.name -like '*big-job*'}
+$JOB # check what youve got!
+$JOB.start()
+</code></pre>
+<h3 id="get-sql-jobs">Get sql jobs</h3>
+<pre><code>dir Sqlserver:\sql\$Computername\default\Jobserver\Jobs | select name, lastrundate, nextrundate, currentrunstatus, lastrunoutcome | ft
+</code></pre>
+<h3 id="get-sql-jobs---prettier">Get sql jobs - prettier</h3>
+<pre><code>dir Sqlserver:\sql\$Computername\default\Jobserver\Jobs | ft @{Label =&quot;Jobbie&quot; ; Expression={$_.name} ; Width = 42 }, @{Label=&quot;Last run&quot; ; Expression = {&quot;{0:dd/MM/yy HH:mm}&quot; -f $_.lastrundate} ; width=14}, @{Label=&quot;Now&quot;; Expression = {$_.currentrunstatus} ; Width = 5}, lastrunoutcome
+</code></pre>
+<h3 id="get-a-list-of-maintenance-sub-plans">Get a list of maintenance sub plans</h3>
+<p>tbc: Needs more work!</p>
+<pre><code>sql $ServerInstance &quot;SELECT * FROM msdb.dbo.sysmaintplan_subplans&quot;
+</code></pre>
+<h3 id="get-the-job-step-detail">Get the job step detail</h3>
+<pre><code>dir Sqlserver:\sql\$ServerInstance\Jobserver\Jobs | 
+    ?  name -eq &quot;my beautiful job&quot; | 
+    select -expand jobsteps | 
+    select Parent, name, command, lastrundate, lastrunduration, outputfilename
+</code></pre>
+<h3 id="script-out-all-the-jobs">Script out all the jobs</h3>
+<pre><code>foreach ($Job in dir Sqlserver:\sql\server1\default\Jobserver\jobs) {$JobName = $Job.Name; $Job.Script() &gt; c:\temp\server1\$JobName.sql}
+</code></pre>
+<h3 id="import-a-scripted-out-job">Import a scripted out job</h3>
+<pre><code>invoke-sqlcmd -ServerInstance server2 -InputFile &quot;C:\temp\server1\Working Hours.sql&quot;
+</code></pre>
+<h2 id="scripting">Scripting</h2>
+<h3 id="if-elseif-else">if-elseif-else</h3>
+<pre><code>if ($N -gt 2) {&quot;N gt 2&quot;} elseif ($N -lt 2) {&quot;N lt 2&quot;} else {&quot;Neither&quot;}
+</code></pre>
+<h3 id="while-loop">while loop</h3>
+<pre><code>$N = 0
+while ($N -le 365) { $N += 7; $(get-date).adddays(3 + $N) }
+</code></pre>
+<h3 id="foreach-loops">foreach loops</h3>
+<pre><code>$start = get-date &quot;04-Mar-2015 12:55:00&quot;
+$end = get-date &quot;04-Mar-2015 13:10:00&quot;
+$HyperionServers = &quot;$ComputerName $ComputerName $ComputerName $ComputerName $ComputerName $ComputerName $ComputerName $ComputerName $ComputerName&quot;
+ 
+$Logs = foreach ($S in $HyperionServers.split())
+{
+$Logtypes = &quot;Application System&quot;
+ 
+foreach ($L in $Logtypes.split())
+{
+get-eventlog -computername $S -logname $l -after $start -before $end
+# select TimeGenerated, MachineName, EntryType,Message | ft -a
+}
+}
+</code></pre>
+<p>foreach thing in a list of things</p>
+<pre><code>$Q = &quot;ALTER SERVER ROLE [sysadmin] ADD MEMBER [domain\user];&quot;; foreach ($S in $(import-csv .\data\ListOfServerInstances.csv)) {[string]$SI = $S.ServerInstance; invoke-sqlcmd -serverinstance $SI -query $Q}
+$Q = &quot;select @@servername; ALTER SERVER ROLE [sysadmin] ADD MEMBER [domain\user];&quot;; foreach ($S in $(import-csv .\data\ListOfServerInstances.csv)) {[string]$SI = $S.ServerInstance; invoke-sqlcmd -serverinstance $SI -query $Q}
+
+</code></pre>
+<h3 id="try-catch">try-catch</h3>
+<pre><code>try { } catch { }
+ 
+</code></pre>
+<h2 id="miscellaneous">Miscellaneous</h2>
+<h3 id="generate-git-add-command-in-powershell">Generate &lsquo;git add&rsquo; command in Powershell</h3>
+<pre><code>write-host -nonewline &quot;git add&quot; ; foreach ($F in $(get-gitstatus | select -expand working)) {write-host -nonewline &quot; $F&quot;}
+</code></pre>
+<h3 id="generate-git-add-command-in-bash">Generate &lsquo;git add&rsquo; command in bash</h3>
+<pre><code>git status --porcelain | awk 'BEGIN {printf(&quot;git add &quot;) }  {printf(&quot;%s &quot;, $2)}'
+</code></pre>
+<h3 id="when-rdp-just-shows-a-black-screen">When rdp just shows a black screen</h3>
+<pre><code>Ctrl-Alt-End - resolves rdp black screen
+</code></pre>
+<h3 id="shows-people-connected-through-remote-desktop">Shows people connected through remote desktop</h3>
+<pre><code>query session /server:server1
+</code></pre>
+<h3 id="to-kill-off-someone-elses-rdp-session">To kill off someone else&rsquo;s rdp session</h3>
+<pre><code>reset session 1 /server:server01
+ 
+</code></pre>
+<h3 id="show-todays-date">Show today&rsquo;s date</h3>
+<pre><code>get-date
+Get-Date -format &quot;dd MMM yyyy HH:mm:ss:fff&quot;
+Get-Date -format &quot;yyyyMMddHHmmssfff&quot;
+</code></pre>
+<h3 id="get-performance-counters">Get performance counters</h3>
+<pre><code>Get-Counter -Counter '\MSSQL$INST01:SQL Statistics\Batch Requests/sec' -ComputerName $ComputerName
+</code></pre>
+<h3 id="get-last-veeam-backup">Get last veeam backup</h3>
+<pre><code>Add-PSSnapin VeeamPSSnapIn 
+Get-VBRBackupSession | ? JobName -like '*sql*' | ? endtime -gt $(get-date).adddays(-2) | select jobname, creationtime, endtime, iscompleted, result | ft -AutoSize
+
+</code></pre>
+<h2 id="privileges">Privileges</h2>
+<h3 id="grant-alter-trace">Grant alter trace</h3>
+<pre><code>grant alter trace to login
+</code></pre>
+<h3 id="grant-read-procedure-code">Grant read procedure code</h3>
+<pre><code>GRANT VIEW DEFINITION ON procedurename TO username
+</code></pre>
+<h3 id="dynamic-sql-to-grant-read-procdure-on-all-procedures">Dynamic SQL to grant read procdure on all procedures</h3>
+<pre><code>select 'GRANT VIEW DEFINITION ON ' + quotename(specific_schema)
++ '.' + quotename(specific_name)
++ ' TO ' + 'loginname'
+from INFORMATION_SCHEMA.routines
+where routine_type = 'PROCEDURE'
+order by SPECIFIC_NAME
+</code></pre>
+<h2 id="personalization">Personalization</h2>
+<h3 id="change-the-powershell-prompt-to-a-dollar-prompt">Change the Powershell prompt to a dollar prompt</h3>
+<pre><code>function prompt { &quot;$ &quot; }
+</code></pre>
+<h3 id="get-a-list-of-aliases">Get a list of aliases</h3>
+<pre><code>get-alias | select name, definition |` ft @{Label=&quot;Aliases&quot; ; Expression = {$_.name + &quot;, # &quot; + $_.Definition} }
+</code></pre>
+<h3 id="remove-an-alias">Remove an alias</h3>
+<pre><code>Remove-Item alias:write-warning
+</code></pre>
+<h3 id="get-your-last-100-commands">Get your last 100 commands</h3>
+<pre><code>history -count 100 | ft -property CommandLine
+</code></pre>
+<h3 id="split-your-path-into-an-array-of-folders">Split your path into an array of folders</h3>
+<pre><code>$a = $env:path; $x=$a.Split(&quot;;&quot;) 
+</code></pre>
+<h3 id="get-the-location-of-the-documents-folder">Get the location of the documents folder</h3>
+<pre><code>[environment]::getfolderpath('Mydocuments')
+</code></pre>
+<h3 id="send-an-email-with-exchange">Send an email with Exchange</h3>
+<pre><code>$PSEmailServer = &quot;$ComputerName.company.co.uk&quot;
+send-mailmessage -to matt.penny@company.co.uk -from jose@cfc.com -subject &quot;This email proves that mail works from sql006&quot;
+
+</code></pre>
+<h3 id="get-emails">Get emails</h3>
+<pre><code>$olFolders = &quot;Microsoft.Office.Interop.Outlook.olDefaultFolders&quot; -as [type]  
+$outlook = new-object -comobject outlook.application 
+$namespace = $outlook.GetNameSpace(&quot;MAPI&quot;) 
+$folder = $namespace.getDefaultFolder($olFolders::olFolderSentMail) 
+$folder.items |  ? subject -like &quot;*What I did*&quot; | ? to -like &quot;*Fred*&quot; | select senton, body | fl | clip
+</code></pre>
+<h3 id="send-an-enail-with-smtp">Send an enail with smtp</h3>
+<pre><code>$smtp = New-Object Net.Mail.SmtpClient(&quot;$ComputerName.company.co.uk&quot;)
+$smtp.Send(&quot;rui.faria@cfc.com&quot;,&quot;matt.penny@company.co.uk&quot;,&quot;This ones via smtp&quot;,&quot;This is a test&quot;
+</code></pre>
+<h3 id="dump-all-of-powershell-help-into-a-text-file">Dump all of Powershell help into a text file</h3>
+<pre><code>&quot;Help text file generated $(get-date)&quot; | out-file c:\temp\posh_help.txt
+$HelpItems = get-help * | select name
+foreach ($H in $HelpItems) {get-help -full $H.name | out-file -append c:\temp\posh_help.txt }
+-- dump help into txt file start
+</code></pre>
+<h3 id="get-all-the-synopses-for-the-functions-in-a-module">Get all the synopses for the functions in a module</h3>
+<pre><code>get-command | where-object module -like &quot;My-Module&quot; | foreach {get-help $_} | ft -AutoSize name, synopsis
+</code></pre>
+<p>Via <a href="https://blogs.technet.microsoft.com/heyscriptingguy/2015/04/21/powertip-find-powershell-cmdlets-and-synopsis/">https://blogs.technet.microsoft.com/heyscriptingguy/2015/04/21/powertip-find-powershell-cmdlets-and-synopsis/</a></p>
+<h3 id="search-command-history-for-a-string">Search command history for a string</h3>
+<pre><code>history | select commandline | where-object {$_.commandline -like '*elvis*'} | fl
+</code></pre>
+<h3 id="save-powershell-session-to-a-file">Save Powershell session to a file</h3>
+<pre><code>start-transcript
+stop-transcipt
+</code></pre>
+<h3 id="change-the-title-bar-of-your-powershell-window">Change the title bar of your Powershell window</h3>
+<pre><code>$host.ui.rawui.WindowTitle=&quot;I've got the power&quot;
+</code></pre>
+<h3 id="get-username">Get username</h3>
+<pre><code>[Security.Principal.WindowsIdentity]::GetCurrent() | select name
+</code></pre>
+<h3 id="git-stuff">git stuff</h3>
+<pre><code>git clone https://gist.github.com/b271556bb0f771d39a65.git one-liner
+git add inv*.txt
+git commit -m 'Updates to investigate.txt'
+git push origin master
+git pull
+</code></pre>
+<h2 id="servers">Servers</h2>
+<h3 id="get-list-of-pcs-from-ad">Get list of PCs from AD</h3>
+<pre><code>Get-ADComputer -filter { OperatingSystem -NotLike '*Windows Server*' } -properties * | 
+            select DNSHostName,
+            IPv4Address,
+            IPv6Address,
+            LastLogonDate,
+            Modified,
+            Name,
+            OperatingSystem,
+            OperatingSystemHotfix,
+            OperatingSystemServicePack,
+            OperatingSystemVersion
+</code></pre>
+<h3 id="get-ip-address-from-pinging-computer">get ip-address from pinging computer</h3>
+<pre><code>$PingObject = test-connection -computerName $ComputerName  -Count 1 -ErrorAction stop
+[string]$IPAddress = $PingObject.IPV4Address
+</code></pre>
+<h3 id="show-re-boots">Show re-boots</h3>
+<p>Not <em>entirely</em> sure whether this covers server crashes, or just deliberate re-starts. Need to look at event code 1074 further&hellip;or find a code for the start-up rather than the shutdown</p>
+<pre><code>gwmi -computername $ComputerName win32_ntlogevent -filter &quot;LogFile='System' and EventCode='1074'&quot; | select User,@{n=&quot;Time&quot;;e={$_.ConvertToDateTime($_.TimeGenerated)}} | ft -AutoSize
+</code></pre>
+<h3 id="show-eventlogs">Show eventlogs</h3>
+<pre><code>$start = get-date &quot;07-Dec-2012 15:00:00&quot;
+$end = get-date &quot;07-Dec-2012 16:00:00&quot;
+get-eventlog -computername bigserver -logname Application -after $start -before $end | select timewritten, message
+
+</code></pre>
+<h3 id="get-processes-where-the-proceess-name-is-like-sql">Get processes where the proceess name is like &ldquo;<em>sql</em>&rdquo;</h3>
+<pre><code>get-process | where {[Regex]::Ismatch($_.name.tolower(), &quot;sql&quot;) }
+</code></pre>
+<h3 id="get-processes-using-more-than-1mb-of-memory">Get processes using more than 1MB of memory</h3>
+<pre><code>get-process | where {$_.PeakWorkingSet -gt 1Mb } | select ProcessName,PeakWorkingSet
+</code></pre>
+<h3 id="get-processes-whose-name-matches-a-specified-name-on-a-remote-server">Get processes whose name matches a specified name on a remote server</h3>
+<pre><code>get-process -ComputerName $Computername Var* .
+</code></pre>
+<h3 id="get-processes-in-the-order-of-how-much-memory-they-are-using">Get processes in the order of how much memory they are using</h3>
+<pre><code>get-process -ComputerName $Computername | sort-object VirtualMemorySize
+</code></pre>
+<h3 id="get-processes-with-a-speified-name">Get processes with a speified name</h3>
+<pre><code>get-process oracle
+</code></pre>
+<h3 id="get-threads-for-a-specified-process">Get threads for a specified process</h3>
+<pre><code>get-process oracle | select ProcessName -expand Threads | select Id,StartTime,TotalProcessorTime, WaitReason
+</code></pre>
+<h3 id="get-startup-time-for-a-process">Get startup time for a process</h3>
+<pre><code>get-process oracle | select ProcessName, StartTime
+</code></pre>
+<h3 id="get-process-with-amount-of-memory-used">Get process with amount of memory used</h3>
+<pre><code>get-wmiobject win32_process -computername $Computername | select Name, workingsetsize | sort name
+</code></pre>
+<h3 id="get-process-with-cpu-used">Get process with CPU used</h3>
+<pre><code>get-wmiobject win32_process -computername $Computername | where {[Regex]::Ismatch($_.name.tolower(), &quot;sql&quot;) } | select Name, kernelmodetime, usermodetime | sort name
+</code></pre>
+<h3 id="get-services-with-current-state">Get services with current state</h3>
+<pre><code>get-wmiobject win32_service -computername $Computername | select name, DisplayName, state, status
+</code></pre>
+<h3 id="get-a-list-of-connected-usb-devices">Get a list of connected USB devices</h3>
+<pre><code>gwmi Win32_USBControllerDevice
+</code></pre>
+<h3 id="get-a-list-of-some-installed-products">Get a list of some installed products</h3>
+<pre><code>Get-WmiObject -Class Win32_Product | Select-Object -Property Name
+</code></pre>
+<p>This command lists <em>some</em> installed products. Tbh I don&rsquo;t have a clear idea of what&rsquo;s included and what&rsquo;s not. On my PC, it shows this:</p>
+<p>A slight remix is:</p>
+<pre><code>get-wmiobject -class &quot;Win32_Product&quot; -namespace &quot;root\CIMV2&quot; -computername &quot;.&quot; | select Name, Vendor, Version | sort-object name | ft -a
+</code></pre>
+<h3 id="get-a-list-of-shares">Get a list of shares</h3>
+<pre><code>Get-WmiObject Win32_Share -ComputerName $Computername | Select Name, Path, Type | FT
+</code></pre>
+<h3 id="get-the-size-of-a-database">Get the size of a database</h3>
+<p>tbc - need to check this</p>
+<pre><code>Invoke-Sqlcmd -ConnectionTimeout 1 -Query &quot;SELECT sum(size*8/1024) SizeInMb from sysfiles&quot; -ServerInstance $I -database $D
+</code></pre>
+<h3 id="start-up-a-sql-server-agent">Start up a sql server agent</h3>
+<pre><code>$(get-service -ComputerName $ComputerName SQLSERVERAGENT).start()
+</code></pre>
+<h3 id="get-whats-running-now-on-a-sql-instance">Get whats running now on a sql instance</h3>
+<pre><code>sql $ServerInstance &quot;select er.session_id,
+er.database_id,
+er.command,
+er.blocking_session_id,
+er.wait_type,
+er.wait_resource,
+st.text
+from sys.dm_exec_requests er
+outer apply sys.dm_exec_sql_text (er.sql_handle) st
+where st.text is not null&quot;
+</code></pre>
+<p>..where &lsquo;sql&rsquo; is an alias for a wrapper to invoke-sqlcmd</p>
+<h3 id="get-waiting-processes">Get waiting processes</h3>
+<pre><code>sql $ServerInstance &quot;select wt.*,
+st.text
+from sys.dm_os_waiting_tasks wt
+left join sys.dm_exec_requests er
+on wt.waiting_task_address = er.task_address
+outer apply sys.dm_exec_sql_text (er.sql_handle) st
+where st.text is not null
+order by wt.session_id &quot;
+</code></pre>
+<h3 id="get-sql-sessions">Get sql sessions</h3>
+<pre><code>sql $ServerInstance &quot;select session_id, start_time, status, command, database_id d, user_id u, blocking_session_id b, wait_type, wait_time, last_wait_type, wait_resource, percent_complete, estimated_completion_time, cpu_time, total_elapsed_time, reads, writes, logical_reads, transaction_isolation_level,query_hash, query_plan_hash from sys.dm_exec_requests&quot; | ft -a
+</code></pre>
+<h3 id="get-sql-sessions---2">Get sql sessions - 2</h3>
+<pre><code>sql $ServerInstance &quot;select session_id, start_time, wait_resource wres, percent_complete '%', estimated_completion_time c, cpu_time cpu, total_elapsed_time ela, reads rd, writes wr, logical_reads lrd, transaction_isolation_level til from sys.dm_exec_requests&quot; | ft -a
+</code></pre>
+<h3 id="get-accumulated-waits">Get accumulated waits</h3>
+<pre><code>sql $ServerInstance &quot;select * from sys.dm_os_wait_stats where waiting_tasks_count &gt; 0&quot; | ft -a
+</code></pre>
+<h3 id="get-missing-indexes">Get missing indexes</h3>
+<pre><code>sql $ServerInstance &quot;select statement, equality_columns, included_columns from sys.dm_db_missing_index_details where statement like '%whatever%'&quot;
+</code></pre>
+<h3 id="get-missing-indexes-and-stats">Get missing indexes and stats</h3>
+<pre><code>select ddmigs.user_seeks, user_scans, unique_compiles, coalesce(last_user_seek,last_user_scan), avg_total_user_cost,avg_user_impact,
+       ddmid.index_handle, DB_NAME(database_id), statement,  equality_columns, inequality_columns, included_columns, OBJECT_NAME(object_id)
+from sys.dm_db_missing_index_details ddmid,
+     sys.dm_db_missing_index_groups ddmig,
+     sys.dm_db_missing_index_group_stats ddmigs
+where ddmig.index_group_handle = ddmigs.group_handle
+and ddmid.index_handle = ddmig.index_handle
+-- order by ddmigs.last_user_seek desc
+order by avg_user_impact + avg_system_impact desc
+</code></pre>
+<h3 id="get-waits">Get waits</h3>
+<pre><code>sql $ServerInstance &quot;select * from sys.dm_os_waiting_tasks&quot; | select session_id,wait_duration_ms,wait_type,blocking_session_id, resource_description | ft -a
+</code></pre>
+<h2 id="processes">Processes</h2>
+<h3 id="show-sql-sessions-using-sp_whoisactive">Show sql sessions using sp_whoisactive</h3>
+<p>sp_whoisactive is a widely-used stored proc downloadable <a href="http://sqlblog.com/files/default.aspx">here</a>. I install it into every master database.</p>
+<pre><code>sql $ComputerName &quot;EXEC sp_WhoIsActive @show_sleeping_spids = 2&quot; | select session_id, login_name, wait_info,CPU,blocking_session_id,reads,percent_complete,host_name,database_name,start_time,login_time
+</code></pre>
+<h3 id="show-sql-sessions-using-sp_whoisactive-wwith-blocking-session">Show sql sessions using sp_whoisactive wwith blocking session</h3>
+<pre><code>sql $ServerInstance &quot;EXEC sp_WhoIsActive @find_block_leaders = 1, @show_sleeping_spids = 2&quot; | select session_id, login_name, wait_info, blocking_session_id, host_name,  program_name, database_name | ft -AutoSize
+</code></pre>
+<h3 id="start-specified-service">Start specified service</h3>
+<p>???tbc
+I haven&rsquo;t used this for some time - I need to try it out</p>
+<pre><code>set-service winrm -status Running -passthru -computername Server02
+</code></pre>
+<h3 id="pause-specified-services">Pause specified services</h3>
+<p>???tbc
+I haven&rsquo;t used this for some time - I need to try it out</p>
+<pre><code>get-service schedule -computername S1, S2 | set-service -status paused
+</code></pre>
+<h3 id="get-a-list-of-where-connections-to-sql-servers-are-coming-from">Get a list of where connections to sql servers are coming from</h3>
+<pre><code>foreach ($i in $(smi)) { $ServerInstance = $i.instance_name ; &quot;&quot;; &quot;&quot;; &quot; ***** Sql host: $ServerInstance *****&quot; ; sql $ServerInstance &quot;select distinct hostname from sysprocesses&quot;}
+</code></pre>
+<p>&lsquo;smi&rsquo; here is an alias which returns a list of sql instances which I look after</p>
+<h3 id="restart-computer">Restart computer</h3>
+<pre><code>restart-computer -computername $ComputerName -force
+</code></pre>
+<h2 id="logs">Logs</h2>
+<h3 id="get-sqlserver-errorlogs">Get sqlserver errorlogs</h3>
+<pre><code>$logs = dir sqlserver:\sql\$Computername # readerrorlog
+
+$logs.readerrorlog(1) &lt;--- where (1) means last-but-one
+$logs.readerrorlog(0) | where logdate -gt ([datetime]::ParseExact('25/02/2015 07:27:36',&quot;dd/MM/yyyy HH:mm:ss&quot;,$null)) | select processinfo, text | ft -a -wrap
+</code></pre>
+<h3 id="get-event-logs">Get event logs</h3>
+<pre><code>$end = get-date &quot;07-Dec-2012 16:00:00&quot;
+
+$start = get-date &quot;07-Dec-2012 15:00:00&quot;
+get-eventlog -computername $Computername -logname Application -after $start -before $end | select timewritten, message
+</code></pre>
+<h3 id="get-most-recent-eventlogs">Get most recent eventlogs</h3>
+<pre><code>get-eventlog -computername $Computername -logname application -newest 15
+</code></pre>
+<h3 id="get-sqlserver-errorlog">Get sqlserver errorlog</h3>
+<pre><code>-- reading errorlog - start
+declare @LogsSince datetime
+declare @TimeNow datetime
+ 
+select @LogsSince = dateadd(day, datediff(day, 0, getdate()),0) -- start of day
+select @LogsSince = dateadd(hour, -1, getdate()) -- last hour
+ 
+select @TimeNow = getdate()
+ 
+exec xp_readerrorlog 0, 1, null, null, @LogsSince, @TimeNow
+-- reading errorlog - end
+
+</code></pre>
+<h2 id="software">Software</h2>
+<h3 id="get-sql-version-and-edition">Get sql version and edition</h3>
+<p>Not quite sure how this works if you have different instances with different versions of the software one one server, tbh</p>
+<pre><code>foreach ($INSTANCE_NAME in (&quot;tom&quot;, &quot;jerry&quot;, &quot;spike&quot;)) { dir SQLSERVER:\SQL\$INSTANCE_NAME | select name, version, edition }
+</code></pre>
+<h3 id="get-database-compatability-level-and-other-details">Get database compatability level and other details</h3>
+<pre><code>dir SQLSERVER:\SQL\$ComputerName\default\Databases | select name, status, recoverymodel, CompatibilityLevel, createdate, dataspaceusage, readonly, size | ft -a
+</code></pre>
+<h3 id="get-name-of-the-sql-dll">Get name of the sql .dll</h3>
+<pre><code>foreach ($PC in (&quot;xbox04&quot;, &quot;xbox05&quot;, &quot;xbox0&quot;) ) { dir \\$PC\c$\windows\syswow64\sql*.dll | select fullname }
+
+</code></pre>
+<h3 id="get-windows-version-and-service-packs">Get windows version and service packs</h3>
+<pre><code>get-wmiobject -class win32_operatingsystem -computer $ComputerName |
+    select __Server,
+           caption,
+           Manufacturer,
+           InstallDate,
+           LastBootUpTime,
+           Version,
+           ServicePackMajorVersion,
+           ServicePackMinorVersion
+</code></pre>
+<h2 id="strings">Strings</h2>
+<h3 id="prompt-the-user-to-input-a-string">Prompt the user to input a string</h3>
+<pre><code>$small_number = read-host &quot;How much tax did Google pay in 2011? &quot;
+</code></pre>
+<h3 id="prompt-the-user-to-input-a-string-but-dont-echo-it-back">Prompt the user to input a string, but dont echo it back</h3>
+<pre><code>$small_number = read-host &quot;How much tax did Google pay in 2011? &quot; -assecurestring
+</code></pre>
+<h3 id="return-true-if-string-contains-a-pattern">Return true if string contains a pattern</h3>
+<pre><code>[Regex]::Ismatch($a, &quot;[ADB]um&quot;)
+</code></pre>
+<h3 id="concatenate-sting-with-carriage-return">Concatenate sting with carriage return</h3>
+<pre><code>$RestoreString = $RestoreString + [char]10 + &quot;move N'&quot; 
+ 
+</code></pre>
+<h3 id="split-string-into-an-array-of-words">Split string into an array of words</h3>
+<pre><code>$a = $env:path; $x=$a.Split(&quot;;&quot;) 
+</code></pre>
+<h3 id="return-position-of-one-string-within-another">Return position of one string within another</h3>
+<pre><code>$a = &quot;The famous cfc&quot;
+$a.IndexOf(&quot;cfc&quot;)
+</code></pre>
+<p>Note that the first character is character 0</p>
+<h3 id="get-length-of-string">Get length of string</h3>
+<pre><code>$a.length
+</code></pre>
+<h3 id="replace-one-string-with-another">Replace one string with another</h3>
+<pre><code>$a.replace(&quot;cfc&quot;, &quot;Chelsea FC&quot;)
+</code></pre>
+<h3 id="get-a-specified-part-of-a-string">Get a specified part of a string</h3>
+<pre><code>$a.substring(7,3)
+</code></pre>
+<h3 id="get-the-upper-cased-string">Get the upper-cased string</h3>
+<pre><code>echo $a.ToUpper()
+</code></pre>
+<h3 id="split-a-string">Split a string</h3>
+<pre><code>$X=&quot;John Terry\Ashley Cole&quot;
+$XX=$X.split(&quot;\&quot;)[0]
+</code></pre>
+<h3 id="replace-strings-in-a-file">Replace strings in a file</h3>
+<pre><code>select-string h3 c:\temp\one.txt | ft @{Expr= {$_.line -replace &quot;### &quot;,&quot;&quot; -replace &quot;&quot;,&quot;&quot; }}
+</code></pre>
+<h3 id="surround-current-line-with-backticks-and-insert-a-header-above">Surround current line with backticks and insert a header above</h3>
+<pre><code>map B O### tbc&lt;CR&gt;````&lt;Esc&gt;jo````&lt;CR&gt;&lt;Esc&gt;
+</code></pre>
+<h3 id="extract-a-server-name-from-a-list-of-instance-names">Extract a server name from a list of instance names</h3>
+<pre><code>foreach ($i in $(smi)) { $ServerInstance = $i.instance_name ; $SplitSI=$ServerInstance.split(&quot;\&quot;) ; $Server = $SplitSI[0] ; $Server}
+</code></pre>
+<h3 id="get-a-folder-list-for-the-c-drive-of-the-host-for-a-list-of-sqlserver-instances">Get a folder list for the c: drive of the host for a list of sqlserver instances</h3>
+<pre><code>
+foreach ($i in $(smi))
+{
+  $ServerInstance = $i.instance_name
+  $SplitSI=$ServerInstance.split(&quot;\&quot;)
+  $Server = $SplitSI[0]
+  dir &quot;\\$Server\c$&quot;
+}
+
+
+
+</code></pre>
+<h2 id="users-logins-security">Users, logins, security</h2>
+<h3 id="get-a-list-of-users">Get a list of users</h3>
+<pre><code>get-aduser -Filter {name -like &quot;*matty*&quot;} | select name,  samaccountname, objectclass, Enabled
+</code></pre>
+<h3 id="get-members-of-group">Get members of group</h3>
+<pre><code>get-adgroupmember sql_dba
+</code></pre>
+<h3 id="show-groups-of-which-user-is-a-member">Show groups of which user is a member</h3>
+<pre><code>get-aduser jbloggs -properties memberof | select -expand memberof | sort
+</code></pre>
+<h3 id="show-user-details">Show user details</h3>
+<pre><code>get-aduser jbloggs -properties * 
+</code></pre>
+<h3 id="show-locked-users">Show locked users</h3>
+<pre><code>search-adaccount -LockedOut | select name, samaccountname
+</code></pre>
+<h3 id="tbc">tbc</h3>
+<pre><code>dir Sqlserver:\sql\$ComputerName\default\databases\db1\users\td | select -expandproperty extendedProperties
+</code></pre>
+<h3 id="tbc-1">tbc</h3>
+<pre><code>foreach ($db in dir Sqlserver:\sql\$ComputerName\default\databases\)
+{
+$D=$db.name
+write-host $D
+dir &quot;Sqlserver:\sql\$ComputerName\default\databases\$D\users&quot;
+}
+</code></pre>
+<h3 id="get-instance-logins">Get instance logins</h3>
+<pre><code> 
+dir Sqlserver:\sql\$ComputerName\qc01\logins | ft -a
+</code></pre>
+<p>or</p>
+<pre><code>dir SQLSERVER:\SQL\$Computername\default\logins | select Name, CreateDate, DefaultDatabase, IsDisabled, IsLocked, IsPasswordExpired | ft -a
+</code></pre>
+<p>or</p>
+<pre><code>dir Sqlserver:\sql\$ComputerName\default\logins | select name, logintype, isdisabled, islocked, ispasswordexpired, hasaccess
+</code></pre>
+<h4 id="get-sql-server-database-logins">Get sql server database logins</h4>
+<pre><code>dir SQLSERVER:\SQL\$Computername\prod01\databases\remedi\users
+</code></pre>
+<h4 id="get-sql-server-database-users-and-their-roles">Get sql server database users and their roles</h4>
+<pre><code>$DatabaseUsers = dir Sqlserver:\sql\$ServerName\$InstanceName\databases\$DatabaseName\Users
+foreach ($User in $DatabaseUsers) {&quot;==$User==&quot;; $User.EnumRoles()}  
+</code></pre>
+<h3 id="tbc-2">tbc</h3>
+<pre><code>$computer = [ADSI]&quot;WinNT://$ComputerName,computer&quot; ; $computer.psbase.Children | Where-Object { $_.psbase.schemaclassname -eq 'user' } | select name
+ 
+</code></pre>
+<h4 id="active-directory-stuff">Active Directory stuff</h4>
+<p>tbc - need to check this</p>
+<pre><code>import-module ActiveDirectory
+help ActiveDirectory
+get-psprovider
+dir activedirectory
+dir activedirectory:
+dir AD:
+dir AD:\company
+dir AD:\DC=company,DC=co,DC=uk
+dir AD:\DomainDnsZones
+
+</code></pre>
+<h3 id="get-a-list-of-subnets">Get a list of subnets</h3>
+<pre><code>System.DirectoryServices.ActiveDirectory.Forest]::GetCurrentForest().Sites | select -ExpandProperty subnets
+</code></pre>
+<h2 id="lists-arrays-etc">Lists, arrays, etc</h2>
+<pre><code>$HardCodedList = &quot;ANONYMOUS LOGON&quot;,&quot;SYSTEM&quot;,&quot;LOCAL SERVICE&quot;,&quot;NETWORK SERVICE&quot; 
+if ($HardcodedList -contains $Username)
+{
+    write-Debug &quot;$Username is hard-coded out&quot;
+    $UsernameIsOnTheExclusionList = $True
+}
+</code></pre>
+<h3 id="array">Array</h3>
+<p>arrays</p>
+<pre><code>$UserNameArray = @()
+$UserNameArray += $Username
+</code></pre>
+<h3 id="convert-array-into-object">Convert array into object</h3>
+<pre><code>$UserNameObject = foreach ($Username in $UserNameArray) { [pscustomobject]@{Username = $Username} }
+</code></pre>
+<p>&laquo;&laquo;&laquo;&lt; HEAD</p>
+<h2 id="pester">Pester</h2>
+<h3 id="not-actually-pester-but-handy">Not actually Pester, but handy</h3>
+<pre><code>mock Get-ADComputer {                                                                                #Pester
+                                                                                                     #Pester
+    $Csv=@&quot;                                                                                          #Pester
+        &quot;Name&quot;,&quot;IPv4Address&quot;,&quot;LastLogonDate&quot;,&quot;OperatingSystem&quot;                                       #Pester
+        &quot;Glooper.cfc.co.uk&quot;,&quot;Glooper&quot;,,&quot;12/12/2016 14:02:57&quot;,&quot;Windows 7 Professional&quot;                #Pester
+        &quot;Drooper.cfc.co.uk&quot;,&quot;Drooper&quot;,&quot;10.11.201.194&quot;,&quot;31/01/2017 07:50:31&quot;,&quot;Windows 7 Professional&quot; #Pester
+&quot;@                                                                                                   #Pester
+    $Csv | convertFrom-csv                                                                           #Pester
+} -Module RestartPCs                                                                                 #Pester
+
+
+
+
+
+
+
+
+</code></pre>
+<h3 id="standard-ish-stuff">Standard-ish stuff</h3>
+<pre><code>$here = Split-Path -Parent $MyInvocation.MyCommand.Path                                            #Pester
+$module = [System.IO.Path]::GetFileNameWithoutExtension( $MyInvocation.MyCommand.Path)             #Pester
+$module = $module.replace('.Tests','')                                                             #Pester
+$PesterData = &quot;$here\PesterData&quot;                                                                   #Pester
+
+remove-module $module                                                                              #Pester
+import-module $module                                                                              #Pester
+
+function todo {                                                                                    #Pester
+    param ([string]$TodoText)                                                                      #Pester
+    write-host -foregroundcolor DarkYellow &quot; [o] Todo: $TodoText&quot;                                  #Pester
+}                                                                                                  #Pester
+
+
+Describe &quot;the pester test&quot; {                                                                                                            #Pester
+    It &quot;has no 'if..=' clauses&quot; {                                                                                                            #Pester
+        $(select-string -pattern &quot;if.*=&quot; diagnostics\*\*.Tests.ps1 | measure-object).count | Should Be 2 #Pester
+    }                                                                                              #Pester
+}                                                                                                  #Pester
+
+mock Get-ADComputer { return &quot;Gloopy&quot; }  -Module RestartPCs                                       #Pester
+
+
+
+</code></pre>
+<h3 id="actually-pester">Actually Pester</h3>
+<pre><code>$($PCDetails | where ComputerName -eq 'Ordinator' | measure-object).count | Should Be 1            #Pester
+
+{[datetime]$RetrievedDate = [datetime]::ParseExact($LastFound,'dd/%M/yyyy H:%m:%s',$null)} | Should Not Throw   #Pester
+$RetrievedDate | Should BeLessThan $(get-date)                                                     #Pester
+
+{get-aduser $username} | should not throw                                                          #Pester
+
+$Contacts | should not be $PreviousContacts                                                        #Pester
+$(compare-object $UniqueSortedPCNames $SortedPCNames | measure-object).count | should be 0         #Pester
+It &quot;Contains 700 to 900 records&quot; {                                                                 #Pester
+    $($PCDetails | measure-object).count | Should BeLessThan 900                                   #Pester
+    $($PCDetails | measure-object).count | Should BeGreaterThan 700                                #Pester
+}                                                                                                  #Pester
+
+
+</code></pre>
+<h2 id="to-sort">To sort</h2>
+<h3 id="new-powershell-object-old">New Powershell Object (old)</h3>
+<pre><code>new-object PSObject -Property @{ Command = $Command;Output = $Output; Comment = $Comment}
+</code></pre>
+<h3 id="new-powershell-object-new">New Powershell Object (new)</h3>
+<pre><code>[PSCustomObject]@{ ComputerName = $ComputerName; Status = $ComputerStatus }
+</code></pre>
+<h3 id="import-a-csv-file">import a csv file</h3>
+<pre><code>$CSVObject = import-csv -LiteralPath $CsvFile -Header ReadyDate, MandatoryDate -ErrorAction Stop
+</code></pre>
+<h4 id="look-for-files-which-dont-match-the-format-1st-whatever">Look for files which dont match the format &lsquo;1st-whatever&rsquo;</h4>
+<pre><code>dir  | 
+    ? name -notlike &quot;[0-9][snrt][dht]-*&quot; | 
+    ? name -notlike &quot;[123][0-9][snrt][dht]-*&quot;
+</code></pre>
+<h4 id="diff-between-two-files">Diff between two files</h4>
+<pre><code>Compare-Object -ReferenceObject (Get-Content file1) -DifferenceObject (Get-Content file2)
+</code></pre>
+<h4 id="get-data-from-csv-into-powershell">Get data from .csv into powershell</h4>
+<pre><code>$CSVObject = import-csv -LiteralPath $BootDateFile -Header RebootReadyDate, RebootMandatoryDate
+</code></pre>
+<h4 id="convert-string-to-date">Convert string to date</h4>
+<p>The context here is getting the last boot up time from WMI</p>
+<pre><code>$WmiObject = get-wmiobject -class win32_operatingsystem -computer $ComputerName 
+$LastBootupString = $WmiObject.LastBootupTime
+$LastBootupDateTime = [System.Management.ManagementDateTimeConverter]::ToDateTime($LastBootUpString)
+</code></pre>
+<h4 id="start-the-git-shell">Start the git-shell</h4>
+<p>There are probably much better ways of doing this</p>
+<pre><code>C:\Users\matt\AppData\Local\GitHub\GitHub.appref-ms --open-shell
+</code></pre>
+<h4 id="get-to-git-through-proxy">Get to git through proxy</h4>
+<pre><code>$proxy = new-object System.Net.WebProxy
+$proxy.Address = &quot;http://WhateveWhatever.whatever.co.uk:portno&quot;
+$proxy.useDefaultCredentials = $true
+</code></pre>
+<h5 id="or">Or&hellip;.</h5>
+<p>First, get the proxy from the browser. 
+i.e.firefox &raquo; options &raquo; advanced &raquo; network &raquo; settings and get the http Proxy and the Port.</p>
+<p>Then:</p>
+<pre><code>$HTTP_PROXY=&quot;&lt;http proxy from firefox&gt;:&lt;port from firefox.&quot;
+
+</code></pre>
+<p>Then set the proxy in the git config</p>
+<pre><code>git config --global http.proxy $HTTP_PROXY
+
+# can check with
+git config --get http.proxy
+</code></pre>
+<p>Then you need to set the certificate info(?). Found a note saying to do this:</p>
+<pre><code>git config --system http.sslcainfo &quot;C:\Program Files (x86)\git\bin\curl-ca-bundle.crt&quot;
+</code></pre>
+<p>&hellip;.but my curl-ca-bundle.crt wasnt there (or anywhere similar) so I did a search for it and then plugged in the one I found</p>
+<p>&hellip;. and it worked</p>
+<pre><code>C:\Users\matt\Documents\GitHub&gt; git clone https://gist.github.com/b271556bb0f771d39a65.git
+Cloning into 'b271556bb0f771d39a65'...
+remote: Counting objects: 129, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 129 (delta 0), reused 0 (delta 0), pack-reused 126
+Receiving objects: 100% (129/129), 41.53 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (40/40), done.
+Checking connectivity... done.
+
+</code></pre>
+<h4 id="show-function-code---also-shows-alias-definitions">Show function code - also shows alias definitions</h4>
+<pre><code>(Get-Command show-os).Definition
+</code></pre>
+<h4 id="very-unsorted">Very unsorted</h4>
+<pre><code>dir -attributes directory
+
+</code></pre>
+<h2 id="ides">IDEs</h2>
+<h3 id="ise">ISE</h3>
+<h4 id="snippets">Snippets</h4>
+<pre><code>cd C:\users\matt\Documents\WindowsPowerShell\Snippets
+
+
+Remove-item &quot;Pester - test-ShWebPage.snippets.ps1xml&quot; 
+New-IseSnippet -Title &quot;Pester - test-ShWebPage&quot; -Description &quot;Pester It clause for test-ShWebPage&quot; -Text @&quot;
+
+It &quot;The xx web page is available&quot; {
+
+    test-ShWebPage -WebPage &quot;xx&quot; | Should Be `$True
+
+}
+&quot;@
+
+
+
+</code></pre>
+<pre><code>$Snippy = @&quot;
+function verb-noun { 
+&lt;#
+.SYNOPSIS
+    One-line description
+.DESCRIPTION
+    Longer description
+.PARAMETER
+
+.EXAMPLE
+    Example of how to use this cmdlet
+#&gt;
+    [CmdletBinding()]
+    Param
+        (
+            [string]$Param1,
+    
+            [int]$Param2
+        )
+    write-startfunction
+
+
+
+    write-endfunction
+
+}
+&quot;@
+
+New-IseSnippet -Title &quot;Cmdlet (Simple)&quot; -Description &quot;Matt's simple function template&quot; -Text $Snippy
+</code></pre>
+<h3 id="for-loops">For loops</h3>
+<pre><code>For ($i=0; $i -le 8; $i++) 
+</code></pre>
+<h2 id="splatting">Splatting</h2>
+<pre><code>$Params = @{'From'='tinkerbell@LifeIsAButADream.co.uk';   # splatting
+            'To'='matt.penny@LifeIsAButADream.co.uk';     # splatting
+            'Subject'='LifeIsButADream';                  # splatting
+            'Body'='LifeIsButADream'                      # splatting
+            'Attachments'= &quot;c:\temp\testy_mctestface.txt&quot;,# splatting
+                           &quot;c:\temp\monkeys.txt&quot;          # splatting
+            'SmtpServer'=&quot;xx&quot;                             # splatting
+            'Encoding'=&quot;ascii&quot;                            # splatting
+            'BodyAsHtml'=$True                            # splatting
+           }                                              # splatting
+                                                          # splatting
+send-MailMessage @Params                                  # splatting
+
+
+</code></pre>
+<h2 id="veeamvbr">Veeam/VBR</h2>
+<pre><code>Add-PSSnapin veeampssnapin                                                           # veeam/vbr
+Get-command *vbr*                                                                    # veeam/vbr
+Connect-VBRServer -Server $OurVeeamServer                                            # veeam/vbr
+Get-VBRBackup -Name ${TargetServer}_full | select Name, dirpath, metafilename        # veeam/vbr
+get-vbrjob -Name *whatever*                                                          # veeam/vbr
+get-vbrjob -Name *whatever* | select -ExpandProperty ScheduleOptions                 # veeam/vbr
+                                                                                     # veeam/vbr
+Get-VBRBackupSession | ? JobName -like '*whatever*' |                                # veeam/vbr 
+                       ? endtime -gt $(get-date).adddays(-2) |                       # veeam/vbr
+                       select jobname, creationtime, endtime, iscompleted, result |  # veeam/vbr 
+                       ft -AutoSize                                                  # veeam/vbr
+
+ 
+
+
+
+
+$Backups = Get-VBRBackupSession | ? JobName -like '*whatever*' | ? endtime -gt $(get-date).adddays(-2) # veeam/vbr
+$Backups | select jobname, jobtype, creationtime, endtime                                              # veeam/vbr
+$Jobs = Get-VBRJob | ? Name -like '*whatever*'                                                         # veeam/vbr
+$Jobs | select name, targetdir,targetfile, sqlenabled, oracleenabled                                   # veeam/vbr
+Get-VBRJobObject                                                                                       # veeam/vbr
+Get-VBRJobObject -Job $Job | select name, location, approxsizestring                                   # veeam/vbr
+
+
+
+</code></pre>
+<h2 id="params">Params</h2>
+<pre><code>[CmdletBinding()]                                                             # Params
+Param( [string]$SimplePath = &quot;$CheckSystemsSimplePath&quot;,                       # Params
+       [string][ValidateSet('Chelsea',                                        # Params
+                            'Salisbury',                                      # Params
+                            'Millwall',                                       # Params
+                            'Celtic')]$System,                                # Params
+       [string]$EFile = &quot;$Folder\e_$(get-date -format `&quot;yyyyMMddHHmm`&quot;).txt&quot;) # Params
+</code></pre>
+<h2 id="am-i-in-admin-mode">Am I in admin mode?</h2>
+<pre><code>[bool](([System.Security.Principal.WindowsIdentity]::GetCurrent()).groups -match &quot;S-1-5-32-544&quot;)
+
+</code></pre>
+<h2 id="enable-remoting">Enable remoting</h2>
+<pre><code>psexec.exe \\SomePcOrServer -s powershell Enable-PSRemoting -Force
+
+</code></pre>
+<h2 id="ad-password-expiry">AD password expiry</h2>
+<pre><code>Get-ADUser -filter {name -like &quot;*matt*&quot;} -properties * | Select Name, PasswordLastSet,
+              @{Name=&quot;PasswordExpiryDate&quot;;Expression={[datetime]::FromFileTime($_.&quot;msDS-UserPasswordExpiryTimeComputed&quot;)}},
+              LockedOut, AccountExpires
+
+</code></pre>
+<h2 id="add-member">Add-member</h2>
+<pre><code> $R | add-member -Name SourcePath -Value $SourcePath -MemberType NoteProperty
+</code></pre>
+<h2 id="invoke-webrequest">invoke-webrequest</h2>
+<pre><code>Invoke-WebRequest -Uri https://raw.githubusercontent.com/mattypenny/bin/master/.matt.ps1 -OutFile c:\bin\.gmatt.ps1
+</code></pre>
+
+  </main>
+
+          <footer role="contentinfo">
+  <div>
+    <label for="themer">
+      dark theme: <input type="checkbox" id="themer" class="vh">
+      <span aria-hidden="true"></span>
+    </label>
+  </div>
+  
+    Made with <a href="https://gohugo.io/">Hugo</a>. Themed by <a href="https://github.com/zwbetz-gh/cupper-hugo-theme">Cupper</a>.
+  
+</footer>
+
+        </div>
+      </div>
+    </div>
+    <script src="https://mattypenny.github.io/js/prism.js"></script>
+<script src="https://mattypenny.github.io/js/dom-scripts.js"></script>
+
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css" integrity="sha384-dbVIfZGuN1Yq7/1Ocstc1lUEm+AT+/rCkibIcC/OmWo5f0EA48Vf8CytHzGrSwbQ" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js" integrity="sha384-2BKqo+exmr9su6dir+qCw08N2ZKRucY4PrGQPPWU1A7FtlCGjmEGFqXCv5nyM5Ij" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+    
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </body>
+</html>

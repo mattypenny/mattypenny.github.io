@@ -1,800 +1,893 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mattypenny.github.io/blog/</loc>
-    <lastmod>2020-02-02T14:11:42+00:00</lastmod>
+    <loc>https://mattypenny.github.io/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/blog/how-to-do-conditional-formatting-in-css/</loc>
+    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/blog/hugoerrorcantevaluatefielddateintypepagepages/</loc>
+    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mattypenny.github.io/blog/hugo-error-error-building-site-failed-to-unmarshal-yaml-yaml-did-not-find-expected-key/</loc>
-    <lastmod>2020-02-02T14:11:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/links/</loc>
-    <lastmod>2020-01-23T22:42:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/about/</loc>
-    <lastmod>2020-01-23T22:42:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/blog/script-to-setup-markdown-pages-for-all-the-sketchnotes/</loc>
-    <lastmod>2020-01-31T18:20:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/linux/</loc>
-    <lastmod>2020-01-23T22:42:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/other/</loc>
-    <lastmod>2020-01-23T22:42:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/</loc>
-    <lastmod>2020-02-02T14:11:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/</loc>
-    <lastmod>2020-02-02T18:12:40+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/24hours/</loc>
-    <lastmod>2020-02-02T18:12:40+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/about-sketchnoting/</loc>
-    <lastmod>2020-02-02T18:12:40+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/adams-ryan-always-on/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/agarwal-sunil-clustered-columnstore-index/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/bailey-james-msrc-packer-powershell-and-terraform/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/banerjee-amit-and-agarwal-sourabh-sql-azure/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/barthel-esther-azure-automation/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/bergmeister-christoph-psscriptanalyzer/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/berry-glenn-dr-dmv-part-3/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/berry-glenn-dr-dmv-pt-1/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/berry-glenn-dr-dmv-pt-2/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/bertrand-aaron-50-things-developers-should-know-higher-res/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/boulton-nigel-multi-threading-in-powershell/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/bourgon-michael-tracking-changes-real-time-in-your-environment/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/brasser-jaap-chatops/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/brasser-jaap-powershell-a-one-trick-unicorn/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/brezis-noam-sql-the-bug-talk/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/cain-robert-ball-bradley-and-strate-jason-powershell-and-sql/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/chapman-tim-troubleshooting-like-an-ms-engineer/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/dave-pinal-7-tips/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/davis-robert-l-licensing-sql-on-vms/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/davis-tony-uncovering-sqlserver-query-problems-with-executio/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/ehrenmueller-jensen-markus-simple-rules-for-clear-visualizations/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/emad-hash-tables/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/emmett-ben-stop-your-application-killing-database-performanc/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/fernandez-argenis-securing-sql/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/fritchey-grant-3-ways-to-identify-long-running-queries/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/fritchey-grant-a-partly-cloudy-future/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/fritchey-grant-ag-monitoring0002/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/gardner-chris-module-design/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/glantser-guy-from-xml-to-json/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/linux/gorman-kellyn-linux-shell-scripting/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/gossa-mark-you-can-do-anything-with-powershell-but-should-you/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/hicks-jeff-powershell-v5/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/hicks-jeff-the-ise/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/higgins-michael-kemp/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/hirt-allan-availability-groups-and-failover-instances/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/hirt-allan-the-sql-availability-story-on-linux/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/other/hofman-katja-ai-and-the-world-of-minecraft/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/inge-larsen-tom-markdown-platyps-mkdocs/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/jares-jakub-legacy-scrips-and-pester/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/jelen-bill-mr-excels-favorite-tips-and-tricks/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-a-practical-approach-to-version-control-for-sql-/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-galbraith-simon-and-smith-alexander-let-your-/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/kamman-andre-deploy-and-manage-ola-hallengrens-scripts-with-powershell/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/kehayias-jonathan-and-stellato-erin-extended-events/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/kellenberger-kathi-sqlserver-data-compression/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/klee-david-sql-virtualization-499/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/knight-brian-tuning-ssis/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/koesmarno-julie-powerview/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/kogan-dan-data-warehousing-with-sql-and-hadoop/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/kokkinos-constantine-and-lemaire-chrissy-powershell-loves-sqlserver/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/komo-darnadi-sql-2014-hybrid-cloud/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-chef-habitat-and-powershell/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-chocolatey-and-powershell/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-recap-of-powershell-and-devops-summit/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-vs-code-and-powershell/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/leach-brandon-log-shipping/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/other/learning-tree-technical-writing-introduction00201/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/leech-guy-trouble-shooting-windows-with-powershell/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/lehrer-christian-powershell-remoting/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/lemaire-chrissy-sql-migrations-with-posh/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/little-kendra-why-did-my-clever-index-change-backfire/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/lopez-pedro-sql-2014-changes-to-query-plans/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/martin-john-get-sql-server-right-first-time/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/martin-john-sql-server-setup-first-time/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/martin-mike-azure-and-dsc/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/mauri-davide-agile-data-warehouse/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/may-jimmy-columnstore-indexes-2014/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-ansible/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-devops/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-going-further-with-github/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-google-cloud-powershell-101/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/messina-chris-augmenting-conversations/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-allan-realtime-analytics/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-brian-polybase/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/moyle-jim-posh-gui/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/murawski-steven-desired-state-configuration/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/murawski-steven-dsc/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/nocentino-anthony-linux-fundamentals-for-the-sql-admin/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/ozar-brent-how-to-think-like-the-sql-server-engine/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/ozar-brent-who-needs-a-dba/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/ozar-brent-and-darling-erik-last-seasons-performance-tuning-techniques/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/penny-matt-about-sketchnoting-distraction/</loc>
-    <lastmod>2020-02-02T18:12:40+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/plesner-jacobsen-martin-and-shelemin-alexander-veeam-and-sql-deep-dive/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/other/plevsner-martin-and-shelemin-alexander-veeam-and-sql-always-on/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/porteous-craig-powerbi-and-powershell/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/porteous-craig-and-broadwith-paul-powershell-standards-agency/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/potvin-kellyn-devops-and-the-agile-dba/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/potvin-gorman-kellyn-devops-and-the-agile-dba/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/powershell-and-rundeck/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/prajdic-mladen-optimizing-database-access-and-diving-into-dot-net/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/presley-chris-weiss-richard-and-chaves-warner-running-sql-server-on-linux/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/other/procida-daniele-what-nobody-tells-you-about-documentation/</loc>
-    <lastmod>2020-01-11T17:05:38+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/purnell-craig-the-professional-networking-toolbox/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/ricken-uwe-analyzing-sqlserver-wait-stats/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/robinson-jay-a-guided-tour-of-the-sqlclient-namespace/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/russo-marco-create-a-powerbi-solution-in-one-day/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/sanderson-rectangle/</loc>
-    <lastmod>2020-02-02T18:12:40+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/scruggs-richard-getting-started-with-sql-server-compliance-auditing/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/sewell-rob-making-powershell-useful-for-your-team/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/sewell-rob-powerbi0003/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/shaw-chris-and-morehouse-john-sql-2014-migration/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/shaw-gail-statistics-heuristics-and-raw-estimations/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/siddaway-richard-2018-keynote/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/sirosh-joseph-augmented-decisions/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/sketchnote_visual_vocabulary/</loc>
-    <lastmod>2020-02-02T18:12:40+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/skinner-simon-sql-and-system-center/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1-pt-2/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-2/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/stirrup-jen-bi-toolkit/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/stirrup-jen-data-democratization/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/stuewe-mickey-the-silent-killers-lurking-in-your-schema0013/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/stuewe-mickey-tsql-habits/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/thomas-russ-stress/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/tripp-kimberly-execution-and-plan-cache/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/turkeslan-selzin-migration-to-sql-azure/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/tuson-toni-anne-maclellan-stuart-stirrup-jen-implementing-hybrid-acrchitectures/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/vanover-rick-advanced-vm-backup-and-recovery-veeam/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/other/vanover-rick-veeam-and-sql-backup-and-recovery/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/vargas-luis-always-on/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/verloy-filip-automate-the-boring-out-of-backup-rubrik/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/other/verloy-filip-rubrik/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/watson-hamish-overcoming-fearops-by-adopting-devops/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/webb-joe-hiring-the-right-people/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/weston-richard-how-not-to-use-plaster/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/white-allen-baselining-sql-with-powershell/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/why-powershell-pc/</loc>
-    <lastmod>2020-01-23T23:19:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/wild-martin-sqlserver-on-linux-dont-be-afraid/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/williams-dave-and-saxby-antony-sql-2016/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/winterboer-lynn-writing-agile-user-stories-and-slicing-epics-for-dw-bi-teams/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/woodward-jl-keynote0003/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/wragg-mark-cross-platform-development/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/yungman-matan-mongodb-for-the-sql-professional/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/zacharias-melody-distributed-replay/</loc>
-    <lastmod>2020-01-27T17:44:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management-dos-and-donts/</loc>
-    <lastmod>2020-01-20T06:50:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/blog/yet-another-getting-started-with-hugo-post/</loc>
-    <lastmod>2020-01-31T18:20:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/blog/hello-world-5/</loc>
-    <lastmod>2020-01-31T18:20:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/</loc>
-    <lastmod>2020-02-02T14:11:42+00:00</lastmod>
+    <lastmod>2020-01-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mattypenny.github.io/blog/warn-found-no-layout-file-for-html-for-page/</loc>
-    <lastmod>2020-01-31T18:20:07+00:00</lastmod>
+    <lastmod>2020-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/links/</loc>
+    <lastmod>2020-01-23T20:19:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/about/</loc>
+    <lastmod>2020-01-22T19:50:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/blog/script-to-setup-markdown-pages-for-all-the-sketchnotes/</loc>
+    <lastmod>2020-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/blog/</loc>
+    <lastmod>2020-01-08T17:32:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/linux/</loc>
+    <lastmod>2020-01-08T17:32:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/other/</loc>
+    <lastmod>2020-01-08T17:32:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/</loc>
+    <lastmod>2020-01-08T17:32:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/quickreference/</loc>
+    <lastmod>2020-01-08T17:32:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/</loc>
+    <lastmod>2020-01-08T17:32:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/</loc>
+    <lastmod>2020-01-08T17:32:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/24hours/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/about-sketchnoting/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/adams-ryan-always-on/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/agarwal-sunil-clustered-columnstore-index/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/bailey-james-msrc-packer-powershell-and-terraform/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/banerjee-amit-and-agarwal-sourabh-sql-azure/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/barthel-esther-azure-automation/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/bergmeister-christoph-psscriptanalyzer/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/berry-glenn-dr-dmv-part-3/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/berry-glenn-dr-dmv-pt-1/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/berry-glenn-dr-dmv-pt-2/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/bertrand-aaron-50-things-developers-should-know-higher-res/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/boulton-nigel-multi-threading-in-powershell/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/bourgon-michael-tracking-changes-real-time-in-your-environment/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/brasser-jaap-chatops/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/brasser-jaap-powershell-a-one-trick-unicorn/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/brezis-noam-sql-the-bug-talk/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/cain-robert-ball-bradley-and-strate-jason-powershell-and-sql/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/chapman-tim-troubleshooting-like-an-ms-engineer/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/dave-pinal-7-tips/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/davis-robert-l-licensing-sql-on-vms/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/davis-tony-uncovering-sqlserver-query-problems-with-executio/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/ehrenmueller-jensen-markus-simple-rules-for-clear-visualizations/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/emad-hash-tables/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/emmett-ben-stop-your-application-killing-database-performanc/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/fernandez-argenis-securing-sql/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/fritchey-grant-3-ways-to-identify-long-running-queries/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/fritchey-grant-a-partly-cloudy-future/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/fritchey-grant-ag-monitoring0002/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/gardner-chris-module-design/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/glantser-guy-from-xml-to-json/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/linux/gorman-kellyn-linux-shell-scripting/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/gossa-mark-you-can-do-anything-with-powershell-but-should-you/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/hicks-jeff-powershell-v5/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/hicks-jeff-the-ise/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/higgins-michael-kemp/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/hirt-allan-availability-groups-and-failover-instances/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/hirt-allan-the-sql-availability-story-on-linux/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/other/hofman-katja-ai-and-the-world-of-minecraft/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/inge-larsen-tom-markdown-platyps-mkdocs/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/jares-jakub-legacy-scrips-and-pester/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/jelen-bill-mr-excels-favorite-tips-and-tricks/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-a-practical-approach-to-version-control-for-sql-/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-galbraith-simon-and-smith-alexander-let-your-/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/kamman-andre-deploy-and-manage-ola-hallengrens-scripts-with-powershell/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/kehayias-jonathan-and-stellato-erin-extended-events/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/kellenberger-kathi-sqlserver-data-compression/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/klee-david-sql-virtualization-499/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/knight-brian-tuning-ssis/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/koesmarno-julie-powerview/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/kogan-dan-data-warehousing-with-sql-and-hadoop/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/kokkinos-constantine-and-lemaire-chrissy-powershell-loves-sqlserver/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/komo-darnadi-sql-2014-hybrid-cloud/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-chef-habitat-and-powershell/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-chocolatey-and-powershell/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-recap-of-powershell-and-devops-summit/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/krebs-daniel-vs-code-and-powershell/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/leach-brandon-log-shipping/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/other/learning-tree-technical-writing-introduction00201/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/leech-guy-trouble-shooting-windows-with-powershell/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/lehrer-christian-powershell-remoting/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/lemaire-chrissy-sql-migrations-with-posh/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/little-kendra-why-did-my-clever-index-change-backfire/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/lopez-pedro-sql-2014-changes-to-query-plans/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/martin-john-get-sql-server-right-first-time/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/martin-john-sql-server-setup-first-time/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/martin-mike-azure-and-dsc/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/mauri-davide-agile-data-warehouse/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/may-jimmy-columnstore-indexes-2014/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-ansible/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-devops/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-going-further-with-github/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/medd-jonathan-google-cloud-powershell-101/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/messina-chris-augmenting-conversations/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-allan-realtime-analytics/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-brian-polybase/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/moyle-jim-posh-gui/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/murawski-steven-desired-state-configuration/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/murawski-steven-dsc/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/nocentino-anthony-linux-fundamentals-for-the-sql-admin/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/ozar-brent-how-to-think-like-the-sql-server-engine/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/ozar-brent-who-needs-a-dba/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/ozar-brent-and-darling-erik-last-seasons-performance-tuning-techniques/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/penny-matt-about-sketchnoting-distraction/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/plesner-jacobsen-martin-and-shelemin-alexander-veeam-and-sql-deep-dive/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/other/plevsner-martin-and-shelemin-alexander-veeam-and-sql-always-on/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/porteous-craig-powerbi-and-powershell/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/porteous-craig-and-broadwith-paul-powershell-standards-agency/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/potvin-kellyn-devops-and-the-agile-dba/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/potvin-gorman-kellyn-devops-and-the-agile-dba/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/powershell-and-rundeck/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/prajdic-mladen-optimizing-database-access-and-diving-into-dot-net/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/presley-chris-weiss-richard-and-chaves-warner-running-sql-server-on-linux/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/other/procida-daniele-what-nobody-tells-you-about-documentation/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/purnell-craig-the-professional-networking-toolbox/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/ricken-uwe-analyzing-sqlserver-wait-stats/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/robinson-jay-a-guided-tour-of-the-sqlclient-namespace/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/russo-marco-create-a-powerbi-solution-in-one-day/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/sanderson-rectangle/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/scruggs-richard-getting-started-with-sql-server-compliance-auditing/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/sewell-rob-making-powershell-useful-for-your-team/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/sewell-rob-powerbi0003/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/shaw-chris-and-morehouse-john-sql-2014-migration/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/shaw-gail-statistics-heuristics-and-raw-estimations/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/siddaway-richard-2018-keynote/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/sirosh-joseph-augmented-decisions/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/sketchnote_visual_vocabulary/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/skinner-simon-sql-and-system-center/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1-pt-2/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-2/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/stirrup-jen-bi-toolkit/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/stirrup-jen-data-democratization/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/stuewe-mickey-the-silent-killers-lurking-in-your-schema0013/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/stuewe-mickey-tsql-habits/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/thomas-russ-stress/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/tripp-kimberly-execution-and-plan-cache/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/turkeslan-selzin-migration-to-sql-azure/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/tuson-toni-anne-maclellan-stuart-stirrup-jen-implementing-hybrid-acrchitectures/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/vanover-rick-advanced-vm-backup-and-recovery-veeam/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/other/vanover-rick-veeam-and-sql-backup-and-recovery/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/vargas-luis-always-on/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/verloy-filip-automate-the-boring-out-of-backup-rubrik/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/other/verloy-filip-rubrik/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/watson-hamish-overcoming-fearops-by-adopting-devops/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/webb-joe-hiring-the-right-people/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/weston-richard-how-not-to-use-plaster/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/white-allen-baselining-sql-with-powershell/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/why-powershell-pc/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/wild-martin-sqlserver-on-linux-dont-be-afraid/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/williams-dave-and-saxby-antony-sql-2016/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/winterboer-lynn-writing-agile-user-stories-and-slicing-epics-for-dw-bi-teams/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/woodward-jl-keynote0003/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/wragg-mark-cross-platform-development/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/yungman-matan-mongodb-for-the-sql-professional/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/zacharias-melody-distributed-replay/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management-dos-and-donts/</loc>
+    <lastmod>2020-01-06T15:11:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/blog/yet-another-getting-started-with-hugo-post/</loc>
+    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/blog/hello-world-5/</loc>
+    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2019/05/08/pester-script-parameter-passing-not-working/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2019/03/22/how-to-copy-chrome-bookmarks-from-one-computer-to-another/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2017/12/02/install-a-vim-plugin-on-windows/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2017/11/14/get-day-of-week-number-in-command/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2016/07/18/importing-windows-scheduled-tasks-into-a-powershell-object-before-5-0/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2016/06/21/pester-cannot-bind-argument-to-parameter-actual-because-it-is-an-empty-string/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2016/02/10/get-a-list-of-powershell-date-format-outputs/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2016/02/08/fix-for-cannot-convert-value-system-xml-xmlelement-to-type-system-xml-xmldocument/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2016/02/02/how-to-install-powershell-active-directory-module/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2016/01/30/using-powershells-help-system-to-stash-your-tips-and-tricks-in-about_-topics/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2016/01/26/extracting-post-details-from-wordpress-xml-dump-with-powershell/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2016/01/26/powershell-to-recursively-spool-out-code-in-markdown-format/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2016/01/25/error-740-running-dism/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2016/01/11/how-i-sketchnote/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/quickreference/applications/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/quickreference/powershell/</loc>
   </url>
   
   <url>

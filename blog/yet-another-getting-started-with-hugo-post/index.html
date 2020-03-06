@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <meta name="generator" content="Hugo 0.58.1" />
+  <meta name="generator" content="Hugo 0.64.1" />
   <link rel="canonical" href="https://mattypenny.github.io/blog/yet-another-getting-started-with-hugo-post/">
 
   
@@ -194,6 +194,19 @@
       
       
       
+      <a href="/quickreference/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">quick reference</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
       <a href="/about/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
@@ -224,15 +237,10 @@
           
   <main id="main">
     <h1>Yet Another Getting Started With Hugo Post</h1>
-    
-
-<h4 id="install-hugo">Install hugo</h4>
-
+    <h4 id="install-hugo">Install hugo</h4>
 <pre><code class="language-Powershell">PS C:\matt&gt; choco install hugo -confirm
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>
 Chocolatey v0.10.15
 [Pending] Removing incomplete install for 'hugo'
@@ -269,19 +277,13 @@ Chocolatey installed 1/1 packages.
  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
 
 </code></pre>
-
 <p>End of output</p>
-
 <h4 id="check-hugo-install">Check hugo install</h4>
-
 <p>This didn&rsquo;t work&hellip;.</p>
-
 <pre><code>
 PS C:\matt&gt; hugo --version
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>hugo : Error: unknown flag: --version
 At line:1 char:1
 + hugo --version
@@ -297,25 +299,17 @@ Available Commands:
   convert     Convert your content to different formats
 
 </code></pre>
-
 <p>End of output</p>
-
 <p>&hellip;because it&rsquo;s just:</p>
-
 <pre><code>hugo version
 </code></pre>
-
 <p>Output:
-Hugo Static Site Generator v0.62.1-A1518704 windows/amd64 BuildDate: 2020-01-01T17:39:35Z
+Hugo Static Site Generator v0.62.1-A1518704 windows/amd64 BuildDate: 2020-01-01T17:39:35Z 
 End of output</p>
-
 <h4 id="create-a-site">Create a site</h4>
-
 <pre><code>PS C:\matt&gt; hugo new site mattypenny.net
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>Congratulations! Your new Hugo site is created in C:\matt\mattypenny.net.
 
 Just a few more steps and you're ready to go:
@@ -329,16 +323,11 @@ Just a few more steps and you're ready to go:
 
 Visit https://gohugo.io/ for quickstart guide and full documentation.
 </code></pre>
-
 <p>End of output</p>
-
 <h4 id="tried-to-run-git-init">Tried to run git init</h4>
-
 <pre><code>PS C:\matt\mattypenny.net&gt; git init
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
 the spelling of the name, or if a path was included, verify that the path is correct and try again.
 At line:1 char:1
@@ -347,18 +336,12 @@ At line:1 char:1
     + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
 </code></pre>
-
 <p>End of output</p>
-
 <p>&hellip;and found it wasn&rsquo;t installed.</p>
-
 <p>I did find an executable:</p>
-
 <pre><code>PS C:\matt\mattypenny.net&gt; C:\Users\matty\AppData\Local\Programs\Git\bin\git.exe init
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>Initialized empty Git repository in C:/matt/mattypenny.net/.git/
 C:\Users\matty\AppData\Local\Programs\Git\bin\git.exe : warning: 'C:\ProgramData/Git/config' has a dubious owner: 
 'matty'.
@@ -371,16 +354,11 @@ At line:1 char:1
 For security reasons, it is therefore ignored.
 To fix this, please transfer ownership to an admininstrator.
 </code></pre>
-
 <p>End of output</p>
-
 <h4 id="re-installed-git">Re-installed git</h4>
-
 <pre><code>PS C:\matt\mattypenny.net&gt; choco install git
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>Chocolatey v0.10.15
 Installing the following packages:
 git
@@ -408,23 +386,16 @@ Note: If you don't run this script, the installation will fail.
 Note: To confirm automatically next time, use '-y' or consider:
 choco feature enable -n allowGlobalConfirmation
 </code></pre>
-
 <p>End of output
 &hellip;.and it hung after all the output above</p>
-
 <p>I think that despite the stuff about chocolateyInstall.ps1, git was now installed.</p>
-
 <p>I switched to got bash for the new bit</p>
-
 <h4 id="setting-up-git">Setting up git</h4>
-
 <pre><code>$ cd /c/matt/website
 
 $ git submodule add -b master git@github.com:mattypenny/mattypenny.github.io.git public
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>
 Cloning into 'C:/matt/website/public'...
 git@github.com: Permission denied (publickey).
@@ -436,14 +407,10 @@ fatal: clone of 'git@github.com:mattypenny/mattypenny.github.io.git' into submod
 
 matty@sandie MINGW64 /c/matt/website (master)
 </code></pre>
-
 <p>End of output</p>
-
 <pre><code>$ ssh-keygen -t rsa -b 4096 -C &quot;me@gmail.com&quot;
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>Generating public/private rsa key pair.
 Enter file in which to save the key (/c/Users/matty/.ssh/id_rsa):
 Enter passphrase (empty for no passphrase):
@@ -457,80 +424,52 @@ The key's randomart image is:
 |:) snip          |
 +----[SHA256]-----+
 </code></pre>
-
 <p>End of output</p>
-
 <pre><code>$ ssh-add ~/.ssh/id_rsa
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>Could not open a connection to your authentication agent.
 </code></pre>
-
 <p>End of output</p>
-
 <pre><code>$ eval $(ssh-agent -s)
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>Agent pid 1798
 </code></pre>
-
 <p>End of output</p>
-
 <pre><code>$ ssh-add ~/.ssh/id_rsa
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>Enter passphrase for /c/Users/matty/.ssh/id_rsa:
 Identity added: /c/Users/matty/.ssh/id_rsa (me@gmail.com)
 </code></pre>
-
 <p>End of output</p>
-
 <pre><code>$ clip &lt; ~/.ssh/id_rsa.pub
 </code></pre>
-
 <pre><code>$ ssh -T git@github.com
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>Hi mattypenny! You've successfully authenticated, but GitHub does not provide shell access.
 
 </code></pre>
-
 <p>End of output</p>
-
-<h4 id="set-up-the-github-io-repo-as-the-master-for-the-hugo-public-folder">Set up the github.io repo as the master for the hugo &lsquo;public&rsquo; folder</h4>
-
+<h4 id="set-up-the-githubio-repo-as-the-master-for-the-hugo-public-folder">Set up the github.io repo as the master for the hugo &lsquo;public&rsquo; folder</h4>
 <pre><code>$ git submodule add -b master git@github.com:mattypenny/mattypenny.github.io.git public
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>Cloning into 'C:/matt/website/public'...
 Warning: Permanently added the RSA host key for IP address '140.82.118.3' to the list of known hosts.
 warning: You appear to have cloned an empty repository.
 fatal: 'origin/master' is not a commit and a branch 'master' cannot be created from it
 Unable to checkout submodule 'public'
 </code></pre>
-
 <p>End of output</p>
-
 <h4 id="push-it-to-github">Push it to github</h4>
-
 <pre><code>$ cd public
 </code></pre>
-
 <pre><code>$ git add .
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>warning: LF will be replaced by CRLF in blog/hello-world-5/index.html.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in blog/index.xml.
@@ -544,14 +483,10 @@ The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in tags/index.xml.
 The file will have its original line endings in your working directory
 </code></pre>
-
 <p>End of output</p>
-
 <pre><code>$ git commit -m 'First build'
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>[master (root-commit) f38d607] First build
  46 files changed, 2676 insertions(+)
  create mode 100644 android-chrome-192x192.png
@@ -601,14 +536,10 @@ The file will have its original line endings in your working directory
  create mode 100644 tags/index.html
  create mode 100644 tags/index.xml
 </code></pre>
-
 <p>End of output</p>
-
 <pre><code>$ git push origin master
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>Enumerating objects: 57, done.
 Counting objects: 100% (57/57), done.
 Delta compression using up to 2 threads
@@ -619,21 +550,14 @@ remote: Resolving deltas: 100% (10/10), done.
 To github.com:mattypenny/mattypenny.github.io.git
  * [new branch]      master -&gt; master
 </code></pre>
-
 <p>End of output</p>
-
 <h4 id="pushing-the-source-to-github">Pushing the source to github</h4>
-
 <p>Tried this:</p>
-
 <pre><code>git push origin master
 
 </code></pre>
-
 <p>&hellip;but it failed</p>
-
 <p>Output:</p>
-
 <pre><code>git push origin master
 fatal: 'origin' does not appear to be a git repository
 fatal: Could not read from remote repository.
@@ -641,26 +565,17 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 </code></pre>
-
 <p>End of output</p>
-
 <p>Went back to the github instructions</p>
-
 <p>???? image</p>
-
 <p>then did this:</p>
-
 <pre><code>cd /c/matt/website (master)
 git remote add origin https://github.com/mattypenny/website.git
 </code></pre>
-
 <p>Then the push worked</p>
-
 <pre><code>$ git push origin master
 </code></pre>
-
 <p>Output:</p>
-
 <pre><code>Enumerating objects: 346, done.
 Counting objects: 100% (346/346), done.
 Delta compression using up to 2 threads
@@ -672,7 +587,6 @@ To https://github.com/mattypenny/website.git
  * [new branch]      master -&gt; master
 
 </code></pre>
-
 <p>End of output</p>
 
   </main>

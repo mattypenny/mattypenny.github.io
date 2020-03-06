@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quick reference on Blog and reference</title>
+    <link>https://mattypenny.github.io/quickreference/</link>
+    <description>Recent content in quick reference on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Jan 2020 17:32:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/quickreference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>applications</title>
+      <link>https://mattypenny.github.io/quickreference/applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/quickreference/applications/</guid>
+      <description>Confluence (server) Global Shortcuts          Create Content c   Go to Dashboard g then d   Open Notifications g then n   Open Recently Viewed g then r   Browse Current Space g then s   Open Shortcut Help ?   Quick Search /   Quick Search g then g   Toggle Space Sidebar [    Page / Blog Post Actions          Add Blog b   Edit e   Comment m   Next Inline Comment n   Previous Inline Comment p   Close Inline Comment ]   Watch Page w   Share s   Edit Labels l   View Attachments t   Link to Page k    Block Formatting          Paragraph Ctrl+0   Heading 1 Ctrl+1   Heading 6 Ctrl+6   Preformatted Ctrl+7   Quote Ctrl+8   Bullet list Ctrl+Shift+B   Numbered list Ctrl+Shift+N    Rich Formatting          Files and images Ctrl+M   Link Ctrl+K   Insert markup Ctrl+Shift+D   Macro Ctrl+Shift+A   Table Ctrl+Shift+I   Cut table row Ctrl+Shift+X   Copy table row Ctrl+Shift+C   Paste table row Ctrl+Shift+V    Editing Actions          Preview Ctrl+Shift+E   Save Ctrl+S    Font Formatting          Bold text Bold   Underline text +Underline+   Italic text Italic   Monospace text {{Monospace}}    Autocomplete          Image/Media !</description>
+    </item>
+    
+    <item>
+      <title>powershell</title>
+      <link>https://mattypenny.github.io/quickreference/powershell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/quickreference/powershell/</guid>
+      <description>Powershell This ramshackle collection of Powershell commands evolved from my own quick-reference crib-sheets over the last couple of years.
+Get code Show loaded Powershell function code get-command get-pins | format-list definition Show loaded Powershell function code for aliases too $Command = get-command &amp;quot;sss&amp;quot;$commandType = $Command.CommandTypeif ( &amp;quot;$commandType&amp;quot; -eq &amp;quot;Alias&amp;quot; ) { $Command = get-command $Command.ResolvedCommandName}$Command.Definition Show sqlserver stored procedure code dir SQLSERVER:\SQL\$Computername\default\Databases\_DBA_CATALOG\StoredProcedures | select Name, DateLastModified, TextBody | format-list Modules Show module path $env:PSModulePath Show available modules get-module -ListAvailable | select Path Get file and folder information Get the size of all the files in a folder dir \\server01\t$\sql_trace | measure-object -property length -sum List contents of folder ordered by time dir c:\tax_dodgers | sort-object -property lastwritetime or, for latest first</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog and reference</title>
@@ -6,14 +6,37 @@
     <description>Recent content on Blog and reference</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 18 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mattypenny.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hugo Error   Error Building Site Failed to Unmarshal YAML Yaml Did Not Find Expected Key</title>
+      <title>how to do conditional formatting in css</title>
+      <link>https://mattypenny.github.io/blog/how-to-do-conditional-formatting-in-css/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/how-to-do-conditional-formatting-in-css/</guid>
+      <description>I used this for an html server status report that I&amp;rsquo;m generating from powershell.
+I wanted to have &amp;lsquo;Passes&amp;rsquo; show up in light green and &amp;lsquo;Failure&amp;rsquo; show up in pale pink.
+The .css to do that looks like this
+{/* width:99.0pt; */border-top:solid black 1.0pt;border-left:solid black 1.0pt;border-bottom:none black 1.0pt;border-right:none;background:rgb(201, 223, 183);height:10pt;color:black;text-align:left;padding:2px 5px;font-family: &amp;quot;Arial&amp;quot;, Helvetica, sans-serif ;text-transform:lowercase;font-size: .9em}td[data-value=&amp;quot;Failed&amp;quot;]{/* width:99.</description>
+    </item>
+    
+    <item>
+      <title>Hugo error: execute of template failed: template: _default/list.html:8:23: executing &#39;main&#39; at &lt;.Pages.Date.Reverse&gt;: can&#39;t evaluate field Date in type page.Pages</title>
+      <link>https://mattypenny.github.io/blog/hugoerrorcantevaluatefielddateintypepagepages/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/hugoerrorcantevaluatefielddateintypepagepages/</guid>
+      <description>Got this:
+Building sites - WARN 2020/02/18 18:08:30 .File.Dir on zero object. Wrap it in if or with: {{ with .File }}{{ .Dir }}{{ end }} Built in 63859 ms Error: Error building site: failed to render pages: render of &amp;quot;section&amp;quot; failed: &amp;quot;C:\matt\website\layouts\_default\list.html:8:23&amp;quot;: execute of template failed: template: _default/list.html:8:23: executing &amp;quot;main&amp;quot; at &amp;lt;.Pages.Date.Reverse&amp;gt;: can&#39;t evaluate field Date in type page.Pages  I think this was because I had the line:</description>
+    </item>
+    
+    <item>
+      <title>Hugo Error - Error Building Site Failed to Unmarshal YAML Yaml Did Not Find Expected Key</title>
       <link>https://mattypenny.github.io/blog/hugo-error-error-building-site-failed-to-unmarshal-yaml-yaml-did-not-find-expected-key/</link>
-      <pubDate>Tue, 28 Jan 2020 18:05:55 +0000</pubDate>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/blog/hugo-error-error-building-site-failed-to-unmarshal-yaml-yaml-did-not-find-expected-key/</guid>
       <description>Problem Did this:
@@ -23,22 +46,30 @@ WARN 2020/01/28 18:10:15 Module &amp;quot;cupper-hugo-theme&amp;quot; is not com
     </item>
     
     <item>
+      <title>Hugo error - WARN 2020/01/28 15:49:09 found no layout file for HTML for section: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.</title>
+      <link>https://mattypenny.github.io/blog/warn-found-no-layout-file-for-html-for-page/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/warn-found-no-layout-file-for-html-for-page/</guid>
+      <description>C:\matt\website\public &amp;gt;hugo --theme cupper serverError: module &amp;quot;cupper&amp;quot; not found; either add it as a Hugo Module or store it in &amp;quot;C:\\matt\\website\\public\\themes&amp;quot;.: module does not existC:\matt\website\public &amp;gt;cd ..C:\matt\website &amp;gt;hugo --theme cupper serverBuilding sites � WARN 2020/01/28 15:49:09 found no layout file for &amp;quot;HTML&amp;quot; for &amp;quot;page&amp;quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.WARN 2020/01/28 15:49:09 found no layout file for &amp;quot;HTML&amp;quot; for &amp;quot;section&amp;quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.</description>
+    </item>
+    
+    <item>
       <title>Links</title>
       <link>https://mattypenny.github.io/links/</link>
       <pubDate>Thu, 23 Jan 2020 20:19:24 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/links/</guid>
-      <description> salisburyandstonehenge.net
- (4) Home / Twitter
- News, sport and opinion from the Guardian&amp;rsquo;s UK edition | The Guardian
- All On-Sale Dates | Official Site | Chelsea Football Club
- Pinboard: bookmarks for mattypenny
- Spotify
- Home
- Hugo Documentation | Hugo
- Live Departure Boards - Salisbury to Andover
- Live Departure Boards - Andover to Salisbury
-  </description>
+      <description>salisburyandstonehenge.net
+  (4) Home / Twitter
+  News, sport and opinion from the Guardian&amp;rsquo;s UK edition | The Guardian
+  All On-Sale Dates | Official Site | Chelsea Football Club
+  Pinboard: bookmarks for mattypenny
+  Spotify
+  Home
+  Hugo Documentation | Hugo
+  Live Departure Boards - Salisbury to Andover
+  Live Departure Boards - Andover to Salisbury</description>
     </item>
     
     <item>
@@ -49,16 +80,16 @@ WARN 2020/01/28 18:10:15 Module &amp;quot;cupper-hugo-theme&amp;quot; is not com
       <guid>https://mattypenny.github.io/about/</guid>
       <description>This website was created by me, Matt Penny.
 It&amp;rsquo;s got, or will have, the following bits:
- blog - stuff I&amp;rsquo;ve found worth documenting in a blog format over the years
- quickreference - my crib notes for doing stuff&amp;hellip;beaten into submission and into markdown format
- sketchnotes - the notes I&amp;rsquo;ve taken at presentations etc
+  blog - stuff I&amp;rsquo;ve found worth documenting in a blog format over the years
+  quickreference - my crib notes for doing stuff&amp;hellip;beaten into submission and into markdown format
+  sketchnotes - the notes I&amp;rsquo;ve taken at presentations etc
   Be careful with any of the technical stuff here, especially the quick reference.</description>
     </item>
     
     <item>
       <title>Script to Setup Markdown Pages for All the Sketchnotes</title>
       <link>https://mattypenny.github.io/blog/script-to-setup-markdown-pages-for-all-the-sketchnotes/</link>
-      <pubDate>Sat, 11 Jan 2020 17:32:57 +0000</pubDate>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/blog/script-to-setup-markdown-pages-for-all-the-sketchnotes/</guid>
       <description>tbc</description>
@@ -1118,6 +1149,15 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
+      <title>Some old stuff</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Stirrup, Jen - BI Toolkit</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/stirrup-jen-bi-toolkit/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
@@ -1195,15 +1235,6 @@ It&amp;rsquo;s got, or will have, the following bits:
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Van Robaeys, Damien - Powershell with Rundeck</title>
-      <link>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</link>
-      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
-      
-      <guid>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</guid>
       <description></description>
     </item>
     
@@ -1294,7 +1325,7 @@ It&amp;rsquo;s got, or will have, the following bits:
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/why-powershell-pc/</guid>
-      <description>![Sketchnote of Why Powershell PC](&amp;lsquo;/images/sketchnotes/powershell/Why%20Powershell%20PC.jpg&amp;rsquo;) ![Sketchnote of Why Powershell PC](&amp;ldquo;/images/sketchnotes/powershell/Why%20Powershell%20PC.jpg&amp;rdquo;) </description>
+      <description>![Sketchnote of Why Powershell PC](/images/sketchnotes/powershell/Why\ Powershell\ PC.jpg)</description>
     </item>
     
     <item>
@@ -1367,37 +1398,206 @@ It&amp;rsquo;s got, or will have, the following bits:
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management-dos-and-donts/</guid>
       <description>Bit of text
-![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&amp;lsquo;/Colas, Gael - Configuration management.jpeg&amp;rsquo;)
-![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&amp;ldquo;/Colas, Gael - Configuration management.jpeg&amp;rdquo;)
-![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&amp;ldquo;/Colas, Gael - Configuration management.jpeg&amp;rdquo;) </description>
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](Colas, Gael - Configuration management.jpeg)
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](/&amp;lsquo;Colas, Gael - Configuration management.jpeg&amp;rsquo;)
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&#39;/Colas, Gael - Configuration management.jpeg&amp;rsquo;)
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](/&amp;ldquo;Colas, Gael - Configuration management.jpeg&amp;rdquo;)
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&amp;quot;/Colas, Gael - Configuration management.</description>
     </item>
     
     <item>
       <title>Yet Another Getting Started With Hugo Post</title>
       <link>https://mattypenny.github.io/blog/yet-another-getting-started-with-hugo-post/</link>
-      <pubDate>Sat, 04 Jan 2020 21:51:31 +0000</pubDate>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/blog/yet-another-getting-started-with-hugo-post/</guid>
-      <description>Install hugo PS C:\matt&amp;gt; choco install hugo -confirm  Output:
- Chocolatey v0.10.15 [Pending] Removing incomplete install for &#39;hugo&#39; Installing the following packages: hugo By installing you accept licenses for the packages. hugo v0.62.1 [Approved] hugo package files install completed. Performing other installation steps. Downloading hugo 64 bit from &#39;https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_0.62.1_Windows-64bit.zip&#39; Progress: 0% - Saving 84.56 KB of 12.64 MB Progress: 1% - Saving 169.56 KB of 12.64 MB Progress: 1% - Saving 254.</description>
+      <description>Install hugo PS C:\matt&amp;gt; choco install hugo -confirm Output:
+Chocolatey v0.10.15[Pending] Removing incomplete install for &#39;hugo&#39;Installing the following packages:hugoBy installing you accept licenses for the packages.hugo v0.62.1 [Approved]hugo package files install completed. Performing other installation steps.Downloading hugo 64 bitfrom &#39;https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_0.62.1_Windows-64bit.zip&#39;Progress: 0% - Saving 84.56 KB of 12.64 MBProgress: 1% - Saving 169.56 KB of 12.64 MBProgress: 1% - Saving 254.</description>
     </item>
     
     <item>
-      <title>mattypenny.net</title>
+      <title>hello world (for the fifth time)</title>
       <link>https://mattypenny.github.io/blog/hello-world-5/</link>
-      <pubDate>Thu, 02 Jan 2020 19:46:12 +0000</pubDate>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/blog/hello-world-5/</guid>
       <description>Bonjour tout-le-monde!</description>
     </item>
     
     <item>
-      <title>Hugo error - WARN 2020/01/28 15:49:09 found no layout file for HTML for section: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.</title>
-      <link>https://mattypenny.github.io/blog/warn-found-no-layout-file-for-html-for-page/</link>
+      <title>Pester script parameter passing not working</title>
+      <link>https://mattypenny.github.io/2019/05/08/pester-script-parameter-passing-not-working/</link>
+      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2019/05/08/pester-script-parameter-passing-not-working/</guid>
+      <description>Problem I was trying to parameterize a Pester script. The script looked like this:
+param ( [string]$ComputerName, [string]$IPAddress ) write-dbg &amp;quot;$ComputerName: &amp;quot; write-dbg &amp;quot;$IPAddress: &amp;quot; Describe &amp;quot;$ComputerName is visible&amp;quot; { &amp;quot;It is ping-able&amp;quot; { {test-connection $ComputerName -count 1} | Should Not Throw $(test-connection $ComputerName -count 1 | Measure-Object).count | Should Be 1 } }  &amp;hellip;but passing the parameters wasn&amp;rsquo;t working.
+
+Solution The problem was that I was calling the script as follows</description>
+    </item>
+    
+    <item>
+      <title>how to copy chrome bookmarks from one computer to another</title>
+      <link>https://mattypenny.github.io/2019/03/22/how-to-copy-chrome-bookmarks-from-one-computer-to-another/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2019/03/22/how-to-copy-chrome-bookmarks-from-one-computer-to-another/</guid>
+      <description> copy &#34;C:\Users\matty\AppData\Local\Google\Chrome\User Data\Default\Bookmarks&#34; &#34;\\sh00001\c$\Users\matty\AppData\Local\Google\Chrome\User Data\Default&#34; -verbose  </description>
+    </item>
+    
+    <item>
+      <title>Install a vim plugin on windows</title>
+      <link>https://mattypenny.github.io/2017/12/02/install-a-vim-plugin-on-windows/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2017/12/02/install-a-vim-plugin-on-windows/</guid>
+      <description>The plugin was downloaded and un-zipped to this folder:
+cd C:\Users\matty\Documents\tabular-master\tabular-master  Go to the vimfiles folder:
+&amp;lt;br /&amp;gt; cd &#39;C:\Program Files (x86)\Vim\vimfiles&#39;  Copy the files
+&amp;lt;br /&amp;gt; copy C:\Users\matty\Documents\tabular-master\tabular-master\* . -Recurse -Force  You need the -force (Luke) because some of the folders already exist
+The new files, in this instance, are as follows:
+C:\Program Files (x86)\Vim\vimfiles\after&amp;lt;br /&amp;gt; C:\Program Files (x86)\Vim\vimfiles\autoload&amp;lt;br /&amp;gt; C:\Program Files (x86)\Vim\vimfiles\doc&amp;lt;br /&amp;gt; C:\Program Files (x86)\Vim\vimfiles\plugin&amp;lt;br /&amp;gt; C:\Program Files (x86)\Vim\vimfiles\.</description>
+    </item>
+    
+    <item>
+      <title>Get day of week number in cmd (dos)</title>
+      <link>https://mattypenny.github.io/2017/11/14/get-day-of-week-number-in-command/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2017/11/14/get-day-of-week-number-in-command/</guid>
+      <description>This is a slight tweak to code at: http://www.techsupportforum.com/forums/f128/solved-windows-7-batch-getting-day-of-week-moved-from-vista-7-a-565632.html
+FOR /F &amp;quot;skip=1&amp;quot; %%A IN (&#39;WMIC Path Win32_LocalTime Get DayOfWeek&#39; ) DO ( if %%A GEQ 1 set DOW=%%A ) echo %DOW%  </description>
+    </item>
+    
+    <item>
+      <title>Importing windows scheduled tasks into a Powershell object before 5.0</title>
+      <link>https://mattypenny.github.io/2016/07/18/importing-windows-scheduled-tasks-into-a-powershell-object-before-5-0/</link>
+      <pubDate>Mon, 18 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/07/18/importing-windows-scheduled-tasks-into-a-powershell-object-before-5-0/</guid>
+      <description>You don&amp;rsquo;t need this on Powershell 5.0 and upwards because there&amp;rsquo;s a built-in cmdlet, but for previous versions:
+convertfrom-csv $(schtasks /Query /S server1 /TN &amp;quot;run somesstuff&amp;quot; /V /FO CSV) HostName : server1 TaskName : \run somesstuff Next Run Time : N/A Status : Ready Logon Mode : Interactive only Last Run Time : 13/07/2016 10:05:43 Last Result : 0 Author : matt Task To Run : C:\powershell\Modules\somesstuff-PCs\run-somesstuff.bat Start In : N/A Comment : Scheduled job which does some stuff Scheduled Task State : Idle Time : Power Management : Run As User : Delete Task If Not Rescheduled : Stop Task If Runs X Hours and X Mins : Schedule : Schedule Type : Start Time : Start Date : End Date : Days : Months : Repeat: Every : Repeat: Until: Time : Repeat: Until: Duration : Repeat: Stop If Still Running :  This is outputting from schtasks in csv format, then importing that into a PowerShell object.</description>
+    </item>
+    
+    <item>
+      <title>pester: Cannot bind argument to parameter &#39;Actual&#39; because it is an empty string.</title>
+      <link>https://mattypenny.github.io/2016/06/21/pester-cannot-bind-argument-to-parameter-actual-because-it-is-an-empty-string/</link>
+      <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/06/21/pester-cannot-bind-argument-to-parameter-actual-because-it-is-an-empty-string/</guid>
+      <description>I&amp;rsquo;m just getting started with Pester and I got this error
+ Cannot bind argument to parameter &#39;Actual&#39; because it is an empty string. at line: 18 in C:\Program Files\WindowsPowerShell\Modules\pester\3.3.5\Functions\Assertions\Be.ps1  So, when it&amp;rsquo;s working it does this:
+get-HugoNameAndValue -FrontMatterLine &amp;quot;Weighting: 103&amp;quot; DEBUG: 09:15:37.6806 Start: get-HugoNameAndValue DEBUG: - FrontMatterLine=Weighting: 103 DEBUG: - get-HugoNameAndValue.ps1: line 5 DEBUG: $PositionOfFirstColon: 9 DEBUG: $PropertyName : {Weighting} DEBUG: $PropertyValue : { 103} DEBUG: $PropertyValue : {103} PropertyName PropertyValue ------------ ------------- Weighting 103  When I ran it from Pester I got this</description>
+    </item>
+    
+    <item>
+      <title>get a list of powershell date format outputs</title>
+      <link>https://mattypenny.github.io/2016/02/10/get-a-list-of-powershell-date-format-outputs/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/02/10/get-a-list-of-powershell-date-format-outputs/</guid>
+      <description>I want to create a list of Powershell date formats and their outputs, for a quick reference doc.
+I&amp;rsquo;ve collected a list of formats from the Powershell help text and other locations and put them in a big text file which looks like this:
+get-date -Uformat %A # Day of the week - full name get-date -Uformat %u # Day of the week - number (Monday = 1) get-date -Uformat %d # Day of the month - 2 digits get-date -Uformat %e # Day of the month - digit preceded by a space ( 5) get-date -Uformat %j # Day of the year get-date -Uformat %p # AM or PM get-date -Uformat %r # Time in 12-hour format get-date -Uformat %R # Time in 24-hour format - no seconds get-date -Uformat %T # Time in 24 hour format  I&amp;rsquo;m going to order this in what I consider to be order of usefullness (to me), because I&amp;rsquo;m going to plug it into an about_dateformats help page in my Powershell-help-powered repository of notes and tips.</description>
+    </item>
+    
+    <item>
+      <title>fix for &#39;Cannot convert value &#39;System.Xml.XmlElement&#39; to  type &#39;System.Xml.XmlDocument&#39;</title>
+      <link>https://mattypenny.github.io/2016/02/08/fix-for-cannot-convert-value-system-xml-xmlelement-to-type-system-xml-xmldocument/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/02/08/fix-for-cannot-convert-value-system-xml-xmlelement-to-type-system-xml-xmldocument/</guid>
+      <description>Quick fix Change:
+Param( [xml]$WordpressPostAsXml  to
+Param( [system.xml.xmlelement]$WordpressPostAsXml  Slightly More Detail I&amp;rsquo;m in the process of coding a Powershell module to convert an xml file containing the content of my old Wordpress site to a set of Markdown files for Hugo.
+I got the error:
+get-wpHugoFileName : Cannot process argument transformation on parameter &#39;WordpressPostAsXml&#39;. Cannot convert value &amp;quot;System.Xml.XmlElement&amp;quot; to type &amp;quot;System.Xml.XmlDocument&amp;quot;. Error: &amp;quot;The specified node cannot be inserted as the valid child of this node, because the specified node is the wrong type.</description>
+    </item>
+    
+    <item>
+      <title>how to install powershell active directory module</title>
+      <link>https://mattypenny.github.io/2016/02/02/how-to-install-powershell-active-directory-module/</link>
+      <pubDate>Tue, 02 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/02/02/how-to-install-powershell-active-directory-module/</guid>
+      <description>install: en_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677791.iso
+dism /online /enable-feature /featurename:RemoteServerAdministrationTools-Roles-AD dism /online /enable-feature /featurename:RemoteServerAdministrationTools-Roles-AD-Powershell  </description>
+    </item>
+    
+    <item>
+      <title>using powershell&#39;s help system to stash your tips and tricks in &#39;about_&#39; topics</title>
+      <link>https://mattypenny.github.io/2016/01/30/using-powershells-help-system-to-stash-your-tips-and-tricks-in-about_-topics/</link>
+      <pubDate>Sat, 30 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/01/30/using-powershells-help-system-to-stash-your-tips-and-tricks-in-about_-topics/</guid>
+      <description>There are a bunch of bits of syntax which I struggle to remember.
+I&amp;rsquo;m not always online when I&amp;rsquo;m using my laptop, but I always have a Powershell window open.
+This is a possibly not-best-practice way of using Powershell&amp;rsquo;s wonderful help system to store bits of reference material.
+The problem I&amp;rsquo;m moving a Wordpress blog to Hugo, which uses Markdown, but I&amp;rsquo;m struggling to remember the Markdown syntax. It&amp;rsquo;s not difficult, but I&amp;rsquo;m getting old and I get confused with Twiki syntax.</description>
+    </item>
+    
+    <item>
+      <title>extracting post details from wordpress xml dump with powershell</title>
+      <link>https://mattypenny.github.io/2016/01/26/extracting-post-details-from-wordpress-xml-dump-with-powershell/</link>
+      <pubDate>Tue, 26 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/01/26/extracting-post-details-from-wordpress-xml-dump-with-powershell/</guid>
+      <description>Get the xml into a variable
+[xml]$xmla = get-content D:\repair_websites\salisburywiltshireandstonehenge.wordpress.2015-10-03.xml  Extract the details
+select-xml -xml $xmla -xpath &amp;quot;//channel/item&amp;quot; | select -expandproperty node | ? post_type -ne &amp;quot;attachment&amp;quot; | select title  gives the following:
+title ----- Road names beginning with &amp;amp;#039;N&amp;amp;#039; Road names beginning with &amp;amp;#039;O&amp;amp;#039; Road names beginning with &amp;amp;#039;P&amp;amp;#039; Road names beginning with &amp;amp;#039;Q&amp;amp;#039; Road names beginning with &amp;amp;#039;R&amp;amp;#039; Road names beginning with &amp;amp;#039;S&amp;amp;#039; Road names beginning with &amp;amp;#039;T&amp;amp;#039; Road names beginning with &amp;amp;#039;U&amp;amp;#039; Road names beginning with &amp;amp;#039;V&amp;amp;#039; Road names beginning with &amp;amp;#039;W&amp;amp;#039;  The properties of the expanded node are:</description>
+    </item>
+    
+    <item>
+      <title>powershell to recursively spool out code in markdown format</title>
+      <link>https://mattypenny.github.io/2016/01/26/powershell-to-recursively-spool-out-code-in-markdown-format/</link>
+      <pubDate>Tue, 26 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/01/26/powershell-to-recursively-spool-out-code-in-markdown-format/</guid>
+      <description>A one-liner to recursively gather code from sub-folders and then output it in a Markdown-style
+$Text = foreach ($file in $(dir .\themes\hyde -recurse -exclude &amp;quot;*.png&amp;quot; | ? attributes -ne &#39;Directory&#39; | select fullname)) { [string]$filename = $file.fullname write-output &amp;quot;`#`#`# $filename&amp;quot; write-output &amp;quot;````````&amp;quot; get-content $filename write-output &amp;quot;````````&amp;quot; } $Text &amp;gt; x.txt  Produces output a like this:
+ &amp;lt;h3&amp;gt;D:\hugo\sites\example.com\themes\hyde\archetypes\default.md&amp;lt;/h3&amp;gt;  +++ Description = &amp;quot;&amp;rdquo; Tags = [&amp;ldquo;Development&amp;rdquo;, &amp;ldquo;golang&amp;rdquo;] Categories = [&amp;ldquo;Development&amp;rdquo;, &amp;ldquo;GoLang&amp;rdquo;] menu = &amp;ldquo;main&amp;rdquo; +++</description>
+    </item>
+    
+    <item>
+      <title>error 740 running DISM</title>
+      <link>https://mattypenny.github.io/2016/01/25/error-740-running-dism/</link>
+      <pubDate>Mon, 25 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/01/25/error-740-running-dism/</guid>
+      <description>As the error message says, if you get Error 740
+PS C:\Users\matty&amp;gt; DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:z:\sources\sxs Error: 740 Elevated permissions are required to run DISM. Use an elevated command prompt to complete these tasks.  &amp;hellip;you just have to run your Command Prompt or Powershell window &amp;lsquo;as Administrator&amp;rsquo;. i.e. right-click on the icon and select &amp;lsquo;Run as administrator&amp;rsquo;
+PS C:\Windows\system32&amp;gt; DISM /Online /Enable-Feature /FeatureName:NetFx3 /All /LimitAccess /Source:z:\sources\sxs Deployment Image Servicing and Management tool Version: 6.</description>
+    </item>
+    
+    <item>
+      <title>how I sketchnote</title>
+      <link>https://mattypenny.github.io/2016/01/11/how-i-sketchnote/</link>
+      <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/01/11/how-i-sketchnote/</guid>
+      <description>January 11th has been designated as World Sketchnote Day. Out of sheer perversity. I thought rather than doing a sketchnote, I&amp;rsquo;d type something in plain text!
+A couple of people have asked about the way I do sketchnotes, so this seems like a good day to post it.
+I read the book - reading Mike Rohde&amp;rsquo;s &amp;lsquo;The Sketchnote Handbook&amp;rsquo; is a big jump-start. It&amp;rsquo;s quick and fun to read and it&amp;rsquo;s a lovely book.</description>
+    </item>
+    
+    <item>
+      <title>applications</title>
+      <link>https://mattypenny.github.io/quickreference/applications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mattypenny.github.io/blog/warn-found-no-layout-file-for-html-for-page/</guid>
-      <description>C:\matt\website\public &amp;gt;hugo --theme cupper server Error: module &amp;quot;cupper&amp;quot; not found; either add it as a Hugo Module or store it in &amp;quot;C:\\matt\\website\\public\\themes&amp;quot;.: module does not exist C:\matt\website\public &amp;gt;cd .. C:\matt\website &amp;gt;hugo --theme cupper server Building sites � WARN 2020/01/28 15:49:09 found no layout file for &amp;quot;HTML&amp;quot; for &amp;quot;page&amp;quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination. WARN 2020/01/28 15:49:09 found no layout file for &amp;quot;HTML&amp;quot; for &amp;quot;section&amp;quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.</description>
+      <guid>https://mattypenny.github.io/quickreference/applications/</guid>
+      <description>Confluence (server) Global Shortcuts          Create Content c   Go to Dashboard g then d   Open Notifications g then n   Open Recently Viewed g then r   Browse Current Space g then s   Open Shortcut Help ?   Quick Search /   Quick Search g then g   Toggle Space Sidebar [    Page / Blog Post Actions          Add Blog b   Edit e   Comment m   Next Inline Comment n   Previous Inline Comment p   Close Inline Comment ]   Watch Page w   Share s   Edit Labels l   View Attachments t   Link to Page k    Block Formatting          Paragraph Ctrl+0   Heading 1 Ctrl+1   Heading 6 Ctrl+6   Preformatted Ctrl+7   Quote Ctrl+8   Bullet list Ctrl+Shift+B   Numbered list Ctrl+Shift+N    Rich Formatting          Files and images Ctrl+M   Link Ctrl+K   Insert markup Ctrl+Shift+D   Macro Ctrl+Shift+A   Table Ctrl+Shift+I   Cut table row Ctrl+Shift+X   Copy table row Ctrl+Shift+C   Paste table row Ctrl+Shift+V    Editing Actions          Preview Ctrl+Shift+E   Save Ctrl+S    Font Formatting          Bold text Bold   Underline text +Underline+   Italic text Italic   Monospace text {{Monospace}}    Autocomplete          Image/Media !</description>
+    </item>
+    
+    <item>
+      <title>powershell</title>
+      <link>https://mattypenny.github.io/quickreference/powershell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/quickreference/powershell/</guid>
+      <description>Powershell This ramshackle collection of Powershell commands evolved from my own quick-reference crib-sheets over the last couple of years.
+Get code Show loaded Powershell function code get-command get-pins | format-list definition Show loaded Powershell function code for aliases too $Command = get-command &amp;quot;sss&amp;quot;$commandType = $Command.CommandTypeif ( &amp;quot;$commandType&amp;quot; -eq &amp;quot;Alias&amp;quot; ) { $Command = get-command $Command.ResolvedCommandName}$Command.Definition Show sqlserver stored procedure code dir SQLSERVER:\SQL\$Computername\default\Databases\_DBA_CATALOG\StoredProcedures | select Name, DateLastModified, TextBody | format-list Modules Show module path $env:PSModulePath Show available modules get-module -ListAvailable | select Path Get file and folder information Get the size of all the files in a folder dir \\server01\t$\sql_trace | measure-object -property length -sum List contents of folder ordered by time dir c:\tax_dodgers | sort-object -property lastwritetime or, for latest first</description>
     </item>
     
   </channel>

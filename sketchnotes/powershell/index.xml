@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>powershell on Blog and reference</title>
@@ -390,20 +390,20 @@
     </item>
     
     <item>
+      <title>Some old stuff</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>van Bobaeys, Damien - powershell and rundeck</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Van Robaeys, Damien - Powershell with Rundeck</title>
-      <link>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</link>
-      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
-      
-      <guid>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</guid>
       <description></description>
     </item>
     
@@ -431,7 +431,7 @@
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/why-powershell-pc/</guid>
-      <description>![Sketchnote of Why Powershell PC](&amp;lsquo;/images/sketchnotes/powershell/Why%20Powershell%20PC.jpg&amp;rsquo;) ![Sketchnote of Why Powershell PC](&amp;ldquo;/images/sketchnotes/powershell/Why%20Powershell%20PC.jpg&amp;rdquo;) </description>
+      <description>![Sketchnote of Why Powershell PC](/images/sketchnotes/powershell/Why\ Powershell\ PC.jpg)</description>
     </item>
     
     <item>
@@ -450,9 +450,11 @@
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management-dos-and-donts/</guid>
       <description>Bit of text
-![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&amp;lsquo;/Colas, Gael - Configuration management.jpeg&amp;rsquo;)
-![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&amp;ldquo;/Colas, Gael - Configuration management.jpeg&amp;rdquo;)
-![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&amp;ldquo;/Colas, Gael - Configuration management.jpeg&amp;rdquo;) </description>
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](Colas, Gael - Configuration management.jpeg)
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](/&amp;lsquo;Colas, Gael - Configuration management.jpeg&amp;rsquo;)
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&#39;/Colas, Gael - Configuration management.jpeg&amp;rsquo;)
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](/&amp;ldquo;Colas, Gael - Configuration management.jpeg&amp;rdquo;)
+![Sketchnote of Colas, Gael - Configuration Management Dos and Donts ](&amp;quot;/Colas, Gael - Configuration management.</description>
     </item>
     
   </channel>

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <meta name="generator" content="Hugo 0.58.1" />
+  <meta name="generator" content="Hugo 0.64.1" />
   <link rel="canonical" href="https://mattypenny.github.io/blog/hugo-error-error-building-site-failed-to-unmarshal-yaml-yaml-did-not-find-expected-key/">
 
   
@@ -32,7 +32,7 @@
 
   
   
-  <title>Hugo Error   Error Building Site Failed to Unmarshal YAML Yaml Did Not Find Expected Key | Blog and reference</title>
+  <title>Hugo Error - Error Building Site Failed to Unmarshal YAML Yaml Did Not Find Expected Key | Blog and reference</title>
 </head>
 
   <body>
@@ -194,6 +194,19 @@
       
       
       
+      <a href="/quickreference/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">quick reference</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
       <a href="/about/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
@@ -223,27 +236,18 @@
         <div>
           
   <main id="main">
-    <h1>Hugo Error   Error Building Site Failed to Unmarshal YAML Yaml Did Not Find Expected Key</h1>
-    
-
-<h3 id="problem">Problem</h3>
-
+    <h1>Hugo Error - Error Building Site Failed to Unmarshal YAML Yaml Did Not Find Expected Key</h1>
+    <h3 id="problem">Problem</h3>
 <p>Did  this:</p>
-
 <pre><code>hugo server --theme cupper-hugo-theme
 </code></pre>
-
 <p>Got this:</p>
-
 <pre><code>WARN 2020/01/28 18:10:15 Module &quot;cupper-hugo-theme&quot; is not compatible with this Hugo version; run &quot;hugo mod graph&quot; for more information.
 Building sites … Total in 4620 ms
 Error: Error building site: &quot;C:\matt\website\content\blog\WARN found no layout file for HTML for page.md:2:1&quot;: failed to unmarshal YAML: yaml: did not find expected key
 </code></pre>
-
 <h2 id="solution">Solution</h2>
-
 <p>The yaml bit loked like this.</p>
-
 <pre><code>---
 title: &quot;Hugo error - WARN 2020/01/28 15:49:09 found no layout file for &quot;HTML&quot; for &quot;section&quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.&quot;
 date: 2020-01-28:46:12Z
@@ -252,11 +256,8 @@ draft: false
 
 
 </code></pre>
-
 <p>There are too many double quotes</p>
-
 <p>Took them out</p>
-
 <pre><code>
 ---
 title: &quot;Hugo error - WARN 2020/01/28 15:49:09 found no layout file for HTML for section: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.&quot;
@@ -266,7 +267,6 @@ draft: false
 
 
 </code></pre>
-
 <p>and it worked.</p>
 
   </main>

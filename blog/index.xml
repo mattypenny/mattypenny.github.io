@@ -239,5 +239,217 @@ A couple of people have asked about the way I do sketchnotes, so this seems like
 I read the book - reading Mike Rohde&amp;rsquo;s &amp;lsquo;The Sketchnote Handbook&amp;rsquo; is a big jump-start. It&amp;rsquo;s quick and fun to read and it&amp;rsquo;s a lovely book.</description>
     </item>
     
+    <item>
+      <title>powershell equivalent of linux &#39;ps -aux | sort -k3n&#39;</title>
+      <link>https://mattypenny.github.io/2016/01/11/powershell-equivalent-of-ps-ef-sort-somethingorother/</link>
+      <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/01/11/powershell-equivalent-of-ps-ef-sort-somethingorother/</guid>
+      <description>I&amp;rsquo;m not entirely sure how I managed to not find out about Win32_PerfFormattedData_PerfProc_Process before now. I think the &amp;lsquo;sort -k3n&amp;rsquo; does a sort by CPU-usage, but I&amp;rsquo;m sure there&amp;rsquo;s a better way of doing it than that.
+gwmi Win32_PerfFormattedData_PerfProc_Process -ComputerName $ComputerName | Sort-Object -Property PercentProcessorTime -desc | select idprocess, name, IODataBytesPersec, PercentPrivilegedTime,PercentProcessorTime, PercentUserTime, workingset | Select-Object -first 11 | ft -AutoSize  gives:
+idprocess name IODataBytesPersec PercentPrivilegedTime PercentProcessorTime PercentUserTime workingset --------- ---- ----------------- --------------------- -------------------- --------------- ---------- 0 _Total 849620 100 100 18 5667786752 0 Idle 0 100 100 0 4096 5552 sqlservr 236135 0 18 18 3040718848 3680 TmListen 344690 6 6 0 10211328 10012 PccNTMon 7574 6 6 0 4706304 496 services 0 0 0 0 11198464 744 svchost#3 0 0 0 0 69857280 568 svchost#2 0 0 0 0 14368768 792 svchost#1 0 0 0 0 24203264 2132 svchost 0 0 0 0 5054464 5888 Ssms#1 0 0 0 0 190734336  </description>
+    </item>
+    
+    <item>
+      <title>&#39;properties&#39; option is greyed out for ssrs instance when you right-click in ssms</title>
+      <link>https://mattypenny.github.io/2015/11/20/properties-option-is-greyed-out-for-ssrs-instance-when-you-right-click-in-ssms/</link>
+      <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/20/properties-option-is-greyed-out-for-ssrs-instance-when-you-right-click-in-ssms/</guid>
+      <description>To adjust some of the properties of a SQL Server Reporting Services instance , for example, how long the execution logs are retained, or whether or not you display meaningful error messages to the user, you have to do the following:
+ go into SQL Server Management Studio, connect to the SSRS instance, then right-click on the instance name and select Properties from the drop-down menu  However 9 times out of 10 when I do this (in my defence, I don&amp;rsquo;t do it very often&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>if the beatles used adele&#39;s naming system for their albums...</title>
+      <link>https://mattypenny.github.io/2015/11/20/if-the-beatles-used-adeles-naming-system-for-their-albums/</link>
+      <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/20/if-the-beatles-used-adeles-naming-system-for-their-albums/</guid>
+      <description>Adele has so far used her age as the title of her LPs. So, her LPs have been called:
+ 19 21 25  Using Paul&amp;rsquo;s age for the album title, I think the Beatles albums would have been as follows:
+ 20 21 22 22 (again) 23 23 (again) 24 24 (again) 26 26 (again) 27 27 (again)     Release date Paul&#39;s age Album name Adele-system Album name     22/03/63 20.</description>
+    </item>
+    
+    <item>
+      <title>powershell error: &#39;Cannot perform operation because operation &#39;ReportWrongProviderType&#39; is invalid&#39;</title>
+      <link>https://mattypenny.github.io/2015/11/19/powershell-error-cannot-perform-operation-because-operation-reportwrongprovidertype-is-invalid/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/19/powershell-error-cannot-perform-operation-because-operation-reportwrongprovidertype-is-invalid/</guid>
+      <description>I got the following error from a Powershell script I wrote to run SQLExress backups on a remote server.
+The script runs on a Standard Edition server as a SQL Agent job. It creates and then runs a T-sql script on the remote server to backup all the databases to a folder on the remote server.
+The error occurred when I migrated the job from a Windows 2003 server running SQL 2008 R2 to a Windows 2012 Server running SQL 2012</description>
+    </item>
+    
+    <item>
+      <title>how to see veeam backups in powershell</title>
+      <link>https://mattypenny.github.io/2015/11/11/how-to-see-veeam-backups-in-powershell/</link>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/11/how-to-see-veeam-backups-in-powershell/</guid>
+      <description>This allows you to see veeam backups for a specified server over the last week.
+The code Enter-PSSession yourveeamserver Add-PSSnapin VeeamPSSnapIn Get-VBRBackupSession | ? JobName -like &amp;quot;*yourtargetserver*&amp;quot; | ? endtime -gt $(get-date).adddays(-7) | select jobname, jobtype, creationtime, endtime, result, state | sort-object -property jobname, endtime | ft -AutoSize  Explanation Explaining this a little&amp;hellip;..
+This line &amp;lsquo;remotes&amp;rsquo; to the veeam server. Getting Powershell remoting set-up is another subject. I&amp;rsquo;d recommend the Powershell help topic about_remote_troubleshooting, if it doesn&amp;rsquo;t &amp;lsquo;just work&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>list AD users in powershell</title>
+      <link>https://mattypenny.github.io/2015/11/10/list-ad-users-in-powershell/</link>
+      <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/10/list-ad-users-in-powershell/</guid>
+      <description>This shows all the users with &amp;lsquo;dba&amp;rsquo; in their username. Obviously you could leave out the filter clause altogether to get a complete list of AD users
+Get-ADUser -Filter {samaccountname -like &amp;quot;*dba*&amp;quot;} -SearchBase &amp;quot;dc=mycomp,dc=co,dc=uk&amp;quot; | select samaccountname, name samaccountname name -------------- ---- dba_john John Hollins dba_terry Terry Dixon  You have to ActiveDirectory Powershell module loaded</description>
+    </item>
+    
+    <item>
+      <title>how to get a list of images uploaded to wordpress.com website</title>
+      <link>https://mattypenny.github.io/2015/11/03/how-to-get-a-list-of-images-uploaded-to-wordpress-com-website/</link>
+      <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/03/how-to-get-a-list-of-images-uploaded-to-wordpress-com-website/</guid>
+      <description>Go to your media library and switch to the &amp;lsquo;List View&amp;rsquo;
+  Then under &amp;lsquo;Screen Options&amp;rsquo; bump up the &amp;lsquo;Number of items per page&amp;rsquo; to a big number
+    Right click to &amp;lsquo;View Page Source, then save it somewhere on your computer
+  Run the following in PowerShell
+  foreach ($line in select-string filename .\upload.php | Sort-Object -Property line ) { $line.line.split(&amp;quot;&amp;gt;&amp;quot;)[3].split(&amp;quot;&amp;lt;&amp;quot;)[0] }  This gives you a list that looks like this:</description>
+    </item>
+    
+    <item>
+      <title>listing database roles granted to database users in sqlserver</title>
+      <link>https://mattypenny.github.io/2015/11/02/listing-database-roles-granted-to-database-users-in-sqlserver/</link>
+      <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/02/listing-database-roles-granted-to-database-users-in-sqlserver/</guid>
+      <description>The output from this is unlovely, but it does the trick for the time being.
+$DatabaseUsers = dir Sqlserver:\sql\$ServerName\$InstanceName\databases\$DatabaseName\Users foreach ($User in $DatabaseUsers) { &amp;quot;==$User==&amp;quot; $User.EnumRoles() }  The output looks like this
+==[Company\service_account]== RSExecRole db_owner ==[Company\user1]== RSExecRole db_owner db_accessadmin db_securityadmin db_ddladmin db_backupoperator db_datareader db_datawriter ==[user2]== ==[user3]== RSExecRole db_owner db_ddladmin db_datareader db_datawriter  </description>
+    </item>
+    
+    <item>
+      <title>how to link to a heading in twiki</title>
+      <link>https://mattypenny.github.io/2015/10/20/how-to-link-to-heading-in-twiki/</link>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/10/20/how-to-link-to-heading-in-twiki/</guid>
+      <description>Put the hashtag-anchor-thing just above the heading you want to link to:
+#RestartXYZServices ---+++ Restart xyz services  &amp;hellip;then just link to the hashtag-anchor-thing
+[[#RestartXYZServices][restart_xyz_services]]  </description>
+    </item>
+    
+    <item>
+      <title>powershell function to create html table of contents</title>
+      <link>https://mattypenny.github.io/2015/10/13/powershell-function-to-create-html-table-of-contents/</link>
+      <pubDate>Tue, 13 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/10/13/powershell-function-to-create-html-table-of-contents/</guid>
+      <description>I recently swapped from self-hosted Wordpress to wordpress.com.
+While wordpress.com is very, very good I couldn&amp;rsquo;t find a way of creating a Table of Contents. I used to do this with a Wordpress plugin.
+Anyway, this is still very much a work in progress, but I knocked up some Powershell code to read and html file, then write the html file with a TOC at the top.
+The most recent version of this will be on Github but my current version is below.</description>
+    </item>
+    
+    <item>
+      <title>Powershell function to get Sqlserver errorlog recent lines</title>
+      <link>https://mattypenny.github.io/2015/09/18/powershell-function-to-get-sqlserver-errorlog-recent-lines/</link>
+      <pubDate>Fri, 18 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/09/18/powershell-function-to-get-sqlserver-errorlog-recent-lines/</guid>
+      <description>I&amp;rsquo;ve started knocking up a function to return the last few lines of a sqlserver errorlog.
+This is a little way from being finished&amp;hellip;.but I&amp;rsquo;ve already found it quite handy
+function get-sqlerrorlog { [CmdletBinding()]	Param( [String] [alias(&amp;quot;computer&amp;quot;)] $ComputerName, [Int] [alias(&amp;quot;lines&amp;quot;)] $NumberOfLines = 5 ) write-verbose &amp;quot;Running function $([string]$MyInvocation.MyCommand.name)&amp;quot; Write-verbose &amp;quot;`$ErrorLogFolder: $ErrorLogFolder&amp;quot; $ErrorLogFolder = dir sqlserver:\sql\$ComputerName # Todo: need to work out how it works more &amp;gt; 1 named instance. This just picks 1st [string]$ErrorLogFolder = $($ErrorLogFolder | select -first 1).</description>
+    </item>
+    
+    <item>
+      <title>Daft PowerShell Error: MissingEndCurlyBrace</title>
+      <link>https://mattypenny.github.io/2015/07/29/daft-powershell-error-missingendcurlybrace/</link>
+      <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/07/29/daft-powershell-error-missingendcurlybrace/</guid>
+      <description>I made a fairly silly Powershell mistake this morning. I blame low levels of caffeine.
+I was amending an old function I&amp;rsquo;d written which lists all the sqlservers, prompts me to ask which one I want to work on and then sets the $ServerInstance variable. It&amp;rsquo;s essentially a Powershell/Sqlserver equivalent to the Unix/Oracle .oraenv.
+Anyway the lines I wanted to add in were:
+$Global:ComputerName = $Global:ServerInstance.split(&#34;&#34;)[0] write-verbose &#34;`$Global:ComputerName: $Global:ComputerName&#34; write-output &#34;</description>
+    </item>
+    
+    <item>
+      <title>how to edit lots of files and keep a log</title>
+      <link>https://mattypenny.github.io/2015/06/16/quick-and-dirty-script-to-edit-lots-of-files-and-keep-a-log/</link>
+      <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/06/16/quick-and-dirty-script-to-edit-lots-of-files-and-keep-a-log/</guid>
+      <description>First I built a list of files
+FileList=dir -recurse C:\temp\folderx -Attributes !Directory | ? name -notlike &#39;*exe&#39; | ? name -notlike &#39;*dll&#39;| select fullname  Then for each one, record the name to a log file, edit it and prompt for and store a comment
+foreach ($F in $Filelist) { $F.Fullname &amp;gt;&amp;gt; commentlog.txt $File = $F.Fullname C:\Progra~2\vim\vim74\gvim.exe $File $Comment = read-host &amp;quot;Changes made to $File&amp;quot; $comment &amp;gt;&amp;gt; commentlog.txt }  </description>
+    </item>
+    
+    <item>
+      <title>getting a list of aliases ordered by the aliasee</title>
+      <link>https://mattypenny.github.io/2015/06/09/getting-a-list-of-aliases-ordered-by-the-aliasee/</link>
+      <pubDate>Tue, 09 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/06/09/getting-a-list-of-aliases-ordered-by-the-aliasee/</guid>
+      <description>This is fairly trivial&amp;hellip;and I&amp;rsquo;ve no idea if &amp;lsquo;aliasee&amp;rsquo; is a real word or not, but I found this quite useful today:
+get-alias | select ResolvedCommand, name | sort -property resolvedcommand  On my laptop, this gives:
+
+ResolvedCommand Name --------------- ---- Add-Content ac Add-PSSnapin asnp Clear-Content clc Clear-History clhy Clear-Host cls Clear-Host clear Clear-Item cli Clear-ItemProperty clp Clear-Variable clv Compare-Object diff Compare-Object compare Connect-PSSession cnsn Convert-Path cvpa Copy-Item cp Copy-Item copy Copy-Item cpi Copy-ItemProperty cpp Disable-PSBreakpoint dbp Disconnect-PSSession dnsn Enable-PSBreakpoint ebp Enter-PSSession etsn Exit-PSSession exsn Export-Alias epal Export-Csv epcsv Export-PSSession epsn ForEach-Object foreach ForEach-Object % Format-Custom fc Format-List fl Format-Table ft Format-Wide fw Get-Alias gal get-cal cal Get-ChildItem dir Get-ChildItem ls Get-ChildItem gci Get-Command gcm Get-Content cat Get-Content gc Get-Content type get-functions getf Get-History history Get-History ghy Get-History h Get-Item gi Get-ItemProperty gp Get-Job gjb Get-Location pwd Get-Location gl Get-Member gm Get-Module gmo get-os gos Get-Process gps Get-Process ps Get-PSBreakpoint gbp Get-PSCallStack gcs Get-PSDrive gdr Get-PSSession gsn Get-PSSnapin gsnp Get-Service gsv Get-Unique gu Get-Variable gv Get-WmiObject gwmi Group-Object group help man Import-Alias ipal Import-Csv ipcsv Import-Module ipmo Import-PSSession ipsn Invoke-Command icm Invoke-Expression iex Invoke-History r Invoke-History ihy Invoke-Item ii Invoke-Locate.</description>
+    </item>
+    
+    <item>
+      <title>how to rdp to several desktops one after the other</title>
+      <link>https://mattypenny.github.io/2015/04/16/rdp-ing-to-several-desktops-one-after-the-other/</link>
+      <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/04/16/rdp-ing-to-several-desktops-one-after-the-other/</guid>
+      <description>For reasons that aren&amp;rsquo;t necessarily relevant, I wanted to use Remote Desktop to visit a list of servers1. I tried doing this:
+foreach ($S in &amp;quot;server01&amp;quot;, &amp;quot;server02, &amp;quot;server03&amp;quot;) { mstsc /f /V:$S }  This works&amp;hellip;.but it immediately starts rdp sessions to each of the servers. This is fine in this example, where there are only 3 servers, but in real life I&amp;rsquo;ve got a list of twenty or so and I don&amp;rsquo;t really want to open 20-odd rdp sessions at once.</description>
+    </item>
+    
+    <item>
+      <title>how to extract tweets about...</title>
+      <link>https://mattypenny.github.io/2015/03/30/script-to-extract-tweets-about/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/03/30/script-to-extract-tweets-about/</guid>
+      <description>This was the Powershell code I used to create the all the podcasts I&amp;rsquo;ve ever tweeted about post.
+I downloaded the tweets from Twitter itself - I think there was a link somewhere within &amp;lsquo;Settings&amp;rsquo;
+The .csv file looks like this:
+So the code is:
+$PodTweets = Import-Csv c:temptweets.csv | ? text -like &amp;quot;*podcast*&amp;quot; $TweetsAsHtml = foreach ($P in $PodTweets) { # write-output $P.timestamp.Substring(0,10) # Splitting the tweet text into words to allow for the processing of urls $TweetTextAsArray = $P.</description>
+    </item>
+    
+    <item>
+      <title>all the podcasts I&#39;ve ever tweeted about</title>
+      <link>https://mattypenny.github.io/2015/03/27/all-the-podcasts-ive-listened-to/</link>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/03/27/all-the-podcasts-ive-listened-to/</guid>
+      <description>I&amp;rsquo;ve been listening to podcasts for a long time - these are the ones I&amp;rsquo;ve tweeted about. The Powershell code I used to extract the tweets from a spreadsheet is here. You can download a spreadsheet of your own tweets from Twitter - I think it was somewhere under &amp;lsquo;Settings&amp;rsquo;
+2014-10-21 Very much enjoyed podcast talk by John Waters about hitch-hiking across America. http://libwww.freelibrary.org/podcast/index.cfm?podcastID=1252
+2014-10-01 Podcast lecture by Dr Simon Draper on Wessex Place Names.</description>
+    </item>
+    
+    <item>
+      <title>converting a word e-book to markdown</title>
+      <link>https://mattypenny.github.io/2015/02/14/converting-a-word-e-book-to-markdown/</link>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/02/14/converting-a-word-e-book-to-markdown/</guid>
+      <description>This is a brief record of how I converted a few Word documents to Markdown. As with everything on this site I&amp;rsquo;ve typed it up mainly so that I can refer back if needs be&amp;hellip;but if anybody else ever finds any element of it useful, then so much the better.
+My guess is there is a more effective way out there of converting from Word to Markdown, but in the end, given I had a small number of differently formatted Word doc&amp;rsquo;s, I didn&amp;rsquo;t spend too long searching.</description>
+    </item>
+    
+    <item>
+      <title>penflip markdown cheatsheet</title>
+      <link>https://mattypenny.github.io/2015/02/04/penflip-markdown-cheatsheet/</link>
+      <pubDate>Wed, 04 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/02/04/penflip-markdown-cheatsheet/</guid>
+      <description>This is extracted from Adam Pritchard&amp;rsquo;s Markdown Cheatsheet.
+It&amp;rsquo;s what I would see as the useful bits&amp;hellip;.but of course my useful bits won&amp;rsquo;t be the same as your useful bits!
+   Feature Code     Heading #   Bold __bold__   Italics _italics_   Strikout ~~italics~~   Numbered list 1. First   Numbered list __1. First second level with space not underscores   Numbered list 2.</description>
+    </item>
+    
   </channel>
 </rss>

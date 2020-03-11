@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rdp on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/rdp/</link>
+    <description>Recent content in rdp on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/rdp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>how to rdp to several desktops one after the other</title>
+      <link>https://mattypenny.github.io/2015/04/16/rdp-ing-to-several-desktops-one-after-the-other/</link>
+      <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/04/16/rdp-ing-to-several-desktops-one-after-the-other/</guid>
+      <description>For reasons that aren&amp;rsquo;t necessarily relevant, I wanted to use Remote Desktop to visit a list of servers1. I tried doing this:
+foreach ($S in &amp;quot;server01&amp;quot;, &amp;quot;server02, &amp;quot;server03&amp;quot;) { mstsc /f /V:$S }  This works&amp;hellip;.but it immediately starts rdp sessions to each of the servers. This is fine in this example, where there are only 3 servers, but in real life I&amp;rsquo;ve got a list of twenty or so and I don&amp;rsquo;t really want to open 20-odd rdp sessions at once.</description>
+    </item>
+    
+  </channel>
+</rss>

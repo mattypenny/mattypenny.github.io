@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/security/</link>
+    <description>Recent content in security on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>list AD users in powershell</title>
+      <link>https://mattypenny.github.io/2015/11/10/list-ad-users-in-powershell/</link>
+      <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/10/list-ad-users-in-powershell/</guid>
+      <description>This shows all the users with &amp;lsquo;dba&amp;rsquo; in their username. Obviously you could leave out the filter clause altogether to get a complete list of AD users
+Get-ADUser -Filter {samaccountname -like &amp;quot;*dba*&amp;quot;} -SearchBase &amp;quot;dc=mycomp,dc=co,dc=uk&amp;quot; | select samaccountname, name samaccountname name -------------- ---- dba_john John Hollins dba_terry Terry Dixon  You have to ActiveDirectory Powershell module loaded</description>
+    </item>
+    
+  </channel>
+</rss>

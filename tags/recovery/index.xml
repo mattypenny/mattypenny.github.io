@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>recovery on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/recovery/</link>
+    <description>Recent content in recovery on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/recovery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>how to see veeam backups in powershell</title>
+      <link>https://mattypenny.github.io/2015/11/11/how-to-see-veeam-backups-in-powershell/</link>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/11/how-to-see-veeam-backups-in-powershell/</guid>
+      <description>This allows you to see veeam backups for a specified server over the last week.
+The code Enter-PSSession yourveeamserver Add-PSSnapin VeeamPSSnapIn Get-VBRBackupSession | ? JobName -like &amp;quot;*yourtargetserver*&amp;quot; | ? endtime -gt $(get-date).adddays(-7) | select jobname, jobtype, creationtime, endtime, result, state | sort-object -property jobname, endtime | ft -AutoSize  Explanation Explaining this a little&amp;hellip;..
+This line &amp;lsquo;remotes&amp;rsquo; to the veeam server. Getting Powershell remoting set-up is another subject. I&amp;rsquo;d recommend the Powershell help topic about_remote_troubleshooting, if it doesn&amp;rsquo;t &amp;lsquo;just work&amp;rsquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

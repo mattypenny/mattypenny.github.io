@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Need to retrieve the pix on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/need-to-retrieve-the-pix/</link>
+    <description>Recent content in Need to retrieve the pix on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Feb 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/need-to-retrieve-the-pix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>converting a word e-book to markdown</title>
+      <link>https://mattypenny.github.io/2015/02/14/converting-a-word-e-book-to-markdown/</link>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/02/14/converting-a-word-e-book-to-markdown/</guid>
+      <description>This is a brief record of how I converted a few Word documents to Markdown. As with everything on this site I&amp;rsquo;ve typed it up mainly so that I can refer back if needs be&amp;hellip;but if anybody else ever finds any element of it useful, then so much the better.
+My guess is there is a more effective way out there of converting from Word to Markdown, but in the end, given I had a small number of differently formatted Word doc&amp;rsquo;s, I didn&amp;rsquo;t spend too long searching.</description>
+    </item>
+    
+  </channel>
+</rss>

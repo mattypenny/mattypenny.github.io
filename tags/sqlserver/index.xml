@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sqlserver on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/sqlserver/</link>
+    <description>Recent content in sqlserver on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/sqlserver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>listing database roles granted to database users in sqlserver</title>
+      <link>https://mattypenny.github.io/2015/11/02/listing-database-roles-granted-to-database-users-in-sqlserver/</link>
+      <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/02/listing-database-roles-granted-to-database-users-in-sqlserver/</guid>
+      <description>The output from this is unlovely, but it does the trick for the time being.
+$DatabaseUsers = dir Sqlserver:\sql\$ServerName\$InstanceName\databases\$DatabaseName\Users foreach ($User in $DatabaseUsers) { &amp;quot;==$User==&amp;quot; $User.EnumRoles() }  The output looks like this
+==[Company\service_account]== RSExecRole db_owner ==[Company\user1]== RSExecRole db_owner db_accessadmin db_securityadmin db_ddladmin db_backupoperator db_datareader db_datawriter ==[user2]== ==[user3]== RSExecRole db_owner db_ddladmin db_datareader db_datawriter  </description>
+    </item>
+    
+  </channel>
+</rss>

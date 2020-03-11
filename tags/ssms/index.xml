@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssms on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/ssms/</link>
+    <description>Recent content in ssms on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/ssms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>&#39;properties&#39; option is greyed out for ssrs instance when you right-click in ssms</title>
+      <link>https://mattypenny.github.io/2015/11/20/properties-option-is-greyed-out-for-ssrs-instance-when-you-right-click-in-ssms/</link>
+      <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/20/properties-option-is-greyed-out-for-ssrs-instance-when-you-right-click-in-ssms/</guid>
+      <description>To adjust some of the properties of a SQL Server Reporting Services instance , for example, how long the execution logs are retained, or whether or not you display meaningful error messages to the user, you have to do the following:
+ go into SQL Server Management Studio, connect to the SSRS instance, then right-click on the instance name and select Properties from the drop-down menu  However 9 times out of 10 when I do this (in my defence, I don&amp;rsquo;t do it very often&amp;hellip;.</description>
+    </item>
+    
+  </channel>
+</rss>

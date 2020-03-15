@@ -132,7 +132,7 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
-      <title>Banerjee-Amit-and-Agarwal-Sourabh-Sql-Azure</title>
+      <title>Banerjee - Amit -and - Agarwal - Sourabh - Sql - Azure</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/banerjee-amit-and-agarwal-sourabh-sql-azure/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
@@ -186,7 +186,7 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
-      <title>Bertrand-Aaron-50-Things-Developers-Should-Know-higher-res</title>
+      <title>Bertrand - Aaron -50 - Things - Developers - Should - Know -higher -res</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/bertrand-aaron-50-things-developers-should-know-higher-res/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
@@ -258,6 +258,15 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
+      <title>Colas -gael -devops</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Colas, Gael - Configuration management</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
@@ -267,11 +276,38 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
-      <title>colas-gael-devops</title>
-      <link>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</link>
+      <title>Colas, Gael - Leverage Test Kitchen Develop Dsc</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/colasgael-leveragetestkitchendevelopdsc/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/colasgael-leveragetestkitchendevelopdsc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cucen, Ebru - Powershell Conference Europe And Powershell On Linux</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-powershellconferenceeuropeandpowershellonlinux/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-powershellconferenceeuropeandpowershellonlinux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cucen, Ebru - Powershell Module Lifecycle</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-powershellmodulelifecycle/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-powershellmodulelifecycle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cucen, Ebru - Prompts And Customizations</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-promptsandcustomizations/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-promptsandcustomizations/</guid>
       <description></description>
     </item>
     
@@ -420,11 +456,29 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
+      <title>Hicks, Jeff And Siddaway, Richard And Gavin, Lawrence - Whats New In Powershell V5</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/hicksjeffandsiddawayrichardandgavinlawrence-whatsnewinpowershellv5/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/hicksjeffandsiddawayrichardandgavinlawrence-whatsnewinpowershellv5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Higgins, Michael - Kemp</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/higgins-michael-kemp/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/higgins-michael-kemp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Higgins, Michael - Kemp Products Cloud Deployment Automation</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/higginsmichael-kempproductsclouddeploymentautomation/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/higginsmichael-kempproductsclouddeploymentautomation/</guid>
       <description></description>
     </item>
     
@@ -456,6 +510,15 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
+      <title>Howlett, Martin - Powershell And Restful Apis</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/howlettmartin-powershellandrestfulapis/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/howlettmartin-powershellandrestfulapis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Inge-Larsen, Tom - Markdown, PlatyPs, mkdocs</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/inge-larsen-tom-markdown-platyps-mkdocs/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
@@ -483,7 +546,7 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
-      <title>Jones, Steve - A practical approach to version control for sql </title>
+      <title>Jones, Steve - A practical approach to version control for sql</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-a-practical-approach-to-version-control-for-sql-/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
@@ -492,11 +555,20 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
-      <title>Jones, Steve, Galbraith, Simon and Smith, Alexander - Let Your </title>
+      <title>Jones, Steve, Galbraith, Simon and Smith, Alexander - Let Your</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-galbraith-simon-and-smith-alexander-let-your-/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-galbraith-simon-and-smith-alexander-let-your-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kamman, Andre - Deploy And Manage Ola Hallengrens Scripts With Powershell</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/kammanandre-deployandmanageolahallengrensscriptswithpowershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/kammanandre-deployandmanageolahallengrensscriptswithpowershell/</guid>
       <description></description>
     </item>
     
@@ -573,6 +645,15 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
+      <title>Kokkinos, Constantine And Lemaire, Chrissy - Powershell Loves Sql Server</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/kokkinosconstantineandlemairechrissy-powershelllovessqlserver/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/kokkinosconstantineandlemairechrissy-powershelllovessqlserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Komo, Darnadi - Sql 2014 Hybrid cloud</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/komo-darnadi-sql-2014-hybrid-cloud/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
@@ -582,7 +663,7 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
-      <title>Korotkevitch, Dmitri - Sql Internals</title>
+      <title>Korotkevitch - Dmitri - Sql - Internals</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
@@ -591,7 +672,7 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
-      <title>Korotkevitch-Dmitri-Sql-Internals</title>
+      <title>Korotkevitch, Dmitri - Sql Internals</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
@@ -672,11 +753,29 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
+      <title>Lemaire, Chrissy - Simplifying Sqlserver Migrations With Powershell</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/lemairechrissy-simplifyingsqlservermigrationswithpowershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/lemairechrissy-simplifyingsqlservermigrationswithpowershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>LeMaire, Chrissy - Sql Migrations with Posh</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/lemaire-chrissy-sql-migrations-with-posh/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/lemaire-chrissy-sql-migrations-with-posh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lemaire, Chrissy And Walz, Jon And Rottenberg, Hal - Powerscripting Podcast Episode312</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/lemairechrissyandwalzjonandrottenberghal-powerscriptingpodcastepisode312/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/lemairechrissyandwalzjonandrottenberghal-powerscriptingpodcastepisode312/</guid>
       <description></description>
     </item>
     
@@ -722,6 +821,15 @@ It&amp;rsquo;s got, or will have, the following bits:
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/martin-mike-azure-and-dsc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin, Mike - Getting Your Devops Operating</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/martinmike-gettingyourdevopsoperating/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/martinmike-gettingyourdevopsoperating/</guid>
       <description></description>
     </item>
     
@@ -780,11 +888,29 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
+      <title>Medd, Jonathan - Powershell And Different Types Of Data</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/meddjonathan-powershellanddifferenttypesofdata/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/meddjonathan-powershellanddifferenttypesofdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Messina, Chris - Augmenting Conversations</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/messina-chris-augmenting-conversations/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/messina-chris-augmenting-conversations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitchell - Tim - S S I S</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</guid>
       <description></description>
     </item>
     
@@ -816,20 +942,20 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
-      <title>Mitchell-Tim-SSIS</title>
-      <link>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</link>
-      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
-      
-      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Moyle, Jim - Posh Gui</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/moyle-jim-posh-gui/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/moyle-jim-posh-gui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moyle, Jim - Posh Gui</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/moylejim-poshgui/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/moylejim-poshgui/</guid>
       <description></description>
     </item>
     
@@ -893,6 +1019,15 @@ It&amp;rsquo;s got, or will have, the following bits:
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/sketchnoting/penny-matt-about-sketchnoting-distraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Penny, Matt - Confluence Shortcuts</title>
+      <link>https://mattypenny.github.io/sketchnotes/other/pennymatt-confluenceshortcuts/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/other/pennymatt-confluenceshortcuts/</guid>
       <description></description>
     </item>
     
@@ -974,6 +1109,15 @@ It&amp;rsquo;s got, or will have, the following bits:
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/sqlserver/presley-chris-weiss-richard-and-chaves-warner-running-sql-server-on-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Procida Daniele - What Nobody Tells You About Documentation</title>
+      <link>https://mattypenny.github.io/sketchnotes/other/procidadaniele-whatnobodytellsyouaboutdocumentation/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/other/procidadaniele-whatnobodytellsyouaboutdocumentation/</guid>
       <description></description>
     </item>
     
@@ -1095,7 +1239,7 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
-      <title>sketchnote_visual_vocabulary</title>
+      <title>Sketchnote_visual_vocabulary</title>
       <link>https://mattypenny.github.io/sketchnotes/sketchnoting/sketchnote_visual_vocabulary/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
@@ -1109,6 +1253,15 @@ It&amp;rsquo;s got, or will have, the following bits:
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/sqlserver/skinner-simon-sql-and-system-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snover, Jeffrey - Desired State Configuration Day Two</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/snoverjeffrey-desiredstateconfigurationdaytwo/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/snoverjeffrey-desiredstateconfigurationdaytwo/</guid>
       <description></description>
     </item>
     
@@ -1140,11 +1293,11 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
-      <title>Some old stuff</title>
-      <link>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</link>
+      <title>Stad, Sander - Automate Glenn Berrys Dmv Script With Powershell</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/stadsander-automateglennberrysdmvscriptwithpowershell/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/stadsander-automateglennberrysdmvscriptwithpowershell/</guid>
       <description></description>
     </item>
     
@@ -1194,6 +1347,15 @@ It&amp;rsquo;s got, or will have, the following bits:
     </item>
     
     <item>
+      <title>Trinidad, Max - The Essential Powershell On Error Trapping</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/trinidadmax-theessentialpowershellonerrortrapping/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/trinidadmax-theessentialpowershellonerrortrapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tripp, Kimberly - Execution and Plan Cache</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/tripp-kimberly-execution-and-plan-cache/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
@@ -1226,6 +1388,24 @@ It&amp;rsquo;s got, or will have, the following bits:
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Van Der Leek, Rob And Obrenovic, Zeljko - Building Maintainable Software For Sustainable Business Growth</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/vanderleekrobandobrenoviczeljko-buildingmaintainablesoftwareforsustainablebusinessgrowth/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/vanderleekrobandobrenoviczeljko-buildingmaintainablesoftwareforsustainablebusinessgrowth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Van Robaeys, Damien - Powershell with Rundeck</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</guid>
       <description></description>
     </item>
     
@@ -1361,6 +1541,15 @@ It&amp;rsquo;s got, or will have, the following bits:
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/wragg-mark-cross-platform-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yates, Ryan - Whats New In Powershell</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/yatesryan-whatsnewinpowershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/yatesryan-whatsnewinpowershell/</guid>
       <description></description>
     </item>
     

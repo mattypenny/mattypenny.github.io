@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sqlserver on Blog and reference</title>
+    <title>sqlserver on Blog and reference</title>
     <link>https://mattypenny.github.io/sketchnotes/sqlserver/</link>
-    <description>Recent content in Sqlserver on Blog and reference</description>
+    <description>Recent content in sqlserver on Blog and reference</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Jan 2020 17:32:21 +0000</lastBuildDate>
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>Banerjee-Amit-and-Agarwal-Sourabh-Sql-Azure</title>
+      <title>Banerjee - Amit -and - Agarwal - Sourabh - Sql - Azure</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/banerjee-amit-and-agarwal-sourabh-sql-azure/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
@@ -66,7 +66,7 @@
     </item>
     
     <item>
-      <title>Bertrand-Aaron-50-Things-Developers-Should-Know-higher-res</title>
+      <title>Bertrand - Aaron -50 - Things - Developers - Should - Know -higher -res</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/bertrand-aaron-50-things-developers-should-know-higher-res/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
@@ -228,7 +228,7 @@
     </item>
     
     <item>
-      <title>Jones, Steve - A practical approach to version control for sql </title>
+      <title>Jones, Steve - A practical approach to version control for sql</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-a-practical-approach-to-version-control-for-sql-/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
@@ -237,7 +237,7 @@
     </item>
     
     <item>
-      <title>Jones, Steve, Galbraith, Simon and Smith, Alexander - Let Your </title>
+      <title>Jones, Steve, Galbraith, Simon and Smith, Alexander - Let Your</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-galbraith-simon-and-smith-alexander-let-your-/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
@@ -318,7 +318,7 @@
     </item>
     
     <item>
-      <title>Korotkevitch, Dmitri - Sql Internals</title>
+      <title>Korotkevitch - Dmitri - Sql - Internals</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
@@ -327,7 +327,7 @@
     </item>
     
     <item>
-      <title>Korotkevitch-Dmitri-Sql-Internals</title>
+      <title>Korotkevitch, Dmitri - Sql Internals</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/korotkevitch-dmitri-sql-internals/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
@@ -399,6 +399,15 @@
     </item>
     
     <item>
+      <title>Mitchell - Tim - S S I S</title>
+      <link>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mitchell, Allan - Realtime analytics</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-allan-realtime-analytics/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
@@ -418,15 +427,6 @@
     
     <item>
       <title>Mitchell, Tim - SSIS</title>
-      <link>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</link>
-      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
-      
-      <guid>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mitchell-Tim-SSIS</title>
       <link>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       

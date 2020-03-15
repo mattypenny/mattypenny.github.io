@@ -66,6 +66,15 @@
     </item>
     
     <item>
+      <title>Colas -gael -devops</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Colas, Gael - Configuration management</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
@@ -75,11 +84,38 @@
     </item>
     
     <item>
-      <title>colas-gael-devops</title>
-      <link>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</link>
+      <title>Colas, Gael - Leverage Test Kitchen Develop Dsc</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/colasgael-leveragetestkitchendevelopdsc/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/colasgael-leveragetestkitchendevelopdsc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cucen, Ebru - Powershell Conference Europe And Powershell On Linux</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-powershellconferenceeuropeandpowershellonlinux/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-powershellconferenceeuropeandpowershellonlinux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cucen, Ebru - Powershell Module Lifecycle</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-powershellmodulelifecycle/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-powershellmodulelifecycle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cucen, Ebru - Prompts And Customizations</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-promptsandcustomizations/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-promptsandcustomizations/</guid>
       <description></description>
     </item>
     
@@ -129,11 +165,38 @@
     </item>
     
     <item>
+      <title>Hicks, Jeff And Siddaway, Richard And Gavin, Lawrence - Whats New In Powershell V5</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/hicksjeffandsiddawayrichardandgavinlawrence-whatsnewinpowershellv5/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/hicksjeffandsiddawayrichardandgavinlawrence-whatsnewinpowershellv5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Higgins, Michael - Kemp</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/higgins-michael-kemp/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/higgins-michael-kemp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Higgins, Michael - Kemp Products Cloud Deployment Automation</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/higginsmichael-kempproductsclouddeploymentautomation/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/higginsmichael-kempproductsclouddeploymentautomation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Howlett, Martin - Powershell And Restful Apis</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/howlettmartin-powershellandrestfulapis/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/howlettmartin-powershellandrestfulapis/</guid>
       <description></description>
     </item>
     
@@ -156,11 +219,29 @@
     </item>
     
     <item>
+      <title>Kamman, Andre - Deploy And Manage Ola Hallengrens Scripts With Powershell</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/kammanandre-deployandmanageolahallengrensscriptswithpowershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/kammanandre-deployandmanageolahallengrensscriptswithpowershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kokkinos, Constantine and LeMaire Chrissy - Powershell loves Sqlserver</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/kokkinos-constantine-and-lemaire-chrissy-powershell-loves-sqlserver/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/kokkinos-constantine-and-lemaire-chrissy-powershell-loves-sqlserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kokkinos, Constantine And Lemaire, Chrissy - Powershell Loves Sql Server</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/kokkinosconstantineandlemairechrissy-powershelllovessqlserver/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/kokkinosconstantineandlemairechrissy-powershelllovessqlserver/</guid>
       <description></description>
     </item>
     
@@ -219,6 +300,15 @@
     </item>
     
     <item>
+      <title>Lemaire, Chrissy - Simplifying Sqlserver Migrations With Powershell</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/lemairechrissy-simplifyingsqlservermigrationswithpowershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/lemairechrissy-simplifyingsqlservermigrationswithpowershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>LeMaire, Chrissy - Sql Migrations with Posh</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/lemaire-chrissy-sql-migrations-with-posh/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
@@ -228,11 +318,29 @@
     </item>
     
     <item>
+      <title>Lemaire, Chrissy And Walz, Jon And Rottenberg, Hal - Powerscripting Podcast Episode312</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/lemairechrissyandwalzjonandrottenberghal-powerscriptingpodcastepisode312/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/lemairechrissyandwalzjonandrottenberghal-powerscriptingpodcastepisode312/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Martin, Mike - Azure and DSC</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/martin-mike-azure-and-dsc/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/martin-mike-azure-and-dsc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin, Mike - Getting Your Devops Operating</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/martinmike-gettingyourdevopsoperating/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/martinmike-gettingyourdevopsoperating/</guid>
       <description></description>
     </item>
     
@@ -273,6 +381,15 @@
     </item>
     
     <item>
+      <title>Medd, Jonathan - Powershell And Different Types Of Data</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/meddjonathan-powershellanddifferenttypesofdata/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/meddjonathan-powershellanddifferenttypesofdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Messina, Chris - Augmenting Conversations</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/messina-chris-augmenting-conversations/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
@@ -287,6 +404,15 @@
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/moyle-jim-posh-gui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moyle, Jim - Posh Gui</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/moylejim-poshgui/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/moylejim-poshgui/</guid>
       <description></description>
     </item>
     
@@ -363,6 +489,15 @@
     </item>
     
     <item>
+      <title>Snover, Jeffrey - Desired State Configuration Day Two</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/snoverjeffrey-desiredstateconfigurationdaytwo/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/snoverjeffrey-desiredstateconfigurationdaytwo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Snover, Jeffrey - MVA DSC Day 1</title>
       <link>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
@@ -390,11 +525,20 @@
     </item>
     
     <item>
-      <title>Some old stuff</title>
-      <link>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</link>
+      <title>Stad, Sander - Automate Glenn Berrys Dmv Script With Powershell</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/stadsander-automateglennberrysdmvscriptwithpowershell/</link>
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
-      <guid>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</guid>
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/stadsander-automateglennberrysdmvscriptwithpowershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trinidad, Max - The Essential Powershell On Error Trapping</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/trinidadmax-theessentialpowershellonerrortrapping/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/trinidadmax-theessentialpowershellonerrortrapping/</guid>
       <description></description>
     </item>
     
@@ -404,6 +548,24 @@
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Van Der Leek, Rob And Obrenovic, Zeljko - Building Maintainable Software For Sustainable Business Growth</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/vanderleekrobandobrenoviczeljko-buildingmaintainablesoftwareforsustainablebusinessgrowth/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/vanderleekrobandobrenoviczeljko-buildingmaintainablesoftwareforsustainablebusinessgrowth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Van Robaeys, Damien - Powershell with Rundeck</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</guid>
       <description></description>
     </item>
     
@@ -440,6 +602,15 @@
       <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/sketchnotes/powershell/wragg-mark-cross-platform-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yates, Ryan - Whats New In Powershell</title>
+      <link>https://mattypenny.github.io/sketchnotes/powershell/yatesryan-whatsnewinpowershell/</link>
+      <pubDate>Wed, 08 Jan 2020 17:21:18 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/sketchnotes/powershell/yatesryan-whatsnewinpowershell/</guid>
       <description></description>
     </item>
     

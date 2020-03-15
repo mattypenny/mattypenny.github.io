@@ -173,12 +173,32 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-configuration-management/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/colas-gael-devops/</loc>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/colasgael-leveragetestkitchendevelopdsc/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-powershellconferenceeuropeandpowershellonlinux/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-powershellmodulelifecycle/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/cucenebru-promptsandcustomizations/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -263,7 +283,17 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/hicksjeffandsiddawayrichardandgavinlawrence-whatsnewinpowershellv5/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/sketchnotes/powershell/higgins-michael-kemp/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/higginsmichael-kempproductsclouddeploymentautomation/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -279,6 +309,11 @@
   
   <url>
     <loc>https://mattypenny.github.io/sketchnotes/other/hofman-katja-ai-and-the-world-of-minecraft/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/howlettmartin-powershellandrestfulapis/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -304,6 +339,11 @@
   
   <url>
     <loc>https://mattypenny.github.io/sketchnotes/sqlserver/jones-steve-galbraith-simon-and-smith-alexander-let-your-/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/kammanandre-deployandmanageolahallengrensscriptswithpowershell/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -344,6 +384,11 @@
   
   <url>
     <loc>https://mattypenny.github.io/sketchnotes/powershell/kokkinos-constantine-and-lemaire-chrissy-powershell-loves-sqlserver/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/kokkinosconstantineandlemairechrissy-powershelllovessqlserver/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -403,7 +448,17 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/lemairechrissy-simplifyingsqlservermigrationswithpowershell/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/sketchnotes/powershell/lemaire-chrissy-sql-migrations-with-posh/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/lemairechrissyandwalzjonandrottenberghal-powerscriptingpodcastepisode312/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -429,6 +484,11 @@
   
   <url>
     <loc>https://mattypenny.github.io/sketchnotes/powershell/martin-mike-azure-and-dsc/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/martinmike-gettingyourdevopsoperating/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -463,7 +523,17 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/meddjonathan-powershellanddifferenttypesofdata/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/sketchnotes/powershell/messina-chris-augmenting-conversations/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -483,12 +553,12 @@
   </url>
   
   <url>
-    <loc>https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/</loc>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/moyle-jim-posh-gui/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/moyle-jim-posh-gui/</loc>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/moylejim-poshgui/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -524,6 +594,11 @@
   
   <url>
     <loc>https://mattypenny.github.io/sketchnotes/sketchnoting/penny-matt-about-sketchnoting-distraction/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/other/pennymatt-confluenceshortcuts/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -569,6 +644,11 @@
   
   <url>
     <loc>https://mattypenny.github.io/sketchnotes/sqlserver/presley-chris-weiss-richard-and-chaves-warner-running-sql-server-on-linux/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/other/procidadaniele-whatnobodytellsyouaboutdocumentation/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -648,6 +728,11 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/snoverjeffrey-desiredstateconfigurationdaytwo/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/sketchnotes/powershell/snover-jeffrey-mva-dsc-day-1/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
@@ -663,7 +748,7 @@
   </url>
   
   <url>
-    <loc>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</loc>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/stadsander-automateglennberrysdmvscriptwithpowershell/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -693,6 +778,11 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/trinidadmax-theessentialpowershellonerrortrapping/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/sketchnotes/sqlserver/tripp-kimberly-execution-and-plan-cache/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
@@ -709,6 +799,16 @@
   
   <url>
     <loc>https://mattypenny.github.io/sketchnotes/powershell/van-bobaeys-damien-powershell-and-rundeck/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/vanderleekrobandobrenoviczeljko-buildingmaintainablesoftwareforsustainablebusinessgrowth/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/van-robaeys-damien-powershell-with-rundeck/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   
@@ -784,6 +884,11 @@
   
   <url>
     <loc>https://mattypenny.github.io/sketchnotes/powershell/wragg-mark-cross-platform-development/</loc>
+    <lastmod>2020-01-08T17:21:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/sketchnotes/powershell/yatesryan-whatsnewinpowershell/</loc>
     <lastmod>2020-01-08T17:21:18+00:00</lastmod>
   </url>
   

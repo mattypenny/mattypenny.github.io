@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.64.1" />
-  <link rel="canonical" href="https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/">
+  <link rel="canonical" href="https://mattypenny.github.io/2015/02/25/show-sql-errorlog-messages-since-a-specified-date/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>Mitchell-Tim-SSIS | Blog and reference</title>
+  <title>show sql errorlog messages since a specified date | Blog and reference</title>
 </head>
 
   <body>
@@ -236,9 +236,25 @@
         <div>
           
   <main id="main">
-    <h1>Mitchell-Tim-SSIS</h1>
-    <p><img src="/images/sketchnotes/sqlserver/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of Mitchell-Tim-SSIS"></p>
-<p><a href="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg"><img src="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of 'Mitchell-Tim-SSIS'"></p>
+    <h1>show sql errorlog messages since a specified date</h1>
+    <p>This almost speaks for itself&hellip;but it might be worth noting that:</p>
+<ul>
+<li>
+<p>I&rsquo;m only interrogating the latest file here</p>
+</li>
+<li>
+<p>it&rsquo;s a teeny bit cumbersome - I would probably function-alize it</p>
+</li>
+<li>
+<p>the big advantage here compared to the GUI is you can cut-and-paste it <em>really easily</em></p>
+</li>
+</ul>
+<pre><code class="language-$logs">dir sqlserver:sql\the_server_name
+$logs.readerrorlog(0) |
+  where logdate -gt ([datetime]::ParseExact('25/02/2015 07:27:36',&quot;dd/MM/yyyy HH:mm:ss&quot;,$null))  |
+  select processinfo, text |
+  ft -a -wrap
+</code></pre>
 
   </main>
 
@@ -273,11 +289,6 @@
   ga('send', 'pageview');
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
-  
-
-  </body>
-</html>
-'></script>
   
 
   </body>

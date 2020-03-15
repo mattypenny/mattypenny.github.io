@@ -251,6 +251,16 @@ idprocess name IODataBytesPersec PercentPrivilegedTime PercentProcessorTime Perc
     </item>
     
     <item>
+      <title>&#39;unable to find type [date]&#39; and other date-related powershell errors</title>
+      <link>https://mattypenny.github.io/2015/11/24/unable-to-find-type-date-and-other-date-related-powershell-errors/</link>
+      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/24/unable-to-find-type-date-and-other-date-related-powershell-errors/</guid>
+      <description>This post just goes through a bunch of errors I got while trying to subtract one date from another. A lot of stuff on the internet quite rightly focuses on &amp;lsquo;how to&amp;rsquo; do things in Powershell. I thought it might be useful to post up some examples of &amp;lsquo;how not to&amp;rsquo;.
+I&amp;rsquo;ve got a tendency to just start trying things out rather than reading the help text. This isn&amp;rsquo;t typically a good idea, but it does have the advantage of meaning that you do find out what the error message are :)</description>
+    </item>
+    
+    <item>
       <title>&#39;properties&#39; option is greyed out for ssrs instance when you right-click in ssms</title>
       <link>https://mattypenny.github.io/2015/11/20/properties-option-is-greyed-out-for-ssrs-instance-when-you-right-click-in-ssms/</link>
       <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
@@ -362,6 +372,17 @@ function get-sqlerrorlog { [CmdletBinding()]	Param( [String] [alias(&amp;quot;co
     </item>
     
     <item>
+      <title>veeam doesn&#39;t put &#39;Database was restored&#39; in the errorlog</title>
+      <link>https://mattypenny.github.io/2015/09/17/veeam-doesnt-put-database-was-restored-in-the-errorlog/</link>
+      <pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/09/17/veeam-doesnt-put-database-was-restored-in-the-errorlog/</guid>
+      <description>I&amp;rsquo;m doing some testing of veeam restores, and I just noticed this.
+Whereas normal &amp;lsquo;vanilla&amp;rsquo; disk to disk restores report about themselves in the Sqlserver errorlog
+2015-09-17 12:07:08.28 spid1028 Starting up database &#39;my_little_db&#39;. 2015-09-17 12:07:08.29 spid1028 The database &#39;my_little_db&#39; is marked RESTORING and is in a state that does not allow recovery to be run. 2015-09-17 12:07:08.54 spid1028 Starting up database &#39;my_little_db&#39;. 2015-09-17 12:07:08.88 spid1028 CHECKDB for database &#39;my_little_db&#39; finished without errors on 2015-09-16 17:00:01.</description>
+    </item>
+    
+    <item>
       <title>Daft PowerShell Error: MissingEndCurlyBrace</title>
       <link>https://mattypenny.github.io/2015/07/29/daft-powershell-error-missingendcurlybrace/</link>
       <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
@@ -431,6 +452,30 @@ $PodTweets = Import-Csv c:temptweets.csv | ? text -like &amp;quot;*podcast*&amp;
     </item>
     
     <item>
+      <title>show sql errorlog messages since a specified date</title>
+      <link>https://mattypenny.github.io/2015/02/25/show-sql-errorlog-messages-since-a-specified-date/</link>
+      <pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/02/25/show-sql-errorlog-messages-since-a-specified-date/</guid>
+      <description>This almost speaks for itself&amp;hellip;but it might be worth noting that:
+  I&amp;rsquo;m only interrogating the latest file here
+  it&amp;rsquo;s a teeny bit cumbersome - I would probably function-alize it
+  the big advantage here compared to the GUI is you can cut-and-paste it really easily
+  dir sqlserver:sql\the_server_name $logs.readerrorlog(0) | where logdate -gt ([datetime]::ParseExact(&#39;25/02/2015 07:27:36&#39;,&amp;quot;dd/MM/yyyy HH:mm:ss&amp;quot;,$null)) | select processinfo, text | ft -a -wrap  </description>
+    </item>
+    
+    <item>
+      <title>system databases not included in powershell sqlserver provider &#39;databases&#39; folder</title>
+      <link>https://mattypenny.github.io/2015/02/17/system-databases-not-included-in-powershell-sqlserver-provider-databases-folder/</link>
+      <pubDate>Tue, 17 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/02/17/system-databases-not-included-in-powershell-sqlserver-provider-databases-folder/</guid>
+      <description>I hadn&amp;rsquo;t noticed this before.
+If you do a dir listing of the databases for an instance within the Powershell Sqlserver provider, it doesn&amp;rsquo;t show the system databases
+PS C:powershell&amp;gt; dir SQLSERVER:\SQL\my_pcinst2012\databases Name Status Recovery Model CompatLvl Collation Owner ---- ------ -------------- --------- --------- ----- AdventureWorks2012 Normal Simple 110 SQL_Latin1_General_CP1_CI_AS matty TSQL2012 Normal Full 110 Latin1_General_CI_AS matty  To get a listing for the system databases you can do the following.</description>
+    </item>
+    
+    <item>
       <title>converting a word e-book to markdown</title>
       <link>https://mattypenny.github.io/2015/02/14/converting-a-word-e-book-to-markdown/</link>
       <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
@@ -449,6 +494,152 @@ My guess is there is a more effective way out there of converting from Word to M
       <description>This is extracted from Adam Pritchard&amp;rsquo;s Markdown Cheatsheet.
 It&amp;rsquo;s what I would see as the useful bits&amp;hellip;.but of course my useful bits won&amp;rsquo;t be the same as your useful bits!
    Feature Code     Heading #   Bold __bold__   Italics _italics_   Strikout ~~italics~~   Numbered list 1. First   Numbered list __1. First second level with space not underscores   Numbered list 2.</description>
+    </item>
+    
+    <item>
+      <title>sql server 2005 install hangs at &#39;Removing Backup Files&#39;</title>
+      <link>https://mattypenny.github.io/2015/01/27/sql-server-2005-install-hangs-at-removing-backup-files/</link>
+      <pubDate>Tue, 27 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/01/27/sql-server-2005-install-hangs-at-removing-backup-files/</guid>
+      <description>I&amp;rsquo;m installing sqlserver 2005, and it seemed to hang towards the end of the installation.
+The installer hung while it was installing &amp;lsquo;Workstation Components, Books Online&amp;rsquo;, with the progress message being &amp;lsquo;Removing Backup Files&amp;rsquo;. As it happened I kicked this off at the end of the day, and it was still hanging the next morning
+I checked the installer log but there was nothing very interesting
+&amp;lt;Func Name=&#39;LaunchFunction&#39;&amp;gt; Function=Set_CommitFlag &amp;lt;Func Name=&#39;GetCAContext&#39;&amp;gt; &amp;lt;EndFunc Name=&#39;GetCAContext&#39; Return=&#39;T&#39; GetLastError=&#39;0&#39;&amp;gt; Doing Action: Set_CommitFlag PerfTime Start: Set_CommitFlag : Mon Jan 26 16:46:51 2015 &amp;lt;Func Name=&#39;Set_CommitFlag&#39;&amp;gt; Can I commit?</description>
+    </item>
+    
+    <item>
+      <title>Display a Blank Line in a Batch File - DOS and Batch Files</title>
+      <link>https://mattypenny.github.io/2005/12/06/display-a-blank-line-in-a-batch-file-dos-and-batch-files/</link>
+      <pubDate>Tue, 06 Dec 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/12/06/display-a-blank-line-in-a-batch-file-dos-and-batch-files/</guid>
+      <description>Do
+echo.  No gap between the echo and the .</description>
+    </item>
+    
+    <item>
+      <title>For loop in DOS</title>
+      <link>https://mattypenny.github.io/2005/10/14/for-loop-in-dos/</link>
+      <pubDate>Fri, 14 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/10/14/for-loop-in-dos/</guid>
+      <description>This is how to do a for loop in MS-DOS
+for %%I in (OWNER1 ^OWNER2 ^OWNER3 ) ^do d:\perl\bin\perl blah blah &amp;quot;%BJS_JOB_NAME% for database&amp;quot; %%I  </description>
+    </item>
+    
+    <item>
+      <title>Disabling/Enabling wsh</title>
+      <link>https://mattypenny.github.io/2005/10/06/disablingenabling-wsh/</link>
+      <pubDate>Thu, 06 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/10/06/disablingenabling-wsh/</guid>
+      <description>Here are instructions for disabling wsh. This is particularly used by DBAs to run RDA (Remote Diagnostic Agent) to gather Oracle and Oracle-related diagnostics.
+  Run regedit
+  Go to HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Script Host\Settings\Enabled (the Microsoft doc says to create it if its not there)
+  Set the value to 0
+  That&amp;rsquo;s it. You get the message:
+Windows Script Host access is disabled on this machine. Contact your administrator for details.</description>
+    </item>
+    
+    <item>
+      <title>GTD with a Filofax</title>
+      <link>https://mattypenny.github.io/2005/07/19/gtd-with-a-filofax/</link>
+      <pubDate>Tue, 19 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/07/19/gtd-with-a-filofax/</guid>
+      <description>Typed up some brief notes re: the above here:
+Filofax - 43FoldersWiki
+More detail follows
+I&amp;rsquo;ve been using a Filofax for a long time - probably since my Psion 3c packed up - and I just read Getting Things Done. I wasn&amp;rsquo;t entirely convinced by all of it to be honest, but fwiw, here&amp;rsquo;s some notes on implementing GTD with a filofax. I have got:
+  a Calendar Section</description>
+    </item>
+    
+    <item>
+      <title>Loss of SQL connectivity - a problem with the wetware</title>
+      <link>https://mattypenny.github.io/2005/06/22/loss-of-sql-connectivity-a-problem-with-the-wetware/</link>
+      <pubDate>Wed, 22 Jun 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/06/22/loss-of-sql-connectivity-a-problem-with-the-wetware/</guid>
+      <description>The problem
+I lost SQL connectivity to all databases between about 11.29 and 12.06 today (21st June).
+According to the trace files whereas normally the Names servers are addressed as follows:
+[000001 19-MAY-2005 14:11:16:517] NAMES.PREFERRED_SERVERS = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = vAlias1)(PORT = 101)) (ADDRESS = (PROTOCOL = TCP)(HOST = vAlias2)(PORT = 101)))
+during this period they were addressed:
+[000001 21-JUN-2005 11:43:34:114] NAMES.PREFERRED_SERVERS = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 46.</description>
+    </item>
+    
+    <item>
+      <title>&#39;Cannot access the file&#39; from psexec</title>
+      <link>https://mattypenny.github.io/2005/05/04/cannot-access-the-file-from-psexec/</link>
+      <pubDate>Wed, 04 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/05/04/cannot-access-the-file-from-psexec/</guid>
+      <description>Had to cancel a running BJS job which uses psexec to execute on a remote server
+Getting the error:
+&#39;The process cannot access the file because it is being used by another process.&#39; We had this before and I found that running a noddy psexec command e.g. ```psexec server -u username -p password dir``` before the command you want to run seems to clear it up.t this time though.</description>
+    </item>
+    
+    <item>
+      <title>SQLServer: &#39;Cannot generate SSPI context&#39; error message</title>
+      <link>https://mattypenny.github.io/2005/04/19/sqlserver-cannot-generate-sspi-context-error-message/</link>
+      <pubDate>Tue, 19 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/19/sqlserver-cannot-generate-sspi-context-error-message/</guid>
+      <description>Started getting the error above this morning. The SQL server involved supports our Alteris installation. None of the users could get on either.
+The main Microsoft reference is:
+Microsoft doc
+This covers a lot of ground, but something that seems/seemed to be significant is the (lack of) a SPN. SPN is a &amp;ldquo;service principle name&amp;rdquo;. My understanding is that it is a record in Active Directory which shows that resource X is up and running on server Y.</description>
+    </item>
+    
+    <item>
+      <title>BJS Jobs going into &#39;Awaiting Execution&#39; state</title>
+      <link>https://mattypenny.github.io/2005/04/12/bjs-jobs-going-into-awaiting-execution-state/</link>
+      <pubDate>Tue, 12 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/12/bjs-jobs-going-into-awaiting-execution-state/</guid>
+      <description>BJS is the scheduling tool we use on our Windows servers. Its produced by Camellia Software:
+ Camellia website
+&amp;hellip;.and it&amp;rsquo;s very good.
+I had a problem this morning though.
+  BJS jobs would go into &amp;lsquo;Awaiting Exec&amp;rsquo; state for up to 45 minutes before running.
+The Log file would show:
+
+* BATCH JOB SERVER
+* A Camellia Software Product - www.CamelliaSoftware.com
+* Copyright 1994-1998
+* Version 2.1 - A Build 529</description>
+    </item>
+    
+    <item>
+      <title>JDBC fails to connect to 9i Oracle</title>
+      <link>https://mattypenny.github.io/2005/04/08/jdbc-fails-to-connect-to-9i-oracle/</link>
+      <pubDate>Fri, 08 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/08/jdbc-fails-to-connect-to-9i-oracle/</guid>
+      <description>In the course of trying to sort out the problem outlined in the previous post, I hit a problem trying to get the jdbc to talk to the 9i database at all.
+This started occurring once I&amp;rsquo;d re-built the 9i database. [Re-building the 9i database seems like, and on the face of it was, an over-reaction to the problem - its a longish story but at the time we had a fairly short but imminent window of opportunity for doing re-builds, we were waiting for Oracle to get back to us, the NLS_CHARACTERSET setting was wrong, it was Friday afternoon, yada yada.</description>
+    </item>
+    
+    <item>
+      <title>JDBC: Unparseable date</title>
+      <link>https://mattypenny.github.io/2005/04/08/jdbc-unparseable-date/</link>
+      <pubDate>Fri, 08 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/08/jdbc-unparseable-date/</guid>
+      <description>This is a problem we had a month or so back. I&amp;rsquo;m going to cut and paste from my notes at the time&amp;hellip;
+We are trying to upgrade our warehouse from 8.1.7 to 9.2.0.4.
+In testing the pre-production database, we are getting the error below from our systems integration tools (Crossworlds). This transfers data via jdbc to the warehouse. This works fine against the old 8i production database, but not against the 9i database.</description>
+    </item>
+    
+    <item>
+      <title>Transferring from Bloglines (Hello, world 2)</title>
+      <link>https://mattypenny.github.io/2005/04/08/108/</link>
+      <pubDate>Fri, 08 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/08/108/</guid>
+      <description>Having a second go at this blogging thing&amp;hellip;.
+This is primarily for me to keep track of notes and stuff that might be useful or interesting in future. A way of putting some text around &amp;lsquo;My bookmarks&amp;rsquo;</description>
     </item>
     
   </channel>

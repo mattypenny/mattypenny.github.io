@@ -21,6 +21,18 @@ $
 %s/<\/code><\/pre>/```/g
 %s/<code>/```/g
 %s/<\/code>/```/g
+%s/\[code\]/```/g
+%s/\[code..*\]/```/g
+%s/\[\/code\]/```/g
 
 " Un-muck-up dashes
 %s/–/-/g
+
+# Replace <br> with new lines
+%s/<br \/>/\r/g
+%s/<br>/\r/g
+
+
+# Get rid of <p>
+%s/<p>//g
+%s/<\/p>//g

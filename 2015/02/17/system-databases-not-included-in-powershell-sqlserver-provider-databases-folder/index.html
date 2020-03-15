@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.64.1" />
-  <link rel="canonical" href="https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/">
+  <link rel="canonical" href="https://mattypenny.github.io/2015/02/17/system-databases-not-included-in-powershell-sqlserver-provider-databases-folder/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>Mitchell-Tim-SSIS | Blog and reference</title>
+  <title>system databases not included in powershell sqlserver provider &#39;databases&#39; folder | Blog and reference</title>
 </head>
 
   <body>
@@ -236,9 +236,34 @@
         <div>
           
   <main id="main">
-    <h1>Mitchell-Tim-SSIS</h1>
-    <p><img src="/images/sketchnotes/sqlserver/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of Mitchell-Tim-SSIS"></p>
-<p><a href="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg"><img src="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of 'Mitchell-Tim-SSIS'"></p>
+    <h1>system databases not included in powershell sqlserver provider &#39;databases&#39; folder</h1>
+    <p>I hadn&rsquo;t noticed this before.</p>
+<p>If you do a dir listing of the databases for an instance within the Powershell Sqlserver provider, it <em>doesn&rsquo;t</em> show the system databases</p>
+<pre><code>PS C:powershell&gt; dir SQLSERVER:\SQL\my_pcinst2012\databases
+
+Name                 Status          Recovery Model CompatLvl Collation                      Owner
+----                 ------          -------------- --------- ---------                      -----
+AdventureWorks2012   Normal          Simple               110 SQL_Latin1_General_CP1_CI_AS   matty
+TSQL2012             Normal          Full                 110 Latin1_General_CI_AS           matty
+</code></pre>
+<p>To get a listing for the system databases you can do the following. I would imagine there&rsquo;s a better way (perhaps some equivalent to ls -a?)&hellip;but I can&rsquo;t think of it at the minute<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<pre><code>PS C:powershell&gt; foreach ($DB in (&quot;master&quot;, &quot;msdb&quot;, &quot;model&quot;, &quot;tempdb&quot;)) {gi SQLSERVER:\SQL\my_pcinst2012\databases\$DB }
+
+Name                 Status          Recovery Model CompatLvl Collation                      Owner
+----                 ------          -------------- --------- ---------                      -----
+master               Normal          Simple               110 Latin1_General_CI_AS           sa
+msdb                 Normal          Simple               110 Latin1_General_CI_AS           sa
+model                Normal          Simple               110 Latin1_General_CI_AS           sa
+tempdb               Normal          Simple               110 Latin1_General_CI_AS           sa
+</code></pre>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>The &lsquo;better way&rsquo; is to use <code>gci -force</code>. That includes all the system databases. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
 
   </main>
 
@@ -273,11 +298,6 @@
   ga('send', 'pageview');
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
-  
-
-  </body>
-</html>
-'></script>
   
 
   </body>

@@ -888,6 +888,11 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2015/11/24/unable-to-find-type-date-and-other-date-related-powershell-errors/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2015/11/20/properties-option-is-greyed-out-for-ssrs-instance-when-you-right-click-in-ssms/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -988,6 +993,11 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2015/09/17/veeam-doesnt-put-database-was-restored-in-the-errorlog/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2015/07/29/daft-powershell-error-missingendcurlybrace/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -1023,6 +1033,16 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2015/02/25/show-sql-errorlog-messages-since-a-specified-date/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2015/02/17/system-databases-not-included-in-powershell-sqlserver-provider-databases-folder/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2015/02/14/converting-a-word-e-book-to-markdown/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -1034,6 +1054,66 @@
   
   <url>
     <loc>https://mattypenny.github.io/2015/02/04/penflip-markdown-cheatsheet/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2015/01/27/sql-server-2005-install-hangs-at-removing-backup-files/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/12/06/display-a-blank-line-in-a-batch-file-dos-and-batch-files/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/10/14/for-loop-in-dos/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/10/06/disablingenabling-wsh/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/07/19/gtd-with-a-filofax/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/06/22/loss-of-sql-connectivity-a-problem-with-the-wetware/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/05/04/cannot-access-the-file-from-psexec/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/04/19/sqlserver-cannot-generate-sspi-context-error-message/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/04/12/bjs-jobs-going-into-awaiting-execution-state/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/04/08/jdbc-fails-to-connect-to-9i-oracle/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/04/08/jdbc-unparseable-date/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/04/08/108/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   

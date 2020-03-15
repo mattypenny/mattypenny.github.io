@@ -22,5 +22,16 @@ The code Enter-PSSession yourveeamserver Add-PSSnapin VeeamPSSnapIn Get-VBRBacku
 This line &amp;lsquo;remotes&amp;rsquo; to the veeam server. Getting Powershell remoting set-up is another subject. I&amp;rsquo;d recommend the Powershell help topic about_remote_troubleshooting, if it doesn&amp;rsquo;t &amp;lsquo;just work&amp;rsquo;.</description>
     </item>
     
+    <item>
+      <title>veeam doesn&#39;t put &#39;Database was restored&#39; in the errorlog</title>
+      <link>https://mattypenny.github.io/2015/09/17/veeam-doesnt-put-database-was-restored-in-the-errorlog/</link>
+      <pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/09/17/veeam-doesnt-put-database-was-restored-in-the-errorlog/</guid>
+      <description>I&amp;rsquo;m doing some testing of veeam restores, and I just noticed this.
+Whereas normal &amp;lsquo;vanilla&amp;rsquo; disk to disk restores report about themselves in the Sqlserver errorlog
+2015-09-17 12:07:08.28 spid1028 Starting up database &#39;my_little_db&#39;. 2015-09-17 12:07:08.29 spid1028 The database &#39;my_little_db&#39; is marked RESTORING and is in a state that does not allow recovery to be run. 2015-09-17 12:07:08.54 spid1028 Starting up database &#39;my_little_db&#39;. 2015-09-17 12:07:08.88 spid1028 CHECKDB for database &#39;my_little_db&#39; finished without errors on 2015-09-16 17:00:01.</description>
+    </item>
+    
   </channel>
 </rss>

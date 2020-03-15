@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.64.1" />
-  <link rel="canonical" href="https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/">
+  <link rel="canonical" href="https://mattypenny.github.io/2005/04/08/jdbc-unparseable-date/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>Mitchell-Tim-SSIS | Blog and reference</title>
+  <title>JDBC: Unparseable date | Blog and reference</title>
 </head>
 
   <body>
@@ -236,9 +236,30 @@
         <div>
           
   <main id="main">
-    <h1>Mitchell-Tim-SSIS</h1>
-    <p><img src="/images/sketchnotes/sqlserver/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of Mitchell-Tim-SSIS"></p>
-<p><a href="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg"><img src="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of 'Mitchell-Tim-SSIS'"></p>
+    <h1>JDBC: Unparseable date</h1>
+    <p>This is a problem we had a month or so back. I&rsquo;m going to cut and paste from my notes at the time&hellip;</p>
+<p>We are trying to upgrade our warehouse from 8.1.7 to 9.2.0.4.</p>
+<p>In testing the pre-production database, we are getting the error below from our systems integration tools (Crossworlds). This transfers data via jdbc to the warehouse.  This works fine against the old 8i production database, but not against the 9i database.</p>
+<pre><code>ThreadPool Worker (#6775863)] [Type: Error] [MsgID: 90012] [Mesg: 
+ParseException java.text.ParseException: Unparseable date: &quot;&quot;]
+</code></pre>
+<p>Used Metalink note Note 232357.1 to get the following versioning information:</p>
+<pre><code>Database Product Name is ... Oracle
+Database Product Version is Oracle9i Enterprise Edition Release 9.2.0.5.0 - 
+
+Pro duction
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.5.0 - Production
+=============
+JDBC Driver Name is ........ Oracle JDBC driver
+JDBC Driver Version is ..... 8.1.7.2.0
+JDBC Driver Major Version is 8
+JDBC Driver Minor Version is 1
+=============
+</code></pre>
+<p>Following advice from Oracle, I copied cl* and nls* out of the 9i database $ORACLE_HOME/jdbc/lib to the same directory on the client.</p>
+<p>This seemed to sort it out.</p>
+<p>However there was an an associated problem which I&rsquo;ll put into the next post&hellip;.</p>
 
   </main>
 
@@ -273,11 +294,6 @@
   ga('send', 'pageview');
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
-  
-
-  </body>
-</html>
-'></script>
   
 
   </body>

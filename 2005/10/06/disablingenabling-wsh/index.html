@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.64.1" />
-  <link rel="canonical" href="https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/">
+  <link rel="canonical" href="https://mattypenny.github.io/2005/10/06/disablingenabling-wsh/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>Mitchell-Tim-SSIS | Blog and reference</title>
+  <title>Disabling/Enabling wsh | Blog and reference</title>
 </head>
 
   <body>
@@ -236,9 +236,26 @@
         <div>
           
   <main id="main">
-    <h1>Mitchell-Tim-SSIS</h1>
-    <p><img src="/images/sketchnotes/sqlserver/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of Mitchell-Tim-SSIS"></p>
-<p><a href="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg"><img src="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of 'Mitchell-Tim-SSIS'"></p>
+    <h1>Disabling/Enabling wsh</h1>
+    <p>Here are instructions for disabling wsh. This is particularly used by DBAs to run RDA (Remote Diagnostic Agent) to gather Oracle and Oracle-related diagnostics.</p>
+<ul>
+<li>
+<p>Run regedit</p>
+</li>
+<li>
+<p>Go to <code>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Script Host\Settings\Enabled</code> (the Microsoft doc says to create it if its not there)</p>
+</li>
+<li>
+<p>Set the value to 0</p>
+</li>
+</ul>
+<p>That&rsquo;s it. You get the message:</p>
+<pre><code>Windows Script Host access is disabled on this machine. Contact your administrator for details.
+</code></pre>
+<p>If you try to use it.</p>
+<p>If it needs to be re-enabled, then you set the value to 1 - we often need to use it on the database servers to get diags for Oracle, but we should disable it each time after use.</p>
+<p>The MS reference is:</p>
+<p><a href="http://www.microsoft.com/technet/scriptcenter/guide/sas_sbp_lhak.mspx">Ms ref</a></p>
 
   </main>
 
@@ -273,11 +290,6 @@
   ga('send', 'pageview');
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
-  
-
-  </body>
-</html>
-'></script>
   
 
   </body>

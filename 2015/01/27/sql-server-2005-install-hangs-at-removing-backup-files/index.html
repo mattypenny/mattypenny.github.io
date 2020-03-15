@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.64.1" />
-  <link rel="canonical" href="https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/">
+  <link rel="canonical" href="https://mattypenny.github.io/2015/01/27/sql-server-2005-install-hangs-at-removing-backup-files/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>Mitchell-Tim-SSIS | Blog and reference</title>
+  <title>sql server 2005 install hangs at &#39;Removing Backup Files&#39; | Blog and reference</title>
 </head>
 
   <body>
@@ -236,9 +236,29 @@
         <div>
           
   <main id="main">
-    <h1>Mitchell-Tim-SSIS</h1>
-    <p><img src="/images/sketchnotes/sqlserver/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of Mitchell-Tim-SSIS"></p>
-<p><a href="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg"><img src="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of 'Mitchell-Tim-SSIS'"></p>
+    <h1>sql server 2005 install hangs at &#39;Removing Backup Files&#39;</h1>
+    <p>I&rsquo;m installing sqlserver 2005, and it seemed to hang towards the end of the installation.</p>
+<p>The installer hung while it was installing &lsquo;Workstation Components, Books Online&rsquo;, with the progress message being &lsquo;Removing Backup Files&rsquo;. As it happened I kicked this off at the end of the day, and it was still hanging the next morning</p>
+<p><img src="/images/blog/330.png" alt="Sql 2005 progress box"></p>
+<p>I checked the installer log but there was nothing very interesting</p>
+<pre><code class="language-MSI">&lt;Func Name='LaunchFunction'&gt;
+Function=Set_CommitFlag
+&lt;Func Name='GetCAContext'&gt;
+&lt;EndFunc Name='GetCAContext' Return='T' GetLastError='0'&gt;
+Doing Action: Set_CommitFlag
+PerfTime Start: Set_CommitFlag : Mon Jan 26 16:46:51 2015
+&lt;Func Name='Set_CommitFlag'&gt;
+Can I commit?
+Set_CommitFlag called successfully.Committed
+&lt;EndFunc Name='Set_CommitFlag' Return='0' GetLastError='0'&gt;
+PerfTime Stop: Set_CommitFlag : Mon Jan 26 16:46:51 2015
+&lt;EndFunc Name='LaunchFunction' Return='0' GetLastError='0'&gt;
+</code></pre>
+<p>It turned out to be very much <a href="http://en.wiktionary.org/wiki/PEBCAK">a problem between the chair and the keyboad</a>.</p>
+<p>At the start of the install I&rsquo;d had this warning message:
+<img src="/images/blog/0501.png" alt="Sql 2005 warning message"></p>
+<p>I wasn&rsquo;t too worried about it - I&rsquo;m installing an old version of SQL on a newer OS - but I left the warning message window open&hellip;partly so that I could investigate further later.</p>
+<p>Anyway&hellip;as soon as I shut that warning window down, the install kicked back into life and soon completed.</p>
 
   </main>
 
@@ -273,11 +293,6 @@
   ga('send', 'pageview');
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
-  
-
-  </body>
-</html>
-'></script>
   
 
   </body>

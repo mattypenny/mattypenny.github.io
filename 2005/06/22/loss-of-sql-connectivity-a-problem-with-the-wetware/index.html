@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.64.1" />
-  <link rel="canonical" href="https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/">
+  <link rel="canonical" href="https://mattypenny.github.io/2005/06/22/loss-of-sql-connectivity-a-problem-with-the-wetware/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>Mitchell-Tim-SSIS | Blog and reference</title>
+  <title>Loss of SQL connectivity - a problem with the wetware | Blog and reference</title>
 </head>
 
   <body>
@@ -236,9 +236,20 @@
         <div>
           
   <main id="main">
-    <h1>Mitchell-Tim-SSIS</h1>
-    <p><img src="/images/sketchnotes/sqlserver/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of Mitchell-Tim-SSIS"></p>
-<p><a href="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg"><img src="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of 'Mitchell-Tim-SSIS'"></p>
+    <h1>Loss of SQL connectivity - a problem with the wetware</h1>
+    <p><strong>The problem</strong></p>
+<p>I lost SQL connectivity to all databases between about 11.29 and 12.06 today (21st June).</p>
+<p>According to the trace files whereas normally the Names servers are addressed as follows:</p>
+<p>[000001 19-MAY-2005 14:11:16:517]   NAMES.PREFERRED_SERVERS = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = vAlias1)(PORT = 101)) (ADDRESS = (PROTOCOL = TCP)(HOST = vAlias2)(PORT = 101)))</p>
+<p>during this period they were addressed:</p>
+<p>[000001 21-JUN-2005 11:43:34:114]   NAMES.PREFERRED_SERVERS = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 46.2.3.44499)(PORT = 101)) (ADDRESS = (PROTOCOL = TCP)(HOST = 46.2.3.44599)(PORT = 101)))</p>
+<p>The IP addresses in the incorrect address are the correct addresses (for dbs18 and dbs15) respectively, but with a &lsquo;99&rsquo; appended. And &lsquo;normally&rsquo; the trace file shows the alias anyway.</p>
+<p>Empirix didn&rsquo;t show any issues - it could have just been me, but I didn&rsquo;t make any changes that might have caused, or fixed, it.</p>
+<p><strong>Oracles (correct) response</strong></p>
+<p>I don&rsquo;t think this is a DNS issue. I would have to say that the sqlnet.ora has been changed. The beginning of the trace shows the sqlnet.ora after it has been read, but before it has been parsed at all. This shows the invalid value already there.</p>
+<p>Your two traces differ in that the &lsquo;incorrect&rsquo; one appears to be reading its sqlnet.ora from C:\Temp\sqlnet.ora</p>
+<p>Presumably I was in c:temp when I was kicking off sql.</p>
+<p>As I say it was a problem with the <a href="http://www.google.co.uk/search?hl=en&amp;lr=&amp;rls=GGLD,GGLD:2004-36,GGLD:en&amp;oi=defmore&amp;q=define:Wetware">wetware</a></p>
 
   </main>
 
@@ -273,11 +284,6 @@
   ga('send', 'pageview');
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
-  
-
-  </body>
-</html>
-'></script>
   
 
   </body>

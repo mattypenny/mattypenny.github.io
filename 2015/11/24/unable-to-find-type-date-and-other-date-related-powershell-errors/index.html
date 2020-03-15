@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.64.1" />
-  <link rel="canonical" href="https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/">
+  <link rel="canonical" href="https://mattypenny.github.io/2015/11/24/unable-to-find-type-date-and-other-date-related-powershell-errors/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>Mitchell-Tim-SSIS | Blog and reference</title>
+  <title>&#39;unable to find type [date]&#39; and other date-related powershell errors | Blog and reference</title>
 </head>
 
   <body>
@@ -236,9 +236,168 @@
         <div>
           
   <main id="main">
-    <h1>Mitchell-Tim-SSIS</h1>
-    <p><img src="/images/sketchnotes/sqlserver/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of Mitchell-Tim-SSIS"></p>
-<p><a href="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg"><img src="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of 'Mitchell-Tim-SSIS'"></p>
+    <h1>&#39;unable to find type [date]&#39; and other date-related powershell errors</h1>
+    <p>This post just goes through a bunch of errors I got while trying to subtract one date from another. A lot of stuff on the internet quite rightly focuses on &lsquo;how to&rsquo; do things in Powershell. I thought it might be useful to post up some examples of &lsquo;how not to&rsquo;.</p>
+<p>I&rsquo;ve got a tendency to just start trying things out rather than reading the help text. This isn&rsquo;t typically a good idea, but it does have the advantage of meaning that you do find out what the error message are :)</p>
+<h2 id="unable-to-find-type-date">Unable to find type [date]</h2>
+<p>First:</p>
+<pre><code>PS&gt; [date]$PaulsDateOfBirth = &quot;18 June 1942&quot;
+</code></pre>
+<p>returned this:</p>
+<pre><code>Unable to find type [date].
+At line:1 char:1
++ [date]$PaulsDateOfBirth = &quot;18 June 1942&quot;
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (date:TypeName) [], RuntimeException
+    + FullyQualifiedErrorId : TypeNotFound
+</code></pre>
+<p>This is fairly simple. The type I was thinking of is called <code>datetime</code>, not <code>date</code>, so the following &lsquo;works&rsquo; in that it returns no errors</p>
+<pre><code>PS &gt; [datetime]$PaulsDateOfBirth = &quot;18 June 1942&quot;
+</code></pre>
+<h2 id="error-string-was-not-recognized-as-a-valid-datetime">Error: &ldquo;String was not recognized as a valid DateTime.&rdquo;</h2>
+<p>So next I did this</p>
+<pre><code>get-date - $PaulsDateOfBirth
+</code></pre>
+<p>which is rubbish. I got this:</p>
+<pre><code>Get-Date : Cannot bind parameter &quot;Date&quot;. Cannot convert value &quot;-&quot; to type &quot;System.DateTime&quot;. 
+Error: &quot;String was not recognized as a valid DateTime.&quot;
+
+At line:3 char:10
++ get-date - $PaulsDateOfBirth
++          ~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Date], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetDateCommand
+</code></pre>
+<p>This is much better:</p>
+<pre><code>$(get-date) - $PaulsDateOfBirth
+</code></pre>
+<p>which I think is actually returning the right result.</p>
+<pre><code>Days              : 26818
+Hours             : 17
+Minutes           : 53
+Seconds           : 44
+Milliseconds      : 346
+Ticks             : 23171396243469845
+TotalDays         : 26818.7456521642
+TotalHours        : 643649.89565194
+TotalMinutes      : 38618993.7391164
+TotalSeconds      : 2317139624.34698
+TotalMilliseconds : 2317139624346.98
+</code></pre>
+<h2 id="exception-setting-end-cannot-convert-null-to-type-systemdatetime">Exception setting &ldquo;End&rdquo;: &ldquo;Cannot convert null to type &ldquo;System.DateTime&rdquo;.&rdquo;</h2>
+<p>Having got that far I wanted to turn the one-liner into a function that would return Paul&rsquo;s age on any given day. I&rsquo;ve just pasted in the lines which are relevant to the error here:</p>
+<pre><code>$DateOfAllbumRelease = $(get-date))
+$PaulsDateOfBirth = [datetime]&quot;1942-06-18&quot;
+$PaulsAge = new-timespan $PaulsDateOfBirth $DateOFAlbumRelease
+$PaulsAge
+</code></pre>
+<p>The code looks reasonable&hellip;but I got this</p>
+<pre><code>get-PaulsAge
+New-TimeSpan : Cannot bind parameter &quot;End&quot; to the target. Exception setting &quot;End&quot;: &quot;Cannot convert null to type &quot;System.DateTime&quot;.&quot;
+At line:6 char:44
++ $PaulsAge = new-timespan $PaulsDateOfBirth $DateOFAlbumRelease
++                                            ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (:) [New-TimeSpan], ParameterBindingException
+    + FullyQualifiedErrorId : ParameterBindingFailed,Microsoft.PowerShell.Commands.NewTimeSpanCommand
+
+0
+</code></pre>
+<p>This is a simple one&hellip;especially so given the knowledge that I often mis-spell &lsquo;Album&rsquo; as &lsquo;Allbum&rsquo;. Correcting the variable name, the function then worked:</p>
+<pre><code>get-PaulsAge
+73.4739726027397
+</code></pre>
+<h2 id="error-string-was-not-recognized-as-a-valid-datetime-1">Error: &ldquo;String was not recognized as a valid DateTime.&rdquo;</h2>
+<p>What I actually wanted to do was call the function several times for different dates. I had this list:</p>
+<blockquote>
+22/03/63<br>
+26/04/63    <br>
+22/11/63    <br>
+19/06/64    <br>
+10/07/64    <br>
+4/12/64 <br>
+6/08/65 <br>
+3/12/65 <br>
+5/08/66 <br>
+10/12/66    <br>
+1/06/67 <br>
+22/11/68    <br>
+17/01/69    <br>
+26/09/69    <br>
+8/05/70 <br>
+</blockquote>
+<p>&hellip;but you cant just put [datetime] in front of it</p>
+<pre><code>PS &gt; [datetime]&quot;22/03/63&quot;
+Cannot convert value &quot;22/03/63&quot; to type &quot;System.DateTime&quot;. Error: &quot;String was not recognized as a valid DateTime.&quot;
+At line:1 char:1
++ [datetime]&quot;22/03/63&quot;
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvalidCastParseTargetInvocationWithFormatProvider
+
+
+</code></pre>
+<p>Incidentally it still doesn&rsquo;t work if you try using the string as the value for a typed variable</p>
+<pre><code>[datetime]$X=&quot;22/03/63&quot;
+Cannot convert value &quot;22/03/63&quot; to type &quot;System.DateTime&quot;. Error: &quot;String was not recognized as a valid DateTime.&quot;
+At line:1 char:1
++ [datetime]$X=&quot;22/03/63&quot;
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : MetadataError: (:) [], ArgumentTransformationMetadataException
+    + FullyQualifiedErrorId : RuntimeException
+</code></pre>
+<p>However, get-date <em>does</em> happily convert the same string to a date, and return it as such to standard output</p>
+<pre><code>PS &gt; get-date &quot;22/03/63&quot;
+22 March 1963 00:00:00
+</code></pre>
+<p>&hellip;and</p>
+<pre><code>PS &gt; get-date &quot;1/03/63&quot;
+01 March 1963 00:00:00
+</code></pre>
+<p>So with my function defined as:</p>
+<pre><code>PS &gt; Function get-PaulsAge {
+    param ($DateOfAlbumRelease = $(get-date))
+    $PaulsDateOfBirth = [datetime]&quot;1942-06-18&quot;
+    $PaulsAge = new-timespan $PaulsDateOfBirth $DateOFAlbumRelease
+    $PaulsAgeInDays = $PaulsAge.days 
+    $PaulsAgeInYears = $PaulsAge.days / 365
+    $PaulsAgeInYears
+}
+</code></pre>
+<p>&hellip; I could do this</p>
+<pre><code>get-PaulsAge $(get-date &quot;22/03/63&quot;)
+get-PaulsAge $(get-date &quot;26/04/63&quot;)
+get-PaulsAge $(get-date &quot;22/11/63&quot;)
+get-PaulsAge $(get-date &quot;19/06/64&quot;)
+get-PaulsAge $(get-date &quot;10/07/64&quot;)
+get-PaulsAge $(get-date &quot;4/12/64&quot;)
+get-PaulsAge $(get-date &quot;6/08/65&quot;)
+get-PaulsAge $(get-date &quot;3/12/65&quot;)
+get-PaulsAge $(get-date &quot;5/08/66&quot;)
+get-PaulsAge $(get-date &quot;10/12/66&quot;)
+get-PaulsAge $(get-date &quot;1/06/67&quot;)
+get-PaulsAge $(get-date &quot;22/11/68&quot;)
+get-PaulsAge $(get-date &quot;17/01/69&quot;)
+get-PaulsAge $(get-date &quot;26/09/69&quot;)
+get-PaulsAge $(get-date &quot;8/05/70&quot;)
+
+</code></pre>
+<p>and get the following, which as any fule kno, is Paul McCartney&rsquo;s age, in years, when each of the Beatles&rsquo; LPs came out</p>
+<pre><code>20.772602739726
+20.8684931506849
+21.4438356164384
+22.0191780821918
+22.0767123287671
+22.4794520547945
+23.1506849315068
+23.4767123287671
+24.1479452054795
+24.4958904109589
+24.9698630136986
+26.4493150684931
+26.6027397260274
+27.2931506849315
+27.9068493150685
+</code></pre>
 
   </main>
 
@@ -273,11 +432,6 @@
   ga('send', 'pageview');
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
-  
-
-  </body>
-</html>
-'></script>
   
 
   </body>

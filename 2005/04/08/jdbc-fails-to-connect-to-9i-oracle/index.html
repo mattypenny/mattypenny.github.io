@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.64.1" />
-  <link rel="canonical" href="https://mattypenny.github.io/sketchnotes/sqlserver/mitchell-tim-ssis/">
+  <link rel="canonical" href="https://mattypenny.github.io/2005/04/08/jdbc-fails-to-connect-to-9i-oracle/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>Mitchell-Tim-SSIS | Blog and reference</title>
+  <title>JDBC fails to connect to 9i Oracle | Blog and reference</title>
 </head>
 
   <body>
@@ -236,9 +236,60 @@
         <div>
           
   <main id="main">
-    <h1>Mitchell-Tim-SSIS</h1>
-    <p><img src="/images/sketchnotes/sqlserver/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of Mitchell-Tim-SSIS"></p>
-<p><a href="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg"><img src="\/images\/sketchnotes\/sqlserver\/Mitchell-Tim-SSIS.jpg" alt="Sketchnote of 'Mitchell-Tim-SSIS'"></p>
+    <h1>JDBC fails to connect to 9i Oracle</h1>
+    <p>In the course of trying to sort out the problem outlined in the previous post, I hit a problem trying to get the jdbc to talk to the 9i database at all.</p>
+<p>This started occurring once I&rsquo;d re-built the 9i database. [Re-building the 9i database seems like, and on the face of it was, an over-reaction to the problem - its a longish story but at the time we had a fairly short but imminent window of opportunity for doing re-builds, we were waiting for Oracle to get back to us, the NLS_CHARACTERSET setting was wrong, it was Friday afternoon, yada yada..]</p>
+<p>Anyway, running with a test script derived from Metalink Note Note 232357.1, I got</p>
+<pre><code>C:temp&gt;javac doselect.java
+
+C:temp&gt;java doselect
+Jstring is ... jdbc:oracle:thin:@::
+Exception in thread &quot;main&quot; java.sql.SQLException: Io exception: The Network Adap
+ter could not establish the connection
+at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+at oracle.jdbc.ttc7.TTC7Protocol.handleIOException(TTC7Protocol.java)
+at oracle.jdbc.ttc7.TTC7Protocol.logon(TTC7Protocol.java)
+at oracle.jdbc.driver.OracleConnection.(OracleConnection.java)
+at oracle.jdbc.driver.OracleDriver.getConnectionInstance(OracleDriver.ja
+va)
+at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java)
+at java.sql.DriverManager.getConnection(DriverManager.java:517)
+at java.sql.DriverManager.getConnection(DriverManager.java:177)
+at doselect.main(doselect.java:22)
+</code></pre>
+<p>Most of the literature, both Metalink and otherwise, quite sensibly directs you towards:</p>
+<ul>
+<li>correcting your jdbc connection string</li>
+<li>correcting your sqlnet set up</li>
+<li>I checked and re-checked but no issues with either. I could connect using sqlplus with no problem.</li>
+</ul>
+<p>The Oracle support guy set up a web conference so he could see what was going on.</p>
+<p>I showed him the listener.ora.</p>
+<p>He spots a problem in the entry for the database I&rsquo;m trying to connect to.</p>
+<p>&lsquo;Aha!&rsquo; he says, there&rsquo;s your problem.</p>
+<p>&lsquo;Aha!&rsquo; I say, no its not, I just changed that [from what the Oracle chap was recommending] half an hour ago to try it out.</p>
+<p>Oracle support guy insists I change it and re-try. In truth a little bit irritated, I change it back, from my point of view in order to demonstrate that its not relevant to the issue.</p>
+<p>So I re-start the listener and&hellip;..it works.</p>
+<p>So I eat several helpings of humble pie, profusely thank the Oracle support guy and go and lie down in a darkened room.</p>
+<p>I then, for some reason try the connection again and&hellip;..it fails.</p>
+<p>Nobody has changed anything in the meantime.</p>
+<p>On investigation, after a listener restart, connectivity is fine for maybe half a minute or so then starts failing.</p>
+<p>The culprit seems to be the dynamic service registration feature. As it happens, I&rsquo;ve picked up a slight mistrust of the feature - I can&rsquo;t particularly remember why or from where.</p>
+<p>Anyway, given that:</p>
+<ul>
+<li>it takes maybe half a minute or so for the service to dynamically register with the listener, and</li>
+<li>it takes maybe half a minute or so for connectivity to start failing</li>
+</ul>
+<p>The first thing I try is diasabling the dynamic service registration, as follows:</p>
+<p>ALTER SYSTEM SET LOCAL_LISTENER=&rdquo;(ADDRESS=(PROTOCOL=tcp)(host=hostname)(port=7))&rdquo; SCOPE=SPFILE;</p>
+<p>Turning the feature off is described here:</p>
+<ul>
+<li><a href="http://support.oracle.co.uk/metalink/plsql/ml2_documents.showDocument?p_database_id=NOT&amp;p_id=140571.1">Note 140571.1</a></li>
+</ul>
+<p>And&hellip;it works.</p>
+<p>I leave the database and listener up all weekend and all is still OK.</p>
+<p>My best guess is that this is a bug. The likelihood is that it only effects our very specific (and largely unsupported) set of circumstances. I should possibly pursue it with Oracle Support, but the support guy I&rsquo;m talking to is reluctant to do so - I could escalate it but its probably not worth it. I&rsquo;ve typed all the above up a) so I can keep it for my records b) in the hope that anyone Googling &ldquo;Exception in thread &ldquo;main&rdquo; java.sql.SQLException: Io exception: The Network Adapter could not establish the connection&rdquo; may find it. We wouldn&rsquo;t have hit hit if I hadn&rsquo;t rebuilt the database, but then we would have hit it if somebody had inadvertently turned on dynamic service registration in the future. It was a learning experience.</p>
 
   </main>
 
@@ -273,11 +324,6 @@
   ga('send', 'pageview');
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
-  
-
-  </body>
-</html>
-'></script>
   
 
   </body>

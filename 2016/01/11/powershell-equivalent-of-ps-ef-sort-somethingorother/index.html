@@ -237,6 +237,7 @@
           
   <main id="main">
     <h1>powershell equivalent of linux &#39;ps -aux | sort -k3n&#39;</h1>
+    January 11, 2016
     <p>I&rsquo;m not entirely sure how I managed to not find out about Win32_PerfFormattedData_PerfProc_Process before now. I think the &lsquo;sort -k3n&rsquo; does a sort by CPU-usage, but I&rsquo;m sure there&rsquo;s a better way of doing it than that.</p>
 <pre><code>gwmi Win32_PerfFormattedData_PerfProc_Process -ComputerName $ComputerName | 
   Sort-Object -Property PercentProcessorTime -desc | 

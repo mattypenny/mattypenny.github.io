@@ -237,6 +237,7 @@
           
   <main id="main">
     <h1>listing database roles granted to database users in sqlserver</h1>
+    November 2, 2015
     <p>The output from this is unlovely, but it does the trick for the time being.</p>
 <pre><code>$DatabaseUsers = dir Sqlserver:\sql\$ServerName\$InstanceName\databases\$DatabaseName\Users
 foreach ($User in $DatabaseUsers) {

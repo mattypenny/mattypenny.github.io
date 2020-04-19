@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>todo on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/todo/</link>
+    <description>Recent content in todo on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/todo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>24Hop Notes</title>
+      <link>https://mattypenny.github.io/2013/07/31/24hop-notes/</link>
+      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2013/07/31/24hop-notes/</guid>
+      <description>Clustering Conundrum - Allan Hirt Running some HA classes in Europe.
+Loose definition - networked servers.
+Used in different contexts in sqlserver - clusterered indexes, SETI type stuff, windows clusters, NLB, WSFC
+ Windows - network load balance, windows server failover cluster(wsfc) Sqlserver - failover cluster instance  Can&amp;rsquo;t have the latter without the former
+Sqlserver built on WSFC
+75% of problems tend not to be SS
+Resource group - like a folder of resources</description>
+    </item>
+    
+  </channel>
+</rss>

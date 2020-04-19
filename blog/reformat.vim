@@ -32,6 +32,13 @@ $
 %s/<br \/>/\r/g
 %s/<br>/\r/g
 
+# Remove <span>
+%s/<span>//g
+%s/<\/span>//g
+
+
+# Sort out ampersands
+%s/&amp;/\&/g
 
 # Get rid of <p>
 %s/<p>//g

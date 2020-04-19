@@ -1168,7 +1168,102 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2013/07/31/24hop-notes/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/todo/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2013/07/03/access-is-denied-0x80070005-when-changing-sql-server-agent-login/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2012/10/10/4-ways-of-breaking-comment-based-help-in-powershell/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2011/12/21/create-dated-folders-in-linux/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2011/11/24/dos-code-to-remove-duplicates/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2009/03/01/convert-an-html-table-to-excel-spreadsheet/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2008/03/12/changing-the-dos-command-prompt/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2008/02/27/creating-a-timestamp-string-in-dos/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2008/01/25/dos-equivalent-of-unix-whence-or-type/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2007/12/07/determining-which-cpus-have-been-applied/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2007/04/19/dos-equivalent-to-unix-ls-ltr/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2007/04/18/dos-equivalent-to-unix-find-name-print/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2007/03/29/bookmarking-oracle-metalink-in-ie-or-firefox/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2007/02/20/dos-script-to-output-contents-of-latest-file-matching-a-given-spec/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/10/24/alter-database-datafile-file_number-in-8i-does-not-work/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/08/31/changing-the-dos-prompt/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2005/12/06/display-a-blank-line-in-a-batch-file-dos-and-batch-files/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/11/15/opatch-doesnt-appear-to-be-doing-anything-set-active_state_perltrue/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/11/10/dos-backing-up-files-to-datestamped-version/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1183,6 +1278,21 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2005/09/19/ora-29850-invalid-option-for-creation-of-domain-indexes/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/07/26/plsql-doesnt-recognize-privileges-granted-to-roles/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/07/26/pls-00323-in-spec-but-not-in-body/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2005/07/19/gtd-with-a-filofax/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -1193,7 +1303,22 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2005/05/12/searching-for-a-string-within-the-source-of-a-view/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2005/05/04/cannot-access-the-file-from-psexec/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/05/04/not-got-odbc-administrator-on-the-start-menu/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/04/26/oracle-text-some-counter-intuitive-behavior/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1214,6 +1339,21 @@
   
   <url>
     <loc>https://mattypenny.github.io/2005/04/08/jdbc-unparseable-date/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/04/08/non-blocking-block-rocking-locks/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/04/08/oracles-external-tables/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/04/08/perl-debugging/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   

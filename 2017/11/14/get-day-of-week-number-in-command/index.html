@@ -237,6 +237,7 @@
           
   <main id="main">
     <h1>Get day of week number in cmd (dos)</h1>
+    November 14, 2017
     <p>This is a slight tweak to code at: <a href="http://www.techsupportforum.com/forums/f128/solved-windows-7-batch-getting-day-of-week-moved-from-vista-7-a-565632.html">http://www.techsupportforum.com/forums/f128/solved-windows-7-batch-getting-day-of-week-moved-from-vista-7-a-565632.html</a></p>
 <pre><code>FOR /F &quot;skip=1&quot; %%A IN ('WMIC Path Win32_LocalTime Get DayOfWeek' ) DO (
     if %%A GEQ 1 set DOW=%%A

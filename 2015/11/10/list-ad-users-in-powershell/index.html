@@ -237,6 +237,7 @@
           
   <main id="main">
     <h1>list AD users in powershell</h1>
+    November 10, 2015
     <p>This shows all the users with &lsquo;dba&rsquo; in their username. Obviously you could leave out the filter clause altogether to get a complete list of AD users</p>
 <pre><code>Get-ADUser -Filter {samaccountname -like &quot;*dba*&quot;} -SearchBase &quot;dc=mycomp,dc=co,dc=uk&quot; |
     select samaccountname, name

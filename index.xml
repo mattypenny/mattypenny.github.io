@@ -1622,7 +1622,7 @@ Solution The problem was that I was calling the script as follows</description>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/2019/03/22/how-to-copy-chrome-bookmarks-from-one-computer-to-another/</guid>
-      <description> copy &#34;C:\Users\matty\AppData\Local\Google\Chrome\User Data\Default\Bookmarks&#34; &#34;\\sh00001\c$\Users\matty\AppData\Local\Google\Chrome\User Data\Default&#34; -verbose  </description>
+      <description>copy &amp;quot;C:\Users\matty\AppData\Local\Google\Chrome\User Data\Default\Bookmarks&amp;quot; &amp;quot;\\sh00001\c$\Users\matty\AppData\Local\Google\Chrome\User Data\Default&amp;quot; -verbose  </description>
     </item>
     
     <item>
@@ -2031,6 +2031,204 @@ I checked the installer log but there was nothing very interesting
     </item>
     
     <item>
+      <title>24Hop Notes</title>
+      <link>https://mattypenny.github.io/2013/07/31/24hop-notes/</link>
+      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2013/07/31/24hop-notes/</guid>
+      <description>Clustering Conundrum - Allan Hirt Running some HA classes in Europe.
+Loose definition - networked servers.
+Used in different contexts in sqlserver - clusterered indexes, SETI type stuff, windows clusters, NLB, WSFC
+ Windows - network load balance, windows server failover cluster(wsfc) Sqlserver - failover cluster instance  Can&amp;rsquo;t have the latter without the former
+Sqlserver built on WSFC
+75% of problems tend not to be SS
+Resource group - like a folder of resources</description>
+    </item>
+    
+    <item>
+      <title>Access is denied. [0x80070005] When Changing Sql Server Agent Login</title>
+      <link>https://mattypenny.github.io/2013/07/03/access-is-denied-0x80070005-when-changing-sql-server-agent-login/</link>
+      <pubDate>Wed, 03 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2013/07/03/access-is-denied-0x80070005-when-changing-sql-server-agent-login/</guid>
+      <description>Trying to change the sql server agent to run as a non-admin user, I couldn&amp;rsquo;t get Sql Server Agent to work without giving it administrator privileges. I got:
+--------------------------- WMI Provider Error --------------------------- Access is denied. [0x80070005] --------------------------- OK ---------------------------  You have to grant two privileges - both the Agent User and the MSSQL user.
+ SQLServerSQLAgentUser$bigserver$inst01 SQLServerMSSQLUser$bigserver$inst01  </description>
+    </item>
+    
+    <item>
+      <title>6 ways of breaking comment-based help in powershell</title>
+      <link>https://mattypenny.github.io/2012/10/10/4-ways-of-breaking-comment-based-help-in-powershell/</link>
+      <pubDate>Wed, 10 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2012/10/10/4-ways-of-breaking-comment-based-help-in-powershell/</guid>
+      <description>A quick note on the different ways I&amp;rsquo;ve found of breaking the comment-based help in Powershell. I&amp;rsquo;ve only started playing with it today. I&amp;rsquo;ve not verified all of these - I&amp;rsquo;ll do so when time allows
+Leave the &#39;.&#39; off of a label If I leave out the full-stop on one of the labels:
+ SYNOPSIS Lists services on specified server which are set as autostart but are currently stopped .</description>
+    </item>
+    
+    <item>
+      <title>Create dated folders in Linux</title>
+      <link>https://mattypenny.github.io/2011/12/21/create-dated-folders-in-linux/</link>
+      <pubDate>Wed, 21 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2011/12/21/create-dated-folders-in-linux/</guid>
+      <description>For reasons too tedious to relate here, I wanted to create a lot of folders in the format:
+/tmp/20120101_matt /tmp/20120102_matt /tmp/20120103_matt  This does the trick
+for i in {0..365} do mkdir /tmp/$(date --date=&amp;quot;+$i days&amp;quot; +%Y%m%d)_matt done  Happy Christmas!</description>
+    </item>
+    
+    <item>
+      <title>Dos code to remove duplicates</title>
+      <link>https://mattypenny.github.io/2011/11/24/dos-code-to-remove-duplicates/</link>
+      <pubDate>Thu, 24 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2011/11/24/dos-code-to-remove-duplicates/</guid>
+      <description>There&amp;rsquo;s probably a much easier way to do this, but this code removes duplicate lines from a file. Only the first occurrence of a line is kept, but the order of the first occurrences is maintained
+for /F %I in (cfc_scorers.txt) do (findstr %I cfc_order_of_scoring.txt if ERRORLEVEL 1 echo %I &amp;gt;&amp;gt; cfc_order_of_scoring.txt )  So, for each line in the source file, search the target file. If the source line isn&amp;rsquo;t in the target file then append it.</description>
+    </item>
+    
+    <item>
+      <title>Convert an html table to excel spreadsheet</title>
+      <link>https://mattypenny.github.io/2009/03/01/convert-an-html-table-to-excel-spreadsheet/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2009/03/01/convert-an-html-table-to-excel-spreadsheet/</guid>
+      <description>A quick and dirty post for a quick and dirty technique that I used to get the Oracle CPU Database Risk Matrix into a spreadsheet. This won&amp;rsquo;t always work (the html table I was interested in happened to have the data in the same line of html as the tag), but it&amp;rsquo;s a start.
+ Do &amp;lsquo;View Source&amp;rsquo; to get the html for the table. Find the table Cut and paste the table into a text file.</description>
+    </item>
+    
+    <item>
+      <title>Changing the DOS command prompt</title>
+      <link>https://mattypenny.github.io/2008/03/12/changing-the-dos-command-prompt/</link>
+      <pubDate>Wed, 12 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2008/03/12/changing-the-dos-command-prompt/</guid>
+      <description>All the options for changing the command prompt are, logically enough, shown by:
+prompt /?
+My current favorite, especially when my current directory path is quite long is:
+prompt $P$_$T$G
+$P is the path $_ is a line feed $T is the time $G is a &amp;lsquo;&amp;gt;&amp;rsquo;
+So my current command prompt would be, for example:
+D:\oracle\product\10.2.0\db_1O\Patch\opatch\prereqs\oui19:44:36.95&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Creating a timestamp string in DOS</title>
+      <link>https://mattypenny.github.io/2008/02/27/creating-a-timestamp-string-in-dos/</link>
+      <pubDate>Wed, 27 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2008/02/27/creating-a-timestamp-string-in-dos/</guid>
+      <description>I found a better way of doing this using the DOS variables %DATE% and %TIME%
+To extract the elements individually you can do:
+ set DD=%DATE:~0,2%set MM=%DATE:~3,2%set YYYY=%DATE:~6,4%set HH=%TIME:~0,2%set MI=%TIME:~3,2%set SS=%TIME:~6,2% &amp;hellip;.or to do it in one hit:
+set TIMESTAMP=%DATE:~6,4%%DATE:~3,2%%DATE:~0,2%^%TIME:~0,2%%TIME:~3,2%%TIME:~6,2% TIMESTAMP will then look like this:
+20080811100011
+Note: I only just noticed, somewhat shamefully, that if you do this before 10:00am, you get a space in the timestamp, because the hour is represented as &#39; 9&amp;rsquo;, rather than &amp;lsquo;09&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>DOS equivalent of unix &#39;whence&#39; or &#39;type&#39;</title>
+      <link>https://mattypenny.github.io/2008/01/25/dos-equivalent-of-unix-whence-or-type/</link>
+      <pubDate>Fri, 25 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2008/01/25/dos-equivalent-of-unix-whence-or-type/</guid>
+      <description>Found this construct looking in the help for FOR - I can&amp;rsquo;t quite work out how to use it in a batch file, sadly&amp;hellip;..
+for %I in (&amp;quot;sqlplus.exe&amp;quot;) do echo %~$PATH:I gives
+D:\oracle\product\10.2.0\client_1\BIN\sqlplus.exe Update:
+With many thanks to my friend Dave&amp;hellip;.
+To create a whence.bat script, you need to have the following content:
+@echo offset TO_FIND=%1for %%I in (&amp;quot;%TO_FIND%&amp;quot;) do echo %%~$PATH:I &amp;hellip;then you can type, for example, &amp;lsquo;whence sqlplus.</description>
+    </item>
+    
+    <item>
+      <title>Determining which CPUs have been applied</title>
+      <link>https://mattypenny.github.io/2007/12/07/determining-which-cpus-have-been-applied/</link>
+      <pubDate>Fri, 07 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2007/12/07/determining-which-cpus-have-been-applied/</guid>
+      <description>The question of how to determine which CPUs have been applied to a database came up at a couple of presentations at the UKOUG, including mine.
+A quick and dirty way (which I didn&amp;rsquo;t think of at the time) would be to look in the CPU directory:
+c:&amp;gt; dir t:\oracle\ora92\cpu11/06/2007 18:12 .11/06/2007 18:12 ..02/05/2006 17:30 CPUApr200630/04/2007 19:21 CPUApr200728/03/2006 18:51 CPUJan2006...... Then to check which databases the catcpu script was run against, you can look in the directories themselves - the spoolfiles have the name of the database in the title:</description>
+    </item>
+    
+    <item>
+      <title>DOS equivalent to unix ls -ltr</title>
+      <link>https://mattypenny.github.io/2007/04/19/dos-equivalent-to-unix-ls-ltr/</link>
+      <pubDate>Thu, 19 Apr 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2007/04/19/dos-equivalent-to-unix-ls-ltr/</guid>
+      <description>ls -ltr gives you a list of files sorted in order of the time they were last modified, with the most recent showing up last.
+I use this quite a lot to locate recently updated log files, a file I&amp;rsquo;ve just edited etc.
+The DOS equivalent would be:
+dir /OD  The /O is order by. The &amp;lsquo;D&amp;rsquo; is date.</description>
+    </item>
+    
+    <item>
+      <title>DOS equivalent to unix find -name -print</title>
+      <link>https://mattypenny.github.io/2007/04/18/dos-equivalent-to-unix-find-name-print/</link>
+      <pubDate>Wed, 18 Apr 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2007/04/18/dos-equivalent-to-unix-find-name-print/</guid>
+      <description>I&amp;rsquo;m planning to type up a couple of DOS and Windows equivalents of some of my most used unix commands.
+These are very much limited, partial equivalents. In this particular case, I&amp;rsquo;m not replicating all the functionality of the unix &amp;lsquo;find&amp;rsquo;, but 9 times out of 10 when I use find, I use it like this:
+find . -name &#39;sqlnet.ora&#39; -print  You could of course use the Windows Explorer search.</description>
+    </item>
+    
+    <item>
+      <title>Bookmarking Oracle Metalink in IE or Firefox</title>
+      <link>https://mattypenny.github.io/2007/03/29/bookmarking-oracle-metalink-in-ie-or-firefox/</link>
+      <pubDate>Thu, 29 Mar 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2007/03/29/bookmarking-oracle-metalink-in-ie-or-firefox/</guid>
+      <description>This may well be obvious, but&amp;hellip;.
+If you try and save the link to a Metalink note whilst you are actually in the Note, it doesnt always work very well.
+Typically you get:
+  Name:ShowDoc
+  URL:https://www.metalink.oracle.com/metalink/plsql/f?p=130:14:42099925743 7239999::::p14_database_id,p14_docid,p14_show_header,p14_show_help,p14_b lack_frame,p14_font:NOT,1066139.6,1,1,1,helvetica,yada,yada,yada
+  There are two problems with this:
+ the Name&amp;rsquo;s not very useful, and more significantly, the URL won&amp;rsquo;t work  The URL doesn&amp;rsquo;t work because of the string of numbers prior to the 4 consecutive colon&amp;rsquo;s.</description>
+    </item>
+    
+    <item>
+      <title>DOS script to output contents of latest file matching a given spec</title>
+      <link>https://mattypenny.github.io/2007/02/20/dos-script-to-output-contents-of-latest-file-matching-a-given-spec/</link>
+      <pubDate>Tue, 20 Feb 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2007/02/20/dos-script-to-output-contents-of-latest-file-matching-a-given-spec/</guid>
+      <description>Some of our batch jobs write log information to standard output. Others create dated log files.
+Our scheduling tool kind of works best if log information goes to standard output - it captures it then allows you to inspect it from console.
+I wrote the following script to spool out the latest version of a given dated log file.
+I called it show_log.bat So if you run it as follows:</description>
+    </item>
+    
+    <item>
+      <title>alter database datafile file_number in 8i does not work</title>
+      <link>https://mattypenny.github.io/2006/10/24/alter-database-datafile-file_number-in-8i-does-not-work/</link>
+      <pubDate>Tue, 24 Oct 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/10/24/alter-database-datafile-file_number-in-8i-does-not-work/</guid>
+      <description>We&amp;rsquo;ve got a mixture of 9i, 8i and 7.3 databases, but most of them are 9i
+I&amp;rsquo;ve recently got in the habit using the file_id rather than the full filename when I do a resize. This is fairly handy in that avoids either a lot of typing or using the mouse to cut and paste. And it makes me feel smug and clever&amp;hellip;.
+So you can do:
+ alter database datafile 1 resize 500M; Instead of:</description>
+    </item>
+    
+    <item>
+      <title>Changing the DOS prompt</title>
+      <link>https://mattypenny.github.io/2006/08/31/changing-the-dos-prompt/</link>
+      <pubDate>Thu, 31 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/08/31/changing-the-dos-prompt/</guid>
+      <description>I&amp;rsquo;m mucking about with VSS from the command line.
+To do this you need to be in the VSS directory, which looks like this, for me:
+ C:\Program Files\Microsoft Visual Studio\VSS\win32&amp;gt; This doesn&amp;rsquo;t leave much room for typing before the line starts wrapping.
+This command:
+ prompt $d$g Sets the prompt to:
+ 31/08/2006&amp;gt; Which is a bit better&amp;hellip;.</description>
+    </item>
+    
+    <item>
       <title>Display a Blank Line in a Batch File - DOS and Batch Files</title>
       <link>https://mattypenny.github.io/2005/12/06/display-a-blank-line-in-a-batch-file-dos-and-batch-files/</link>
       <pubDate>Tue, 06 Dec 2005 00:00:00 +0000</pubDate>
@@ -2038,6 +2236,25 @@ I checked the installer log but there was nothing very interesting
       <guid>https://mattypenny.github.io/2005/12/06/display-a-blank-line-in-a-batch-file-dos-and-batch-files/</guid>
       <description>Do
 echo.  No gap between the echo and the .</description>
+    </item>
+    
+    <item>
+      <title>opatch doesn&#39;t appear to be doing anything - set ACTIVE_STATE_PERL=TRUE</title>
+      <link>https://mattypenny.github.io/2005/11/15/opatch-doesnt-appear-to-be-doing-anything-set-active_state_perltrue/</link>
+      <pubDate>Tue, 15 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/11/15/opatch-doesnt-appear-to-be-doing-anything-set-active_state_perltrue/</guid>
+      <description>I always used to find it a nuisance that applying the lower level Oracle patches was such a manual activity - you got a bunch of exe&amp;rsquo;s, dll&amp;rsquo;s etc and have to manually copy them into place. Typically you would create a script to do it, and wonder why Oracle hadn&amp;rsquo;t done so.
+Recently patches though have been applicable with opatch - a perl script to do the donkey work.</description>
+    </item>
+    
+    <item>
+      <title>DOS: Backing up files to datestamped version</title>
+      <link>https://mattypenny.github.io/2005/11/10/dos-backing-up-files-to-datestamped-version/</link>
+      <pubDate>Thu, 10 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/11/10/dos-backing-up-files-to-datestamped-version/</guid>
+      <description>cd r:\mtp\gtdremrem Get the date - returns 2005 1110for /f &amp;quot;tokens=1,2,3 delims=/ eol= &amp;quot; %%I in (&#39;date /t&#39;) do set sdate=%%K%%J%%Iremrem Strip out the spacefor /f &amp;quot;tokens=1,2&amp;quot; %%I in (&#39;echo %sdate%&#39;) do set sdate=%%I%%Jremrem Copy the files to old/for /f %%I in (&#39;dir /b *.txt&#39;) do copy %%I old\%sdate%_%%I  </description>
     </item>
     
     <item>
@@ -2062,6 +2279,39 @@ for %%I in (OWNER1 ^OWNER2 ^OWNER3 ) ^do d:\perl\bin\perl blah blah &amp;quot
   Set the value to 0
   That&amp;rsquo;s it. You get the message:
 Windows Script Host access is disabled on this machine. Contact your administrator for details.</description>
+    </item>
+    
+    <item>
+      <title>ORA-29850: invalid option for creation of domain indexes</title>
+      <link>https://mattypenny.github.io/2005/09/19/ora-29850-invalid-option-for-creation-of-domain-indexes/</link>
+      <pubDate>Mon, 19 Sep 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/09/19/ora-29850-invalid-option-for-creation-of-domain-indexes/</guid>
+      <description>I got this error trying to specify the tablespace for my text indexes. I was moving them from a default tablespace because they are taking up quite a lot of space.
+Looking up oerr, you get:
+Cause:The user specified an invalid option like ASC, DESC, SORT or a parallel clause, partitioning clause or physical attributes clause.Action:Choose one of the valid clauses for creation of domain indexes. You can&amp;rsquo; specify a tablespace as such in the create index statement.</description>
+    </item>
+    
+    <item>
+      <title>PL/SQL doesnt recognize privileges granted to roles</title>
+      <link>https://mattypenny.github.io/2005/07/26/plsql-doesnt-recognize-privileges-granted-to-roles/</link>
+      <pubDate>Tue, 26 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/07/26/plsql-doesnt-recognize-privileges-granted-to-roles/</guid>
+      <description>My procedure has a create database link in it:
+v_exe := &#39;create database link temp_security_monitor &#39; ||&#39;connect to &#39; p_username &#39; identified by &#39; p_password ||&#39; using &#39; &#39;&#39;&#39;&#39; p_tns_string &#39;&#39;&#39;&#39;; if v_debug = TRUEthen dbms_output.put_line (v_exe);end if;execute immediate v_exe; This was failing:
+Unexpected error-1031 ORA-01031: insufficient privilegesSQL&amp;gt; conn &amp;lt;a href=&amp;quot;mailto:sys@db&amp;quot;&amp;gt;sys@db&amp;lt;/a&amp;gt; as sysdbaConnected.SQL&amp;gt; grant create database link to system;Grant succeeded. Then all was hunky-dory</description>
+    </item>
+    
+    <item>
+      <title>PLS-00323: in spec but not in body</title>
+      <link>https://mattypenny.github.io/2005/07/26/pls-00323-in-spec-but-not-in-body/</link>
+      <pubDate>Tue, 26 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/07/26/pls-00323-in-spec-but-not-in-body/</guid>
+      <description>Errors for PACKAGE BODY SECURITY_MONITOR:LINE/COL ERROR-------- -----------------------------------------------------------------6/11 PLS-00323: subprogram or cursor &#39;DBG&#39; is declared in a package specification and must be defined in the package body Caused by having:
+procedure dbg (p_text varchar2) is ....in the body  and
+procedure dbg (p_text varchar2) ....in the spec  </description>
     </item>
     
     <item>
@@ -2092,6 +2342,19 @@ during this period they were addressed:
     </item>
     
     <item>
+      <title>Searching for a string within the source of a view</title>
+      <link>https://mattypenny.github.io/2005/05/12/searching-for-a-string-within-the-source-of-a-view/</link>
+      <pubDate>Thu, 12 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/05/12/searching-for-a-string-within-the-source-of-a-view/</guid>
+      <description>If you do this:
+SQL&amp;gt; select * from dba_views2 where text like &#39;%&amp;amp;1%&#39;3 /Enter value for 1: NLold 2: where text like &#39;%&amp;amp;1%&#39;new 2: where text like &#39;%NL%&#39; You get this:
+where text like &#39;%NL%&#39;*ERROR at line 2:ORA-00932: inconsistent datatypes: expected NUMBER got LONG &amp;hellip;.because the text field is a long.
+So:
+create table clobbed_viewsas selectowner, view_name, to_lob(text) textfrom dba_viewsselect * from clobbed_viewswhere text like &#39;%&amp;amp;1%&#39;; And all is hunky-dory</description>
+    </item>
+    
+    <item>
       <title>&#39;Cannot access the file&#39; from psexec</title>
       <link>https://mattypenny.github.io/2005/05/04/cannot-access-the-file-from-psexec/</link>
       <pubDate>Wed, 04 May 2005 00:00:00 +0000</pubDate>
@@ -2100,6 +2363,29 @@ during this period they were addressed:
       <description>Had to cancel a running BJS job which uses psexec to execute on a remote server
 Getting the error:
 &#39;The process cannot access the file because it is being used by another process.&#39; We had this before and I found that running a noddy psexec command e.g. ```psexec server -u username -p password dir``` before the command you want to run seems to clear it up.t this time though.</description>
+    </item>
+    
+    <item>
+      <title>Not got ODBC administrator on the start menu</title>
+      <link>https://mattypenny.github.io/2005/05/04/not-got-odbc-administrator-on-the-start-menu/</link>
+      <pubDate>Wed, 04 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/05/04/not-got-odbc-administrator-on-the-start-menu/</guid>
+      <description>But on my PC its at:
+C:\WINNT\system32\ODBCAD32.exe
+On one of the users XP boxes it was
+C:\WINDOWS\system32\ODBCAD32.exe</description>
+    </item>
+    
+    <item>
+      <title>Oracle Text - some counter intuitive behavior</title>
+      <link>https://mattypenny.github.io/2005/04/26/oracle-text-some-counter-intuitive-behavior/</link>
+      <pubDate>Tue, 26 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/26/oracle-text-some-counter-intuitive-behavior/</guid>
+      <description>I had a query from a user about Text not retrieving the expected data for a given bit of Text
+The Text field (&amp;lsquo;Solution&amp;rsquo;) contains:
+1. What type of OS can be used with the xxx?2. What are the minimum requirements of a PC for use with xxx?3. What versions of browser can be used?4. What modem is recommended in PPP (Point-to-Point Protocol)?Solution1. Recommended Operating Systems:· Windows 95/98· Windows NT 4.</description>
     </item>
     
     <item>
@@ -2152,6 +2438,47 @@ This started occurring once I&amp;rsquo;d re-built the 9i database. [Re-building
       <description>This is a problem we had a month or so back. I&amp;rsquo;m going to cut and paste from my notes at the time&amp;hellip;
 We are trying to upgrade our warehouse from 8.1.7 to 9.2.0.4.
 In testing the pre-production database, we are getting the error below from our systems integration tools (Crossworlds). This transfers data via jdbc to the warehouse. This works fine against the old 8i production database, but not against the 9i database.</description>
+    </item>
+    
+    <item>
+      <title>Non blocking block-rocking locks</title>
+      <link>https://mattypenny.github.io/2005/04/08/non-blocking-block-rocking-locks/</link>
+      <pubDate>Fri, 08 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/08/non-blocking-block-rocking-locks/</guid>
+      <description>Or something&amp;hellip;..
+Blocking locks are easy enough to spot, through utllockt or v$session_waits or the goo-ey of your choice. The situation we had this morning seems to be that locks were being held which prevented a batch load from running. However, if you looked for them in a blocking locks type query you wouldn&amp;rsquo;t see diddley, &amp;lsquo;cos the batch load was bombing out straightaway. At least not unless you caught it at the right time</description>
+    </item>
+    
+    <item>
+      <title>Oracle&#39;s External Tables</title>
+      <link>https://mattypenny.github.io/2005/04/08/oracles-external-tables/</link>
+      <pubDate>Fri, 08 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/08/oracles-external-tables/</guid>
+      <description>Looking at Oracle&amp;rsquo;s External Tables feature, which &amp;lsquo;uses the &amp;lsquo;sql-loader&amp;rsquo; engine.
+Links include:
+  http://www.quest-pipelines.com/newsletter-v6/0105_B.htm
+  http://www.oracle.com/oramag/oracle/01-sep/o51o9i.html
+  Ran the following:
+create or replace directory bjs_history as &#39;D:BJS_HISTORY&#39;;drop table external_bjs_history;CREATE TABLE external_bjs_history (bjs_sched_time varchar2(12),bjs_job_no varchar2(8),bjs_job_name VARCHAR2(40),record_type varchar2(5),job_started varchar2(17),job_finished varchar2(17))ORGANIZATION EXTERNAL(TYPE ORACLE_LOADERDEFAULT DIRECTORY bjs_historyACCESS PARAMETERS(RECORDS DELIMITED BY NEWLINEFIELDS TERMINATED BY &#39;,&#39;MISSING FIELD VALUES ARE NULLbadfile &#39;history.</description>
+    </item>
+    
+    <item>
+      <title>Perl debugging</title>
+      <link>https://mattypenny.github.io/2005/04/08/perl-debugging/</link>
+      <pubDate>Fri, 08 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/08/perl-debugging/</guid>
+      <description>Key commands are:
+s - step (through code)
+p $var - print contents of a vaiable
+r - come out of subroutine (handy since by default you go into all the library modules)
+h - help gives the stuff below
+b - set a break point
+c - continue until you hit the breakpoint
+e.g.
+R:\Oracle\scripts&amp;gt;perl -d qtlist.pl 2480...Enter h or `h h&#39; for help, or `perldoc perldebug&#39; for more help.</description>
     </item>
     
     <item>

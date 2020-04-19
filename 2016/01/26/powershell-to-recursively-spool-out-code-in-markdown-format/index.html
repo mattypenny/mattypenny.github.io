@@ -237,6 +237,7 @@
           
   <main id="main">
     <h1>powershell to recursively spool out code in markdown format</h1>
+    January 26, 2016
     <p>A one-liner to recursively gather code from sub-folders and then output it in a Markdown-style</p>
 <pre><code>$Text = foreach ($file in $(dir .\themes\hyde -recurse -exclude &quot;*.png&quot; | ? attributes -ne 'Directory' | select fullname)) 
 {

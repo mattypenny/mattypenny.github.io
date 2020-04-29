@@ -1168,6 +1168,26 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2014/09/03/filtering-ssrs-subscriptions-from-sqlserver-jobs-in-powershell/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2014/07/14/generate-sqlserver-table-creation-scripts-from-powershell/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2013/11/14/notes-about-wordpress-version-of-salisburyandstonehenge-net/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2013/10/11/get-parameter-how-to-get-a-list-of-powershell-parameters/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2013/07/31/24hop-notes/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -1183,6 +1203,11 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2012/12/07/mis-spelling-in-powershell/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2012/10/10/4-ways-of-breaking-comment-based-help-in-powershell/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -1194,6 +1219,21 @@
   
   <url>
     <loc>https://mattypenny.github.io/2011/11/24/dos-code-to-remove-duplicates/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2011/11/09/maintenance-cleanup-task-not-working/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2011/07/26/niddbnewid-hangs/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2010/04/19/mucking-about-with-analytic-functions/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1218,7 +1258,27 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2008/01/19/opatch-error-perl-lib-version-v5-8-3-doesnt-match-executable-version-v5-6-1-at-xoracle/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2007/12/31/insttype-uknown/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2007/12/07/determining-which-cpus-have-been-applied/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2007/09/12/getting-windows-server-and-oracle-options-details-from-the-command-line/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2007/05/10/most-used-tiddlywiki-commands-for-mainmenu/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1243,12 +1303,42 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2007/01/18/gcompile-sql-generate-a-list-of-compile-statements/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/11/09/moving-to-netbackup-its-case-sensitive/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2006/10/24/alter-database-datafile-file_number-in-8i-does-not-work/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2006/10/04/how-to-return-a-perl-variable-to-dos/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/09/22/missed-email-alerts-because-sent-date-missing/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2006/08/31/changing-the-dos-prompt/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/01/16/keyboard-macros-in-gvim/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/01/12/index-monitoring-vobject_usage-shows-no-rows-selected/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   

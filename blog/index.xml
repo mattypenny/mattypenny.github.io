@@ -509,6 +509,51 @@ I checked the installer log but there was nothing very interesting
     </item>
     
     <item>
+      <title>How to filter out SSRS subscriptions from Sqlserver Jobs in Powershell</title>
+      <link>https://mattypenny.github.io/2014/09/03/filtering-ssrs-subscriptions-from-sqlserver-jobs-in-powershell/</link>
+      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2014/09/03/filtering-ssrs-subscriptions-from-sqlserver-jobs-in-powershell/</guid>
+      <description>If a Sqlserver instance hosts a Reporting Services database, then users&amp;rsquo; report subscriptions are set up as Sql Server Agent jobs.
+They are named like this:
+E422ED2F-C8AD-445B-BF85-E4FD35EE8FAD E668784B-0AA9-4DEC-8C3B-C9EB6CBC7ADE E72E1822-408E-4008-B2D4-6065843A9C86 E8658059-BEF6-493A-908F-928B9B3F2065 EA5D435F-1095-4578-9325-EC3AB14327AC  If you query Sqlserver jobs from Powershell (or in SSMS) these can tend to &amp;lsquo;swamp&amp;rsquo; the &amp;lsquo;normal&amp;rsquo; jobs like so:
+CAEC2E40-7AF5-4CB1-B7D2-66343A79471B CDAEDD6F-07C6-4849-A8AA-5643F771B39B CDF9A96D-747F-4439-855C-CE916E261646 CEEC38CC-3FCA-439E-8C32-33719F9291D2 database1 backup DB64DBA4-D51E-43A0-BA17-A4B247075F70 DB834C0D-6206-4A22-87E6-821414EF95E4 DEF15AC7-8142-4909-A4A2-9D40B8CAC3AD DF4E92E3-E689-44EF-B6C6-8065C18734F0 DF9471A5-4829-4C3E-ACF9-B0D912E26AD2 E05EC820-D572-4168-B14A-24A9102AB1EB E13A783B-DAED-4F51-87AE-058B10AFCF60 E1E6746A-8F87-4DF3-BD30-3D88285F5305 E422ED2F-C8AD-445B-BF85-E4FD35EE8FAD F441C4C6-342A-476B-B9B4-9B1FA7AFC545 F46BC346-24A6-41A8-8965-CC91E8F8BE26 F6EC8655-0487-435C-A390-622B692B63DE F9174393-7A59-4E71-A74B-0E27A9A0118B F9BB8EEA-BD93-4580-A5F8-DA754EF7DC32 F9C775B1-F724-4146-A4CD-64D0735ECE15 FC0FECED-BCC6-46AF-B7C9-E0551DA01E15 FDC6412F-C153-449E-B7E5-FD03281B69E4 FF2A1611-1763-4790-B7C9-64ABD83B710C FF4A61A4-2580-4E94-AAEA-66FB7C7ABD9D Warehouse Load Monday &amp;amp; Wednesday Warehouse Load Sunday Warehouse Load Thursday Warehouse Load Tuesday &amp;amp; Friday  You can filter the SSRS stuff out in Powershell by filtering on the &amp;lsquo;Category&amp;rsquo; property as follows:</description>
+    </item>
+    
+    <item>
+      <title>Generate sqlserver table creation scripts from Powershell</title>
+      <link>https://mattypenny.github.io/2014/07/14/generate-sqlserver-table-creation-scripts-from-powershell/</link>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2014/07/14/generate-sqlserver-table-creation-scripts-from-powershell/</guid>
+      <description>I didn&amp;rsquo;t know you could do this - the &amp;lsquo;table&amp;rsquo; object in the SQL provider has a &amp;lsquo;script&amp;rsquo; method, so you can do the following:
+$ServerInstance = &amp;quot;whatever&amp;quot; $DatabaseName = &amp;quot;whatever&amp;quot; foreach ($TableName in dir Sqlserver:sql$ServerInstancedatabases$DatabaseNametables) { $TableName.script() }  It&amp;rsquo;s a rough equivalent to doing a right click &amp;raquo; &amp;lsquo;Script table as&amp;rsquo; &amp;raquo; &amp;lsquo;Create&amp;rsquo; in SSMS, except you can do it for some or all of the tables on a database.</description>
+    </item>
+    
+    <item>
+      <title>notes about wordpress version of salisburyandstonehenge.net</title>
+      <link>https://mattypenny.github.io/2013/11/14/notes-about-wordpress-version-of-salisburyandstonehenge-net/</link>
+      <pubDate>Thu, 14 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2013/11/14/notes-about-wordpress-version-of-salisburyandstonehenge-net/</guid>
+      <description>This page is a bit of documentation for how I do stuff on the multifarious websites that I&amp;rsquo;ve perpetrated over the years. These are very much notes for myself but if anybody else should happen upon this page I hope you find it useful :)
+On This Day - how it works These are a couple of vim things I use regularly.
+My local history website has a list of stuff that happened on this day&amp;rsquo; in Salisbury&amp;rsquo;s history</description>
+    </item>
+    
+    <item>
+      <title>get-parameter - get a list of PowerShell standard parameter names</title>
+      <link>https://mattypenny.github.io/2013/10/11/get-parameter-how-to-get-a-list-of-powershell-parameters/</link>
+      <pubDate>Fri, 11 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2013/10/11/get-parameter-how-to-get-a-list-of-powershell-parameters/</guid>
+      <description>This is a work in progress - I&amp;rsquo;ll turn it into a function at some stage.
+Anyway, it&amp;rsquo;s a common, and a good practice, to use Powershell&amp;rsquo;s standard verbs when naming your functions. You can retrieve these by typing get-verb at the command line.
+I think it&amp;rsquo;s good to also use Powershell&amp;rsquo;s standard parameter names when you&amp;rsquo;re naming your parameters.
+I couldn&amp;rsquo;t find an easy way of retrieving the list of parameteres but this approximates it:</description>
+    </item>
+    
+    <item>
       <title>24Hop Notes</title>
       <link>https://mattypenny.github.io/2013/07/31/24hop-notes/</link>
       <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
@@ -532,6 +577,18 @@ Resource group - like a folder of resources</description>
       <description>Trying to change the sql server agent to run as a non-admin user, I couldn&amp;rsquo;t get Sql Server Agent to work without giving it administrator privileges. I got:
 --------------------------- WMI Provider Error --------------------------- Access is denied. [0x80070005] --------------------------- OK ---------------------------  You have to grant two privileges - both the Agent User and the MSSQL user.
  SQLServerSQLAgentUser$bigserver$inst01 SQLServerMSSQLUser$bigserver$inst01  </description>
+    </item>
+    
+    <item>
+      <title>Mis-spelling in Powershell</title>
+      <link>https://mattypenny.github.io/2012/12/07/mis-spelling-in-powershell/</link>
+      <pubDate>Fri, 07 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2012/12/07/mis-spelling-in-powershell/</guid>
+      <description>This was spectacularly incompetent even by my high standards of incompetence.
+It illustrates that if you spell the name of a column incorrectly in Powershell, you don&amp;rsquo;t get an error, you just get a null column
+get-wmiobject -class win32_operatingsystem -computer rdm016 | select __Server, ServicePackMajorVerstion  And got:
+__SERVER ServicePackMajorVerstion -------- ------------------------ RDM016  I thought that no service packs had been applied. This, as more attentive readers will have spotted, was not the case.</description>
     </item>
     
     <item>
@@ -564,6 +621,43 @@ for i in {0..365} do mkdir /tmp/$(date --date=&amp;quot;+$i days&amp;quot; +%Y%m
       <guid>https://mattypenny.github.io/2011/11/24/dos-code-to-remove-duplicates/</guid>
       <description>There&amp;rsquo;s probably a much easier way to do this, but this code removes duplicate lines from a file. Only the first occurrence of a line is kept, but the order of the first occurrences is maintained
 for /F %I in (cfc_scorers.txt) do (findstr %I cfc_order_of_scoring.txt if ERRORLEVEL 1 echo %I &amp;gt;&amp;gt; cfc_order_of_scoring.txt )  So, for each line in the source file, search the target file. If the source line isn&amp;rsquo;t in the target file then append it.</description>
+    </item>
+    
+    <item>
+      <title>SQLServer Maintenance Cleanup Task not working</title>
+      <link>https://mattypenny.github.io/2011/11/09/maintenance-cleanup-task-not-working/</link>
+      <pubDate>Wed, 09 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2011/11/09/maintenance-cleanup-task-not-working/</guid>
+      <description>I set up a Sqlserver Maintenance Cleanup Task, but couldn&amp;rsquo;t get it to delete the appropriate backup files.
+The log looked like this:
+Maintenance Cleanup Task () Maintenance Cleanup on Local server connection Cleanup Database Backup files Age: Older than 5 Weeks Task start: 2011-11-09T11:45:01. Task end: 2011-11-09T11:45:01. Success Command:EXECUTE master.dbo.xp_delete_file 0,N&#39;&#39;F:mssql_backup&#39;&#39;,N&#39;&#39;.bak&#39;&#39;,N&#39;&#39;2011-10-05T11:45:01&#39;&#39;,1 GO  &amp;hellip;which looks reasonable.
+It was showing &amp;lsquo;Success&amp;rsquo;
+My mistake was that I had entered .bak rather than just bak as the &amp;lsquo;File extension&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Nid(dbnewid) hangs</title>
+      <link>https://mattypenny.github.io/2011/07/26/niddbnewid-hangs/</link>
+      <pubDate>Tue, 26 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2011/07/26/niddbnewid-hangs/</guid>
+      <description>I had to run nid (also known as dbnewid) on a database as part of a test refresh at the weekend. This changes the dbid of the database.
+Out of sheer laziness I ran it from with sqlplus by using the &amp;lsquo;!&amp;rsquo; host command feature.
+Nid, quite understandablly doesn&amp;rsquo;t really like this - it hangs.
+I ctrl-c&amp;rsquo;d it, exited to the OS and re-ran and it worked fine.
+The 10g doc for nid is here: http://download.</description>
+    </item>
+    
+    <item>
+      <title>Mucking about with analytic functions</title>
+      <link>https://mattypenny.github.io/2010/04/19/mucking-about-with-analytic-functions/</link>
+      <pubDate>Mon, 19 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2010/04/19/mucking-about-with-analytic-functions/</guid>
+      <description>I&amp;rsquo;ve never really used the analytic functions in anger, so consequently I don&amp;rsquo;t really have the skills at my fingertips. By way of re-learning them (using Expert One-on-One Oracle | Thomas Kyte | Apress) I&amp;rsquo;ve been playing about with a list of English Premiership scorers.
+The table is:
+SQL&amp;gt; desc goalsName Null? Type----------------------------------------- -------- ------------DIVISION NOT NULL VARCHAR2(20)END_DATE NOT NULL DATEPLAYER NOT NULL VARCHAR2(40)TEAM VARCHAR2(20)GOALS NUMBER  The third highest scorer for each team, should you want to know that bit of information, is given by:</description>
     </item>
     
     <item>
@@ -620,6 +714,28 @@ To create a whence.bat script, you need to have the following content:
     </item>
     
     <item>
+      <title>opatch error: Perl lib version (v5.8.3) doesn&#39;t match executable version (v5.6.1) at x:oracle...</title>
+      <link>https://mattypenny.github.io/2008/01/19/opatch-error-perl-lib-version-v5-8-3-doesnt-match-executable-version-v5-6-1-at-xoracle/</link>
+      <pubDate>Sat, 19 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2008/01/19/opatch-error-perl-lib-version-v5-8-3-doesnt-match-executable-version-v5-6-1-at-xoracle/</guid>
+      <description>Got the following error:
+C:\oracle\ora92\OPatch&amp;gt;perl opatch.pl versionPerl lib version (v5.8.3) doesn&#39;t match executable version (v5.6.1) at x:oracle10.2.0perl5.8.3lib/MSWin32-x86-multi-thread/Config.pm line 32.Compilation failed in require at x:oracle10.2.0perl5.8.3lib/MSWin32-x86-multi-thread/lib.pm line 6.BEGIN failed--compilation aborted at x:oracle10.2.0perl5.8.3lib/MSWin32-x86-multi-thread/lib.pm line 6.Compilation failed in require at opatch.pl line 88.BEGIN failed--compilation aborted at opatch.pl line 88. Kind of obvious, but the fix here is to set your PERL5LIB variable correctly&amp;hellip;
+C:\oracle\ora92\OPatch&amp;gt;set PERL5LIB=C:perllibC:\oracle\ora92\OPatch&amp;gt;perl opatch.pl versionOracle Interim Patch Installer version 1.</description>
+    </item>
+    
+    <item>
+      <title>instType uknown</title>
+      <link>https://mattypenny.github.io/2007/12/31/insttype-uknown/</link>
+      <pubDate>Mon, 31 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2007/12/31/insttype-uknown/</guid>
+      <description>Started getting this error from a batch job which was using oradim to do a shutdown.
+instType unknown: db not started; use RDBMS as default I think this has just been occurring since we put a 10G install on the same server as the existing 9i and 8i databases.
+Anyhow it was fixed by explicitly setting ORACLE_HOME and prefixing oradim with %ORACLE_HOME%\bin</description>
+    </item>
+    
+    <item>
       <title>Determining which CPUs have been applied</title>
       <link>https://mattypenny.github.io/2007/12/07/determining-which-cpus-have-been-applied/</link>
       <pubDate>Fri, 07 Dec 2007 00:00:00 +0000</pubDate>
@@ -628,6 +744,27 @@ To create a whence.bat script, you need to have the following content:
       <description>The question of how to determine which CPUs have been applied to a database came up at a couple of presentations at the UKOUG, including mine.
 A quick and dirty way (which I didn&amp;rsquo;t think of at the time) would be to look in the CPU directory:
 c:&amp;gt; dir t:\oracle\ora92\cpu11/06/2007 18:12 .11/06/2007 18:12 ..02/05/2006 17:30 CPUApr200630/04/2007 19:21 CPUApr200728/03/2006 18:51 CPUJan2006...... Then to check which databases the catcpu script was run against, you can look in the directories themselves - the spoolfiles have the name of the database in the title:</description>
+    </item>
+    
+    <item>
+      <title>How to get windows server and oracle options details from the command line</title>
+      <link>https://mattypenny.github.io/2007/09/12/getting-windows-server-and-oracle-options-details-from-the-command-line/</link>
+      <pubDate>Wed, 12 Sep 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2007/09/12/getting-windows-server-and-oracle-options-details-from-the-command-line/</guid>
+      <description>I&amp;rsquo;ve been asked to retrieve some details on:
+ the options in use on our databases and the servers they run on.  Oracle feature usage can be retrieved as follows:
+col parameter format a35 col value format a10 select name, banner from v$version, v$database; select name,parameter, value from v$option, v$database where parameter in ( &#39;Partitioning&#39;, &#39;Real Application Clusters&#39;, &#39;Spatial&#39;, &#39;OLAP Window Functions&#39;, &#39;Oracle Label Security&#39;, &#39;OLAP&#39;, &#39;Oracle Data Mining&#39; ) order by 2,1;  Both of the commands below get server information from the commandline.</description>
+    </item>
+    
+    <item>
+      <title>Most used tiddlywiki commands for MainMenu</title>
+      <link>https://mattypenny.github.io/2007/05/10/most-used-tiddlywiki-commands-for-mainmenu/</link>
+      <pubDate>Thu, 10 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2007/05/10/most-used-tiddlywiki-commands-for-mainmenu/</guid>
+      <description>I put this into my MainMenu tiddler to give me a quick reference for my most used tiddlywiki formatting commands.
+!Cheat sheet |&#39;&#39;Bold&#39;&#39;|{{{&#39;&#39;text&#39;&#39;}}}| |__Uline__|{{{__text__}}}| |//Italic//|{{{//text//}}}| |Bullets|{{{*text}}}| |No.s|{{{#text}}}| |Heads|{{{!text}}}| |Table|{{{|t|t|}}}| |Quote|{{{&amp;gt;&amp;gt;&amp;gt;}}}| |{{{Mono}}}|{{{{{{text}}}}}}| |[[Tid]]|{{{[[Text]]}}}| |[[Help|http://www.blogjones.com/TiddlyWikiTutorial.html#EasyToEdit]]|{{{[[t|url]]}}}|  </description>
     </item>
     
     <item>
@@ -681,6 +818,30 @@ I called it show_log.bat So if you run it as follows:</description>
     </item>
     
     <item>
+      <title>gcompile.sql - Generate a list of compile statements</title>
+      <link>https://mattypenny.github.io/2007/01/18/gcompile-sql-generate-a-list-of-compile-statements/</link>
+      <pubDate>Thu, 18 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2007/01/18/gcompile-sql-generate-a-list-of-compile-statements/</guid>
+      <description>I&amp;rsquo;ve never had much joy with utlrp, and I&amp;rsquo;m too lazy to work out why.
+Anyway, this works for me:
+set pagesize 0spool compile.sqlselect decode(object_type,&#39;PACKAGE BODY&#39;,&#39;alter &#39; || &#39;package &#39; ||&#39; &#39; || owner ||&#39;.&#39; || object_name ||&#39; compile body;&#39; ||CHR(10) ||&#39;sho err&#39;,&#39;TYPE BODY&#39;,&#39;alter &#39; || &#39;type &#39; ||&#39; &#39; || owner ||&#39;.&#39; || object_name ||&#39; compile body;&#39; ||CHR(10) ||&#39;sho err&#39;,-- OTHER STUFF&#39;alter &#39; || object_type ||&#39; &#39; || owner ||&#39;.</description>
+    </item>
+    
+    <item>
+      <title>Moving to netbackup - its case sensitive....</title>
+      <link>https://mattypenny.github.io/2006/11/09/moving-to-netbackup-its-case-sensitive/</link>
+      <pubDate>Thu, 09 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/11/09/moving-to-netbackup-its-case-sensitive/</guid>
+      <description>We&amp;rsquo;re currently migrating our backups from TSM to netbackup.
+I know TSM quite well, but I&amp;rsquo;m learning netbackup.
+The first lesson was that its case-sensitive on Windows:
+bplist -R d:\backupEXIT STATUS 227: no entity was found fixed by
+bplist -R D:\backupD:\backupD:\backup\MTP1D:\backup\MTP1\DB_MTP1_5_1_605982503_05I1T3P7_1_1D:\backup  </description>
+    </item>
+    
+    <item>
       <title>alter database datafile file_number in 8i does not work</title>
       <link>https://mattypenny.github.io/2006/10/24/alter-database-datafile-file_number-in-8i-does-not-work/</link>
       <pubDate>Tue, 24 Oct 2006 00:00:00 +0000</pubDate>
@@ -690,6 +851,26 @@ I called it show_log.bat So if you run it as follows:</description>
 I&amp;rsquo;ve recently got in the habit using the file_id rather than the full filename when I do a resize. This is fairly handy in that avoids either a lot of typing or using the mouse to cut and paste. And it makes me feel smug and clever&amp;hellip;.
 So you can do:
  alter database datafile 1 resize 500M; Instead of:</description>
+    </item>
+    
+    <item>
+      <title>How to return a perl variable to DOS</title>
+      <link>https://mattypenny.github.io/2006/10/04/how-to-return-a-perl-variable-to-dos/</link>
+      <pubDate>Wed, 04 Oct 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/10/04/how-to-return-a-perl-variable-to-dos/</guid>
+      <description>There must be a better way of doing it than this&amp;hellip;.. I couldn&amp;rsquo;t find a way of &amp;lsquo;return&amp;rsquo;-ing a variable from perl to dos in the way that you can with an Oracle function or a unix shell script.
+This only works if you only have one line to stdout, so its vulnerable to getting unexpected lines output in the perl. You could improve it by prefixing what you want returned with a string then using findstr on the output, but it&amp;rsquo;s still fairly manky</description>
+    </item>
+    
+    <item>
+      <title>Missed email alerts because &#39;Sent&#39; date missing</title>
+      <link>https://mattypenny.github.io/2006/09/22/missed-email-alerts-because-sent-date-missing/</link>
+      <pubDate>Fri, 22 Sep 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/09/22/missed-email-alerts-because-sent-date-missing/</guid>
+      <description>I scripted our backup jobs to send an email to me if there&amp;rsquo;s a problem. This works well enough, usually.
+However this week the backups started failing because of a dodgy disk, but it seemed I wasn&amp;rsquo;t getting the alerts. It wasn&amp;rsquo;t until one of the sysadmins mentioned the problem with the disk that I found out there was a problem. I made a mental note to check out why I hadn&amp;rsquo;t been alerted but, so far, hadn&amp;rsquo;t got any further than that.</description>
     </item>
     
     <item>
@@ -704,6 +885,27 @@ To do this you need to be in the VSS directory, which looks like this, for me:
 This command:
  prompt $d$g Sets the prompt to:
  31/08/2006&amp;gt; Which is a bit better&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>How to record and use keyboard macros in gvim</title>
+      <link>https://mattypenny.github.io/2006/01/16/keyboard-macros-in-gvim/</link>
+      <pubDate>Mon, 16 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/01/16/keyboard-macros-in-gvim/</guid>
+      <description>Keyboard macros in gvim are much easier than using the map command. Basically you do:
+qx - to start recording a macro called &amp;lsquo;x&amp;rsquo; q - to stop recording the macro @x - to execute it</description>
+    </item>
+    
+    <item>
+      <title>Index monitoring: v$object_usage shows no rows selected</title>
+      <link>https://mattypenny.github.io/2006/01/12/index-monitoring-vobject_usage-shows-no-rows-selected/</link>
+      <pubDate>Thu, 12 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/01/12/index-monitoring-vobject_usage-shows-no-rows-selected/</guid>
+      <description>And the Note says that you can only see anything in V$OBJECT_USAGE if you&amp;rsquo;re connected as the owner of the indexes.
+Instead of using the view, this query (which is a hacked version of the view) seems to work:
+col username format a15col ind format a24col tab format a18select io.name ind,username,t.name tab,decode(bitand(i.flags, 65536), 0, &#39;NO&#39;, &#39;YES&#39;),decode(bitand(ou.flags, 1), 0, &#39;NO&#39;, &#39;YES&#39;),substr(ou.start_monitoring , 1, 10) strt_mon-- ou.</description>
     </item>
     
     <item>

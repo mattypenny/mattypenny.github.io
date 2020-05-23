@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dates on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/dates/</link>
+    <description>Recent content in dates on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/dates/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>&#39;unable to find type [date]&#39; and other date-related powershell errors</title>
+      <link>https://mattypenny.github.io/2015/11/24/unable-to-find-type-date-and-other-date-related-powershell-errors/</link>
+      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2015/11/24/unable-to-find-type-date-and-other-date-related-powershell-errors/</guid>
+      <description>This post just goes through a bunch of errors I got while trying to subtract one date from another. A lot of stuff on the internet quite rightly focuses on &amp;lsquo;how to&amp;rsquo; do things in Powershell. I thought it might be useful to post up some examples of &amp;lsquo;how not to&amp;rsquo;.
+I&amp;rsquo;ve got a tendency to just start trying things out rather than reading the help text. This isn&amp;rsquo;t typically a good idea, but it does have the advantage of meaning that you do find out what the error message are :)</description>
+    </item>
+    
+  </channel>
+</rss>

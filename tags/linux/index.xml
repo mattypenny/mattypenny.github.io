@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/linux/</link>
+    <description>Recent content in linux on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu netbook can&#39;t see my nook</title>
+      <link>https://mattypenny.github.io/2013/07/14/ubuntu-netbook-cant-see-my-nook/</link>
+      <pubDate>Sun, 14 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2013/07/14/ubuntu-netbook-cant-see-my-nook/</guid>
+      <description>I had a problem yesterday getting my Ubuntu netbook (which is a Dell Inspiron 910 mini) to see my Nook.
+After, mucking about with various unix commands, including:
+mount lsusb dmesg | egrep -i connected ls /dev/sd*  It turns out that Ubuntu couldn&amp;rsquo;t see the Nook because the power was too low.
+It seems that there was enough power to power the Nook on, but not enough for it to make itself visible to the netbook.</description>
+    </item>
+    
+    <item>
+      <title>Unix for windows</title>
+      <link>https://mattypenny.github.io/2005/04/08/unix-for-windows/</link>
+      <pubDate>Fri, 08 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/08/unix-for-windows/</guid>
+      <description>Going to try this out: http://download.microsoft.com/download/5/f/2/5f26ad97-ace1-4454-975c-bca19dbd61d1/sfu35intro.doc#_Toc59604538
+ SFU 3.5 includes Interix, a complete POSIX development environment tightly integrated with the Windows kernel. Both Korn and C shells are included, and the Bash shell is available as a free download. With more than 350 UNIX utilities and a single rooted file system, SFU provides a familiar environment for UNIX developers, users, and administrators.
+
+ </description>
+    </item>
+    
+  </channel>
+</rss>

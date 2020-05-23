@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oracle on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/oracle/</link>
+    <description>Recent content in oracle on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Feb 2006 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Re-naming the listener - check for dependencies</title>
+      <link>https://mattypenny.github.io/2006/02/13/re-naming-the-listener-check-for-dependencies/</link>
+      <pubDate>Mon, 13 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/02/13/re-naming-the-listener-check-for-dependencies/</guid>
+      <description>This is a fairly foolish pitfall that I stumbled into last week.
+One of the recommendations from our external security audit was that we rename the listener from the default &amp;lsquo;LISTENER&amp;rsquo; to something else.
+I&amp;rsquo;m a little bit dubious as to how much renaming the listener increases &amp;lsquo;security&amp;rsquo; since the listener name is visible in the Services panel or through net start. However, from a security POV it can&amp;rsquo;t do any harm, and it&amp;rsquo;s not a lot of effort, so we went ahead with it.</description>
+    </item>
+    
+  </channel>
+</rss>

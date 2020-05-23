@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>untagged on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/untagged/</link>
+    <description>Recent content in untagged on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 May 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to use t-sql to show SSRS permissions</title>
+      <link>https://mattypenny.github.io/2014/05/21/t-sql-to-show-ssrs-permissions/</link>
+      <pubDate>Wed, 21 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2014/05/21/t-sql-to-show-ssrs-permissions/</guid>
+      <description>I&amp;rsquo;m not great at T-sql, and I know that cursors are unfashionable in Microsoft world, but this gives me the output I want, as below:
+ PathUsernameGrantedPermissions /Data SourcescfcjmourinhoBrowser,Content Manager,My Reports,Publisher,Report Builder /Data Sources/StatszoneBUILTINAdministratorsContent Manager /Data Sources/StatszonecfcjmourinhoBrowser,Content Manager,My Reports,Publisher,Report Builder /Data Sources/StatszonecfcjmourinhoBrowser,Content Manager,My Reports,Publisher,Report Builder /zTest/By far the greatest team reportcfcjmourinhoBrowser,Content Manager,My Reports,Publisher,Report Builder /zTest/By far the greatest team reportcfcbbuckBrowser /zTest/By far the greatest team reportcfcrfariaContent Manager  drop table #ReportPermissions create table #ReportPermissions (Path varchar(100), Username varchar(100), GrantedPermissions varchar(100)) declare UserWithPermissionsCursor cursor for select -- ,roles.</description>
+    </item>
+    
+  </channel>
+</rss>

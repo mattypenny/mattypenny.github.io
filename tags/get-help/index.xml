@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>get-help on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/get-help/</link>
+    <description>Recent content in get-help on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Jan 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/get-help/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>using powershell&#39;s help system to stash your tips and tricks in &#39;about_&#39; topics</title>
+      <link>https://mattypenny.github.io/2016/01/30/using-powershells-help-system-to-stash-your-tips-and-tricks-in-about_-topics/</link>
+      <pubDate>Sat, 30 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/01/30/using-powershells-help-system-to-stash-your-tips-and-tricks-in-about_-topics/</guid>
+      <description>There are a bunch of bits of syntax which I struggle to remember.
+I&amp;rsquo;m not always online when I&amp;rsquo;m using my laptop, but I always have a Powershell window open.
+This is a possibly not-best-practice way of using Powershell&amp;rsquo;s wonderful help system to store bits of reference material.
+The problem I&amp;rsquo;m moving a Wordpress blog to Hugo, which uses Markdown, but I&amp;rsquo;m struggling to remember the Markdown syntax. It&amp;rsquo;s not difficult, but I&amp;rsquo;m getting old and I get confused with Twiki syntax.</description>
+    </item>
+    
+    <item>
+      <title>6 ways of breaking comment-based help in powershell</title>
+      <link>https://mattypenny.github.io/2012/10/10/4-ways-of-breaking-comment-based-help-in-powershell/</link>
+      <pubDate>Wed, 10 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2012/10/10/4-ways-of-breaking-comment-based-help-in-powershell/</guid>
+      <description>A quick note on the different ways I&amp;rsquo;ve found of breaking the comment-based help in Powershell. I&amp;rsquo;ve only started playing with it today. I&amp;rsquo;ve not verified all of these - I&amp;rsquo;ll do so when time allows
+Leave the &#39;.&#39; off of a label If I leave out the full-stop on one of the labels:
+ SYNOPSIS Lists services on specified server which are set as autostart but are currently stopped .</description>
+    </item>
+    
+  </channel>
+</rss>

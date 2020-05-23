@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tns on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/tns/</link>
+    <description>Recent content in tns on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Sep 2007 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/tns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Problem: TNS-03505: Failed to resolve name </title>
+      <link>https://mattypenny.github.io/2007/09/24/tns-03505-failed-to-resolve-name-oid-glitch/</link>
+      <pubDate>Mon, 24 Sep 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2007/09/24/tns-03505-failed-to-resolve-name-oid-glitch/</guid>
+      <description>We&amp;rsquo;re in the process of migrating from Oracle Names to LDAP, and found the following fairly trivial gotcha.
+If you have a space between the word LDAP and the comma in the DIRECTORY_PATH, as below, then it won&amp;rsquo;t work
+NAMES.DIRECTORY_PATH= ( LDAP , ONAMES, TNSNAMES)  </description>
+    </item>
+    
+    <item>
+      <title>Re-naming the listener - check for dependencies</title>
+      <link>https://mattypenny.github.io/2006/02/13/re-naming-the-listener-check-for-dependencies/</link>
+      <pubDate>Mon, 13 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/02/13/re-naming-the-listener-check-for-dependencies/</guid>
+      <description>This is a fairly foolish pitfall that I stumbled into last week.
+One of the recommendations from our external security audit was that we rename the listener from the default &amp;lsquo;LISTENER&amp;rsquo; to something else.
+I&amp;rsquo;m a little bit dubious as to how much renaming the listener increases &amp;lsquo;security&amp;rsquo; since the listener name is visible in the Services panel or through net start. However, from a security POV it can&amp;rsquo;t do any harm, and it&amp;rsquo;s not a lot of effort, so we went ahead with it.</description>
+    </item>
+    
+    <item>
+      <title>How to to capture usage of database links</title>
+      <link>https://mattypenny.github.io/2005/06/07/some-code-to-capture-link-usage/</link>
+      <pubDate>Tue, 07 Jun 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/06/07/some-code-to-capture-link-usage/</guid>
+      <description>select db_link, dba_users.username, sql_textfrom v$sqlarea a, dba_users, dba_db_linkswhere upper (sql_text) like &#39;%@&#39;&amp;lt;/a&amp;gt; replace(replace (db_link, &#39;.COMPANY&#39;), &#39;.WORLD&#39;) &#39;%&#39;and user_id=parsing_user_id/  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -21,5 +21,27 @@
 Get-ADUser -Filter {samaccountname -like &amp;quot;*dba*&amp;quot;} -SearchBase &amp;quot;dc=mycomp,dc=co,dc=uk&amp;quot; | select samaccountname, name samaccountname name -------------- ---- dba_john John Hollins dba_terry Terry Dixon  You have to ActiveDirectory Powershell module loaded</description>
     </item>
     
+    <item>
+      <title>Problem: &#39;Access is denied. [0x80070005]&#39; when changing sql server agent login</title>
+      <link>https://mattypenny.github.io/blog/access-is-denied-0x80070005-when-changing-sql-server-agent-login/</link>
+      <pubDate>Wed, 03 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/access-is-denied-0x80070005-when-changing-sql-server-agent-login/</guid>
+      <description>Trying to change the sql server agent to run as a non-admin user, I couldn&amp;rsquo;t get Sql Server Agent to work without giving it administrator privileges. I got:
+--------------------------- WMI Provider Error --------------------------- Access is denied. [0x80070005] --------------------------- OK ---------------------------  You have to grant two privileges - both the Agent User and the MSSQL user.
+ SQLServerSQLAgentUser$bigserver$inst01 SQLServerMSSQLUser$bigserver$inst01  </description>
+    </item>
+    
+    <item>
+      <title>Re-naming the listener - check for dependencies</title>
+      <link>https://mattypenny.github.io/2006/02/13/re-naming-the-listener-check-for-dependencies/</link>
+      <pubDate>Mon, 13 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/02/13/re-naming-the-listener-check-for-dependencies/</guid>
+      <description>This is a fairly foolish pitfall that I stumbled into last week.
+One of the recommendations from our external security audit was that we rename the listener from the default &amp;lsquo;LISTENER&amp;rsquo; to something else.
+I&amp;rsquo;m a little bit dubious as to how much renaming the listener increases &amp;lsquo;security&amp;rsquo; since the listener name is visible in the Services panel or through net start. However, from a security POV it can&amp;rsquo;t do any harm, and it&amp;rsquo;s not a lot of effort, so we went ahead with it.</description>
+    </item>
+    
   </channel>
 </rss>

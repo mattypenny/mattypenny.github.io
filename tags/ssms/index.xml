@@ -21,5 +21,15 @@
  go into SQL Server Management Studio, connect to the SSRS instance, then right-click on the instance name and select Properties from the drop-down menu  However 9 times out of 10 when I do this (in my defence, I don&amp;rsquo;t do it very often&amp;hellip;.</description>
     </item>
     
+    <item>
+      <title>Sqlserver Management Studio</title>
+      <link>https://mattypenny.github.io/2011/10/13/sqlserver-management-studio/</link>
+      <pubDate>Thu, 13 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2011/10/13/sqlserver-management-studio/</guid>
+      <description>I spent a couple of lunchtimes going through Sqlserver Management Studio&amp;rsquo;s &amp;lsquo;Object Explorer&amp;rsquo; panel, typing up all the different elements. This might seem like an odd thing to do, but I thought it might be useful for the following reasons:
+ as a reference. A searchable list of where everything is as the beginnings of a checklist. Making a system wide change it might be handy to scan through this list and consider whether there&amp;rsquo;s an impact on each element to get me blogging again :)   Databases System Databases Database Snapshots User Databases Database Diagrams Tables Views Synonyms Programmability Stored Procedures Functions Triggers Assemblies Types Rules Defaults Plan Guides Service Broker Message Types Contracts Queues Services Routes Remote ServiceBindings Broker Priorities Storage Full Text Catalogs Partition Schenes Patition Functions Full Text Stoplists Security Users Roles Schemas Asymmetric Keys Certificates Symmetric Keys Database Audit Specifications Security Logins Server Roles Credentials Cryptographic Providers Audits Server Audit Specifications Server Objects Backup Devices Endpoints System Endpoints Database Mirroring Service Broker SOAP TSQL Dedicated Admin Connection TSQL Default TCP TSQL Default VIA TSQL Local Machine TSQL Named Pipes Database Mirroring Service Broker SOAP TSQL Linked Servers Providers Triggers Replication Local publications Local subscriptions Management Data-tier Applications Policy Management Policies System Policies Conditions System Conditions Facets Data Collection Resource Governor Resource Pools System Resource Pools Maintenance Plans SQL Server Logs Database Mail Distributed Trnasaction Co-ordinator Legacy Database Maintenance Plans Data Transformation Services SQL Mail SQL Server Agent Jobs Alerts Operators Proxies Error Logs  </description>
+    </item>
+    
   </channel>
 </rss>

@@ -21,5 +21,19 @@
  go into SQL Server Management Studio, connect to the SSRS instance, then right-click on the instance name and select Properties from the drop-down menu  However 9 times out of 10 when I do this (in my defence, I don&amp;rsquo;t do it very often&amp;hellip;.</description>
     </item>
     
+    <item>
+      <title>Problem: ssrs error: &#39;System.Data.OracleClient requires Oracle client software version 8.1.7 or greater&#39; </title>
+      <link>https://mattypenny.github.io/2014/05/19/ssrs-error-system-data-oracleclient-requires-oracle-client-software-version-8-1-7-or-greater-simple-fix/</link>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2014/05/19/ssrs-error-system-data-oracleclient-requires-oracle-client-software-version-8-1-7-or-greater-simple-fix/</guid>
+      <description>A quick post on a quick fix.
+I installed Sql Server Reporting Services 2008 R2 on the report server, then installed Oracle client 11.2.0.4.
+I copied across a valid tnsnames.ora file, and verified connectivity with both sqlplus and tnsping.
+However, trying to connect to one of the Oracle databases from within SSRS I got:
+System.Data.OracleClient requires Oracle client software version 8.1.7 or greater &amp;hellip;helpfully highlighted in an angry red.
+Fix is fairly straightforward - SSRS hadn&amp;rsquo;t picked up the change to %PATH% done by the Oracle install yet, so the fix was to re-start the SSRS service.</description>
+    </item>
+    
   </channel>
 </rss>

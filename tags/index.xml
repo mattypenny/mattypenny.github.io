@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Blog and reference</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jan 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mattypenny.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>get-help</title>
+      <link>https://mattypenny.github.io/tags/get-help/</link>
+      <pubDate>Sat, 30 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/get-help/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hacks</title>
+      <link>https://mattypenny.github.io/tags/hacks/</link>
+      <pubDate>Sat, 30 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/hacks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dates</title>
+      <link>https://mattypenny.github.io/tags/dates/</link>
+      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/dates/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>adele</title>
@@ -111,11 +138,164 @@
     </item>
     
     <item>
+      <title>wordpress</title>
+      <link>https://mattypenny.github.io/tags/wordpress/</link>
+      <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>untagged</title>
+      <link>https://mattypenny.github.io/tags/untagged/</link>
+      <pubDate>Wed, 21 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/untagged/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssis</title>
+      <link>https://mattypenny.github.io/tags/ssis/</link>
+      <pubDate>Fri, 11 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/ssis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>todo</title>
       <link>https://mattypenny.github.io/tags/todo/</link>
       <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/tags/todo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://mattypenny.github.io/tags/linux/</link>
+      <pubDate>Sun, 14 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>problem</title>
+      <link>https://mattypenny.github.io/tags/problem/</link>
+      <pubDate>Wed, 03 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/problem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>awk</title>
+      <link>https://mattypenny.github.io/tags/awk/</link>
+      <pubDate>Tue, 30 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/awk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hack</title>
+      <link>https://mattypenny.github.io/tags/hack/</link>
+      <pubDate>Tue, 30 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/hack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sed</title>
+      <link>https://mattypenny.github.io/tags/sed/</link>
+      <pubDate>Tue, 30 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/sed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shutdown</title>
+      <link>https://mattypenny.github.io/tags/shutdown/</link>
+      <pubDate>Fri, 12 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/shutdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>triggers</title>
+      <link>https://mattypenny.github.io/tags/triggers/</link>
+      <pubDate>Fri, 12 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/triggers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opatch</title>
+      <link>https://mattypenny.github.io/tags/opatch/</link>
+      <pubDate>Sat, 19 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/opatch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tns</title>
+      <link>https://mattypenny.github.io/tags/tns/</link>
+      <pubDate>Mon, 24 Sep 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/tns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sqlplus variables</title>
+      <link>https://mattypenny.github.io/tags/sqlplus-variables/</link>
+      <pubDate>Mon, 03 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/sqlplus-variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oracle</title>
+      <link>https://mattypenny.github.io/tags/oracle/</link>
+      <pubDate>Mon, 13 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/oracle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rman</title>
+      <link>https://mattypenny.github.io/tags/rman/</link>
+      <pubDate>Mon, 09 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/rman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sizing</title>
+      <link>https://mattypenny.github.io/tags/sizing/</link>
+      <pubDate>Mon, 09 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/sizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>housekeeping</title>
+      <link>https://mattypenny.github.io/tags/housekeeping/</link>
+      <pubDate>Fri, 08 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/tags/housekeeping/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opatch on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/opatch/</link>
+    <description>Recent content in opatch on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Jan 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/opatch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>opatch error: Perl lib version (v5.8.3) doesnt match executable version (v5.6.1) at x:/oracle...</title>
+      <link>https://mattypenny.github.io/blog/opatch-error-perl-lib-version-v5-8-3-doesnt-match-executable-version-v5-6-1-at-xoracle/</link>
+      <pubDate>Sat, 19 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/opatch-error-perl-lib-version-v5-8-3-doesnt-match-executable-version-v5-6-1-at-xoracle/</guid>
+      <description>Got the following error:
+C:\oracle\ora92\OPatch&amp;gt;perl opatch.pl versionPerl lib version (v5.8.3) doesn&#39;t match executable version (v5.6.1) at x:/oracle/10.2.0/perl/5.8.3/lib/MSWin32-x86-multi-thread/Config.pm line 32.Compilation failed in require at x:/oracle/10.2.0/perl/5.8.3/lib/MSWin32-x86-multi-thread/lib.pm line 6.BEGIN failed--compilation aborted at x:/oracle/10.2.0/perl/5.8.3/lib/MSWin32-x86-multi-thread/lib.pm line 6.Compilation failed in require at opatch.pl line 88.BEGIN failed--compilation aborted at opatch.pl line 88. Kind of obvious, but the fix here is to set your PERL5LIB variable correctly&amp;hellip;
+C:\oracle\ora92\OPatch&amp;gt;set PERL5LIB=C:\perl\libC:\oracle\ora92\OPatch&amp;gt;perl opatch.pl versionOracle Interim Patch Installer version 1.</description>
+    </item>
+    
+    <item>
+      <title>Problem: opatch fails with &#39;The patch directory area must be a number&#39;</title>
+      <link>https://mattypenny.github.io/blog/opatch-fails-with-the-patch-directory-area-must-be-a-number/</link>
+      <pubDate>Wed, 08 Mar 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/opatch-fails-with-the-patch-directory-area-must-be-a-number/</guid>
+      <description>opatch failed with the above error.
+Again its really a problem with the wetware (i.e. me), but worth typing up as its fairly obscure.
+The problem seems to have been that I was logged in as a different user on the server which holds our staging area when I copied the software across. I mapped the drive on the the target server as the Oracle user, but it still seems to have inherited the wrong ownership at some level.</description>
+    </item>
+    
+    <item>
+      <title>opatch - make sure there&#39;s no space on the end of TRUE</title>
+      <link>https://mattypenny.github.io/blog/opatch-make-sure-theres-no-space-on-the-end-of-true/</link>
+      <pubDate>Wed, 25 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/opatch-make-sure-theres-no-space-on-the-end-of-true/</guid>
+      <description>I&amp;rsquo;ve been having problems with opatch.
+todo - fix the link Setting ACTIVE_STATE_PERL=TRUE cured at least one of these (although I&amp;rsquo;m not sure that I didn&amp;rsquo;t patch at least once without the setting, because there was another version of perl - mksnt - on the server) as per the previous post
+Its sometimes failed, then worked without me being entirely sure what I changed in the meantime.
+Last night I sussed that at least some of this is caused by having a space following the ACTIVE_STATE_PERL=TRUE</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssis on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/ssis/</link>
+    <description>Recent content in ssis on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Oct 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/ssis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Problem: SSIS: &#39;Hresult: 0x800703E6  Description: Invalid access to memory location&#39;</title>
+      <link>https://mattypenny.github.io/2013/10/11/ssis-invalid-access-to-memory-location/</link>
+      <pubDate>Fri, 11 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2013/10/11/ssis-invalid-access-to-memory-location/</guid>
+      <description>Problem came up trying to connect to a remote Oracle source:
+Started: 12:03:03 Error: 2013-10-09 12:03:03.84 Code: 0xC0202009 Source: Description: SSIS Error Code DTS_E_OLEDBERROR. An OLE DB error has occurred. Error code: 0x800703E6. An OLE DB record is available. Source: &amp;quot;Microsoft OLE DB Service Components&amp;quot; Hresult: 0x800703E6 Description: &amp;quot;Invalid access to memory location.&amp;quot;. End Error Error: 2013-10-09 12:03:03.84 Code: 0xC020801C Source: Copy Data Description: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER. The AcquireConnection method call to the connection manager &amp;quot;xxx&amp;quot; failed with error code 0xC0202009.</description>
+    </item>
+    
+  </channel>
+</rss>

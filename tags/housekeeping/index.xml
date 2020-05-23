@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>housekeeping on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/housekeeping/</link>
+    <description>Recent content in housekeeping on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Apr 2005 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/housekeeping/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Transferring from Bloglines (Hello, world 2)</title>
+      <link>https://mattypenny.github.io/2005/04/08/108/</link>
+      <pubDate>Fri, 08 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/08/108/</guid>
+      <description>Having a second go at this blogging thing&amp;hellip;.
+This is primarily for me to keep track of notes and stuff that might be useful or interesting in future. A way of putting some text around &amp;lsquo;My bookmarks&amp;rsquo;</description>
+    </item>
+    
+  </channel>
+</rss>

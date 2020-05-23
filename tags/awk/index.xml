@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>awk on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/awk/</link>
+    <description>Recent content in awk on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Mar 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/awk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to use wget, sed and gawk to get a description of the DBA_ views</title>
+      <link>https://mattypenny.github.io/2010/03/30/using-wget-sed-and-gawk-to-get-a-description-of-the-dba_-views/</link>
+      <pubDate>Tue, 30 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2010/03/30/using-wget-sed-and-gawk-to-get-a-description-of-the-dba_-views/</guid>
+      <description>I&amp;rsquo;m studying for Oracle certification, and I thought it would be handy to get a cribsheet list of all of the DBA_ views and what they are for.
+Rather than create this manually, I did the following.
+Downloaded the top level contents
+wget -r -l1 -k http://download.oracle.com/docs/cd/B19306_01/server.102/b14237/toc.htm wget gets pages from the web. &amp;lsquo;-r&amp;rsquo; says to also retrieve links. &amp;lsquo;-l1&amp;rsquo; says to only get one level of links (i.e. get the pages linked to from the first page, but don&amp;rsquo;t get the pages linked to by them).</description>
+    </item>
+    
+  </channel>
+</rss>

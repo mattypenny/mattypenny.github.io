@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rman on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/rman/</link>
+    <description>Recent content in rman on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jan 2006 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/rman/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to use the rman catalog to track datafile growth</title>
+      <link>https://mattypenny.github.io/2006/01/09/useful-rman-catalog-queries/</link>
+      <pubDate>Mon, 09 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/01/09/useful-rman-catalog-queries/</guid>
+      <description>You can use the rman catalog to track the growth of datafiles over time:
+col tablespace_name format a20col file# format 999col backed_up_bytes format 99,999,999,999col file_bytes format 99,999,999,999select b.db_name, d.tablespace_name, b.file#, to_char(completion_time, &#39;DD-MM-YYYY&#39;),b.blocks* b.block_size backed_up_bytes, b.datafile_blocks*b.block_size file_bytesfrom rc_backup_datafile b, rc_datafile dwhere tablespace_name like &#39;&amp;amp;tablespace%&#39;and b.db_name = &#39;&amp;amp;database&#39;and b.db_name = d.db_nameand d.file# = b.file#order by completion_time/DB_NAME TABLESPACE_NAME FILE# TO_CHAR(CO BACKED_UP_BYTES FILE_BYTES-------- -------------------- ----- ---------- --------------- ---------------DB01 BVR_INDEXES 16 15-04-2005 2,407,890,944 5,242,880,000DB01 BVR_INDEXES 16 15-04-2005 2,407,890,944 5,242,880,000.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sqlplus variables on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/sqlplus-variables/</link>
+    <description>Recent content in sqlplus variables on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jul 2006 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/sqlplus-variables/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to use sqlplus substitution variables</title>
+      <link>https://mattypenny.github.io/2006/07/03/sqlplus-substitution-variables/</link>
+      <pubDate>Mon, 03 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/07/03/sqlplus-substitution-variables/</guid>
+      <description>I didn&amp;rsquo;t know you could do this. Its quite handy!
+SQL&amp;gt; column name new_value dbnameSQL&amp;gt; select name from v$database;XXX1SQL&amp;gt; spool test_&amp;amp;dbnameSQL&amp;gt; select sysdate from dual;03-JUL-06SQL&amp;gt; spool offSQL&amp;gt; host dir /od *.lst03/07/2006 13:16 61 test_XXX1.LSTSQL&amp;gt;  </description>
+    </item>
+    
+  </channel>
+</rss>

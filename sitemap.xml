@@ -963,6 +963,21 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/tags/get-help/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/hacks/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2016/01/30/using-powershells-help-system-to-stash-your-tips-and-tricks-in-about_-topics/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -998,6 +1013,11 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/tags/dates/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2015/11/20/properties-option-is-greyed-out-for-ssrs-instance-when-you-right-click-in-ssms/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -1024,11 +1044,6 @@
   
   <url>
     <loc>https://mattypenny.github.io/tags/ssrs/</loc>
-    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattypenny.github.io/tags/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1168,12 +1183,57 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2014/12/12/php-comments-not-working-in-wordpress/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/wordpress/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2014/10/17/server-hangs-on-restart-powershell-restart-computer-does-the-trick/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2014/09/26/sql-server-equivalent-of-oracle-set-feedback-on/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2014/09/03/filtering-ssrs-subscriptions-from-sqlserver-jobs-in-powershell/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2014/09/01/sql-server-generate-sql-to-disable-triggers/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2014/07/14/generate-sqlserver-table-creation-scripts-from-powershell/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2014/05/21/t-sql-to-show-ssrs-permissions/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/untagged/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2014/05/19/ssrs-error-system-data-oracleclient-requires-oracle-client-software-version-8-1-7-or-greater-simple-fix/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2014/03/06/playing-with-powershell-pattern-matching/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1188,6 +1248,16 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2013/10/11/ssis-invalid-access-to-memory-location/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/ssis/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2013/07/31/24hop-notes/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -1198,7 +1268,22 @@
   </url>
   
   <url>
-    <loc>https://mattypenny.github.io/2013/07/03/access-is-denied-0x80070005-when-changing-sql-server-agent-login/</loc>
+    <loc>https://mattypenny.github.io/tags/linux/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2013/07/14/ubuntu-netbook-cant-see-my-nook/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/problem/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/blog/access-is-denied-0x80070005-when-changing-sql-server-agent-login/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1210,6 +1295,16 @@
   <url>
     <loc>https://mattypenny.github.io/2012/10/10/4-ways-of-breaking-comment-based-help-in-powershell/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2012/09/25/reporting-mp3-tags-in-powershell/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/quickreference/sqlserver/</loc>
+    <lastmod>2012-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1228,12 +1323,57 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2011/10/13/sqlserver-management-studio/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2011/07/26/niddbnewid-hangs/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mattypenny.github.io/2010/04/19/mucking-about-with-analytic-functions/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/awk/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/hack/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2010/03/30/using-wget-sed-and-gawk-to-get-a-description-of-the-dba_-views/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/sed/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2010/02/24/ora-01552-cannot-use-system-rollback-segment/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/shutdown/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/triggers/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2010/02/12/when-does-the-shutdown-database-trigger-fire/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1258,7 +1398,12 @@
   </url>
   
   <url>
-    <loc>https://mattypenny.github.io/2008/01/19/opatch-error-perl-lib-version-v5-8-3-doesnt-match-executable-version-v5-6-1-at-xoracle/</loc>
+    <loc>https://mattypenny.github.io/tags/opatch/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/blog/opatch-error-perl-lib-version-v5-8-3-doesnt-match-executable-version-v5-6-1-at-xoracle/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1269,6 +1414,21 @@
   
   <url>
     <loc>https://mattypenny.github.io/2007/12/07/determining-which-cpus-have-been-applied/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2007/09/24/tns-03505-failed-to-resolve-name-oid-glitch/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/tns/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2007/09/18/oracle-options-update-from-niall/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1333,6 +1493,56 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2006/08/08/spool-script/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/07/03/sqlplus-substitution-variables/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/sqlplus-variables/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/blog/query-to-compare-parameter-settings-between-databases/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/05/12/sqlserver-2005-new-features/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/blog/opatch-fails-with-the-patch-directory-area-must-be-a-number/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/02/13/ora-02074-cannot-analyze-table-calling-a-package-from-perl/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/oracle/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/02/13/re-naming-the-listener-check-for-dependencies/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/blog/opatch-make-sure-theres-no-space-on-the-end-of-true/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2006/01/16/keyboard-macros-in-gvim/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -1343,12 +1553,42 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2006/01/12/raptor-10g-and-oracle-names/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/01/11/ora-29260-because-of-a-problem-with-the-mail-server/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/01/10/raptor-no-ocijdbc10/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2006/01/09/useful-rman-catalog-queries/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/rman/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/sizing/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2005/12/06/display-a-blank-line-in-a-batch-file-dos-and-batch-files/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mattypenny.github.io/2005/11/15/opatch-doesnt-appear-to-be-doing-anything-set-active_state_perltrue/</loc>
+    <loc>https://mattypenny.github.io/blog/opatch-doesnt-appear-to-be-doing-anything-set-active_state_perltrue/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1373,6 +1613,11 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2005/08/01/writing-to-the-alert-log/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2005/07/26/plsql-doesnt-recognize-privileges-granted-to-roles/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -1388,7 +1633,17 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2005/07/19/vlink/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2005/06/22/loss-of-sql-connectivity-a-problem-with-the-wetware/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/2005/06/07/some-code-to-capture-link-usage/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1418,7 +1673,17 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2005/04/18/synonym-resolution-oddity/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/2005/04/12/bjs-jobs-going-into-awaiting-execution-state/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/tags/housekeeping/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -1453,7 +1718,24 @@
   </url>
   
   <url>
+    <loc>https://mattypenny.github.io/2005/04/08/unix-for-windows/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mattypenny.github.io/quickreference/applications/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/quickreference/bash/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/quickreference/dos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/quickreference/old/</loc>
   </url>
   
   <url>
@@ -1462,6 +1744,10 @@
   
   <url>
     <loc>https://mattypenny.github.io/sketchnotes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mattypenny.github.io/quickreference/unsorted/</loc>
   </url>
   
 </urlset>

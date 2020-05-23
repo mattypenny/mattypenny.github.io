@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>triggers on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/triggers/</link>
+    <description>Recent content in triggers on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Feb 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/triggers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>When does the &#39;shutdown database&#39; trigger fire?</title>
+      <link>https://mattypenny.github.io/2010/02/12/when-does-the-shutdown-database-trigger-fire/</link>
+      <pubDate>Fri, 12 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2010/02/12/when-does-the-shutdown-database-trigger-fire/</guid>
+      <description>The chances of this being useful to anybody are fairly remote, but I was reading through my &#39;Bumper Book of Oracle Certification&#39;and thought I&amp;rsquo;d check in what circumstances the &amp;lsquo;before shutdown&amp;rsquo; trigger fires.
+This summarizes what I found:
+  Shutdown normal Yes   Shutdown immediate Yes   Shutdown transactional Yes   Shutdown abort No   Shutdown of a startup-nomounted database  No   Shutdown of a mounted database No   To be fair, this is exactly what I would have expected.</description>
+    </item>
+    
+  </channel>
+</rss>

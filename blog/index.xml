@@ -509,6 +509,41 @@ I checked the installer log but there was nothing very interesting
     </item>
     
     <item>
+      <title>Problem: php commenting out not working in wordpress</title>
+      <link>https://mattypenny.github.io/2014/12/12/php-comments-not-working-in-wordpress/</link>
+      <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2014/12/12/php-comments-not-working-in-wordpress/</guid>
+      <description>This was a bit of a &amp;lsquo;Duh!&amp;rsquo; moment.
+I use the following to &amp;lsquo;comment out&amp;rsquo; chunks of Wordpress pages that I&amp;rsquo;m still working on
+ &amp;lt;?php /* Some old rubbish that I have&#39;nt finished working on yet */?&amp;gt;  This seemed to have &amp;lsquo;stopped working&amp;rsquo;.
+The reason was my &amp;lsquo;Exec-PHP&amp;rsquo; plugin was de-activated. I don&amp;rsquo;t remember de-activating it. I guess it&amp;rsquo;s possible that an automat(t)ic update might have done so, but I don&amp;rsquo;t know.</description>
+    </item>
+    
+    <item>
+      <title>Problem: Server hangs on restart - use the restart-computer -force</title>
+      <link>https://mattypenny.github.io/2014/10/17/server-hangs-on-restart-powershell-restart-computer-does-the-trick/</link>
+      <pubDate>Fri, 17 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2014/10/17/server-hangs-on-restart-powershell-restart-computer-does-the-trick/</guid>
+      <description>Recently I attempted to re-start a server that I&amp;rsquo;d rdp-ed to.
+Unfortunately, it seemed to hang at some stage during the shutdown process. I could still ping it and run some WMI stuff but I couldn&amp;rsquo;t rdp back onto it.
+On a virtual server I&amp;rsquo;d have powered it off an back on again, but that wasn&amp;rsquo;t an option, as I don&amp;rsquo;t have server room access.
+This was relatively significant - it was a production server and I was in danger of not being able to get it back up.</description>
+    </item>
+    
+    <item>
+      <title>How to do a sql server equivalent of Oracle &#39;set feedback on&#39;</title>
+      <link>https://mattypenny.github.io/2014/09/26/sql-server-equivalent-of-oracle-set-feedback-on/</link>
+      <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2014/09/26/sql-server-equivalent-of-oracle-set-feedback-on/</guid>
+      <description>I haven&amp;rsquo;t been able to find a T-sql equivalent of the Oracle &amp;lsquo;set feedback on&amp;rsquo;, which outputs a line telling you how many rows have been effected by the last sql statement.
+The closest thing, I think, is:
+select &#39;Rows updated: &#39; + CAST(@@ROWCOUNT as varchar(10))  </description>
+    </item>
+    
+    <item>
       <title>How to filter out SSRS subscriptions from Sqlserver Jobs in Powershell</title>
       <link>https://mattypenny.github.io/2014/09/03/filtering-ssrs-subscriptions-from-sqlserver-jobs-in-powershell/</link>
       <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
@@ -521,6 +556,17 @@ CAEC2E40-7AF5-4CB1-B7D2-66343A79471B CDAEDD6F-07C6-4849-A8AA-5643F771B39B CDF9A9
     </item>
     
     <item>
+      <title>How to generate the t-sql to disable all your triggers</title>
+      <link>https://mattypenny.github.io/2014/09/01/sql-server-generate-sql-to-disable-triggers/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2014/09/01/sql-server-generate-sql-to-disable-triggers/</guid>
+      <description>This seems to work:
+SELECT &#39;disable trigger &#39; + USER_NAME(trig.schema_id) + &#39;.&#39; + trig.name + &#39; on &#39; + USER_NAME(tab.schema_id) + &#39;.&#39; + OBJECT_NAME(trig.parent_object_id) + char(10) + &#39;go&#39; FROM sys.objects trig INNER JOIN sys.objects tab ON trig.parent_object_id = tab.object_id WHERE trig.type = &#39;TR&#39;  It generates sql like this:
+disable trigger dbo.tr_AfterUpdate on dbo.BigTable go disable trigger dbo.tr_BeforeUpdate on dbo.BigTable go  </description>
+    </item>
+    
+    <item>
       <title>Generate sqlserver table creation scripts from Powershell</title>
       <link>https://mattypenny.github.io/2014/07/14/generate-sqlserver-table-creation-scripts-from-powershell/</link>
       <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
@@ -528,6 +574,42 @@ CAEC2E40-7AF5-4CB1-B7D2-66343A79471B CDAEDD6F-07C6-4849-A8AA-5643F771B39B CDF9A9
       <guid>https://mattypenny.github.io/2014/07/14/generate-sqlserver-table-creation-scripts-from-powershell/</guid>
       <description>I didn&amp;rsquo;t know you could do this - the &amp;lsquo;table&amp;rsquo; object in the SQL provider has a &amp;lsquo;script&amp;rsquo; method, so you can do the following:
 $ServerInstance = &amp;quot;whatever&amp;quot; $DatabaseName = &amp;quot;whatever&amp;quot; foreach ($TableName in dir Sqlserver:sql$ServerInstancedatabases$DatabaseNametables) { $TableName.script() }  It&amp;rsquo;s a rough equivalent to doing a right click &amp;raquo; &amp;lsquo;Script table as&amp;rsquo; &amp;raquo; &amp;lsquo;Create&amp;rsquo; in SSMS, except you can do it for some or all of the tables on a database.</description>
+    </item>
+    
+    <item>
+      <title>How to use t-sql to show SSRS permissions</title>
+      <link>https://mattypenny.github.io/2014/05/21/t-sql-to-show-ssrs-permissions/</link>
+      <pubDate>Wed, 21 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2014/05/21/t-sql-to-show-ssrs-permissions/</guid>
+      <description>I&amp;rsquo;m not great at T-sql, and I know that cursors are unfashionable in Microsoft world, but this gives me the output I want, as below:
+ PathUsernameGrantedPermissions /Data SourcescfcjmourinhoBrowser,Content Manager,My Reports,Publisher,Report Builder /Data Sources/StatszoneBUILTINAdministratorsContent Manager /Data Sources/StatszonecfcjmourinhoBrowser,Content Manager,My Reports,Publisher,Report Builder /Data Sources/StatszonecfcjmourinhoBrowser,Content Manager,My Reports,Publisher,Report Builder /zTest/By far the greatest team reportcfcjmourinhoBrowser,Content Manager,My Reports,Publisher,Report Builder /zTest/By far the greatest team reportcfcbbuckBrowser /zTest/By far the greatest team reportcfcrfariaContent Manager  drop table #ReportPermissions create table #ReportPermissions (Path varchar(100), Username varchar(100), GrantedPermissions varchar(100)) declare UserWithPermissionsCursor cursor for select -- ,roles.</description>
+    </item>
+    
+    <item>
+      <title>Problem: ssrs error: &#39;System.Data.OracleClient requires Oracle client software version 8.1.7 or greater&#39; </title>
+      <link>https://mattypenny.github.io/2014/05/19/ssrs-error-system-data-oracleclient-requires-oracle-client-software-version-8-1-7-or-greater-simple-fix/</link>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2014/05/19/ssrs-error-system-data-oracleclient-requires-oracle-client-software-version-8-1-7-or-greater-simple-fix/</guid>
+      <description>A quick post on a quick fix.
+I installed Sql Server Reporting Services 2008 R2 on the report server, then installed Oracle client 11.2.0.4.
+I copied across a valid tnsnames.ora file, and verified connectivity with both sqlplus and tnsping.
+However, trying to connect to one of the Oracle databases from within SSRS I got:
+System.Data.OracleClient requires Oracle client software version 8.1.7 or greater &amp;hellip;helpfully highlighted in an angry red.
+Fix is fairly straightforward - SSRS hadn&amp;rsquo;t picked up the change to %PATH% done by the Oracle install yet, so the fix was to re-start the SSRS service.</description>
+    </item>
+    
+    <item>
+      <title>Powershell pattern matching to check if a string is hex</title>
+      <link>https://mattypenny.github.io/2014/03/06/playing-with-powershell-pattern-matching/</link>
+      <pubDate>Thu, 06 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2014/03/06/playing-with-powershell-pattern-matching/</guid>
+      <description>I&amp;rsquo;ve been playing with pattern matching in Powershell.
+I was trying to use &amp;lsquo;-match&amp;rsquo; to &amp;lsquo;Check if the string is a hexadecimal number&amp;rsquo; for the &#39;Perl one-liners in Powershell&#39; page I&amp;rsquo;ve been working on.
+I can&amp;rsquo;t pretend to entirely understand or explain pattern matching in Powershell, or in linux, but this seems to work.
+$X = &amp;quot;21e&amp;quot; ; $Y = $X.length ; $X -match &amp;quot;[0123456789abcde]{$Y}&amp;quot;  This says match the string against &amp;lsquo;any combination of the characters within the square brackets (i.</description>
     </item>
     
     <item>
@@ -542,7 +624,7 @@ My local history website has a list of stuff that happened on this day&amp;rsquo
     </item>
     
     <item>
-      <title>get-parameter - get a list of PowerShell standard parameter names</title>
+      <title>How to get a list of PowerShell standard parameter names (get-parameter)</title>
       <link>https://mattypenny.github.io/2013/10/11/get-parameter-how-to-get-a-list-of-powershell-parameters/</link>
       <pubDate>Fri, 11 Oct 2013 00:00:00 +0000</pubDate>
       
@@ -551,6 +633,16 @@ My local history website has a list of stuff that happened on this day&amp;rsquo
 Anyway, it&amp;rsquo;s a common, and a good practice, to use Powershell&amp;rsquo;s standard verbs when naming your functions. You can retrieve these by typing get-verb at the command line.
 I think it&amp;rsquo;s good to also use Powershell&amp;rsquo;s standard parameter names when you&amp;rsquo;re naming your parameters.
 I couldn&amp;rsquo;t find an easy way of retrieving the list of parameteres but this approximates it:</description>
+    </item>
+    
+    <item>
+      <title>Problem: SSIS: &#39;Hresult: 0x800703E6  Description: Invalid access to memory location&#39;</title>
+      <link>https://mattypenny.github.io/2013/10/11/ssis-invalid-access-to-memory-location/</link>
+      <pubDate>Fri, 11 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2013/10/11/ssis-invalid-access-to-memory-location/</guid>
+      <description>Problem came up trying to connect to a remote Oracle source:
+Started: 12:03:03 Error: 2013-10-09 12:03:03.84 Code: 0xC0202009 Source: Description: SSIS Error Code DTS_E_OLEDBERROR. An OLE DB error has occurred. Error code: 0x800703E6. An OLE DB record is available. Source: &amp;quot;Microsoft OLE DB Service Components&amp;quot; Hresult: 0x800703E6 Description: &amp;quot;Invalid access to memory location.&amp;quot;. End Error Error: 2013-10-09 12:03:03.84 Code: 0xC020801C Source: Copy Data Description: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER. The AcquireConnection method call to the connection manager &amp;quot;xxx&amp;quot; failed with error code 0xC0202009.</description>
     </item>
     
     <item>
@@ -569,11 +661,23 @@ Resource group - like a folder of resources</description>
     </item>
     
     <item>
-      <title>Access is denied. [0x80070005] When Changing Sql Server Agent Login</title>
-      <link>https://mattypenny.github.io/2013/07/03/access-is-denied-0x80070005-when-changing-sql-server-agent-login/</link>
+      <title>Ubuntu netbook can&#39;t see my nook</title>
+      <link>https://mattypenny.github.io/2013/07/14/ubuntu-netbook-cant-see-my-nook/</link>
+      <pubDate>Sun, 14 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2013/07/14/ubuntu-netbook-cant-see-my-nook/</guid>
+      <description>I had a problem yesterday getting my Ubuntu netbook (which is a Dell Inspiron 910 mini) to see my Nook.
+After, mucking about with various unix commands, including:
+mount lsusb dmesg | egrep -i connected ls /dev/sd*  It turns out that Ubuntu couldn&amp;rsquo;t see the Nook because the power was too low.
+It seems that there was enough power to power the Nook on, but not enough for it to make itself visible to the netbook.</description>
+    </item>
+    
+    <item>
+      <title>Problem: &#39;Access is denied. [0x80070005]&#39; when changing sql server agent login</title>
+      <link>https://mattypenny.github.io/blog/access-is-denied-0x80070005-when-changing-sql-server-agent-login/</link>
       <pubDate>Wed, 03 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://mattypenny.github.io/2013/07/03/access-is-denied-0x80070005-when-changing-sql-server-agent-login/</guid>
+      <guid>https://mattypenny.github.io/blog/access-is-denied-0x80070005-when-changing-sql-server-agent-login/</guid>
       <description>Trying to change the sql server agent to run as a non-admin user, I couldn&amp;rsquo;t get Sql Server Agent to work without giving it administrator privileges. I got:
 --------------------------- WMI Provider Error --------------------------- Access is denied. [0x80070005] --------------------------- OK ---------------------------  You have to grant two privileges - both the Agent User and the MSSQL user.
  SQLServerSQLAgentUser$bigserver$inst01 SQLServerMSSQLUser$bigserver$inst01  </description>
@@ -600,6 +704,16 @@ __SERVER ServicePackMajorVerstion -------- ------------------------ RDM016  I th
       <description>A quick note on the different ways I&amp;rsquo;ve found of breaking the comment-based help in Powershell. I&amp;rsquo;ve only started playing with it today. I&amp;rsquo;ve not verified all of these - I&amp;rsquo;ll do so when time allows
 Leave the &#39;.&#39; off of a label If I leave out the full-stop on one of the labels:
  SYNOPSIS Lists services on specified server which are set as autostart but are currently stopped .</description>
+    </item>
+    
+    <item>
+      <title>How to report mp3 tags in Powershell</title>
+      <link>https://mattypenny.github.io/2012/09/25/reporting-mp3-tags-in-powershell/</link>
+      <pubDate>Tue, 25 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2012/09/25/reporting-mp3-tags-in-powershell/</guid>
+      <description>I&amp;rsquo;m slowly getting to grips with Powershell.
+# ----------------------------------------------------------------- # Script - Catalog-MP3s.ps1 # # Gets mp3 tags from the mp3 file. # ----------------------------------------------------------------- # Parameter is either a directory or an individual mp3 Param ( $P_DIR_OR_MP3 ) # -------------------------- # Function: get-mp3info # The function gets the tags # for the specified mp3 # -------------------------- Function get-mp3info ($P_MP3) { # Get the tages into a variable $TAGS = [TagLib.File]::Create(&amp;quot;$P_MP3&amp;quot;) $TAGS_OBJECT = @{Filename = $TAGS.</description>
     </item>
     
     <item>
@@ -637,6 +751,16 @@ My mistake was that I had entered .bak rather than just bak as the &amp;lsquo;Fi
     </item>
     
     <item>
+      <title>Sqlserver Management Studio</title>
+      <link>https://mattypenny.github.io/2011/10/13/sqlserver-management-studio/</link>
+      <pubDate>Thu, 13 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2011/10/13/sqlserver-management-studio/</guid>
+      <description>I spent a couple of lunchtimes going through Sqlserver Management Studio&amp;rsquo;s &amp;lsquo;Object Explorer&amp;rsquo; panel, typing up all the different elements. This might seem like an odd thing to do, but I thought it might be useful for the following reasons:
+ as a reference. A searchable list of where everything is as the beginnings of a checklist. Making a system wide change it might be handy to scan through this list and consider whether there&amp;rsquo;s an impact on each element to get me blogging again :)   Databases System Databases Database Snapshots User Databases Database Diagrams Tables Views Synonyms Programmability Stored Procedures Functions Triggers Assemblies Types Rules Defaults Plan Guides Service Broker Message Types Contracts Queues Services Routes Remote ServiceBindings Broker Priorities Storage Full Text Catalogs Partition Schenes Patition Functions Full Text Stoplists Security Users Roles Schemas Asymmetric Keys Certificates Symmetric Keys Database Audit Specifications Security Logins Server Roles Credentials Cryptographic Providers Audits Server Audit Specifications Server Objects Backup Devices Endpoints System Endpoints Database Mirroring Service Broker SOAP TSQL Dedicated Admin Connection TSQL Default TCP TSQL Default VIA TSQL Local Machine TSQL Named Pipes Database Mirroring Service Broker SOAP TSQL Linked Servers Providers Triggers Replication Local publications Local subscriptions Management Data-tier Applications Policy Management Policies System Policies Conditions System Conditions Facets Data Collection Resource Governor Resource Pools System Resource Pools Maintenance Plans SQL Server Logs Database Mail Distributed Trnasaction Co-ordinator Legacy Database Maintenance Plans Data Transformation Services SQL Mail SQL Server Agent Jobs Alerts Operators Proxies Error Logs  </description>
+    </item>
+    
+    <item>
       <title>Nid(dbnewid) hangs</title>
       <link>https://mattypenny.github.io/2011/07/26/niddbnewid-hangs/</link>
       <pubDate>Tue, 26 Jul 2011 00:00:00 +0000</pubDate>
@@ -658,6 +782,41 @@ The 10g doc for nid is here: http://download.</description>
       <description>I&amp;rsquo;ve never really used the analytic functions in anger, so consequently I don&amp;rsquo;t really have the skills at my fingertips. By way of re-learning them (using Expert One-on-One Oracle | Thomas Kyte | Apress) I&amp;rsquo;ve been playing about with a list of English Premiership scorers.
 The table is:
 SQL&amp;gt; desc goalsName Null? Type----------------------------------------- -------- ------------DIVISION NOT NULL VARCHAR2(20)END_DATE NOT NULL DATEPLAYER NOT NULL VARCHAR2(40)TEAM VARCHAR2(20)GOALS NUMBER  The third highest scorer for each team, should you want to know that bit of information, is given by:</description>
+    </item>
+    
+    <item>
+      <title>How to use wget, sed and gawk to get a description of the DBA_ views</title>
+      <link>https://mattypenny.github.io/2010/03/30/using-wget-sed-and-gawk-to-get-a-description-of-the-dba_-views/</link>
+      <pubDate>Tue, 30 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2010/03/30/using-wget-sed-and-gawk-to-get-a-description-of-the-dba_-views/</guid>
+      <description>I&amp;rsquo;m studying for Oracle certification, and I thought it would be handy to get a cribsheet list of all of the DBA_ views and what they are for.
+Rather than create this manually, I did the following.
+Downloaded the top level contents
+wget -r -l1 -k http://download.oracle.com/docs/cd/B19306_01/server.102/b14237/toc.htm wget gets pages from the web. &amp;lsquo;-r&amp;rsquo; says to also retrieve links. &amp;lsquo;-l1&amp;rsquo; says to only get one level of links (i.e. get the pages linked to from the first page, but don&amp;rsquo;t get the pages linked to by them).</description>
+    </item>
+    
+    <item>
+      <title>ORA-01552: cannot use system rollback segment.....</title>
+      <link>https://mattypenny.github.io/2010/02/24/ora-01552-cannot-use-system-rollback-segment/</link>
+      <pubDate>Wed, 24 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2010/02/24/ora-01552-cannot-use-system-rollback-segment/</guid>
+      <description>Another post that&amp;rsquo;s unlikely to be all that useful&amp;hellip;.but you never know.
+As per a couple of my previous posts, I&amp;rsquo;m re-doing my Oracle certification from the ground up instead of doing the 10G new features only.
+I&amp;rsquo;m using Oracle Database 10g OCP Certification by Damir Bersinic and John Watson, which from the bits I&amp;rsquo;ve read so far, I would recommend.
+Anyhow, the book says: If you are using UNDO_MANAGEMENT=AUTO, you must also specify UNDO_TABLESPACE.</description>
+    </item>
+    
+    <item>
+      <title>When does the &#39;shutdown database&#39; trigger fire?</title>
+      <link>https://mattypenny.github.io/2010/02/12/when-does-the-shutdown-database-trigger-fire/</link>
+      <pubDate>Fri, 12 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2010/02/12/when-does-the-shutdown-database-trigger-fire/</guid>
+      <description>The chances of this being useful to anybody are fairly remote, but I was reading through my &#39;Bumper Book of Oracle Certification&#39;and thought I&amp;rsquo;d check in what circumstances the &amp;lsquo;before shutdown&amp;rsquo; trigger fires.
+This summarizes what I found:
+  Shutdown normal Yes   Shutdown immediate Yes   Shutdown transactional Yes   Shutdown abort No   Shutdown of a startup-nomounted database  No   Shutdown of a mounted database No   To be fair, this is exactly what I would have expected.</description>
     </item>
     
     <item>
@@ -714,14 +873,14 @@ To create a whence.bat script, you need to have the following content:
     </item>
     
     <item>
-      <title>opatch error: Perl lib version (v5.8.3) doesn&#39;t match executable version (v5.6.1) at x:oracle...</title>
-      <link>https://mattypenny.github.io/2008/01/19/opatch-error-perl-lib-version-v5-8-3-doesnt-match-executable-version-v5-6-1-at-xoracle/</link>
+      <title>opatch error: Perl lib version (v5.8.3) doesnt match executable version (v5.6.1) at x:/oracle...</title>
+      <link>https://mattypenny.github.io/blog/opatch-error-perl-lib-version-v5-8-3-doesnt-match-executable-version-v5-6-1-at-xoracle/</link>
       <pubDate>Sat, 19 Jan 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://mattypenny.github.io/2008/01/19/opatch-error-perl-lib-version-v5-8-3-doesnt-match-executable-version-v5-6-1-at-xoracle/</guid>
+      <guid>https://mattypenny.github.io/blog/opatch-error-perl-lib-version-v5-8-3-doesnt-match-executable-version-v5-6-1-at-xoracle/</guid>
       <description>Got the following error:
-C:\oracle\ora92\OPatch&amp;gt;perl opatch.pl versionPerl lib version (v5.8.3) doesn&#39;t match executable version (v5.6.1) at x:oracle10.2.0perl5.8.3lib/MSWin32-x86-multi-thread/Config.pm line 32.Compilation failed in require at x:oracle10.2.0perl5.8.3lib/MSWin32-x86-multi-thread/lib.pm line 6.BEGIN failed--compilation aborted at x:oracle10.2.0perl5.8.3lib/MSWin32-x86-multi-thread/lib.pm line 6.Compilation failed in require at opatch.pl line 88.BEGIN failed--compilation aborted at opatch.pl line 88. Kind of obvious, but the fix here is to set your PERL5LIB variable correctly&amp;hellip;
-C:\oracle\ora92\OPatch&amp;gt;set PERL5LIB=C:perllibC:\oracle\ora92\OPatch&amp;gt;perl opatch.pl versionOracle Interim Patch Installer version 1.</description>
+C:\oracle\ora92\OPatch&amp;gt;perl opatch.pl versionPerl lib version (v5.8.3) doesn&#39;t match executable version (v5.6.1) at x:/oracle/10.2.0/perl/5.8.3/lib/MSWin32-x86-multi-thread/Config.pm line 32.Compilation failed in require at x:/oracle/10.2.0/perl/5.8.3/lib/MSWin32-x86-multi-thread/lib.pm line 6.BEGIN failed--compilation aborted at x:/oracle/10.2.0/perl/5.8.3/lib/MSWin32-x86-multi-thread/lib.pm line 6.Compilation failed in require at opatch.pl line 88.BEGIN failed--compilation aborted at opatch.pl line 88. Kind of obvious, but the fix here is to set your PERL5LIB variable correctly&amp;hellip;
+C:\oracle\ora92\OPatch&amp;gt;set PERL5LIB=C:\perl\libC:\oracle\ora92\OPatch&amp;gt;perl opatch.pl versionOracle Interim Patch Installer version 1.</description>
     </item>
     
     <item>
@@ -744,6 +903,29 @@ Anyhow it was fixed by explicitly setting ORACLE_HOME and prefixing oradim with 
       <description>The question of how to determine which CPUs have been applied to a database came up at a couple of presentations at the UKOUG, including mine.
 A quick and dirty way (which I didn&amp;rsquo;t think of at the time) would be to look in the CPU directory:
 c:&amp;gt; dir t:\oracle\ora92\cpu11/06/2007 18:12 .11/06/2007 18:12 ..02/05/2006 17:30 CPUApr200630/04/2007 19:21 CPUApr200728/03/2006 18:51 CPUJan2006...... Then to check which databases the catcpu script was run against, you can look in the directories themselves - the spoolfiles have the name of the database in the title:</description>
+    </item>
+    
+    <item>
+      <title>Problem: TNS-03505: Failed to resolve name </title>
+      <link>https://mattypenny.github.io/2007/09/24/tns-03505-failed-to-resolve-name-oid-glitch/</link>
+      <pubDate>Mon, 24 Sep 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2007/09/24/tns-03505-failed-to-resolve-name-oid-glitch/</guid>
+      <description>We&amp;rsquo;re in the process of migrating from Oracle Names to LDAP, and found the following fairly trivial gotcha.
+If you have a space between the word LDAP and the comma in the DIRECTORY_PATH, as below, then it won&amp;rsquo;t work
+NAMES.DIRECTORY_PATH= ( LDAP , ONAMES, TNSNAMES)  </description>
+    </item>
+    
+    <item>
+      <title>Oracle options - update from Niall</title>
+      <link>https://mattypenny.github.io/2007/09/18/oracle-options-update-from-niall/</link>
+      <pubDate>Tue, 18 Sep 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2007/09/18/oracle-options-update-from-niall/</guid>
+      <description>Subsequent to the previous post I got a note from Niall, saying that
+ at least in 10g you can query dba_feature_usage_statistics as follows
+SELECT NAME,VERSION,DETECTED_USAGES FROM DBA_FEATURE_USAGE_STATISTICS WHERE DETECTED_USAGES &amp;gt; 0;
+ Thanks, Niall!</description>
     </item>
     
     <item>
@@ -888,6 +1070,91 @@ This command:
     </item>
     
     <item>
+      <title>How to create a spool file in the format &lt;specified prefix&gt;_databasename.lst</title>
+      <link>https://mattypenny.github.io/2006/08/08/spool-script/</link>
+      <pubDate>Tue, 08 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/08/08/spool-script/</guid>
+      <description>This is relatively handy, particularly when running the same thing against multiple databases. I&amp;rsquo;ve saved this in a script called spool.sql, so I can type @spool to start spooling to a file which has the database name in the middle
+undef prefixcolumn name new_value dbnameselect name from v$database;spool &amp;amp;&amp;amp;prefix._&amp;amp;dbnameprompt Spooling:host dir /b &amp;amp;&amp;amp;prefix._&amp;amp;dbname..lst  </description>
+    </item>
+    
+    <item>
+      <title>How to use sqlplus substitution variables</title>
+      <link>https://mattypenny.github.io/2006/07/03/sqlplus-substitution-variables/</link>
+      <pubDate>Mon, 03 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/07/03/sqlplus-substitution-variables/</guid>
+      <description>I didn&amp;rsquo;t know you could do this. Its quite handy!
+SQL&amp;gt; column name new_value dbnameSQL&amp;gt; select name from v$database;XXX1SQL&amp;gt; spool test_&amp;amp;dbnameSQL&amp;gt; select sysdate from dual;03-JUL-06SQL&amp;gt; spool offSQL&amp;gt; host dir /od *.lst03/07/2006 13:16 61 test_XXX1.LSTSQL&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Query to compare parameter settings between databases</title>
+      <link>https://mattypenny.github.io/blog/query-to-compare-parameter-settings-between-databases/</link>
+      <pubDate>Mon, 26 Jun 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/query-to-compare-parameter-settings-between-databases/</guid>
+      <description>Create a link to the remote database then supply the name of the link as &amp;amp;1
+set pagesize 1000col name format a28col local format a20col remote format a20select local.name, local.value local, remote.value remote, substr(local.isdefault, 1,1) || &#39;/&#39; ||substr(remote.isdefault,1,1)from v$parameter local,v$parameter@&amp;amp;1 remotewhere local.name=remote.nameand lower(local.value)lower(remote.value)order by local.name/  </description>
+    </item>
+    
+    <item>
+      <title>SQLserver 2005 New Features</title>
+      <link>https://mattypenny.github.io/2006/05/12/sqlserver-2005-new-features/</link>
+      <pubDate>Fri, 12 May 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/05/12/sqlserver-2005-new-features/</guid>
+      <description>Here is some stuff I learnt yesterday evening&amp;rsquo;s SQL Server 2005 New Features session at Microsoft in Reading
+Enterprise Manager  Enterprise Manager has been re-hashed, and re-named Management Studio. It didn&amp;rsquo;t seem radically different in terms of what it does. It will work with previous versions Unlike Oracle&amp;rsquo;s offering, it isn&amp;rsquo;t browser based  Osql - Now called sqlcmd  It has definitely been much improved. There are a lot of command line switches.</description>
+    </item>
+    
+    <item>
+      <title>Problem: opatch fails with &#39;The patch directory area must be a number&#39;</title>
+      <link>https://mattypenny.github.io/blog/opatch-fails-with-the-patch-directory-area-must-be-a-number/</link>
+      <pubDate>Wed, 08 Mar 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/opatch-fails-with-the-patch-directory-area-must-be-a-number/</guid>
+      <description>opatch failed with the above error.
+Again its really a problem with the wetware (i.e. me), but worth typing up as its fairly obscure.
+The problem seems to have been that I was logged in as a different user on the server which holds our staging area when I copied the software across. I mapped the drive on the the target server as the Oracle user, but it still seems to have inherited the wrong ownership at some level.</description>
+    </item>
+    
+    <item>
+      <title>ORA-02074: &#39;cannot analyze table&#39; calling a package from perl</title>
+      <link>https://mattypenny.github.io/2006/02/13/ora-02074-cannot-analyze-table-calling-a-package-from-perl/</link>
+      <pubDate>Mon, 13 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/02/13/ora-02074-cannot-analyze-table-calling-a-package-from-perl/</guid>
+      <description>I got this error running an analyze from within a package called by perl:
+[Oracle][ODBC][Ora]ORA-02074: cannot ANALYZE TABLE in a distributed transaction It&amp;rsquo;s basically the same issue as descibed in the link - you have to turn off the Microsoft Distributed Transaction Server, as follows:
+ fire up the Microsoft ODBC Administrator Select the System DSN Tab Select the DSN that it&amp;rsquo;s using Click Configure Select the Workarounds Tab click Disable Microsoft Transaction Server.</description>
+    </item>
+    
+    <item>
+      <title>Re-naming the listener - check for dependencies</title>
+      <link>https://mattypenny.github.io/2006/02/13/re-naming-the-listener-check-for-dependencies/</link>
+      <pubDate>Mon, 13 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/02/13/re-naming-the-listener-check-for-dependencies/</guid>
+      <description>This is a fairly foolish pitfall that I stumbled into last week.
+One of the recommendations from our external security audit was that we rename the listener from the default &amp;lsquo;LISTENER&amp;rsquo; to something else.
+I&amp;rsquo;m a little bit dubious as to how much renaming the listener increases &amp;lsquo;security&amp;rsquo; since the listener name is visible in the Services panel or through net start. However, from a security POV it can&amp;rsquo;t do any harm, and it&amp;rsquo;s not a lot of effort, so we went ahead with it.</description>
+    </item>
+    
+    <item>
+      <title>opatch - make sure there&#39;s no space on the end of TRUE</title>
+      <link>https://mattypenny.github.io/blog/opatch-make-sure-theres-no-space-on-the-end-of-true/</link>
+      <pubDate>Wed, 25 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/opatch-make-sure-theres-no-space-on-the-end-of-true/</guid>
+      <description>I&amp;rsquo;ve been having problems with opatch.
+todo - fix the link Setting ACTIVE_STATE_PERL=TRUE cured at least one of these (although I&amp;rsquo;m not sure that I didn&amp;rsquo;t patch at least once without the setting, because there was another version of perl - mksnt - on the server) as per the previous post
+Its sometimes failed, then worked without me being entirely sure what I changed in the meantime.
+Last night I sussed that at least some of this is caused by having a space following the ACTIVE_STATE_PERL=TRUE</description>
+    </item>
+    
+    <item>
       <title>How to record and use keyboard macros in gvim</title>
       <link>https://mattypenny.github.io/2006/01/16/keyboard-macros-in-gvim/</link>
       <pubDate>Mon, 16 Jan 2006 00:00:00 +0000</pubDate>
@@ -909,6 +1176,50 @@ col username format a15col ind format a24col tab format a18select io.name ind
     </item>
     
     <item>
+      <title>Raptor, 10G and Oracle Names</title>
+      <link>https://mattypenny.github.io/2006/01/12/raptor-10g-and-oracle-names/</link>
+      <pubDate>Thu, 12 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/01/12/raptor-10g-and-oracle-names/</guid>
+      <description>So, Raptor seems to need 10G client.
+I knew there was not going to be a 10G version of Names, as it was going to be discontinued in favour of OID.
+What I didn&amp;rsquo;t realize was that 10G wouldn&amp;rsquo;t work at all with Names.
+Sadly all our clients and servers use Names. So until I install OID, switch all of those clients and servers I&amp;rsquo;m going to have to create and maintain a separate directory of all our Names to run Raptor.</description>
+    </item>
+    
+    <item>
+      <title>ORA-29260 because of a problem with the mail server?</title>
+      <link>https://mattypenny.github.io/2006/01/11/ora-29260-because-of-a-problem-with-the-mail-server/</link>
+      <pubDate>Wed, 11 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/01/11/ora-29260-because-of-a-problem-with-the-mail-server/</guid>
+      <description>I think this is because we had a problem with our corporate mail server, because:
+a) I have a vague memory (but sadly no notes!) that it happened before, and b) in this case we had the problem when the mail server was knackered, it&amp;rsquo;s now fixed and the problem has gone away.
+Make of this what you will
+ORA-06502: PL/SQL: numeric or value error: character string buffer too smallORA-06512: at &amp;quot;DBUSER.</description>
+    </item>
+    
+    <item>
+      <title>Raptor - no ocijdbc10</title>
+      <link>https://mattypenny.github.io/2006/01/10/raptor-no-ocijdbc10/</link>
+      <pubDate>Tue, 10 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/01/10/raptor-no-ocijdbc10/</guid>
+      <description>Having a first look at Raptor, I got an error message to the effect that it couldn&amp;rsquo;t find ocijdbc10.
+This was because I didn&amp;rsquo;t have Oracle 10G client installed. I installed it and it now connects OK.</description>
+    </item>
+    
+    <item>
+      <title>How to use the rman catalog to track datafile growth</title>
+      <link>https://mattypenny.github.io/2006/01/09/useful-rman-catalog-queries/</link>
+      <pubDate>Mon, 09 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2006/01/09/useful-rman-catalog-queries/</guid>
+      <description>You can use the rman catalog to track the growth of datafiles over time:
+col tablespace_name format a20col file# format 999col backed_up_bytes format 99,999,999,999col file_bytes format 99,999,999,999select b.db_name, d.tablespace_name, b.file#, to_char(completion_time, &#39;DD-MM-YYYY&#39;),b.blocks* b.block_size backed_up_bytes, b.datafile_blocks*b.block_size file_bytesfrom rc_backup_datafile b, rc_datafile dwhere tablespace_name like &#39;&amp;amp;tablespace%&#39;and b.db_name = &#39;&amp;amp;database&#39;and b.db_name = d.db_nameand d.file# = b.file#order by completion_time/DB_NAME TABLESPACE_NAME FILE# TO_CHAR(CO BACKED_UP_BYTES FILE_BYTES-------- -------------------- ----- ---------- --------------- ---------------DB01 BVR_INDEXES 16 15-04-2005 2,407,890,944 5,242,880,000DB01 BVR_INDEXES 16 15-04-2005 2,407,890,944 5,242,880,000.</description>
+    </item>
+    
+    <item>
       <title>Display a Blank Line in a Batch File - DOS and Batch Files</title>
       <link>https://mattypenny.github.io/2005/12/06/display-a-blank-line-in-a-batch-file-dos-and-batch-files/</link>
       <pubDate>Tue, 06 Dec 2005 00:00:00 +0000</pubDate>
@@ -919,11 +1230,11 @@ echo.  No gap between the echo and the .</description>
     </item>
     
     <item>
-      <title>opatch doesn&#39;t appear to be doing anything - set ACTIVE_STATE_PERL=TRUE</title>
-      <link>https://mattypenny.github.io/2005/11/15/opatch-doesnt-appear-to-be-doing-anything-set-active_state_perltrue/</link>
+      <title>Problem: opatch doesn&#39;t appear to be doing anything - set ACTIVE_STATE_PERL=TRUE</title>
+      <link>https://mattypenny.github.io/blog/opatch-doesnt-appear-to-be-doing-anything-set-active_state_perltrue/</link>
       <pubDate>Tue, 15 Nov 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://mattypenny.github.io/2005/11/15/opatch-doesnt-appear-to-be-doing-anything-set-active_state_perltrue/</guid>
+      <guid>https://mattypenny.github.io/blog/opatch-doesnt-appear-to-be-doing-anything-set-active_state_perltrue/</guid>
       <description>I always used to find it a nuisance that applying the lower level Oracle patches was such a manual activity - you got a bunch of exe&amp;rsquo;s, dll&amp;rsquo;s etc and have to manually copy them into place. Typically you would create a script to do it, and wonder why Oracle hadn&amp;rsquo;t done so.
 Recently patches though have been applicable with opatch - a perl script to do the donkey work.</description>
     </item>
@@ -973,6 +1284,16 @@ Cause:The user specified an invalid option like ASC, DESC, SORT or a parallel c
     </item>
     
     <item>
+      <title>How to write to the alert log</title>
+      <link>https://mattypenny.github.io/2005/08/01/writing-to-the-alert-log/</link>
+      <pubDate>Mon, 01 Aug 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/08/01/writing-to-the-alert-log/</guid>
+      <description>This is how you do the alert log message thing,
+exec dbms_system.ksdwrt(2, &#39;ORA-Arsenal are rubbish&#39;);PL/SQL procedure successfully completed.Elapsed: 00:00:00.06exec dbms_system.ksdfls;  </description>
+    </item>
+    
+    <item>
       <title>PL/SQL doesnt recognize privileges granted to roles</title>
       <link>https://mattypenny.github.io/2005/07/26/plsql-doesnt-recognize-privileges-granted-to-roles/</link>
       <pubDate>Tue, 26 Jul 2005 00:00:00 +0000</pubDate>
@@ -1008,6 +1329,17 @@ I&amp;rsquo;ve been using a Filofax for a long time - probably since my Psion 3c
     </item>
     
     <item>
+      <title>How to generate database link creation statements</title>
+      <link>https://mattypenny.github.io/2005/07/19/vlink/</link>
+      <pubDate>Tue, 19 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/07/19/vlink/</guid>
+      <description>I&amp;rsquo;d forgotten about this:
+select userid, password from sys.link$ More usefully:
+set linesize 300set trimspool onset pagesize 0spool &amp;amp;spoolfile..sqlselect &#39;--&#39; user$.name chr(10) &#39;create database link &#39; link$.name &#39; &#39; &#39;connect to &#39; link$.userid &#39; &#39; &#39;identified by &#39; link$.userid &#39; &#39; &#39;using &#39; &#39;&#39;&#39;&#39; link$.host &#39;&#39;&#39;&#39; &#39;;&#39;from sys.link$, sys.user$where link$.owner# = user$.user#/spool off  </description>
+    </item>
+    
+    <item>
       <title>Loss of SQL connectivity - a problem with the wetware</title>
       <link>https://mattypenny.github.io/2005/06/22/loss-of-sql-connectivity-a-problem-with-the-wetware/</link>
       <pubDate>Wed, 22 Jun 2005 00:00:00 +0000</pubDate>
@@ -1019,6 +1351,15 @@ According to the trace files whereas normally the Names servers are addressed as
 [000001 19-MAY-2005 14:11:16:517] NAMES.PREFERRED_SERVERS = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = vAlias1)(PORT = 101)) (ADDRESS = (PROTOCOL = TCP)(HOST = vAlias2)(PORT = 101)))
 during this period they were addressed:
 [000001 21-JUN-2005 11:43:34:114] NAMES.PREFERRED_SERVERS = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 46.</description>
+    </item>
+    
+    <item>
+      <title>How to to capture usage of database links</title>
+      <link>https://mattypenny.github.io/2005/06/07/some-code-to-capture-link-usage/</link>
+      <pubDate>Tue, 07 Jun 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/06/07/some-code-to-capture-link-usage/</guid>
+      <description>select db_link, dba_users.username, sql_textfrom v$sqlarea a, dba_users, dba_db_linkswhere upper (sql_text) like &#39;%@&#39;&amp;lt;/a&amp;gt; replace(replace (db_link, &#39;.COMPANY&#39;), &#39;.WORLD&#39;) &#39;%&#39;and user_id=parsing_user_id/  </description>
     </item>
     
     <item>
@@ -1078,6 +1419,18 @@ The Text field (&amp;lsquo;Solution&amp;rsquo;) contains:
 The main Microsoft reference is:
 Microsoft doc
 This covers a lot of ground, but something that seems/seemed to be significant is the (lack of) a SPN. SPN is a &amp;ldquo;service principle name&amp;rdquo;. My understanding is that it is a record in Active Directory which shows that resource X is up and running on server Y.</description>
+    </item>
+    
+    <item>
+      <title>Synonym resolution oddity</title>
+      <link>https://mattypenny.github.io/2005/04/18/synonym-resolution-oddity/</link>
+      <pubDate>Mon, 18 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/18/synonym-resolution-oddity/</guid>
+      <description>Well, it seems odd to me anyway&amp;hellip;.
+If you set up a synonym pointing across a database link&amp;hellip;.
+SQL&amp;gt; conn elvis@old_dbSQL&amp;gt; create synonym sale for sale@new_db2 /Synonym created. Other users cannot see it&amp;hellip;.
+SQL&amp;gt; conn scott@old_dbConnected.SQL&amp;gt; select count(*) from elvis.sale2 /select count(*) from elvis.sale*ERROR at line 1:ORA-00942: table or view does not existORA-02063: preceding line from new_db Unless you proceed it with the username (in bold below)</description>
     </item>
     
     <item>
@@ -1169,6 +1522,18 @@ R:\Oracle\scripts&amp;gt;perl -d qtlist.pl 2480...Enter h or `h h&#39; for hel
       <guid>https://mattypenny.github.io/2005/04/08/108/</guid>
       <description>Having a second go at this blogging thing&amp;hellip;.
 This is primarily for me to keep track of notes and stuff that might be useful or interesting in future. A way of putting some text around &amp;lsquo;My bookmarks&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title>Unix for windows</title>
+      <link>https://mattypenny.github.io/2005/04/08/unix-for-windows/</link>
+      <pubDate>Fri, 08 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2005/04/08/unix-for-windows/</guid>
+      <description>Going to try this out: http://download.microsoft.com/download/5/f/2/5f26ad97-ace1-4454-975c-bca19dbd61d1/sfu35intro.doc#_Toc59604538
+ SFU 3.5 includes Interix, a complete POSIX development environment tightly integrated with the Windows kernel. Both Korn and C shells are included, and the Bash shell is available as a free download. With more than 350 UNIX utilities and a single rooted file system, SFU provides a familiar environment for UNIX developers, users, and administrators.
+
+ </description>
     </item>
     
   </channel>

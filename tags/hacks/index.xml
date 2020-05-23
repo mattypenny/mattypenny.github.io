@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hacks on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/hacks/</link>
+    <description>Recent content in hacks on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Jan 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/hacks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>using powershell&#39;s help system to stash your tips and tricks in &#39;about_&#39; topics</title>
+      <link>https://mattypenny.github.io/2016/01/30/using-powershells-help-system-to-stash-your-tips-and-tricks-in-about_-topics/</link>
+      <pubDate>Sat, 30 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2016/01/30/using-powershells-help-system-to-stash-your-tips-and-tricks-in-about_-topics/</guid>
+      <description>There are a bunch of bits of syntax which I struggle to remember.
+I&amp;rsquo;m not always online when I&amp;rsquo;m using my laptop, but I always have a Powershell window open.
+This is a possibly not-best-practice way of using Powershell&amp;rsquo;s wonderful help system to store bits of reference material.
+The problem I&amp;rsquo;m moving a Wordpress blog to Hugo, which uses Markdown, but I&amp;rsquo;m struggling to remember the Markdown syntax. It&amp;rsquo;s not difficult, but I&amp;rsquo;m getting old and I get confused with Twiki syntax.</description>
+    </item>
+    
+  </channel>
+</rss>

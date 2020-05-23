@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/wordpress/</link>
+    <description>Recent content in wordpress on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Dec 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Problem: php commenting out not working in wordpress</title>
+      <link>https://mattypenny.github.io/2014/12/12/php-comments-not-working-in-wordpress/</link>
+      <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/2014/12/12/php-comments-not-working-in-wordpress/</guid>
+      <description>This was a bit of a &amp;lsquo;Duh!&amp;rsquo; moment.
+I use the following to &amp;lsquo;comment out&amp;rsquo; chunks of Wordpress pages that I&amp;rsquo;m still working on
+ &amp;lt;?php /* Some old rubbish that I have&#39;nt finished working on yet */?&amp;gt;  This seemed to have &amp;lsquo;stopped working&amp;rsquo;.
+The reason was my &amp;lsquo;Exec-PHP&amp;rsquo; plugin was de-activated. I don&amp;rsquo;t remember de-activating it. I guess it&amp;rsquo;s possible that an automat(t)ic update might have done so, but I don&amp;rsquo;t know.</description>
+    </item>
+    
+  </channel>
+</rss>

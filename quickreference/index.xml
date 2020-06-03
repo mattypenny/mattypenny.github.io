@@ -12,68 +12,81 @@
     
     
     <item>
-      <title>sqlserver</title>
-      <link>https://mattypenny.github.io/quickreference/sqlserver/</link>
-      <pubDate>Sun, 08 Apr 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://mattypenny.github.io/quickreference/sqlserver/</guid>
-      <description>SqlServer Data Dictionary Files select d.name,f.filenamefrom sysaltfiles finner join sysdatabases don (f.dbid = d.dbid)order by 1,2 Dts packages CREATE TABLE #dts_packages(name VARCHAR(1000),id UNIQUEIDENTIFIER,versionid UNIQUEIDENTIFIER,description VARCHAR(1000) NULL,createdate DATETIME,owner VARCHAR(100),size INT,packagedata IMAGE NULL,isowner VARCHAR(100),packagetype INT)INSERT INTO #dts_packages EXEC msdb.dbo.sp_enum_dtspackagesselect name + &#39;,&#39; + description from #dts_packages order by nameselect name, description from #dts_packages order by name Sql that SSMS Activity Monitor executes SELECT[Session ID] = s.</description>
-    </item>
-    
-    <item>
       <title>applications</title>
       <link>https://mattypenny.github.io/quickreference/applications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/quickreference/applications/</guid>
-      <description>Confluence (server) Global Shortcuts          Create Content c   Go to Dashboard g then d   Open Notifications g then n   Open Recently Viewed g then r   Browse Current Space g then s   Open Shortcut Help ?   Quick Search /   Quick Search g then g   Toggle Space Sidebar [    Page / Blog Post Actions          Add Blog b   Edit e   Comment m   Next Inline Comment n   Previous Inline Comment p   Close Inline Comment ]   Watch Page w   Share s   Edit Labels l   View Attachments t   Link to Page k    Block Formatting          Paragraph Ctrl+0   Heading 1 Ctrl+1   Heading 6 Ctrl+6   Preformatted Ctrl+7   Quote Ctrl+8   Bullet list Ctrl+Shift+B   Numbered list Ctrl+Shift+N    Rich Formatting          Files and images Ctrl+M   Link Ctrl+K   Insert markup Ctrl+Shift+D   Macro Ctrl+Shift+A   Table Ctrl+Shift+I   Cut table row Ctrl+Shift+X   Copy table row Ctrl+Shift+C   Paste table row Ctrl+Shift+V    Editing Actions          Preview Ctrl+Shift+E   Save Ctrl+S    Font Formatting          Bold text Bold   Underline text +Underline+   Italic text Italic   Monospace text {{Monospace}}    Autocomplete          Image/Media !</description>
+      <description>The &amp;lsquo;quick reference&amp;rsquo; pages here are &amp;lsquo;crib files&amp;rsquo;, which I typically use from the command line. They were originally plain text files which I grep-ed, or findstr-ed, or select-string-ed to look up bits of syntax
+More recently I&amp;rsquo;ve put some markdown tags around the text so that I could put them up here.
+ Confluence (server) Global Shortcuts          Create Content c   Go to Dashboard g then d   Open Notifications g then n   Open Recently Viewed g then r   Browse Current Space g then s   Open Shortcut Help ?</description>
     </item>
     
     <item>
       <title>bash</title>
       <link>https://mattypenny.github.io/quickreference/bash/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/quickreference/bash/</guid>
-      <description>awk &amp;amp; sed awk -F= &#39;{printf(&amp;quot;%-20.20s %-10.10sn&amp;quot;, $2, $1)}&#39; *text---awk /Matt/ xx.txt # same as grep---awk -F: # use : as field delimiter---awk -f: # use file---awk &#39;/ystem/{print substr($0,10,6)}&#39; xx---awk &#39;/yst/||/racle/{print substr($0,10,6)}&#39; xx # either / or---awk &#39;$1==&amp;quot;&amp;amp;gt;&amp;quot;{print $1}&#39; xx--- files bigger than&amp;hellip; ls -Rl | awk &#39;$5&amp;gt;109880{print $0}&#39;  think this replaces CRs with awk &#39;{RS=&amp;quot;#&amp;quot;;FS=&amp;quot;n&amp;quot;;print $1,$2,$3,RS}&#39; xx  think this replaces # with CRs awk -vRS=&amp;quot;## &#39;{print $0}&#39;  awk &#39;substr($0, 43,9)!</description>
+      <description>The &amp;lsquo;quick reference&amp;rsquo; pages here are &amp;lsquo;crib files&amp;rsquo;, which I typically use from the command line. They were originally plain text files which I grep-ed, or findstr-ed, or select-string-ed to look up bits of syntax
+More recently I&amp;rsquo;ve put some markdown tags around the text so that I could put them up here.
+ awk &amp;amp; sed awk -F= &#39;{printf(&amp;quot;%-20.20s %-10.10sn&amp;quot;, $2, $1)}&#39; *text---awk /Matt/ xx.txt # same as grep---awk -F: # use : as field delimiter---awk -f: # use file---awk &#39;/ystem/{print substr($0,10,6)}&#39; xx---awk &#39;/yst/||/racle/{print substr($0,10,6)}&#39; xx # either / or---awk &#39;$1==&amp;quot;&amp;amp;gt;&amp;quot;{print $1}&#39; xx--- files bigger than&amp;hellip; ls -Rl | awk &#39;$5&amp;gt;109880{print $0}&#39;  think this replaces CRs with awk &#39;{RS=&amp;quot;#&amp;quot;;FS=&amp;quot;n&amp;quot;;print $1,$2,$3,RS}&#39; xx  think this replaces # with CRs awk -vRS=&amp;quot;## &#39;{print $0}&#39;  awk &#39;substr($0, 43,9)!</description>
     </item>
     
     <item>
       <title>dos (cmd)</title>
       <link>https://mattypenny.github.io/quickreference/dos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/quickreference/dos/</guid>
-      <description>Print to a printer from DOS print /D:&amp;quot;\prt01SVPRT006&amp;quot; new.sql Copying files that are newer or don&amp;rsquo;t exist at destination xcopy source_location destination_location /D Run script on several Oracle databases for %I in (db1 db2 db3 db4) do sqlplus mattyp/pw@%I @suptimex Dos equivalent of unix find dir e:\autobackup /S /B | findstr TRN Dos If, goto set dbg=D:\perl\bin\perl c:\utils\dbg.pl%dbg% Script beginningset SERVER=%1if &amp;quot;%BJS_JOB_DAY_OF_WEEK%&amp;quot; == &amp;quot;1&amp;quot; set DAY_OF_WEEK=Sunrem Set current date for use at the endfor /f &amp;quot;tokens=1,2&amp;quot; %%I in (&#39;date /t&#39;) do set my_date=%%Jif &amp;quot;%DB_OR_NODB%&amp;quot; == &amp;quot;nodb&amp;quot; goto FULL_OR_INCREMENTALif &amp;quot;%SERVER%&amp;quot; == &amp;quot; server1 &amp;quot; cmd /k ps_Oracle.</description>
+      <description>The &amp;lsquo;quick reference&amp;rsquo; pages here are &amp;lsquo;crib files&amp;rsquo;, which I typically use from the command line. They were originally plain text files which I grep-ed, or findstr-ed, or select-string-ed to look up bits of syntax
+More recently I&amp;rsquo;ve put some markdown tags around the text so that I could put them up here.
+ Print to a printer from DOS print /D:&amp;quot;\prt01SVPRT006&amp;quot; new.sql Copying files that are newer or don&amp;rsquo;t exist at destination xcopy source_location destination_location /D Run script on several Oracle databases for %I in (db1 db2 db3 db4) do sqlplus mattyp/pw@%I @suptimex Dos equivalent of unix find dir e:\autobackup /S /B | findstr TRN Dos If, goto set dbg=D:\perl\bin\perl c:\utils\dbg.</description>
     </item>
     
     <item>
       <title>old(er) stuff</title>
       <link>https://mattypenny.github.io/quickreference/old/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/quickreference/old/</guid>
-      <description>perl run_bat_sql
-$ORACLE_SID=substr($CONNECT_STRING, index($CONNECT_STRING, &amp;quot;@&amp;quot;) +1);sleep $time_slice;$BASENAME=~s/.bat//;if (substr($0, 1, 1) eq &amp;quot;:&amp;quot;){$USAGE= &amp;quot;usage: $0 bat_file db_alias...&amp;quot;;$BAT_FILE=shift || die $USAGE;if ($rc != &amp;quot;0&amp;quot; or $no_errors != 0 ){if ($MAIL_SUBJECT eq &amp;quot;null&amp;quot;)open (MYFILE, $OUT_FILE) ||die &amp;quot;Could not open $OUT_FILEn&amp;quot;;while (){if (/$error_string/){$no_strings++;@pslist_args=@ARGV;open (NEWFILE, $newfile) || die &amp;quot;cant open $newfile&amp;quot; ;while (){chomp;@words=split;if ($tids_now eq 1){if ($words[0] eq $tid){}@display_time=split(/:/, $arg1);$time_in_ms=@display_time[0] * 60 * 60 * 1000 + @display_time[1] * 60 * 1000 + @display_time[2] * 1000 + @display_time[3] ;return $time_in_ms;}$counter ;$ending_value = 10 ;@array=(1,2,3,1000);for($counter = 0 ; $counter &amp;amp;lt; $ending_value ; counter++){print &amp;amp;quot;$counter &amp;amp;quot; ;print $array[$counter];} perl debug Perl d xxx.</description>
+      <description>The &amp;lsquo;quick reference&amp;rsquo; pages here are &amp;lsquo;crib files&amp;rsquo;, which I typically use from the command line. They were originally plain text files which I grep-ed, or findstr-ed, or select-string-ed to look up bits of syntax
+More recently I&amp;rsquo;ve put some markdown tags around the text so that I could put them up here.
+ perl run_bat_sql
+$ORACLE_SID=substr($CONNECT_STRING, index($CONNECT_STRING, &amp;quot;@&amp;quot;) +1);sleep $time_slice;$BASENAME=~s/.bat//;if (substr($0, 1, 1) eq &amp;quot;:&amp;quot;){$USAGE= &amp;quot;usage: $0 bat_file db_alias.</description>
     </item>
     
     <item>
       <title>powershell</title>
       <link>https://mattypenny.github.io/quickreference/powershell/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/quickreference/powershell/</guid>
-      <description>Powershell This ramshackle collection of Powershell commands evolved from my own quick-reference crib-sheets over the last couple of years.
-Get code Show loaded Powershell function code get-command get-pins | format-list definition Show loaded Powershell function code for aliases too $Command = get-command &amp;quot;sss&amp;quot;$commandType = $Command.CommandTypeif ( &amp;quot;$commandType&amp;quot; -eq &amp;quot;Alias&amp;quot; ) { $Command = get-command $Command.ResolvedCommandName}$Command.Definition Show sqlserver stored procedure code dir SQLSERVER:\SQL\$Computername\default\Databases\_DBA_CATALOG\StoredProcedures | select Name, DateLastModified, TextBody | format-list Modules Show module path $env:PSModulePath Show available modules get-module -ListAvailable | select Path Get file and folder information Get the size of all the files in a folder dir \\server01\t$\sql_trace | measure-object -property length -sum List contents of folder ordered by time dir c:\tax_dodgers | sort-object -property lastwritetime or, for latest first</description>
+      <description>The &amp;lsquo;quick reference&amp;rsquo; pages here are &amp;lsquo;crib files&amp;rsquo;, which I typically use from the command line. They were originally plain text files which I grep-ed, or findstr-ed, or select-string-ed to look up bits of syntax
+More recently I&amp;rsquo;ve put some markdown tags around the text so that I could put them up here.
+ This ramshackle collection of Powershell commands evolved from my own quick-reference crib-sheets over the last couple of years.</description>
+    </item>
+    
+    <item>
+      <title>sqlserver</title>
+      <link>https://mattypenny.github.io/quickreference/sqlserver/</link>
+      <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/quickreference/sqlserver/</guid>
+      <description>The &amp;lsquo;quick reference&amp;rsquo; pages here are &amp;lsquo;crib files&amp;rsquo;, which I typically use from the command line. They were originally plain text files which I grep-ed, or findstr-ed, or select-string-ed to look up bits of syntax
+More recently I&amp;rsquo;ve put some markdown tags around the text so that I could put them up here.
+ SqlServer Data Dictionary Files select d.name,f.filenamefrom sysaltfiles finner join sysdatabases don (f.</description>
     </item>
     
     <item>
       <title>unsorted &#39;stuff&#39;</title>
       <link>https://mattypenny.github.io/quickreference/unsorted/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>https://mattypenny.github.io/quickreference/unsorted/</guid>
-      <description>This Markdown file is for dumping un-sorted bits of code
+      <description>The &amp;lsquo;quick reference&amp;rsquo; pages here are &amp;lsquo;crib files&amp;rsquo;, which I typically use from the command line. They were originally plain text files which I grep-ed, or findstr-ed, or select-string-ed to look up bits of syntax
+More recently I&amp;rsquo;ve put some markdown tags around the text so that I could put them up here.
+ This Markdown file is for dumping un-sorted bits of code
 get-adgroup -Filter {name -like &amp;quot;*&amp;quot;} | select name, groupcategory, samaccountname | sort-object -property nameget-aduser -Filter {name -like &amp;quot;*sql*&amp;quot;} | select name, samaccountname, objectclass, Enabledschtasks /Run /S server1 /TN &amp;quot;run some stuff&amp;quot;schtasks /CHANGE /TN &amp;quot;\_run Install-UpdatesIfItIsPatchDay&amp;quot; /ENABLE /S Server1switch ($Day){ &#39;mon&#39; {&amp;quot;Monday&amp;quot;} ; &#39;tue&#39; {&amp;quot;Tuesday&amp;quot;} }Set-ADAccountPassword -Identity matt -NewPassword (ConvertTo-SecureString -AsPlainText &amp;quot;qwert@12345&amp;quot; -Force) -resetSet-ADAccountPassword -Identity matt -NewPassword $(Read-Host -Prompt &amp;quot;Enter password&amp;quot; -AsSecureString) -resetImport-Module activedirectoryNew-PSDrive `-Name Chelsea `-PSProvider ActiveDirectory `-Server &amp;quot;chelseafc.</description>
     </item>
     

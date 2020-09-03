@@ -1169,6 +1169,67 @@ Param( [string]$SimplePath = &quot;$CheckSystemsSimplePath&quot;,               
 <h2 id="invoke-webrequest">invoke-webrequest</h2>
 <pre><code>Invoke-WebRequest -Uri https://raw.githubusercontent.com/mattypenny/bin/master/.matt.ps1 -OutFile c:\bin\.gmatt.ps1
 </code></pre>
+<h3 id="names-with-apostrophes-in">Names with apostrophes in(?)</h3>
+<pre><code>foreach ($Name in &quot;David Watts&quot;,&quot;Baba O'Reilly&quot;) {
+
+    $Name =3D $Name -replace &quot;'&quot;,&quot;''&quot;
+
+    $String =3D @&quot;
+    get-ADUser -filter {Name -eq '$Name'}
+&quot;@
+
+    Invoke-Expression -Command $String | select name
+
+}
+</code></pre>
+<h3 id="export-excel">Export-Excel</h3>
+<pre><code>$Whatever | export-excel -TitleBold -AutoSize -FreezeTopRow -AutoFilter -Pa=
+th temp/Topics.xlsx
+
+</code></pre>
+<h3 id="open-files">Open files</h3>
+<pre><code>openfiles /query /s BigOldServer01  /fo csv | ConvertFrom-Csv | ? 'Open Fil=
+e (Path\executable)' -like &quot;*Smokey*&quot;
+
+</code></pre>
+<h3 id="diskspace">Diskspace</h3>
+<pre><code>Get-WMIObject Win32_LogicalDisk -filter &quot;DriveType=3D3&quot; -computer . |
+    Select SystemName,
+        DeviceID,
+        @{Name=3D&quot;%used&quot;;Expression=3D{&quot;{0:N1}&quot; -f((($_.size - $_.freespace=
+)/$_.size) * 100)}},
+        @{Name=3D&quot;size(GB)&quot;;Expression=3D{&quot;{0:N1}&quot; -f($_.size/1gb)}},
+        @{Name=3D&quot;used(GB)&quot;;Expression=3D{&quot;{0:N1}&quot; -f(($_.size - $_.freespa=
+ce)/1gb)}},
+        @{Name=3D&quot;free(GB)&quot;;Expression=3D{&quot;{0:N1}&quot; -f($_.freespace/1gb)}}
+
+</code></pre>
+<h3 id="get-childitem-remix-dirx">Get-ChildItem remix (dirx)</h3>
+<pre><code>get-childitem $Path
+                select lastwritetime,
+                                @{Label =3D &quot;T&quot;; Expression =3D {$_.mode.Su=
+bstring(0,1).replace('-','f')  }   },
+        @{Label =3D &quot;SzGb&quot;; Expression =3D {[math]::Round($_.length / 1Gb,1=
+ ) }},
+        fullname
+
+</code></pre>
+<h3 id="count-occurences-of-string-in-the-files-within-a-folder">Count occurences of string in the files within a folder</h3>
+<pre><code>
+select-string temp $(get-childitem -File) | group-object filename | select =
+count, name
+</code></pre>
+<h3 id="looking-for-log">Looking for log</h3>
+<pre><code>$Logs =3D dir -recurse \\server1\c$\Oracle -include *.log                  =
+      # logfiles
+$RecentLogs =3D $Logs | where-object lastwritetime -gt $(get-date).adddays(=
+-1)   # logfiles
+</code></pre>
+<h3 id="manipulating-a-property-object-in-a-where-clause">Manipulating a property object in a where clause</h3>
+<p>&hellip;.. or something like that</p>
+<pre><code>$Teams | where-object {$_.Status.trim() -eq 'Winners'}
+
+</code></pre>
 
   </main>
 

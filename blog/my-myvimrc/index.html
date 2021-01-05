@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.64.1" />
-  <link rel="canonical" href="https://mattypenny.github.io/2005/11/15/opatch-doesnt-appear-to-be-doing-anything-set-active_state_perltrue/">
+  <link rel="canonical" href="https://mattypenny.github.io/blog/my-myvimrc/">
 
   
 
@@ -32,7 +32,7 @@
 
   
   
-  <title>opatch doesn&#39;t appear to be doing anything - set ACTIVE_STATE_PERL=TRUE | Blog and reference</title>
+  <title>My $Myvimrc | Blog and reference</title>
 </head>
 
   <body>
@@ -236,49 +236,39 @@
         <div>
           
   <main id="main">
-    <h1>opatch doesn&#39;t appear to be doing anything - set ACTIVE_STATE_PERL=TRUE</h1>
-    November 15, 2005
-    <p>I always used to find it a nuisance that applying the lower level Oracle patches was such a manual activity - you got a bunch of exe&rsquo;s, dll&rsquo;s etc and have to manually copy them into place. Typically you would create a script to do it, and wonder why Oracle hadn&rsquo;t done so.</p>
-<p>Recently patches though have been applicable with opatch - a perl script to do the donkey work.</p>
-<p>However, admittedly mainly through my own ability to rtfm (or maybe to rt the whole fm, and all the surrounding fm), I missed these two crucial variables that you sometimes need to set.</p>
-<pre><code>set PERL5LIB=C:Perllib
+    <h1>My $Myvimrc</h1>
+    January 1, 2021
+    <pre><code>set nocompatible
+source $VIMRUNTIME/vimrc_example.vim
+source $VIMRUNTIME/mswin.vim
+behave mswin
 
-set ACTIVE_STATE_PERL=TRUE    -- must be upper case 'TRUE'
+
+set guifont=Consolas:h12:cANSI
+syntax on
+colorscheme murphy
+
+
+
+set backupdir=c:\temp
+set directory=c:\temp
+set undodir=c:\temp
+set spellfile=C:\matt\bin\markdown.latin1.add
+set ignorecase
+
+
+let mapleader = &quot;,&quot;
+map &lt;Leader&gt;d :%s/xxTodaysDate/\=strftime('%d %B %Y')&lt;CR&gt;
+map &lt;Leader&gt;t .,$Tab /, &quot;
+map &lt;Leader&gt;b &lt;Esc&gt;I&lt;li&gt;&lt;Esc&gt;A&lt;/li&gt;&lt;Esc&gt;
+map &lt;Leader&gt;m o### xxxTitle&lt;Cr&gt;&lt;Cr&gt;```&lt;Cr&gt;xxxContent&lt;Cr&gt;```&lt;Esc&gt;?xxx&lt;Cr&gt;C
+
+map xxq I&lt;blockquote&gt;&lt;Esc&gt;
+map xqx A&lt;/blockquote&gt;&lt;Esc&gt;
+map xxl I&lt;li&gt;&lt;Esc&gt;A&lt;/li&gt;&lt;Esc&gt;
+
+
 </code></pre>
-<p>I didn&rsquo;t need to do this in development - my guess is that it picked up another perl install, but in acceptance test I got the following:</p>
-<pre><code>d:\perl\bin\perl d:oracleora92opatchopatch.pl lsinventory
-
-
-Oracle Interim Patch Installer version 1.0.0.0.53
-
-Copyright (c) 2005 Oracle Corporation. All Rights Reserved..
-
-We recommend you refer to the OPatch documentation under OPatch/docs for usage reference. We also recommend using
-
-the latest OPatch version. For the latest OPatch version and other support related issues, please refer to document
-
-293369.1 which is viewable from metalink.oracle.com
-
-
-Oracle Home = d:oracleora92
-
-Location of Oracle Universal Installer components = D:oracleora92oui
-
-Location of OraInstaller.jar = &quot;D:oracleora92ouijlib&quot;
-
-Oracle Universal Installer shared library =
-
-D:\oracle\ora92\oui\lib\win32\oraInstaller.dll
-
-Location of Oracle Inventory Pointer = N/A
-
-Location of Oracle Inventory = D:\oracle\ora92\inventory
-
-Path to Java = &quot;D:\oracle\ora92\jre1.4.2\bin\java.exe&quot;
-
-Log file = d:/oracle/ora92/.patch_storage//*.log
-</code></pre>
-<p>&hellip;and then nothing, and no log files.</p>
 
   </main>
 

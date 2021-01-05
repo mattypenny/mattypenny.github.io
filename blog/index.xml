@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>My $Myvimrc</title>
+      <link>https://mattypenny.github.io/blog/my-myvimrc/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/my-myvimrc/</guid>
+      <description>set nocompatiblesource $VIMRUNTIME/vimrc_example.vimsource $VIMRUNTIME/mswin.vimbehave mswinset guifont=Consolas:h12:cANSIsyntax oncolorscheme murphyset backupdir=c:\tempset directory=c:\tempset undodir=c:\tempset spellfile=C:\matt\bin\markdown.latin1.addset ignorecaselet mapleader = &amp;quot;,&amp;quot;map &amp;lt;Leader&amp;gt;d :%s/xxTodaysDate/\=strftime(&#39;%d %B %Y&#39;)&amp;lt;CR&amp;gt;map &amp;lt;Leader&amp;gt;t .,$Tab /, &amp;quot;map &amp;lt;Leader&amp;gt;b &amp;lt;Esc&amp;gt;I&amp;lt;li&amp;gt;&amp;lt;Esc&amp;gt;A&amp;lt;/li&amp;gt;&amp;lt;Esc&amp;gt;map &amp;lt;Leader&amp;gt;m o### xxxTitle&amp;lt;Cr&amp;gt;&amp;lt;Cr&amp;gt;```&amp;lt;Cr&amp;gt;xxxContent&amp;lt;Cr&amp;gt;```&amp;lt;Esc&amp;gt;?xxx&amp;lt;Cr&amp;gt;Cmap xxq I&amp;lt;blockquote&amp;gt;&amp;lt;Esc&amp;gt;map xqx A&amp;lt;/blockquote&amp;gt;&amp;lt;Esc&amp;gt;map xxl I&amp;lt;li&amp;gt;&amp;lt;Esc&amp;gt;A&amp;lt;/li&amp;gt;&amp;lt;Esc&amp;gt; </description>
+    </item>
+    
+    <item>
       <title>podcasts I listen to - every episode</title>
       <link>https://mattypenny.github.io/blog/podcasts-i-listen-to-every-episode/</link>
       <pubDate>Sat, 06 Jun 2020 17:56:31 +0100</pubDate>
@@ -19,7 +28,7 @@
       <guid>https://mattypenny.github.io/blog/podcasts-i-listen-to-every-episode/</guid>
       <description>I stopped commuting when Coranovirus reached us, so I&amp;rsquo;m not listening to podcasts as much as I used to. I thought now might be a good time to do a list of the ones I like best.
 My .opml file, which can be imported into most podcast and rss readers is here:
- My OPML file of all the podcasts I listen to  I&amp;rsquo;ve split the list into three posts:</description>
+ My OPML file of all the podcasts I listen to  I&amp;rsquo;ve split the list into three posts, depending on whether I listen religiously to every episode, or just most episodes, or whether I cherry pick the ones that interest me:</description>
     </item>
     
     <item>
@@ -28,9 +37,9 @@ My .opml file, which can be imported into most podcast and rss readers is here:
       <pubDate>Sat, 06 Jun 2020 17:56:31 +0100</pubDate>
       
       <guid>https://mattypenny.github.io/blog/podcasts-i-listen-to-most-episodes/</guid>
-      <description>I stopped commuting when Coranovirus reached us, so I&amp;rsquo;m not listening to podcasts as much as I used to. I thought now might be a good time to do a list of the ones I like best.
-My .opml file, which can be imported into most podcast and rss readers is here:
- My OPML file of all the podcasts I listen to  I&amp;rsquo;ve split the list into three posts:</description>
+      <description>I&amp;rsquo;ve split the list into three posts, depending on whether I listen religiously to every episode, or just most episodes, or whether I cherry pick the ones that interest me:
+ some episodes most episodes every episode  My .opml file, which can be imported into most podcast and rss readers is here:
+ My OPML file of all the podcasts I listen to  So&amp;hellip;.I listen to most episodes of thes</description>
     </item>
     
     <item>
@@ -39,9 +48,9 @@ My .opml file, which can be imported into most podcast and rss readers is here:
       <pubDate>Sat, 06 Jun 2020 17:56:31 +0100</pubDate>
       
       <guid>https://mattypenny.github.io/blog/podcasts-i-listen-to-some-episodes/</guid>
-      <description>I stopped commuting when Coranovirus reached us, so I&amp;rsquo;m not listening to podcasts as much as I used to. I thought now might be a good time to do a list of the ones I like best.
-My .opml file, which can be imported into most podcast and rss readers is here:
- My OPML file of all the podcasts I listen to  I&amp;rsquo;ve split the list into three posts:</description>
+      <description>I&amp;rsquo;ve split the list into three posts, depending on whether I listen religiously to every episode, or just most episodes, or whether I cherry pick the ones that interest me:
+ some episodes most episodes every episode  This .opml file should be import-able into podcast apps
+ My OPML file of all the podcasts I listen to  When I started consuming podcasts, I was very &amp;lsquo;hunt-and-peck&amp;rsquo;. I had a list of podcasts in an RSS reader and I would only download individual episodes that I thought looked interesting.</description>
     </item>
     
     <item>

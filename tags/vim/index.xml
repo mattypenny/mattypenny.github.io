@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on Blog and reference</title>
+    <link>https://mattypenny.github.io/tags/vim/</link>
+    <description>Recent content in vim on Blog and reference</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mattypenny.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My $Myvimrc</title>
+      <link>https://mattypenny.github.io/blog/my-myvimrc/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattypenny.github.io/blog/my-myvimrc/</guid>
+      <description>set nocompatiblesource $VIMRUNTIME/vimrc_example.vimsource $VIMRUNTIME/mswin.vimbehave mswinset guifont=Consolas:h12:cANSIsyntax oncolorscheme murphyset backupdir=c:\tempset directory=c:\tempset undodir=c:\tempset spellfile=C:\matt\bin\markdown.latin1.addset ignorecaselet mapleader = &amp;quot;,&amp;quot;map &amp;lt;Leader&amp;gt;d :%s/xxTodaysDate/\=strftime(&#39;%d %B %Y&#39;)&amp;lt;CR&amp;gt;map &amp;lt;Leader&amp;gt;t .,$Tab /, &amp;quot;map &amp;lt;Leader&amp;gt;b &amp;lt;Esc&amp;gt;I&amp;lt;li&amp;gt;&amp;lt;Esc&amp;gt;A&amp;lt;/li&amp;gt;&amp;lt;Esc&amp;gt;map &amp;lt;Leader&amp;gt;m o### xxxTitle&amp;lt;Cr&amp;gt;&amp;lt;Cr&amp;gt;```&amp;lt;Cr&amp;gt;xxxContent&amp;lt;Cr&amp;gt;```&amp;lt;Esc&amp;gt;?xxx&amp;lt;Cr&amp;gt;Cmap xxq I&amp;lt;blockquote&amp;gt;&amp;lt;Esc&amp;gt;map xqx A&amp;lt;/blockquote&amp;gt;&amp;lt;Esc&amp;gt;map xxl I&amp;lt;li&amp;gt;&amp;lt;Esc&amp;gt;A&amp;lt;/li&amp;gt;&amp;lt;Esc&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>
